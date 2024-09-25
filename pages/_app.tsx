@@ -5,22 +5,22 @@ import Landinglayout from '@/shared/layout-components/layout/landing-layout';
 
 const layouts:any = {
 
-  Contentlayout: ContentLayout,
-  Landinglayout: Landinglayout,
-  Authenticationlayout: Authenticationlayout,
+	Contentlayout: ContentLayout,
+	Landinglayout: Landinglayout,
+	Authenticationlayout: Authenticationlayout,
 
 };
 function MyApp({ Component, pageProps }:any) {
-  
-  const Layout = layouts[Component.layout] || ((pageProps: any) => <Component>{pageProps}</Component>);
+	
+	const Layout = layouts[Component.layout] || ((pageProps: any) => <Component>{pageProps}</Component>);
 
-  return (
+	return (
 
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
-    
-  )
+		<Layout>
+			<Component {...pageProps} />
+		</Layout>
+		
+	)
 }
 
 export default MyApp;
