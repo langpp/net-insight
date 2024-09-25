@@ -81,20 +81,22 @@ const Fullcalendar = () => {
   const [state] = useState(initialstate1);
 
   useEffect(() => {
-    const draggableEl: any = document.getElementById("external-events");
-    new Draggable(draggableEl, {
-      itemSelector: ".fc-event",
-      eventData: function (eventEl) {
-        const title = eventEl.getAttribute("title");
-        const id = eventEl.getAttribute("data");
-        const classValue = eventEl.getAttribute("class");
-        return {
-          title: title,
-          id: id,
-          className: classValue,
-        };
-      },
-    });
+    const draggableEl = document.getElementById("external-events");
+    if (draggableEl) {
+      new Draggable(draggableEl, {
+        itemSelector: ".fc-event",
+        eventData: function (eventEl: HTMLElement) {
+          const title = eventEl.getAttribute("title") || "";
+          const id = eventEl.getAttribute("data") || "";
+          const classValue = eventEl.getAttribute("class") || "";
+          return {
+            title: title,
+            id: id,
+            className: classValue,
+          };
+        },
+      });
+    }
   }, []);
 
   function renderEventContent(eventInfo:any) {
