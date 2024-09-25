@@ -3,7 +3,7 @@ import ContentLayout from '../shared/layout-components/layout/content-layout';
 import Authenticationlayout from "../shared/layout-components/layout/authentication-layout";
 import Landinglayout from '@/shared/layout-components/layout/landing-layout';
 
-const layouts:any = {
+const layouts: any = {
 
 	Contentlayout: ContentLayout,
 	Landinglayout: Landinglayout,

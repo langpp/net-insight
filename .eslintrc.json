@@ -6,8 +6,10 @@
     "extends": [
       "eslint:recommended",
       "plugin:react/recommended",
-      "plugin:@next/next/recommended"
+      "plugin:@next/next/recommended",
+      "plugin:@typescript-eslint/recommended"
     ],
+    "parser": "@typescript-eslint/parser",
     "overrides": [],
     "parserOptions": {
       "ecmaVersion": "latest",
@@ -17,7 +19,8 @@
       }
     },
     "plugins": [
-      "react"
+      "react",
+      "@typescript-eslint"
     ],
     "settings": {
       "react": {
