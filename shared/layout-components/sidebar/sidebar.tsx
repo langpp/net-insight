@@ -12,7 +12,7 @@ import Image from 'next/image';
 
 const Sidebar = ({ local_varaiable, ThemeChanger }: any) => {
   const [menuitems, setMenuitems] = useState(MenuItems);
-  const baseUrl = window.location.origin;
+  const baseUrl = "https://net-insight.vercel.app";
 
   function closeMenu() {
     const closeMenudata = (items: any) => {

@@ -10,7 +10,7 @@ const LoginDashboard = () => {
   useEffect(() => {
     import("preline");
   }, []);
-  const baseUrl = window.location.origin;
+  const baseUrl = "https://net-insight.vercel.app";
   const [passwordshow, setpasswordshow] = useState(false);
 
   const [err, setError] = useState("");

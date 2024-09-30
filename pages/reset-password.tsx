@@ -12,7 +12,7 @@ const ResetPassword = () => {
     import("preline");
   }, []);
 
-  const baseUrl = window.location.origin;
+  const baseUrl = "https://net-insight.vercel.app";
 
   const [err, setError] = useState("");
   const [data, setData] = useState({

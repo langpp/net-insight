@@ -7,6 +7,7 @@ import PerfectScrollbar from 'react-perfect-scrollbar';
 import Image from 'next/image';
 
 const Profile = () => {
+    const baseUrl = "https://net-insight.vercel.app";
     return (
         <Fragment>
             <Seo title={"Profile"} />
@@ -18,7 +19,7 @@ const Profile = () => {
                             <div className="sm:flex items-start p-6      main-profile-cover">
                                 <div>
                                     <span className="avatar avatar-xxl avatar-rounded online me-4">
-                                        <Image src="/assets/images/faces/9.jpg" alt="" />
+                                        <Image src={`${baseUrl}/assets/images/faces/9.jpg`} alt="" />
                                     </span>
                                 </div>
                                 <div className="flex-grow main-profile-info">

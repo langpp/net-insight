@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 const Header = ({ local_varaiable, ThemeChanger }: any) => {
   const [passwordshow1, setpasswordshow1] = useState(false);
-  const baseUrl = window.location.origin;
+  const baseUrl = "https://net-insight.vercel.app";
 
   const data = (
     <span className="font-[600] py-[0.25rem] px-[0.45rem] rounded-[0.25rem] bg-pink/10 text-pink text-[0.625rem]">
