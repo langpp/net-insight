@@ -2,6 +2,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import React, { Fragment } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from 'next/image';
 
 // import required modules
 import { Autoplay, Navigation } from 'swiper/modules';
@@ -20,7 +21,7 @@ const Candidatedetails = () => {
                                 <div className="sm:flex items-center sm:flex-wrap justify-between gap-2">
                                     <div className="md:flex">
                                         <span className="avatar avatar-xxl !rounded-full">
-                                            <img src="../../../../assets/images/faces/1.jpg" className="!rounded-full img-fluid" alt="" />
+                                            <Image src="../../../../assets/images/faces/1.jpg" className="!rounded-full img-fluid" alt="" />
                                         </span>
                                         <div className="sm:ms-4">
                                             <h4 className="font-bold mb-0 sm:flex items-center"><Link href="#!"> Brenda Simpson <i className="bi bi-check-circle-fill text-success text-[1rem]" title="Verified candidate"></i></Link></h4>
@@ -240,7 +241,7 @@ const Candidatedetails = () => {
                                             </div>
                                             <div className="sm:flex mb-3 items-center">
                                                 <span className="avatar avatar-lg !rounded-full">
-                                                    <img src="../../../../assets/images/faces/1.jpg" alt="" />
+                                                    <Image src="../../../../assets/images/faces/1.jpg" alt="" />
                                                 </span>
                                                 <div className="ms-2">
                                                     <h5 className="font-semibold mb-0 sm:flex items-center"><Link href="#!"> Brenda Simpson <i className="bi bi-check-circle-fill text-success text-[1rem]" title="Verified candidate"></i></Link></h5>
@@ -326,7 +327,7 @@ const Candidatedetails = () => {
                                             </div>
                                             <div className="sm:flex mb-3 items-center">
                                                 <span className="avatar avatar-lg !rounded-full">
-                                                    <img src="../../../../assets/images/faces/3.jpg" alt="" />
+                                                    <Image src="../../../../assets/images/faces/3.jpg" alt="" />
                                                 </span>
                                                 <div className="ms-2">
                                                     <h5 className="font-semibold mb-0 sm:flex items-center"><Link href="#!"> Dwayne Stort <i className="bi bi-check-circle-fill text-success text-[1rem]" title="Verified candidate"></i></Link></h5>
@@ -411,7 +412,7 @@ const Candidatedetails = () => {
                                             </div>
                                             <div className="sm:flex mb-3 items-center">
                                                 <span className="avatar avatar-lg !rounded-full">
-                                                    <img src="../../../../assets/images/faces/21.jpg" alt="" />
+                                                    <Image src="../../../../assets/images/faces/21.jpg" alt="" />
                                                 </span>
                                                 <div className="ms-2">
                                                     <h5 className="font-semibold mb-0 sm:flex items-center"><Link href="#!"> Jasmine Kova <i className="bi bi-check-circle-fill text-success text-[1rem]" title="Verified candidate"></i></Link></h5>
@@ -486,22 +487,22 @@ const Candidatedetails = () => {
                             </div>
                             <div className="box-body">
                                 <span className="avatar me-2 !rounded-full bg-white dark:bg-bodybg dark:border-defaultborder/10 shadow-sm border p-2">
-                                    <img src="../../../../assets/images/company-logos/1.png" alt="logo" />
+                                    <Image src="../../../../assets/images/company-logos/1.png" alt="logo" />
                                 </span>
                                 <span className="avatar me-2 !rounded-full bg-white dark:bg-bodybg dark:border-defaultborder/10 shadow-sm border p-2">
-                                    <img src="../../../../assets/images/company-logos/2.png" alt="logo" />
+                                    <Image src="../../../../assets/images/company-logos/2.png" alt="logo" />
                                 </span>
                                 <span className="avatar me-2 !rounded-full bg-white dark:bg-bodybg dark:border-defaultborder/10 shadow-sm border p-2">
-                                    <img src="../../../../assets/images/company-logos/3.png" alt="logo" />
+                                    <Image src="../../../../assets/images/company-logos/3.png" alt="logo" />
                                 </span>
                                 <span className="avatar me-2 !rounded-full bg-white dark:bg-bodybg dark:border-defaultborder/10 shadow-sm border p-2">
-                                    <img src="../../../../assets/images/company-logos/4.png" alt="logo" />
+                                    <Image src="../../../../assets/images/company-logos/4.png" alt="logo" />
                                 </span>
                                 <span className="avatar me-2 !rounded-full bg-white dark:bg-bodybg dark:border-defaultborder/10 shadow-sm border p-2">
-                                    <img src="../../../../assets/images/company-logos/5.png" alt="logo" />
+                                    <Image src="../../../../assets/images/company-logos/5.png" alt="logo" />
                                 </span>
                                 <span className="avatar !rounded-full bg-white dark:bg-bodybg dark:border-defaultborder/10 shadow-sm border p-2">
-                                    <img src="../../../../assets/images/company-logos/6.png" alt="logo" />
+                                    <Image src="../../../../assets/images/company-logos/6.png" alt="logo" />
                                 </span>
                             </div>
                         </div>

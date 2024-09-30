@@ -3,6 +3,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import dynamic from 'next/dynamic';
 import React, { Fragment } from 'react';
+import Image from 'next/image';
 const Select = dynamic(() => import("react-select"), { ssr: false });
 
 const Currencyexchange = () => {
@@ -62,7 +63,7 @@ const Currencyexchange = () => {
                                     <div className="flex items-center gap-2 mb-4">
                                         <div className="leading-none">
                                             <span className="avatar avatar-rounded avatar-xs">
-                                                <img src="../../../../assets/images/crypto-currencies/square-color/Bitcoin.svg" alt="" />
+                                                <Image src="../../../../assets/images/crypto-currencies/square-color/Bitcoin.svg" alt="" />
                                             </span>
                                         </div>
                                         <h6 className="font-semibold mb-0">Bitcoin - BTC</h6>
@@ -88,7 +89,7 @@ const Currencyexchange = () => {
                                     <div className="flex items-center gap-2 mb-4">
                                         <div className="leading-none">
                                             <span className="avatar avatar-rounded avatar-xs">
-                                                <img src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
+                                                <Image src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
                                             </span>
                                         </div>
                                         <h6 className="font-semibold mb-0">Etherium - ETH</h6>
@@ -114,7 +115,7 @@ const Currencyexchange = () => {
                                     <div className="flex items-center gap-2 mb-4">
                                         <div className="leading-none">
                                             <span className="avatar avatar-rounded avatar-xs">
-                                                <img src="../../../../assets/images/crypto-currencies/square-color/Dash.svg" alt="" />
+                                                <Image src="../../../../assets/images/crypto-currencies/square-color/Dash.svg" alt="" />
                                             </span>
                                         </div>
                                         <h6 className="font-semibold mb-0">Dash - DASH</h6>
@@ -140,7 +141,7 @@ const Currencyexchange = () => {
                                     <div className="flex items-center gap-2 mb-4">
                                         <div className="leading-none">
                                             <span className="avatar avatar-rounded avatar-xs">
-                                                <img src="../../../../assets/images/crypto-currencies/square-color/Litecoin.svg" alt="" />
+                                                <Image src="../../../../assets/images/crypto-currencies/square-color/Litecoin.svg" alt="" />
                                             </span>
                                         </div>
                                         <h6 className="font-semibold mb-0">Litecoin - LTC</h6>
@@ -166,7 +167,7 @@ const Currencyexchange = () => {
                                     <div className="flex items-center gap-2 mb-4">
                                         <div className="leading-none">
                                             <span className="avatar avatar-rounded avatar-xs">
-                                                <img src="../../../../assets/images/crypto-currencies/square-color/Ripple.svg" alt="" />
+                                                <Image src="../../../../assets/images/crypto-currencies/square-color/Ripple.svg" alt="" />
                                             </span>
                                         </div>
                                         <h6 className="font-semibold mb-0">Ripple - XRS</h6>
@@ -192,7 +193,7 @@ const Currencyexchange = () => {
                                     <div className="flex items-center gap-2 mb-4">
                                         <div className="leading-none">
                                             <span className="avatar avatar-rounded avatar-xs">
-                                                <img src="../../../../assets/images/crypto-currencies/square-color/Golem.svg" alt="" />
+                                                <Image src="../../../../assets/images/crypto-currencies/square-color/Golem.svg" alt="" />
                                             </span>
                                         </div>
                                         <h6 className="font-semibold mb-0">Golem - GLM</h6>
@@ -218,7 +219,7 @@ const Currencyexchange = () => {
                                     <div className="flex items-center gap-2 mb-4">
                                         <div className="leading-none">
                                             <span className="avatar avatar-rounded avatar-xs">
-                                                <img src="../../../../assets/images/crypto-currencies/square-color/Monero.svg" alt="" />
+                                                <Image src="../../../../assets/images/crypto-currencies/square-color/Monero.svg" alt="" />
                                             </span>
                                         </div>
                                         <h6 className="font-semibold mb-0">Monero</h6>
@@ -244,7 +245,7 @@ const Currencyexchange = () => {
                                     <div className="flex items-center gap-2 mb-4">
                                         <div className="leading-none">
                                             <span className="avatar avatar-rounded avatar-xs">
-                                                <img src="../../../../assets/images/crypto-currencies/square-color/EOS.svg" alt="" />
+                                                <Image src="../../../../assets/images/crypto-currencies/square-color/EOS.svg" alt="" />
                                             </span>
                                         </div>
                                         <h6 className="font-semibold mb-0">EOS</h6>

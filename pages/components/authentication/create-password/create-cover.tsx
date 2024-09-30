@@ -10,6 +10,7 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import Seo from '@/shared/layout-components/seo/seo';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Image from 'next/image';
 
 const Createcover = () => {
 
@@ -32,9 +33,9 @@ const Createcover = () => {
       <div className="p-[3rem]">
         <div className="mb-4">
           <Link aria-label="anchor" href="/components/dashboards/crm/">
-            <img src="../../../../assets/images/brand-logos/desktop-logo.png" alt=""
+            <Image src="../../../../assets/images/brand-logos/desktop-logo.png" alt=""
               className="authentication-brand desktop-logo"/>
-            <img src="../../../../assets/images/brand-logos/desktop-dark.png" alt=""
+            <Image src="../../../../assets/images/brand-logos/desktop-dark.png" alt=""
               className="authentication-brand desktop-dark"/>
           </Link>
         </div>
@@ -113,7 +114,7 @@ const Createcover = () => {
             <div className="text-white text-center p-[3rem] flex items-center justify-center">
               <div>
                 <div className="mb-[3rem]">
-                  <img src="../../../../assets/images/authentication/2.png" className="authentication-image" alt=""/>
+                  <Image src="../../../../assets/images/authentication/2.png" className="authentication-image" alt=""/>
                 </div>
                 <h6 className="font-semibold text-[1rem]">Create Password</h6>
                 <p className="font-normal text-[0.875rem] opacity-[0.7]"> Lorem ipsum dolor sit amet, consectetur
@@ -126,7 +127,7 @@ const Createcover = () => {
             <div className="text-white text-center p-[3rem] flex items-center justify-center">
               <div>
                 <div className="mb-[3rem]">
-                  <img src="../../../../assets/images/authentication/3.png" className="authentication-image" alt=""/>
+                  <Image src="../../../../assets/images/authentication/3.png" className="authentication-image" alt=""/>
                 </div>
                 <h6 className="font-semibold text-[1rem]">Create Password</h6>
                 <p className="font-normal text-[0.875rem] opacity-[0.7]"> Lorem ipsum dolor sit amet, consectetur
@@ -139,7 +140,7 @@ const Createcover = () => {
             <div className="text-white text-center p-[3rem] flex items-center justify-center">
               <div>
                 <div className="mb-[3rem]">
-                  <img src="../../../../assets/images/authentication/2.png" className="authentication-image" alt=""/>
+                  <Image src="../../../../assets/images/authentication/2.png" className="authentication-image" alt=""/>
                 </div>
                 <h6 className="font-semibold text-[1rem]">Create Password</h6>
                 <p className="font-normal text-[0.875rem] opacity-[0.7]"> Lorem ipsum dolor sit amet, consectetur

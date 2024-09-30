@@ -3,6 +3,7 @@ import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from 'next/image';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -30,12 +31,12 @@ const Blog = () => {
                                     <SwiperSlide>
                                         <div className="rtl:dir-rtl">
                                             <Link href="#!">
-                                                <img src="../../../../assets/images/media/media-70.jpg" className="block-full" alt="..." />
+                                                <Image src="../../../../assets/images/media/media-70.jpg" className="block-full" alt="..." />
                                                 <div className="blog-caption text-start">
                                                     <p className="mb-2 text-xs">The agency has a diverse workforce of just under 18,000 civil servants, and works with many more U.S.</p>
                                                     <h6 className="text-base font-semibold mb-2">N.A.S.A</h6>
                                                     <div className="flex items-center">
-                                                        <img src="../../../../assets/images/faces/15.jpg" alt="" className="shadow-none ring-transparent avatar avatar-sm !rounded-full me-2" />
+                                                        <Image src="../../../../assets/images/faces/15.jpg" alt="" className="shadow-none ring-transparent avatar avatar-sm !rounded-full me-2" />
                                                         <div className="font-semibold">Json Taylor - <span className="text-[.6875rem] opacity-70 font-normal">12,Dec 2022 - 04:34PM</span></div>
                                                     </div>
                                                 </div>
@@ -45,12 +46,12 @@ const Blog = () => {
                                     <SwiperSlide>
                                         <div className="rtl:dir-rtl">
                                             <Link href="#!">
-                                                <img src="../../../../assets/images/media/media-71.jpg" className="block-full" alt="..." />
+                                                <Image src="../../../../assets/images/media/media-71.jpg" className="block-full" alt="..." />
                                                 <div className="blog-caption text-start">
                                                     <p className="mb-2 text-xs">NASA is committed to providing all categories of businesses in both NASA prime contracts and subcontracts.</p>
                                                     <h6 className="text-base font-semibold mb-2">NASA Businesses</h6>
                                                     <div className="flex items-center">
-                                                        <img src="../../../../assets/images/faces/15.jpg" alt="" className="shadow-none ring-transparent avatar avatar-sm !rounded-full me-2" />
+                                                        <Image src="../../../../assets/images/faces/15.jpg" alt="" className="shadow-none ring-transparent avatar avatar-sm !rounded-full me-2" />
                                                         <div className="font-semibold">Elisha Keens - <span className="text-[.6875rem] opacity-70 font-normal">23,Dec 2022 - 11:27AM</span></div>
                                                     </div>
                                                 </div>
@@ -60,12 +61,12 @@ const Blog = () => {
                                     <SwiperSlide>
                                         <div className="rtl:dir-rtl">
                                             <Link href="#!">
-                                                <img src="../../../../assets/images/media/media-72.jpg" className="block-full" alt="..." />
+                                                <Image src="../../../../assets/images/media/media-72.jpg" className="block-full" alt="..." />
                                                 <div className="blog-caption text-start">
                                                     <p className="mb-2 text-xs">NASA Nelson served in the U.S. Senate for 18 years from Florida space shuttle mission 61-C in 1986.</p>
                                                     <h6 className="text-base font-semibold mb-2">NASA Leadership</h6>
                                                     <div className="flex items-center">
-                                                        <img src="../../../../assets/images/faces/4.jpg" alt="" className="shadow-none ring-transparent avatar avatar-sm !rounded-full me-2" />
+                                                        <Image src="../../../../assets/images/faces/4.jpg" alt="" className="shadow-none ring-transparent avatar avatar-sm !rounded-full me-2" />
                                                         <div className="font-semibold">Melissa Blue - <span className="text-[.6875rem] opacity-70 font-normal">16,Dec 2022 - 9:45AM</span></div>
                                                     </div>
                                                 </div>
@@ -81,7 +82,7 @@ const Blog = () => {
                             <div className="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
                                 <div className="box">
                                     <Link href="#!">
-                                        <img src="../../../../assets/images/media/media-36.jpg" className="card-img-top rounded-t-sm" alt="..." />
+                                        <Image src="../../../../assets/images/media/media-36.jpg" className="card-img-top rounded-t-sm" alt="..." />
                                     </Link>
                                     <div className="box-body">
                                         <Link href="/components/pages/blog/blog-details/" className="font-semibold text-[0.875rem] text-dark mb-1">Touring excites in winter !</Link>
@@ -92,7 +93,7 @@ const Blog = () => {
                                         <div className="flex items-center justify-between">
                                             <div className="flex items-center">
                                                 <div className="avatar avatar-sm avatar-rounded me-2">
-                                                    <img src="../../../../assets/images/faces/10.jpg" alt="" />
+                                                    <Image src="../../../../assets/images/faces/10.jpg" alt="" />
                                                 </div>
                                                 <div>
                                                     <p className="mb-0 font-semibold">Justin Kim</p>
@@ -110,7 +111,7 @@ const Blog = () => {
                             <div className="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
                                 <div className="box">
                                     <Link href="#!">
-                                        <img src="../../../../assets/images/media/media-35.jpg" className="card-img-top rounded-t-sm" alt="..." />
+                                        <Image src="../../../../assets/images/media/media-35.jpg" className="card-img-top rounded-t-sm" alt="..." />
                                     </Link>
                                     <div className="box-body">
                                         <Link href="/components/pages/blog/blog-details/" className="font-semibold text-[0.875rem] text-dark mb-1"> Boat manufacutrers are in debt !</Link>
@@ -121,7 +122,7 @@ const Blog = () => {
                                         <div className="flex items-center justify-between">
                                             <div className="flex items-center">
                                                 <div className="avatar avatar-sm avatar-rounded me-2">
-                                                    <img src="../../../../assets/images/faces/5.jpg" alt="" />
+                                                    <Image src="../../../../assets/images/faces/5.jpg" alt="" />
                                                 </div>
                                                 <div>
                                                     <p className="mb-0 font-semibold">Monika Karen</p>
@@ -150,7 +151,7 @@ const Blog = () => {
                                 <div className="xxl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-4 col-span-6" key={Math.random()}>
                                     <Link href="#!">
                                         <div className="box !bg-black/20 overlay-card text-white">
-                                            <img src={idx.src} className="card-img" alt="..." />
+                                            <Image src={idx.src} className="card-img" alt="..." />
                                             <div className="card-img-overlay flex flex-column p-0 over-content-bottom">
                                                 <div className="box-footer border-t-0">
                                                     <h6 className="font-semibold mb-0 text-white text-[1rem]">{idx.text}</h6>
@@ -169,7 +170,7 @@ const Blog = () => {
                                     <div className="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
                                         <div className="box">
                                             <Link href="#!">
-                                                <img src="../../../../assets/images/media/media-26.jpg" className="card-img-top rounded-t-sm" alt="..." />
+                                                <Image src="../../../../assets/images/media/media-26.jpg" className="card-img-top rounded-t-sm" alt="..." />
                                             </Link>
                                             <div className="box-body">
                                                 <Link href="/components/pages/blog/blog-details/" className="font-semibold text-[0.875rem] text-dark mb-1">Features of new car !</Link>
@@ -180,7 +181,7 @@ const Blog = () => {
                                                 <div className="flex flex-wrap items-center justify-between">
                                                     <div className="flex items-center">
                                                         <div className="avatar avatar-sm avatar-rounded me-2">
-                                                            <img src="../../../../assets/images/faces/11.jpg" alt="" />
+                                                            <Image src="../../../../assets/images/faces/11.jpg" alt="" />
                                                         </div>
                                                         <div>
                                                             <p className="mb-0 font-semibold">Alister Chuk</p>
@@ -198,7 +199,7 @@ const Blog = () => {
                                     <div className="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
                                         <div className="box">
                                             <Link href="#!">
-                                                <img src="../../../../assets/images/media/media-31.jpg" className="card-img-top rounded-t-sm" alt="..." />
+                                                <Image src="../../../../assets/images/media/media-31.jpg" className="card-img-top rounded-t-sm" alt="..." />
                                             </Link>
                                             <div className="box-body">
                                                 <Link href="/components/pages/blog/blog-details/" className="font-semibold text-[0.875rem] text-dark mb-1">Beautiful beach on a sunny day !</Link>
@@ -209,7 +210,7 @@ const Blog = () => {
                                                 <div className="flex flex-wrap items-center justify-between">
                                                     <div className="flex items-center">
                                                         <div className="avatar avatar-sm avatar-rounded me-2">
-                                                            <img src="../../../../assets/images/faces/3.jpg" alt="" />
+                                                            <Image src="../../../../assets/images/faces/3.jpg" alt="" />
                                                         </div>
                                                         <div>
                                                             <p className="mb-0 font-semibold">Samantha Nans</p>
@@ -241,7 +242,7 @@ const Blog = () => {
                                             <li className="list-group-item">
                                                 <div className="flex flex-wrap items-center">
                                                     <span className="avatar avatar-xl me-4">
-                                                        <img src="../../../../assets/images/media/media-39.jpg" className="img-fluid !rounded-md" alt="..." />
+                                                        <Image src="../../../../assets/images/media/media-39.jpg" className="img-fluid !rounded-md" alt="..." />
                                                     </span>
                                                     <div className="flex-grow">
                                                         <Link href="#!" className="text-[0.875rem] font-semibold mb-0">Samantha Jack</Link>
@@ -258,7 +259,7 @@ const Blog = () => {
                                             <li className="list-group-item">
                                                 <div className="flex flex-wrap items-center">
                                                     <span className="avatar avatar-xl me-4">
-                                                        <img src="../../../../assets/images/media/media-56.jpg" className="img-fluid !rounded-md" alt="..." />
+                                                        <Image src="../../../../assets/images/media/media-56.jpg" className="img-fluid !rounded-md" alt="..." />
                                                     </span>
                                                     <div className="flex-grow">
                                                         <Link href="#!" className="text-[0.875rem] font-semibold mb-0">Kirsten Sam</Link>
@@ -275,7 +276,7 @@ const Blog = () => {
                                             <li className="list-group-item">
                                                 <div className="flex flex-wrap items-center">
                                                     <span className="avatar avatar-xl me-4">
-                                                        <img src="../../../../assets/images/media/media-54.jpg" className="img-fluid !rounded-md" alt="..." />
+                                                        <Image src="../../../../assets/images/media/media-54.jpg" className="img-fluid !rounded-md" alt="..." />
                                                     </span>
                                                     <div className="flex-grow">
                                                         <Link href="#!" className="text-[0.875rem] font-semibold mb-0">Jessica Karon</Link>
@@ -292,7 +293,7 @@ const Blog = () => {
                                             <li className="list-group-item">
                                                 <div className="flex flex-wrap items-center">
                                                     <span className="avatar avatar-xl me-4">
-                                                        <img src="../../../../assets/images/media/media-52.jpg" className="img-fluid !rounded-md" alt="..." />
+                                                        <Image src="../../../../assets/images/media/media-52.jpg" className="img-fluid !rounded-md" alt="..." />
                                                     </span>
                                                     <div className="flex-grow">
                                                         <Link href="#!" className="text-[0.875rem] font-semibold mb-0">Broad Stuart</Link>
@@ -321,7 +322,7 @@ const Blog = () => {
                                 <div className="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12" key={Math.random()}>
                                     <div className="box">
                                         <Link href="#!">
-                                            <img src={idx.src1} className="card-img-top rounded-t-sm" alt="..." />
+                                            <Image src={idx.src1} className="card-img-top rounded-t-sm" alt="..." />
                                         </Link>
                                         <div className="box-body">
                                             <Link href="/components/pages/blog/blog-details/" className="font-semibold text-[0.875rem] text-dark mb-1">{idx.title}</Link>
@@ -332,7 +333,7 @@ const Blog = () => {
                                             <div className="flex items-center justify-between">
                                                 <div className="flex items-center">
                                                     <div className="avatar avatar-sm avatar-rounded me-2">
-                                                        <img src={idx.src2} alt="" />
+                                                        <Image src={idx.src2} alt="" />
                                                     </div>
                                                     <div>
                                                         <p className="mb-0 font-semibold">{idx.name}</p>

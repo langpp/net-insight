@@ -5,6 +5,7 @@ import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin, { Draggable } from "@fullcalendar/interaction";
+import Image from 'next/image';
 
 const Fullcalendar = () => {
 
@@ -244,7 +245,7 @@ const Fullcalendar = () => {
                 </ul>
               </div>
               <div className="p-4">
-                <img src="../../../assets/images/media/media-83.svg" alt="" />
+                <Image src="../../../assets/images/media/media-83.svg" alt="" />
               </div>
             </div>
           </div>

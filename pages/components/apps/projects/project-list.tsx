@@ -3,6 +3,7 @@ import Seo from '@/shared/layout-components/seo/seo'
 import dynamic from 'next/dynamic';
 import Link from 'next/link'
 import React, { Fragment } from 'react';
+import Image from 'next/image';
 const Select = dynamic(() => import("react-select"), { ssr: false });
 
 const Projectlist = () => {
@@ -32,28 +33,28 @@ const Projectlist = () => {
                                 </div>
                                 <div className="avatar-list-stacked">
                                     <span className="avatar avatar-sm avatar-rounded">
-                                        <img src="../../../../assets/images/faces/1.jpg" alt="img" />
+                                        <Image src="../../../../assets/images/faces/1.jpg" alt="img" />
                                     </span>
                                     <span className="avatar avatar-sm avatar-rounded">
-                                        <img src="../../../../assets/images/faces/2.jpg" alt="img" />
+                                        <Image src="../../../../assets/images/faces/2.jpg" alt="img" />
                                     </span>
                                     <span className="avatar avatar-sm avatar-rounded">
-                                        <img src="../../../../assets/images/faces/8.jpg" alt="img" />
+                                        <Image src="../../../../assets/images/faces/8.jpg" alt="img" />
                                     </span>
                                     <span className="avatar avatar-sm avatar-rounded">
-                                        <img src="../../../../assets/images/faces/12.jpg" alt="img" />
+                                        <Image src="../../../../assets/images/faces/12.jpg" alt="img" />
                                     </span>
                                     <span className="avatar avatar-sm avatar-rounded">
-                                        <img src="../../../../assets/images/faces/10.jpg" alt="img" />
+                                        <Image src="../../../../assets/images/faces/10.jpg" alt="img" />
                                     </span>
                                     <span className="avatar avatar-sm avatar-rounded">
-                                        <img src="../../../../assets/images/faces/4.jpg" alt="img" />
+                                        <Image src="../../../../assets/images/faces/4.jpg" alt="img" />
                                     </span>
                                     <span className="avatar avatar-sm avatar-rounded">
-                                        <img src="../../../../assets/images/faces/5.jpg" alt="img" />
+                                        <Image src="../../../../assets/images/faces/5.jpg" alt="img" />
                                     </span>
                                     <span className="avatar avatar-sm avatar-rounded">
-                                        <img src="../../../../assets/images/faces/13.jpg" alt="img" />
+                                        <Image src="../../../../assets/images/faces/13.jpg" alt="img" />
                                     </span>
                                     <Link className="avatar avatar-sm bg-primary avatar-rounded text-white" href="#!">
                                         +8
@@ -74,7 +75,7 @@ const Projectlist = () => {
                         <div className="box-header items-center !justify-start flex-wrap !flex">
                             <div className="me-2">
                                 <span className="avatar avatar-rounded p-1 bg-danger/10 text-danger">
-                                    <img src="../../../../assets/images/company-logos/1.png" alt="" />
+                                    <Image src="../../../../assets/images/company-logos/1.png" alt="" />
                                 </span>
                             </div>
                             <div className="flex-grow">
@@ -98,16 +99,16 @@ const Projectlist = () => {
                                     <div className="font-semibold mb-1">Team :</div>
                                     <div className="avatar-list-stacked">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/2.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/2.jpg" alt="img" />
                                         </span>
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/8.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/8.jpg" alt="img" />
                                         </span>
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/2.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/2.jpg" alt="img" />
                                         </span>
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/10.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/10.jpg" alt="img" />
                                         </span>
                                         <Link className="avatar avatar-sm bg-primary avatar-rounded text-white" href="#!">
                                             +2
@@ -147,7 +148,7 @@ const Projectlist = () => {
                         <div className="box-header items-center !justify-start flex-wrap !flex">
                             <div className="me-2">
                                 <span className="avatar avatar-rounded p-1 bg-warning/10">
-                                    <img src="../../../../assets/images/company-logos/2.png" alt="" />
+                                    <Image src="../../../../assets/images/company-logos/2.png" alt="" />
                                 </span>
                             </div>
                             <div className="flex-grow">
@@ -171,13 +172,13 @@ const Projectlist = () => {
                                     <div className="font-semibold mb-1">Team :</div>
                                     <div className="avatar-list-stacked">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/12.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/12.jpg" alt="img" />
                                         </span>
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/9.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/9.jpg" alt="img" />
                                         </span>
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/11.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/11.jpg" alt="img" />
                                         </span>
                                         <Link className="avatar avatar-sm bg-primary avatar-rounded text-white" href="#!">
                                             +4
@@ -217,7 +218,7 @@ const Projectlist = () => {
                         <div className="box-header items-center !justify-start flex-wrap !flex">
                             <div className="me-2">
                                 <span className="avatar avatar-rounded p-1 bg-secondary/10">
-                                    <img src="../../../../assets/images/company-logos/3.png" alt="" />
+                                    <Image src="../../../../assets/images/company-logos/3.png" alt="" />
                                 </span>
                             </div>
                             <div className="flex-grow">
@@ -241,10 +242,10 @@ const Projectlist = () => {
                                     <div className="font-semibold mb-1">Team :</div>
                                     <div className="avatar-list-stacked">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/5.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/5.jpg" alt="img" />
                                         </span>
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/6.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/6.jpg" alt="img" />
                                         </span>
                                         <Link className="avatar avatar-sm bg-primary avatar-rounded text-white" href="#!">
                                             +1
@@ -284,7 +285,7 @@ const Projectlist = () => {
                         <div className="box-header items-center !justify-start flex-wrap !flex">
                             <div className="me-2">
                                 <span className="avatar avatar-rounded p-1 bg-success/10 text-success">
-                                    <img src="../../../../assets/images/company-logos/5.png" alt="" />
+                                    <Image src="../../../../assets/images/company-logos/5.png" alt="" />
                                 </span>
                             </div>
                             <div className="flex-grow">
@@ -308,16 +309,16 @@ const Projectlist = () => {
                                     <div className="font-semibold mb-1">Team :</div>
                                     <div className="avatar-list-stacked">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/3.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/3.jpg" alt="img" />
                                         </span>
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/9.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/9.jpg" alt="img" />
                                         </span>
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/12.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/12.jpg" alt="img" />
                                         </span>
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/11.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/11.jpg" alt="img" />
                                         </span>
                                         <Link className="avatar avatar-sm bg-primary avatar-rounded text-white" href="#!">
                                             +2
@@ -357,7 +358,7 @@ const Projectlist = () => {
                         <div className="box-header items-center !justify-start flex-wrap !flex">
                             <div className="me-2">
                                 <span className="avatar avatar-rounded p-1 bg-primary/10">
-                                    <img src="../../../../assets/images/company-logos/8.png" alt="" />
+                                    <Image src="../../../../assets/images/company-logos/8.png" alt="" />
                                 </span>
                             </div>
                             <div className="flex-grow">
@@ -381,13 +382,13 @@ const Projectlist = () => {
                                     <div className="font-semibold mb-1">Team :</div>
                                     <div className="avatar-list-stacked">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/10.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/10.jpg" alt="img" />
                                         </span>
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/2.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/2.jpg" alt="img" />
                                         </span>
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/1.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/1.jpg" alt="img" />
                                         </span>
                                         <Link className="avatar avatar-sm bg-primary avatar-rounded text-white" href="#!">
                                             +1
@@ -427,7 +428,7 @@ const Projectlist = () => {
                         <div className="box-header items-center !justify-start flex-wrap !flex">
                             <div className="me-2">
                                 <span className="avatar avatar-rounded p-1 bg-success/10 text-success">
-                                    <img src="../../../../assets/images/company-logos/10.png" alt="" />
+                                    <Image src="../../../../assets/images/company-logos/10.png" alt="" />
                                 </span>
                             </div>
                             <div className="flex-grow">
@@ -451,10 +452,10 @@ const Projectlist = () => {
                                     <div className="font-semibold mb-1">Team :</div>
                                     <div className="avatar-list-stacked">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/7.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/7.jpg" alt="img" />
                                         </span>
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/13.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/13.jpg" alt="img" />
                                         </span>
                                     </div>
                                 </div>
@@ -491,7 +492,7 @@ const Projectlist = () => {
                         <div className="box-header items-center !justify-start flex-wrap !flex">
                             <div className="me-2">
                                 <span className="avatar avatar-rounded p-1 bg-info/10 text-info">
-                                    <img src="../../../../assets/images/company-logos/9.png" alt="" />
+                                    <Image src="../../../../assets/images/company-logos/9.png" alt="" />
                                 </span>
                             </div>
                             <div className="flex-grow">
@@ -515,13 +516,13 @@ const Projectlist = () => {
                                     <div className="font-semibold mb-1">Team :</div>
                                     <div className="avatar-list-stacked">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/5.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/5.jpg" alt="img" />
                                         </span>
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/14.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/14.jpg" alt="img" />
                                         </span>
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/15.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/15.jpg" alt="img" />
                                         </span>
                                         <Link className="avatar avatar-sm bg-primary avatar-rounded text-white" href="#!">
                                             +2
@@ -561,7 +562,7 @@ const Projectlist = () => {
                         <div className="box-header items-center !justify-start flex-wrap !flex">
                             <div className="me-2">
                                 <span className="avatar avatar-rounded p-1 bg-teal/10">
-                                    <img src="../../../../assets/images/company-logos/6.png" alt="" />
+                                    <Image src="../../../../assets/images/company-logos/6.png" alt="" />
                                 </span>
                             </div>
                             <div className="flex-grow">
@@ -585,10 +586,10 @@ const Projectlist = () => {
                                     <div className="font-semibold mb-1">Team :</div>
                                     <div className="avatar-list-stacked">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/13.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/13.jpg" alt="img" />
                                         </span>
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/16.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/16.jpg" alt="img" />
                                         </span>
                                         <Link className="avatar avatar-sm bg-primary avatar-rounded text-white" href="#!">
                                             +2

@@ -1,6 +1,7 @@
 import  {  Fragment, useState } from 'react';
 import Lightbox from 'yet-another-react-lightbox';
 import "yet-another-react-lightbox/styles.css";
+import Image from 'next/image';
 
 // import optional lightbox plugins
 import Fullscreen from 'yet-another-react-lightbox/plugins/fullscreen';
@@ -20,7 +21,7 @@ export const LightboxGallery1 = () => {
             <div className="lg:col-span-3 md:col-span-3 sm:col-span-6 col-span-12"  >
                 <div className="inner">
                     <a href="#!" >
-                        <img src={"../../../assets/images/media/media-40.jpg"} alt='media1' className="gallery rounded-md" onClick={() => setOpen(true)} />
+                        <Image src={"../../../assets/images/media/media-40.jpg"} alt='media1' className="gallery rounded-md" onClick={() => setOpen(true)} />
                     </a>
                 </div>
             </div>
@@ -28,16 +29,7 @@ export const LightboxGallery1 = () => {
 
                 <div className="inner">
                     <a href="#!" >
-                        <img src={"../../../assets/images/media/media-41.jpg"} alt='media2' className="gallery rounded-md" onClick={() => setOpen(true)} />
-
-                    </a>
-                </div>
-            </div>
-            <div className="lg:col-span-3 md:col-span-3 sm:col-span-6 col-span-12">
-
-                <div className="inner">
-                    <a href="#!" >
-                        <img src={"../../../assets/images/media/media-42.jpg"} alt='media3' className="gallery rounded-md" onClick={() => setOpen(true)} />
+                        <Image src={"../../../assets/images/media/media-41.jpg"} alt='media2' className="gallery rounded-md" onClick={() => setOpen(true)} />
 
                     </a>
                 </div>
@@ -46,7 +38,16 @@ export const LightboxGallery1 = () => {
 
                 <div className="inner">
                     <a href="#!" >
-                        <img src={"../../../assets/images/media/media-43.jpg"} alt='media4' className="gallery rounded-md" onClick={() => setOpen(true)} />
+                        <Image src={"../../../assets/images/media/media-42.jpg"} alt='media3' className="gallery rounded-md" onClick={() => setOpen(true)} />
+
+                    </a>
+                </div>
+            </div>
+            <div className="lg:col-span-3 md:col-span-3 sm:col-span-6 col-span-12">
+
+                <div className="inner">
+                    <a href="#!" >
+                        <Image src={"../../../assets/images/media/media-43.jpg"} alt='media4' className="gallery rounded-md" onClick={() => setOpen(true)} />
 
                     </a>
                 </div>
@@ -55,7 +56,7 @@ export const LightboxGallery1 = () => {
 
                 <div className="inner">
                     <a href="#!" className='box'>
-                        <img src={"../../../assets/images/media/media-44.jpg"} alt='media5' className="gallery rounded-md" onClick={() => setOpen(true)} />
+                        <Image src={"../../../assets/images/media/media-44.jpg"} alt='media5' className="gallery rounded-md" onClick={() => setOpen(true)} />
 
                     </a>
                 </div>
@@ -63,21 +64,21 @@ export const LightboxGallery1 = () => {
             <div className="lg:col-span-3 md:col-span-3 sm:col-span-6 col-span-12">
                 <div className="inner">
                     <a href='#'>
-                        <img src={"../../../assets/images/media/media-45.jpg"} alt='media6' className="gallery rounded-md" onClick={() => setOpen(true)} />
+                        <Image src={"../../../assets/images/media/media-45.jpg"} alt='media6' className="gallery rounded-md" onClick={() => setOpen(true)} />
                     </a>
                 </div>
             </div>
             <div className="lg:col-span-3 md:col-span-3 sm:col-span-6 col-span-12">
                 <div className="inner">
                     <a href='#'>
-                        <img src={"../../../assets/images/media/media-46.jpg"} alt='media6' className="gallery rounded-md" onClick={() => setOpen(true)} />
+                        <Image src={"../../../assets/images/media/media-46.jpg"} alt='media6' className="gallery rounded-md" onClick={() => setOpen(true)} />
                     </a>
                 </div>
             </div>
             <div className="lg:col-span-3 md:col-span-3 sm:col-span-6 col-span-12 mb-3">
                 <div className="inner">
                     <a href='#'>
-                        <img src={"../../../assets/images/media/media-60.jpg"} alt='media6' className="gallery rounded-md" onClick={() => setOpen(true)} />
+                        <Image src={"../../../assets/images/media/media-60.jpg"} alt='media6' className="gallery rounded-md" onClick={() => setOpen(true)} />
                     </a>
                 </div>
             </div>

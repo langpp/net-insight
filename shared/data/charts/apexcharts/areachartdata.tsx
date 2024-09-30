@@ -2,6 +2,7 @@ import { Component } from 'react';
 const ReactApexChart = dynamic(() => import("react-apexcharts"), {ssr : false});;
 import dynamic from 'next/dynamic';
 import { ApexOptions } from 'apexcharts';
+import Image from 'next/image';
 
 interface spark3 {
     options?: ApexOptions,
@@ -2658,7 +2659,7 @@ export class Githubdata extends Component<{}, spark3> {
 
                 <div className="github-style d-flex align-items-center">
                     <div className="me-2">
-                        <img className="userimg rounded" src={"../../../../assets/images/faces/1.jpg"}
+                        <Image className="userimg rounded" src={"../../../../assets/images/faces/1.jpg"}
                             data-hovercard-user-id="634573" alt="" width="38" height="38" />
                     </div>
                     <div className="userdetails lh-1">

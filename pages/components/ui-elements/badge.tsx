@@ -4,6 +4,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Showcode from '@/shared/layout-components/showcode/showcode'
 import React from 'react'
+import Image from 'next/image';
 
 const Badge = () => {
     const data = 'flex flex-wrap gap-2'
@@ -140,21 +141,21 @@ const Badge = () => {
                                     </span>
                                 </button>
                                 <span className="avatar relative me-2">
-                                    <img src="../../../assets/images/faces/2.jpg" alt="img" className="!rounded-md" />
+                                    <Image src="../../../assets/images/faces/2.jpg" alt="img" className="!rounded-md" />
                                     <span
                                         className="absolute -top-2 start-[80%] translate-middle p-1 bg-success border border-light !rounded-full">
                                         <span className="hidden">New alerts</span>
                                     </span>
                                 </span>
                                 <span className="avatar avatar-rounded relative me-3">
-                                    <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                    <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                                     <span
                                         className="absolute -top-2 start-[80%] translate-middle p-1 bg-success border border-light !rounded-full">
                                         <span className="hidden">New alerts</span>
                                     </span>
                                 </span>
                                 <span className="avatar avatar-rounded relative">
-                                    <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                    <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                     <span
                                         className="absolute -top-2 start-[60%] translate-middle badge bg-secondary !rounded-full shadow-lg text-white">1000+
                                         <span className="hidden">New alerts</span>

@@ -5,6 +5,7 @@ import dynamic from 'next/dynamic';
 import Link from 'next/link'
 import React, { Fragment } from 'react';
 import PerfectScrollbar from 'react-perfect-scrollbar';
+import Image from 'next/image';
 const Select = dynamic(() => import("react-select"), { ssr: false });
 
 const Team = () => {
@@ -55,9 +56,9 @@ const Team = () => {
                                 <div className="xxl:col-span-4 xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12" key={Math.random()}>
                                     <div className="box team-member-card">
                                         <div className="teammember-cover-image">
-                                            <img src={idx.src1} className="card-img-top" alt="..." />
+                                            <Image src={idx.src1} className="card-img-top" alt="..." />
                                             <span className="avatar avatar-xl avatar-rounded">
-                                                <img src={idx.src2} alt="" />
+                                                <Image src={idx.src2} alt="" />
                                             </span>
                                             <Link aria-label="anchor" href="#!" className="team-member-star text-warning">
                                                 <i className="ri-star-fill text-[1rem]"></i>
@@ -222,7 +223,7 @@ const Team = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 flex items-center">
                                                             <span className="avatar avatar-sm avatar-rounded online">
-                                                                <img src="../../../assets/images/faces/3.jpg" alt="" />
+                                                                <Image src="../../../assets/images/faces/3.jpg" alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow">
@@ -240,7 +241,7 @@ const Team = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 flex items-center">
                                                             <span className="avatar avatar-sm avatar-rounded offline">
-                                                                <img src="../../../assets/images/faces/5.jpg" alt="" />
+                                                                <Image src="../../../assets/images/faces/5.jpg" alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow">
@@ -259,7 +260,7 @@ const Team = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 flex items-center">
                                                             <span className="avatar avatar-sm avatar-rounded online">
-                                                                <img src="../../../assets/images/faces/15.jpg" alt="" />
+                                                                <Image src="../../../assets/images/faces/15.jpg" alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow">
@@ -277,7 +278,7 @@ const Team = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 flex items-center">
                                                             <span className="avatar avatar-sm avatar-rounded online">
-                                                                <img src="../../../assets/images/faces/12.jpg" alt="" />
+                                                                <Image src="../../../assets/images/faces/12.jpg" alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow">
@@ -295,7 +296,7 @@ const Team = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 flex items-center">
                                                             <span className="avatar avatar-sm avatar-rounded offline">
-                                                                <img src="../../../assets/images/faces/7.jpg" alt="" />
+                                                                <Image src="../../../assets/images/faces/7.jpg" alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow">
@@ -322,7 +323,7 @@ const Team = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 flex items-center">
                                                             <span className="avatar avatar-sm avatar-rounded online">
-                                                                <img src="../../../assets/images/faces/10.jpg" alt="" />
+                                                                <Image src="../../../assets/images/faces/10.jpg" alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow">
@@ -340,7 +341,7 @@ const Team = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 flex items-center">
                                                             <span className="avatar avatar-sm avatar-rounded online">
-                                                                <img src="../../../assets/images/faces/8.jpg" alt="" />
+                                                                <Image src="../../../assets/images/faces/8.jpg" alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow">
@@ -358,7 +359,7 @@ const Team = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 flex items-center">
                                                             <span className="avatar avatar-sm avatar-rounded online">
-                                                                <img src="../../../assets/images/faces/2.jpg" alt="" />
+                                                                <Image src="../../../assets/images/faces/2.jpg" alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow">
@@ -376,7 +377,7 @@ const Team = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 flex items-center">
                                                             <span className="avatar avatar-sm avatar-rounded offline">
-                                                                <img src="../../../assets/images/faces/14.jpg" alt="" />
+                                                                <Image src="../../../assets/images/faces/14.jpg" alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow">
@@ -395,7 +396,7 @@ const Team = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 flex items-center">
                                                             <span className="avatar avatar-sm avatar-rounded online">
-                                                                <img src="../../../assets/images/faces/4.jpg" alt="" />
+                                                                <Image src="../../../assets/images/faces/4.jpg" alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow">
@@ -413,7 +414,7 @@ const Team = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 flex items-center">
                                                             <span className="avatar avatar-sm avatar-rounded offline">
-                                                                <img src="../../../assets/images/faces/13.jpg" alt="" />
+                                                                <Image src="../../../assets/images/faces/13.jpg" alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow">
@@ -440,7 +441,7 @@ const Team = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 flex items-center">
                                                             <span className="avatar avatar-sm avatar-rounded online">
-                                                                <img src="../../../assets/images/faces/11.jpg" alt="" />
+                                                                <Image src="../../../assets/images/faces/11.jpg" alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow">
@@ -458,7 +459,7 @@ const Team = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 flex items-center">
                                                             <span className="avatar avatar-sm avatar-rounded offline">
-                                                                <img src="../../../assets/images/faces/6.jpg" alt="" />
+                                                                <Image src="../../../assets/images/faces/6.jpg" alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow">
@@ -477,7 +478,7 @@ const Team = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 flex items-center">
                                                             <span className="avatar avatar-sm avatar-rounded online">
-                                                                <img src="../../../assets/images/faces/9.jpg" alt="" />
+                                                                <Image src="../../../assets/images/faces/9.jpg" alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow">
@@ -496,7 +497,7 @@ const Team = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 flex items-center">
                                                             <span className="avatar avatar-sm avatar-rounded online">
-                                                                <img src="../../../assets/images/faces/16.jpg" alt="" />
+                                                                <Image src="../../../assets/images/faces/16.jpg" alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow">
@@ -513,7 +514,7 @@ const Team = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 flex items-center">
                                                             <span className="avatar avatar-sm avatar-rounded offline">
-                                                                <img src="../../../assets/images/faces/1.jpg" alt="" />
+                                                                <Image src="../../../assets/images/faces/1.jpg" alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow">

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Select from 'react-select';
+import Image from 'next/image';
 
 
 const Citydata = [
@@ -248,7 +249,7 @@ export class Basicwizard extends React.Component <{}, State>{
                                         <div className="sm:flex items-center justify-between">
                                             <div className="!me-2">
                                                 <span className="avatar avatar-md">
-                                                    <img src="../../../../assets/images/ecommerce/png/28.png" alt="" />
+                                                    <Image src="../../../../assets/images/ecommerce/png/28.png" alt="" />
                                                 </span>
                                             </div>
                                             <div className="shipping-partner-details sm:me-5 me-0">
@@ -271,7 +272,7 @@ export class Basicwizard extends React.Component <{}, State>{
                                         <div className="sm:flex items-center justify-between">
                                             <div className="me-2">
                                                 <span className="avatar avatar-md">
-                                                    <img src="../../../../assets/images/ecommerce/png/31.png" alt="" />
+                                                    <Image src="../../../../assets/images/ecommerce/png/31.png" alt="" />
                                                 </span>
                                             </div>
                                             <div className="shipping-partner-details sm:me-5 me-0">
@@ -294,7 +295,7 @@ export class Basicwizard extends React.Component <{}, State>{
                                         <div className="sm:flex items-center justify-between">
                                             <div className="me-2">
                                                 <span className="avatar avatar-md">
-                                                    <img src="../../../../assets/images/ecommerce/png/29.png" alt="" />
+                                                    <Image src="../../../../assets/images/ecommerce/png/29.png" alt="" />
                                                 </span>
                                             </div>
                                             <div className="shipping-partner-details sm:me-5 me-0">
@@ -317,7 +318,7 @@ export class Basicwizard extends React.Component <{}, State>{
                                         <div className="sm:flex items-center justify-between">
                                             <div className="me-2">
                                                 <span className="avatar avatar-md">
-                                                    <img src="../../../../assets/images/ecommerce/png/30.png" alt="" />
+                                                    <Image src="../../../../assets/images/ecommerce/png/30.png" alt="" />
                                                 </span>
                                             </div>
                                             <div className="shipping-partner-details sm:me-5 me-0">
@@ -464,7 +465,7 @@ export class Basicwizard extends React.Component <{}, State>{
                                                                             <div className="sm:flex block items-center justify-between">
                                                                                 <div className="me-2 leading-none">
                                                                                     <span className="avatar avatar-md">
-                                                                                        <img src="../../../../assets/images/ecommerce/png/26.png" alt="" />
+                                                                                        <Image src="../../../../assets/images/ecommerce/png/26.png" alt="" />
                                                                                     </span>
                                                                                 </div>
                                                                                 <div className="saved-card-details">
@@ -483,7 +484,7 @@ export class Basicwizard extends React.Component <{}, State>{
                                                                             <div className="sm:flex block items-center justify-between">
                                                                                 <div className="me-2 leading-none">
                                                                                     <span className="avatar avatar-md">
-                                                                                        <img src="../../../../assets/images/ecommerce/png/27.png" alt="" />
+                                                                                        <Image src="../../../../assets/images/ecommerce/png/27.png" alt="" />
                                                                                     </span>
                                                                                 </div>
                                                                                 <div className="saved-card-details">
@@ -509,7 +510,7 @@ export class Basicwizard extends React.Component <{}, State>{
                                                 <h5 className="text-success font-semibold text-[1.25rem]">Payment Successful...🤝</h5>
                                             </div>
                                             <div className="mb-[3rem] !inline-flex">
-                                                <img src="../../../../assets/images/ecommerce/png/24.png" alt="" className="img-fluid" />
+                                                <Image src="../../../../assets/images/ecommerce/png/24.png" alt="" className="img-fluid" />
                                             </div>
                                             <div className="mb-6">
                                                 <p className="mb-1 text-[0.875rem]">You can track your order with Order Id <b>SPK#1FR</b> from <Link className="link-success" href="#!"><u className="text-success">Track Order</u></Link></p>

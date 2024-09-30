@@ -3,6 +3,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link';
 import React, { Fragment } from 'react';
+import Image from 'next/image';
 
 const Checkout = () => {
 
@@ -31,7 +32,7 @@ const Checkout = () => {
                                         <div className="flex items-center flex-wrap">
                                             <div className="me-2">
                                                 <span className="avatar avatar-lg bg-light">
-                                                    <img src="../../../../assets/images/ecommerce/png/1.png" alt="" />
+                                                    <Image src="../../../../assets/images/ecommerce/png/1.png" alt="" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow">
@@ -52,7 +53,7 @@ const Checkout = () => {
                                         <div className="flex items-center flex-wrap">
                                             <div className="me-2">
                                                 <span className="avatar avatar-lg bg-light">
-                                                    <img src="../../../../assets/images/ecommerce/png/7.png" alt="" />
+                                                    <Image src="../../../../assets/images/ecommerce/png/7.png" alt="" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow">

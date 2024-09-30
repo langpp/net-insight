@@ -4,6 +4,7 @@ import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment, useState } from 'react'
 import PerfectScrollbar from 'react-perfect-scrollbar';
+import Image from 'next/image';
 
 const Jobs = () => {
 
@@ -485,7 +486,7 @@ const Jobs = () => {
                                                 <div className="flex items-start !mb-6">
                                                     <div className="me-2 leading-none">
                                                         <span className="avatar avatar-md avatar-rounded">
-                                                            <img src="../../../assets/images/faces/4.jpg" alt="" />
+                                                            <Image src="../../../assets/images/faces/4.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="flex-grow">
@@ -523,7 +524,7 @@ const Jobs = () => {
                                                 <div className="flex items-start !mb-6">
                                                     <div className="me-2 leading-none">
                                                         <span className="avatar avatar-md avatar-rounded">
-                                                            <img src="../../../assets/images/faces/21.jpg" alt="" />
+                                                            <Image src="../../../assets/images/faces/21.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="flex-grow">
@@ -561,7 +562,7 @@ const Jobs = () => {
                                                 <div className="flex items-start !mb-6">
                                                     <div className="me-2 leading-none">
                                                         <span className="avatar avatar-md avatar-rounded">
-                                                            <img src="../../../assets/images/faces/15.jpg" alt="" />
+                                                            <Image src="../../../assets/images/faces/15.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="flex-grow">
@@ -626,7 +627,7 @@ const Jobs = () => {
                                             <tr className="border border-defaultborder dark:border-defaultborder/10 !border-x-0" key={Math.random()}>
                                                 <th scope="row">
                                                     <div className="flex items-center">
-                                                        <img src={idx.src} alt="" className="w-[1.25rem] h-[1.25rem] rounded-full me-2 leading-none" />
+                                                        <Image src={idx.src} alt="" className="w-[1.25rem] h-[1.25rem] rounded-full me-2 leading-none" />
                                                         <div>
                                                             <span className="font-semibold">
                                                                 {idx.city}
@@ -685,7 +686,7 @@ const Jobs = () => {
                                             <tr className="border hover:bg-gray-100 dark:hover:bg-light dark:border-defaultborder/10 border-defaultborder !border-x-0" key={Math.random()}>
                                                 <th scope="col">
                                                     <div className="flex items-center">
-                                                        <img src={idx.src} alt="" className="avatar avatar-md p-1 bg-light avatar-rounded me-2 !mb-0" />
+                                                        <Image src={idx.src} alt="" className="avatar avatar-md p-1 bg-light avatar-rounded me-2 !mb-0" />
                                                         <div>
                                                             <p className="font-semibold mb-0">{idx.text1}</p>
                                                             <p className="text-[0.75rem] text-[#8c9097] dark:text-white/50 mb-0">Remote/Onsite</p>
@@ -797,7 +798,7 @@ const Jobs = () => {
                                                 <td>
                                                     <div className="flex items-center font-semibold">
                                                         <span className="avatar avatar-sm me-2 avatar-rounded">
-                                                            <img src={idx.src} alt="img" />
+                                                            <Image src={idx.src} alt="img" />
                                                         </span>{idx.name}
                                                     </div>
                                                 </td>

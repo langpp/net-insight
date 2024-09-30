@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { Fragment, useEffect, useRef, useState } from 'react';
 import DatePicker from 'react-datepicker';
+import Image from 'next/image';
 
 const Deals = () => {
 
@@ -63,7 +64,7 @@ const Deals = () => {
     useEffect(() => {
         // Check if window is defined (to prevent issues during server-side rendering)
         if (typeof window !== "undefined") {
-            // Import the dragula library here (make sure it's installed first)
+            // Import the dragula library here (make sure its installed first)
             const dragula = require("dragula");
             const windowElement = window;
 
@@ -224,7 +225,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/12.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/12.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">Service Upgrade</div>
@@ -245,7 +246,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/5.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/5.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">Product Demo</div>
@@ -266,7 +267,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/15.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/15.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">Website Redesign</div>
@@ -287,7 +288,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/6.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/6.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">Consulting Services</div>
@@ -310,7 +311,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/11.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/11.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">Event Sponsorship</div>
@@ -331,7 +332,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/11.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/11.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">Sales Training</div>
@@ -352,7 +353,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/14.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/14.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">Content Creation</div>
@@ -375,7 +376,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/3.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/3.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">E-commerce Integration</div>
@@ -396,7 +397,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/16.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/16.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">Ad Campaign</div>
@@ -419,7 +420,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/10.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/10.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">Webinar Series</div>
@@ -440,7 +441,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/13.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/13.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">SEO Audit</div>
@@ -461,7 +462,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/8.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/8.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">Loyalty Program</div>
@@ -482,7 +483,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/9.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/9.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">CRM Integration</div>
@@ -505,7 +506,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/16.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/16.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">Media Analytics</div>
@@ -526,7 +527,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded bg-light">
-                                            <img src="../../../../assets/images/faces/21.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/21.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">Lead Nurturing Strategy</div>
@@ -568,7 +569,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/2.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/2.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">Newsletter Campaign</div>
@@ -589,7 +590,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/17.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/17.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">Graphic Design</div>
@@ -612,7 +613,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/1.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/1.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">CRM Training</div>
@@ -633,7 +634,7 @@ const Deals = () => {
                                 <div className="flex items-center gap-2">
                                     <div className="lh-1">
                                         <span className="avatar avatar-sm avatar-rounded">
-                                            <img src="../../../../assets/images/faces/10.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/10.jpg" alt="" />
                                         </span>
                                     </div>
                                     <div className="text-sm">Market Research</div>
@@ -665,7 +666,7 @@ const Deals = () => {
                                 <div className="xl:col-span-12 col-span-12">
                                     <div className="mb-0 text-center">
                                         <span className="avatar avatar-xxl avatar-rounded">
-                                        <img
+                                        <Image
                                                 src={selectedImage || '../../../../assets/images/faces/9.jpg'}
                                                 alt=""
                                                 id="profile-img"

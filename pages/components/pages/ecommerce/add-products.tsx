@@ -127,7 +127,7 @@ const Addproducts = () => {
                                                     allowMultiple={true}
                                                     // maxFiles={6}
                                                     server="/api"
-                                                    name="files" /* sets the file input name, it's filepond by default */
+                                                    name="files" /* sets the file input name, its filepond by default */
                                                     labelIdle='Drag & Drop your file here or click '
                                                 />
                                             </div>

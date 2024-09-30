@@ -2,6 +2,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Projectoverview = () => {
     return (
@@ -56,7 +57,7 @@ const Projectoverview = () => {
                                     <div className="flex items-center">
                                         <div className="me-2 leading-none">
                                             <span className="avatar avatar-xs !rounded-full">
-                                                <img src="../../../../assets/images/faces/13.jpg" alt="" />
+                                                <Image src="../../../../assets/images/faces/13.jpg" alt="" />
                                             </span>
                                         </div>
                                         <span className="block text-[.875rem] font-semibold">S.K.Jacob</span>
@@ -74,16 +75,16 @@ const Projectoverview = () => {
                                     <span className="block text-[#8c9097] dark:text-white/50 text-[0.75rem]">Assigned To</span>
                                     <div className="avatar-list-stacked">
                                         <span className="avatar avatar-sm !rounded-full">
-                                            <img src="../../../../assets/images/faces/2.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/2.jpg" alt="img" />
                                         </span>
                                         <span className="avatar avatar-sm !rounded-full">
-                                            <img src="../../../../assets/images/faces/8.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/8.jpg" alt="img" />
                                         </span>
                                         <span className="avatar avatar-sm !rounded-full">
-                                            <img src="../../../../assets/images/faces/5.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/5.jpg" alt="img" />
                                         </span>
                                         <span className="avatar avatar-sm !rounded-full">
-                                            <img src="../../../../assets/images/faces/10.jpg" alt="img" />
+                                            <Image src="../../../../assets/images/faces/10.jpg" alt="img" />
                                         </span>
                                     </div>
                                 </div>
@@ -120,7 +121,7 @@ const Projectoverview = () => {
                                 <li>
                                     <div>
                                         <span className="avatar avatar-sm  profile-timeline-avatar">
-                                            <img src="../../../../assets/images/faces/11.jpg" alt="" className="!rounded-full" />
+                                            <Image src="../../../../assets/images/faces/11.jpg" alt="" className="!rounded-full" />
                                         </span>
                                         <p className="text-[#8c9097] dark:text-white/50 mb-2">
                                             <span className="text-default"><b>Json Smith</b> reacted to the project 👍</span>.<span className="float-end text-[0.6875rem] text-[#8c9097] dark:text-white/50">18,Dec 2023 - 12:16</span>
@@ -133,14 +134,14 @@ const Projectoverview = () => {
                                 <li>
                                     <div>
                                         <span className="avatar avatar-sm  profile-timeline-avatar">
-                                            <img src="../../../../assets/images/faces/4.jpg" alt="" className="!rounded-full" />
+                                            <Image src="../../../../assets/images/faces/4.jpg" alt="" className="!rounded-full" />
                                         </span>
                                         <p className="text-[#8c9097] dark:text-white/50 mb-2">
                                             <span className="text-default"><b>Alicia Keys</b> shared a document with <b>you</b></span>.<span className="float-end text-[0.6875rem] text-[#8c9097] dark:text-white/50">21,Dec 2023 - 15:32</span>
                                         </p>
                                         <p className="profile-activity-media flex items-center mb-0">
                                             <Link aria-label="anchor" href="#!">
-                                                <img src="../../../../assets/images/media/file-manager/3.png" alt="" />
+                                                <Image src="../../../../assets/images/media/file-manager/3.png" alt="" />
                                             </Link>
                                             <span className="text-[.6875rem] text-[#8c9097] dark:text-white/50">432.87KB</span>
                                         </p>
@@ -156,22 +157,22 @@ const Projectoverview = () => {
                                         </p>
                                         <p className="profile-activity-media mb-2">
                                             <Link aria-label="anchor" href="#!">
-                                                <img src="../../../../assets/images/media/media-18.jpg" alt="" />
+                                                <Image src="../../../../assets/images/media/media-18.jpg" alt="" />
                                             </Link>
                                         </p>
                                         <div>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm !rounded-full">
-                                                    <img src="../../../../assets/images/faces/2.jpg" alt="img" />
+                                                    <Image src="../../../../assets/images/faces/2.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm !rounded-full">
-                                                    <img src="../../../../assets/images/faces/8.jpg" alt="img" />
+                                                    <Image src="../../../../assets/images/faces/8.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm !rounded-full">
-                                                    <img src="../../../../assets/images/faces/5.jpg" alt="img" />
+                                                    <Image src="../../../../assets/images/faces/5.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm !rounded-full">
-                                                    <img src="../../../../assets/images/faces/10.jpg" alt="img" />
+                                                    <Image src="../../../../assets/images/faces/10.jpg" alt="img" />
                                                 </span>
                                             </div>
                                         </div>
@@ -180,7 +181,7 @@ const Projectoverview = () => {
                                 <li>
                                     <div>
                                         <span className="avatar avatar-sm profile-timeline-avatar">
-                                            <img src="../../../../assets/images/media/media-39.jpg" alt="" className="!rounded-full" />
+                                            <Image src="../../../../assets/images/media/media-39.jpg" alt="" className="!rounded-full" />
                                         </span>
                                         <p className="mb-1">
                                             <b>Json</b> Commented on Project <Link className="text-secondary" href="#!"><u>#UI Technologies</u></Link>.<span className="float-end text-[0.6875rem] text-[#8c9097] dark:text-white/50">24,Dec 2023 - 14:34</span>
@@ -188,10 +189,10 @@ const Projectoverview = () => {
                                         <p className="text-[#8c9097] dark:text-white/50">Technology id developing rapidly keep up your work 👌</p>
                                         <p className="profile-activity-media flex items-center mb-0">
                                             <Link aria-label="anchor" href="#!">
-                                                <img src="../../../../assets/images/media/media-26.jpg" alt="" />
+                                                <Image src="../../../../assets/images/media/media-26.jpg" alt="" />
                                             </Link>
                                             <Link aria-label="anchor" href="#!">
-                                                <img src="../../../../assets/images/media/media-29.jpg" alt="" />
+                                                <Image src="../../../../assets/images/media/media-29.jpg" alt="" />
                                             </Link>
                                         </p>
                                     </div>
@@ -203,12 +204,12 @@ const Projectoverview = () => {
                                 <div className="sm:flex items-center leading-none">
                                     <div className="me-4">
                                         <span className="avatar avatar-md ">
-                                            <img src="../../../../assets/images/faces/9.jpg" alt="" className="!rounded-full" />
+                                            <Image src="../../../../assets/images/faces/9.jpg" alt="" className="!rounded-full" />
                                         </span>
                                     </div>
                                     <div className="flex-grow">
                                         <div className="inline-flex !w-full">
-                                            <input type="text" className="form-control !w-full !rounded-e-none" placeholder="Post Anything" aria-label="Recipient's username with two button addons" />
+                                            <input type="text" className="form-control !w-full !rounded-e-none" placeholder="Post Anything" aria-label="Recipients username with two button addons" />
                                             <button aria-label="button" type="button" className="!hidden sm:!flex ti-btn ti-btn-light !rounded-none !mb-0"><i className="bi bi-emoji-smile"></i></button>
                                             <button aria-label="button" type="button" className="!hidden sm:!flex ti-btn ti-btn-light !rounded-none !mb-0"><i className="bi bi-paperclip"></i></button>
                                             <button aria-label="button" type="button" className="!hidden sm:!flex ti-btn ti-btn-light !rounded-none !mb-0"><i className="bi bi-camera"></i></button>
@@ -246,7 +247,7 @@ const Projectoverview = () => {
                                                 <div className="flex items-center">
                                                     <div className="me-2 leading-none">
                                                         <span className="avatar avatar-sm ">
-                                                            <img src="../../../../assets/images/faces/2.jpg" alt="" className="!rounded-full" />
+                                                            <Image src="../../../../assets/images/faces/2.jpg" alt="" className="!rounded-full" />
                                                         </span>
                                                     </div>
                                                     <div className="font-semibold">Simon Conway</div>
@@ -267,7 +268,7 @@ const Projectoverview = () => {
                                                 <div className="flex items-center">
                                                     <div className="me-2 leading-none">
                                                         <span className="avatar avatar-sm !rounded-full">
-                                                            <img src="../../../../assets/images/faces/8.jpg" alt="" />
+                                                            <Image src="../../../../assets/images/faces/8.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="font-semibold">Sasha Banks</div>
@@ -288,7 +289,7 @@ const Projectoverview = () => {
                                                 <div className="flex items-center">
                                                     <div className="me-2 leading-none">
                                                         <span className="avatar avatar-sm !rounded-full">
-                                                            <img src="../../../../assets/images/faces/5.jpg" alt="" />
+                                                            <Image src="../../../../assets/images/faces/5.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="font-semibold">Anagha May</div>
@@ -309,7 +310,7 @@ const Projectoverview = () => {
                                                 <div className="flex items-center">
                                                     <div className="me-2 leading-none">
                                                         <span className="avatar avatar-sm !rounded-full">
-                                                            <img src="../../../../assets/images/faces/10.jpg" alt="" />
+                                                            <Image src="../../../../assets/images/faces/10.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="font-semibold">Hishen Stuart</div>
@@ -403,7 +404,7 @@ const Projectoverview = () => {
                                     <div className="flex items-center">
                                         <div className="me-2">
                                             <span className="avatar !rounded-full p-2 bg-light">
-                                                <img src="../../../../assets/images/media/file-manager/1.png" alt="" />
+                                                <Image src="../../../../assets/images/media/file-manager/1.png" alt="" />
                                             </span>
                                         </div>
                                         <div className="flex-grow">
@@ -420,7 +421,7 @@ const Projectoverview = () => {
                                     <div className="flex items-center">
                                         <div className="me-2 leading-none">
                                             <span className="avatar !rounded-full bg-light">
-                                                <img src="../../../../assets/images/media/file-manager/3.png" alt="" />
+                                                <Image src="../../../../assets/images/media/file-manager/3.png" alt="" />
                                             </span>
                                         </div>
                                         <div className="flex-grow">
@@ -437,7 +438,7 @@ const Projectoverview = () => {
                                     <div className="flex items-center">
                                         <div className="me-2 leading-none">
                                             <span className="avatar !rounded-full p-2 bg-light">
-                                                <img src="../../../../assets/images/media/file-manager/1.png" alt="" />
+                                                <Image src="../../../../assets/images/media/file-manager/1.png" alt="" />
                                             </span>
                                         </div>
                                         <div className="flex-grow">
@@ -454,7 +455,7 @@ const Projectoverview = () => {
                                     <div className="flex items-center">
                                         <div className="me-2 leading-none">
                                             <span className="avatar !rounded-full bg-light">
-                                                <img src="../../../../assets/images/media/file-manager/3.png" alt="" />
+                                                <Image src="../../../../assets/images/media/file-manager/3.png" alt="" />
                                             </span>
                                         </div>
                                         <div className="flex-grow">
@@ -471,7 +472,7 @@ const Projectoverview = () => {
                                     <div className="flex items-center">
                                         <div className="me-2 leading-none">
                                             <span className="avatar !rounded-full bg-light">
-                                                <img src="../../../../assets/images/media/file-manager/3.png" alt="" />
+                                                <Image src="../../../../assets/images/media/file-manager/3.png" alt="" />
                                             </span>
                                         </div>
                                         <div className="flex-grow">

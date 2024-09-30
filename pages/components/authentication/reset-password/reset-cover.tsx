@@ -2,6 +2,7 @@ import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from 'next/image';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -31,8 +32,8 @@ const Resetcover = () => {
                 <div className="p-[3rem]">
                     <div className="mb-4">
                         <Link aria-label="anchor" href="/components/dashboards/crm/">
-                            <img src="../../../../assets/images/brand-logos/desktop-logo.png" alt="" className="authentication-brand desktop-logo"/>
-                            <img src="../../../../assets/images/brand-logos/desktop-dark.png" alt="" className="authentication-brand desktop-dark"/>
+                            <Image src="../../../../assets/images/brand-logos/desktop-logo.png" alt="" className="authentication-brand desktop-logo"/>
+                            <Image src="../../../../assets/images/brand-logos/desktop-dark.png" alt="" className="authentication-brand desktop-dark"/>
                         </Link>
                     </div>
                     <p className="h5 font-semibold mb-2">Reset Password</p>
@@ -94,7 +95,7 @@ const Resetcover = () => {
                                 <div className="text-white text-center p-[3rem] flex items-center justify-center">
                                     <div>
                                         <div className="mb-[3rem]">
-                                            <img src="../../../../assets/images/authentication/2.png" className="authentication-image" alt=""/>
+                                            <Image src="../../../../assets/images/authentication/2.png" className="authentication-image" alt=""/>
                                         </div>
                                         <h6 className="font-semibold text-[1rem]">Reset Password</h6>
                                         <p className="font-normal text-[.875rem] opacity-[0.7]"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eligendi expedita aliquam quaerat nulla voluptas facilis. Porro rem voluptates possimus, ad, autem quae culpa architecto, quam labore blanditiis at ratione.</p>
@@ -105,7 +106,7 @@ const Resetcover = () => {
                                 <div className="text-white text-center p-[3rem] flex items-center justify-center">
                                     <div>
                                         <div className="mb-[3rem]">
-                                            <img src="../../../../assets/images/authentication/3.png" className="authentication-image" alt=""/>
+                                            <Image src="../../../../assets/images/authentication/3.png" className="authentication-image" alt=""/>
                                         </div>
                                         <h6 className="font-semibold text-[1rem]">Reset Password</h6>
                                         <p className="font-normal text-[.875rem] opacity-[0.7]"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eligendi expedita aliquam quaerat nulla voluptas facilis. Porro rem voluptates possimus, ad, autem quae culpa architecto, quam labore blanditiis at ratione.</p>
@@ -116,7 +117,7 @@ const Resetcover = () => {
                                 <div className="text-white text-center p-[3rem] flex items-center justify-center">
                                     <div>
                                         <div className="mb-[3rem]">
-                                            <img src="../../../../assets/images/authentication/2.png" className="authentication-image" alt=""/>
+                                            <Image src="../../../../assets/images/authentication/2.png" className="authentication-image" alt=""/>
                                         </div>
                                         <h6 className="font-semibold text-[1rem]">Reset Password</h6>
                                         <p className="font-normal text-[.875rem] opacity-[0.7]"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eligendi expedita aliquam quaerat nulla voluptas facilis. Porro rem voluptates possimus, ad, autem quae culpa architecto, quam labore blanditiis at ratione.</p>

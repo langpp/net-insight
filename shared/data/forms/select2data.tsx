@@ -1,5 +1,6 @@
 
 //Basic Select2
+import Image from 'next/image';
 interface selectoption1 {
   value:string;
   label:string;
@@ -74,7 +75,7 @@ export const Selectoption1:selectoption1[] = [
     {
       value: 'Andrew', label: (
         <div>
-          <img src={"../../../assets/images/faces/1.jpg"} alt="Option 1" className="me-2 " />
+          <Image src={"../../../assets/images/faces/1.jpg"} alt="Option 1" className="me-2 " />
           Andrew
         </div>
       )
@@ -82,7 +83,7 @@ export const Selectoption1:selectoption1[] = [
     {
       value: 'Maya', label: (
         <div>
-          <img src={"../../../assets/images/faces/2.jpg"} alt="Option 1" className="me-2" />
+          <Image src={"../../../assets/images/faces/2.jpg"} alt="Option 1" className="me-2" />
           Maya
         </div>
       )
@@ -90,7 +91,7 @@ export const Selectoption1:selectoption1[] = [
     {
       value: 'Brodus Axel', label: (
         <div>
-          <img src={"../../../assets/images/faces/3.jpg"} alt="Option 1" className="me-2" />
+          <Image src={"../../../assets/images/faces/3.jpg"} alt="Option 1" className="me-2" />
           Brodus Axel
         </div>
       )
@@ -98,7 +99,7 @@ export const Selectoption1:selectoption1[] = [
     {
       value: 'Goldhens', label: (
         <div>
-          <img src={"../../../assets/images/faces/4.jpg"} alt="Option 1" className="me-2" />
+          <Image src={"../../../assets/images/faces/4.jpg"} alt="Option 1" className="me-2" />
           Goldhens
         </div>
       )
@@ -106,7 +107,7 @@ export const Selectoption1:selectoption1[] = [
     {
       value: 'Angelina', label: (
         <div>
-          <img src={"../../../assets/images/faces/5.jpg"} alt="Option 1" className="me-2" />
+          <Image src={"../../../assets/images/faces/5.jpg"} alt="Option 1" className="me-2" />
           Angelina
         </div>
       )

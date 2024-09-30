@@ -3,6 +3,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Marketcap = () => {
     return (
@@ -17,7 +18,7 @@ const Marketcap = () => {
                                 <div className="flex items-center">
                                     <div className="me-2">
                                         <span className="avatar avatar-md avatar-rounded bg-light p-2">
-                                            <img src="../../../../assets/images/crypto-currencies/regular/Bitcoin.svg" alt="" />
+                                            <Image src="../../../../assets/images/crypto-currencies/regular/Bitcoin.svg" alt="" />
                                         </span>
                                     </div>
                                     <div className="mb-0 font-semibold">
@@ -70,7 +71,7 @@ const Marketcap = () => {
                                 <div className="flex items-center">
                                     <div className="me-2">
                                         <span className="avatar avatar-md avatar-rounded bg-light p-2">
-                                            <img src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" />
+                                            <Image src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" />
                                         </span>
                                     </div>
                                     <div className="mb-0 font-semibold">
@@ -123,7 +124,7 @@ const Marketcap = () => {
                                 <div className="flex items-center">
                                     <div className="me-2">
                                         <span className="avatar avatar-md avatar-rounded bg-light p-2">
-                                            <img src="../../../../assets/images/crypto-currencies/regular/Dash.svg" alt="" />
+                                            <Image src="../../../../assets/images/crypto-currencies/regular/Dash.svg" alt="" />
                                         </span>
                                     </div>
                                     <div className="mb-0 font-semibold">
@@ -186,7 +187,7 @@ const Marketcap = () => {
                                         <div className="flex items-center gap-2">
                                             <div>
                                                 <span className="avatar avatar-sm p-1 bg-light">
-                                                    <img src="../../../../assets/images/crypto-currencies/regular/Bitcoin.svg" alt="" />
+                                                    <Image src="../../../../assets/images/crypto-currencies/regular/Bitcoin.svg" alt="" />
                                                 </span>
                                             </div>
                                             <div>
@@ -209,7 +210,7 @@ const Marketcap = () => {
                                         <div className="flex items-center gap-2">
                                             <div>
                                                 <span className="avatar avatar-sm p-1 bg-light">
-                                                    <img src="../../../../assets/images/crypto-currencies/regular/litecoin.svg" alt="" />
+                                                    <Image src="../../../../assets/images/crypto-currencies/regular/litecoin.svg" alt="" />
                                                 </span>
                                             </div>
                                             <div>
@@ -232,7 +233,7 @@ const Marketcap = () => {
                                         <div className="flex items-center gap-2">
                                             <div>
                                                 <span className="avatar avatar-sm p-1 bg-light">
-                                                    <img src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" />
+                                                    <Image src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" />
                                                 </span>
                                             </div>
                                             <div>
@@ -313,7 +314,7 @@ const Marketcap = () => {
                                                 <div className="flex items-center gap-2">
                                                     <div className="leading-none">
                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                            <img src="../../../../assets/images/crypto-currencies/square-color/Bitcoin.svg" alt="" />
+                                                            <Image src="../../../../assets/images/crypto-currencies/square-color/Bitcoin.svg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="font-semibold"><Link href="#!">Bitcoin (BTC)</Link></div>
@@ -369,7 +370,7 @@ const Marketcap = () => {
                                                 <div className="flex items-center gap-2">
                                                     <div className="leading-none">
                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                            <img src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
+                                                            <Image src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="font-semibold"><Link href="#!">Etherium (ETH)</Link></div>
@@ -418,7 +419,7 @@ const Marketcap = () => {
                                                 <div className="flex items-center gap-2">
                                                     <div className="leading-none">
                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                            <img src="../../../../assets/images/crypto-currencies/square-color/Golem.svg" alt="" />
+                                                            <Image src="../../../../assets/images/crypto-currencies/square-color/Golem.svg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="font-semibold"><Link href="#!">Golem (GLM)</Link></div>
@@ -471,7 +472,7 @@ const Marketcap = () => {
                                                 <div className="flex items-center gap-2">
                                                     <div className="leading-none">
                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                            <img src="../../../../assets/images/crypto-currencies/square-color/Dash.svg" alt="" />
+                                                            <Image src="../../../../assets/images/crypto-currencies/square-color/Dash.svg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="font-semibold"><Link href="#!">Dash (DASH)</Link></div>
@@ -526,7 +527,7 @@ const Marketcap = () => {
                                                 <div className="flex items-center gap-2">
                                                     <div className="leading-none">
                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                            <img src="../../../../assets/images/crypto-currencies/square-color/Litecoin.svg" alt="" />
+                                                            <Image src="../../../../assets/images/crypto-currencies/square-color/Litecoin.svg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="font-semibold"><Link href="#!">Litecoin (LTC)</Link></div>
@@ -579,7 +580,7 @@ const Marketcap = () => {
                                                 <div className="flex items-center gap-2">
                                                     <div className="leading-none">
                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                            <img src="../../../../assets/images/crypto-currencies/square-color/Ripple.svg" alt="" />
+                                                            <Image src="../../../../assets/images/crypto-currencies/square-color/Ripple.svg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="font-semibold"><Link href="#!">Ripple (XRP)</Link></div>
@@ -634,7 +635,7 @@ const Marketcap = () => {
                                                 <div className="flex items-center gap-2">
                                                     <div className="leading-none">
                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                            <img src="../../../../assets/images/crypto-currencies/square-color/EOS.svg" alt="" />
+                                                            <Image src="../../../../assets/images/crypto-currencies/square-color/EOS.svg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="font-semibold"><Link href="#!">EOS</Link></div>
@@ -689,7 +690,7 @@ const Marketcap = () => {
                                                 <div className="flex items-center gap-2">
                                                     <div className="leading-none">
                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                            <img src="../../../../assets/images/crypto-currencies/square-color/Bytecoin.svg" alt="" />
+                                                            <Image src="../../../../assets/images/crypto-currencies/square-color/Bytecoin.svg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="font-semibold"><Link href="#!">Bytecoin (BCN)</Link></div>
@@ -744,7 +745,7 @@ const Marketcap = () => {
                                                 <div className="flex items-center gap-2">
                                                     <div className="leading-none">
                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                            <img src="../../../../assets/images/crypto-currencies/square-color/IOTA.svg" alt="" />
+                                                            <Image src="../../../../assets/images/crypto-currencies/square-color/IOTA.svg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="font-semibold"><Link href="#!">IOTA</Link></div>
@@ -793,7 +794,7 @@ const Marketcap = () => {
                                                 <div className="flex items-center gap-2">
                                                     <div className="leading-none">
                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                            <img src="../../../../assets/images/crypto-currencies/square-color/Monero.svg" alt="" />
+                                                            <Image src="../../../../assets/images/crypto-currencies/square-color/Monero.svg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="font-semibold"><Link href="#!">Monero</Link></div>

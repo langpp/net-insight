@@ -3,7 +3,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment } from 'react'
-
+import Image from 'next/image';
 const Hrm = () => {
     return (
         <Fragment>
@@ -388,7 +388,7 @@ const Hrm = () => {
                                         <tr className="border-t border-defaultborder dark:border-defaultborder/10">
                                             <th scope="col">
                                                 <div className="flex items-center leading-none">
-                                                    <img src="../../../assets/images/faces/2.jpg" alt="" className="avatar avatar-rounded me-4 !mb-0" />
+                                                    <Image src="../../../assets/images/faces/2.jpg" alt="" className="avatar avatar-rounded me-4 !mb-0" />
                                                     <div>
                                                         <span className="block font-semibold mb-1">Diana Aise</span>
                                                         <span className="block text-[#8c9097] dark:text-white/50 text-[0.75rem] text-start">C.E.O</span>
@@ -423,7 +423,7 @@ const Hrm = () => {
                                         <tr className="border-t border-defaultborder dark:border-defaultborder/10">
                                             <th scope="row">
                                                 <div className="flex items-center leading-none">
-                                                    <img src="../../../assets/images/faces/8.jpg" alt="" className="avatar avatar-rounded me-4 !mb-0" />
+                                                    <Image src="../../../assets/images/faces/8.jpg" alt="" className="avatar avatar-rounded me-4 !mb-0" />
                                                     <div>
                                                         <span className="block font-semibold mb-1">Rose Mary</span>
                                                         <span className="block text-[#8c9097] dark:text-white/50 text-[0.75rem] text-start">C.E.O</span>
@@ -458,7 +458,7 @@ const Hrm = () => {
                                         <tr className="border-t border-defaultborder dark:border-defaultborder/10">
                                             <th scope="row">
                                                 <div className="flex items-center leading-none">
-                                                    <img src="../../../assets/images/faces/13.jpg" alt="" className="avatar avatar-rounded me-4 !mb-0" />
+                                                    <Image src="../../../assets/images/faces/13.jpg" alt="" className="avatar avatar-rounded me-4 !mb-0" />
                                                     <div>
                                                         <span className="block font-semibold mb-1">Gretchen Iox</span>
                                                         <span className="block text-[#8c9097] dark:text-white/50 text-[0.75rem] text-start">Manager</span>
@@ -493,7 +493,7 @@ const Hrm = () => {
                                         <tr className="border-t border-defaultborder dark:border-defaultborder/10">
                                             <th scope="row">
                                                 <div className="flex items-center leading-none">
-                                                    <img src="../../../assets/images/faces/11.jpg" alt="" className="avatar avatar-rounded me-4 !mb-0" />
+                                                    <Image src="../../../assets/images/faces/11.jpg" alt="" className="avatar avatar-rounded me-4 !mb-0" />
                                                     <div>
                                                         <span className="block font-semibold mb-1">Gray Noal</span>
                                                         <span className="block text-[#8c9097] dark:text-white/50 text-[0.75rem] text-start">Manager</span>
@@ -528,7 +528,7 @@ const Hrm = () => {
                                         <tr className="border-t border-defaultborder dark:border-defaultborder/10">
                                             <th scope="row" className="border-bottom-0">
                                                 <div className="flex items-center leading-none">
-                                                    <img src="../../../assets/images/faces/5.jpg" alt="" className="avatar avatar-rounded me-4 !mb-0" />
+                                                    <Image src="../../../assets/images/faces/5.jpg" alt="" className="avatar avatar-rounded me-4 !mb-0" />
                                                     <div>
                                                         <span className="block font-semibold mb-1">Isa Bella</span>
                                                         <span className="block text-[#8c9097] dark:text-white/50 text-[0.75rem] text-start">C.E.O</span>
@@ -618,7 +618,7 @@ const Hrm = () => {
                                                     <div className="flex items-center leading-none">
                                                         <div className="me-2">
                                                             <span className="avatar avatar-md avatar-rounded">
-                                                                <img src={idx.src} alt="" />
+                                                                <Image src={idx.src} alt="" />
                                                             </span>
                                                         </div>
                                                         <div>

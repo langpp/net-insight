@@ -5,6 +5,7 @@ import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import React, { Fragment } from 'react';
 import { connect } from 'react-redux';
+import Image from 'next/image';
 const Select = dynamic(() => import("react-select"), { ssr: false });
 
 const Searchcandidate = ({ local_varaiable }:any) => {
@@ -454,7 +455,7 @@ const Searchcandidate = ({ local_varaiable }:any) => {
                                 </div>
                                 <div className="flex mb-3 items-center flex-wrap" >
                                     <span className="avatar avatar-lg ">
-                                        <img src="../../../../assets/images/faces/1.jpg" alt="" className="!rounded-full" />
+                                        <Image src="../../../../assets/images/faces/1.jpg" alt="" className="!rounded-full" />
                                     </span>
                                     <div className="ms-2">
                                         <h5 className="font-semibold mb-0 flex items-center"><Link href="/components/apps/jobs/candidate-details/"> Brenda Simpson <i className="bi bi-check-circle-fill text-success text-base" title="Verified candidate"></i></Link></h5>
@@ -548,7 +549,7 @@ const Searchcandidate = ({ local_varaiable }:any) => {
                                 </div>
                                 <div className="flex mb-3 items-center flex-wrap">
                                     <span className="avatar avatar-lg !rounded-full">
-                                        <img src="../../../../assets/images/faces/3.jpg" alt="" className="!rounded-full" />
+                                        <Image src="../../../../assets/images/faces/3.jpg" alt="" className="!rounded-full" />
                                     </span>
                                     <div className="ms-2">
                                         <h5 className="font-semibold mb-0 flex items-center"><Link href="/components/apps/jobs/candidate-details/"> Dwayne Stort <i className="bi bi-check-circle-fill text-success text-base" title="Verified candidate"></i></Link></h5>
@@ -641,7 +642,7 @@ const Searchcandidate = ({ local_varaiable }:any) => {
                                 </div>
                                 <div className="sm:flex mb-3 items-center">
                                     <span className="avatar avatar-lg !rounded-full">
-                                        <img src="../../../../assets/images/faces/21.jpg" alt="" className="!rounded-full" />
+                                        <Image src="../../../../assets/images/faces/21.jpg" alt="" className="!rounded-full" />
                                     </span>
                                     <div className="ms-2">
                                         <h5 className="font-semibold mb-0 flex items-center"><Link href="/components/apps/jobs/candidate-details/"> Jasmine Kova <i className="bi bi-check-circle-fill text-success text-base" title="Verified candidate"></i></Link></h5>
@@ -727,7 +728,7 @@ const Searchcandidate = ({ local_varaiable }:any) => {
                                 </div>
                                 <div className="sm:flex mb-3 items-center">
                                     <span className="avatar avatar-lg !rounded-full">
-                                        <img src="../../../../assets/images/faces/5.jpg" alt="" className="!rounded-full" />
+                                        <Image src="../../../../assets/images/faces/5.jpg" alt="" className="!rounded-full" />
                                     </span>
                                     <div className="ms-2">
                                         <h5 className="font-semibold mb-0 flex items-center"><Link href="/components/apps/jobs/candidate-details/"> Kiara Advain <i className="bi bi-check-circle-fill text-success text-base" title="Verified candidate"></i></Link></h5>
@@ -820,7 +821,7 @@ const Searchcandidate = ({ local_varaiable }:any) => {
                                 </div>
                                 <div className="sm:flex mb-3 items-center">
                                     <span className="avatar avatar-lg !rounded-full">
-                                        <img src="../../../../assets/images/faces/13.jpg" alt="" className="!rounded-full" />
+                                        <Image src="../../../../assets/images/faces/13.jpg" alt="" className="!rounded-full" />
                                     </span>
                                     <div className="ms-2">
                                         <h5 className="font-semibold mb-0 flex items-center"><Link href="/components/apps/jobs/candidate-details/"> Json Taylor <i className="bi bi-check-circle-fill text-success text-base" title="Verified candidate"></i></Link></h5>
@@ -913,7 +914,7 @@ const Searchcandidate = ({ local_varaiable }:any) => {
                                 </div>
                                 <div className="sm:flex mb-3 items-center">
                                     <span className="avatar avatar-lg !rounded-full">
-                                        <img src="../../../../assets/images/faces/21.jpg" alt="" className="!rounded-full" />
+                                        <Image src="../../../../assets/images/faces/21.jpg" alt="" className="!rounded-full" />
                                     </span>
                                     <div className="ms-2">
                                         <h5 className="font-semibold mb-0 flex items-center"><Link href="/components/apps/jobs/candidate-details/"> Diego Sanch <i className="bi bi-check-circle-fill text-success text-base" title="Verified candidate"></i></Link></h5>

@@ -2,6 +2,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Notifications = () => {
     return (
@@ -20,7 +21,7 @@ const Notifications = () => {
                                             <div className="flex items-start mt-0 flex-wrap">
                                                 <div className="leading-top">
                                                     <span className="avatar avatar-md online me-4 avatar-rounded">
-                                                        <img alt="avatar" src="../../../assets/images/faces/4.jpg" />
+                                                        <Image alt="avatar" src="../../../assets/images/faces/4.jpg" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -49,7 +50,7 @@ const Notifications = () => {
                                             <div className="flex items-start mt-0 flex-wrap">
                                                 <div className="leading-none">
                                                     <span className="avatar avatar-md offline me-4 avatar-rounded">
-                                                        <img alt="avatar" src="../../../assets/images/faces/15.jpg" />
+                                                        <Image alt="avatar" src="../../../assets/images/faces/15.jpg" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -78,7 +79,7 @@ const Notifications = () => {
                                             <div className="flex items-start mt-0 flex-wrap">
                                                 <div className="leading-none">
                                                     <span className="avatar avatar-md offline me-4 avatar-rounded">
-                                                        <img alt="avatar" src="../../../assets/images/faces/11.jpg" />
+                                                        <Image alt="avatar" src="../../../assets/images/faces/11.jpg" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -107,7 +108,7 @@ const Notifications = () => {
                                             <div className="flex items-start mt-0 flex-wrap">
                                                 <div className="leading-none">
                                                     <span className="avatar avatar-md online me-4 avatar-rounded">
-                                                        <img alt="avatar" src="../../../assets/images/faces/5.jpg" />
+                                                        <Image alt="avatar" src="../../../assets/images/faces/5.jpg" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -162,7 +163,7 @@ const Notifications = () => {
                                         <Link href="#!">
                                             <div className="flex items-start mt-0 flex-wrap">
                                                 <div className="avatar avatar-md online me-4 avatar-rounded">
-                                                    <img alt="avatar" src="../../../assets/images/faces/2.jpg" />
+                                                    <Image alt="avatar" src="../../../assets/images/faces/2.jpg" />
                                                 </div>
                                                 <div className="flex-grow">
                                                     <div className="sm:flex items-center">

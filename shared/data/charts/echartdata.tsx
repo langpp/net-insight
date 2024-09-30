@@ -772,7 +772,7 @@ app.configParameters = {
     },
     position: {
         options: posList.reduce(function ({map, pos}: any) {
-            // Initialize the map if it's undefined
+            // Initialize the map if its undefined
             if (!map) {
                 map = {};
             }

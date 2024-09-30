@@ -3,6 +3,7 @@ import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link';
 import React, { Fragment, useEffect, useState } from 'react';
 import SimpleBar from 'simplebar-react';
+import Image from 'next/image';
 
 const Termsconditions = () => {
 
@@ -44,7 +45,7 @@ const Termsconditions = () => {
                             <div className="box-body !p-0">
                                 <div className="p-4 terms-heading-cover sm:flex items-center text-white bg-primary h5  rounded-t-md font-semibold mb-0">
                                     <span className="avatar avatar-md me-4">
-                                        <img src="../../../assets/images/media/media-67.png" alt="" />
+                                        <Image src="../../../assets/images/media/media-67.png" alt="" />
                                     </span>
                                     <span>YNEX - Terms &amp; Conditions </span>
                                     <Link aria-label="anchor" href="#!" className="ms-auto text-white terms-fullscreen" onClick={handleFullscreenClick} >
@@ -65,7 +66,7 @@ const Termsconditions = () => {
                                         <div className="mb-4">
                                             <p className="font-semibold text-muted mb-2 text-[.875rem] opacity-[0.7]">1 - Lorem ipsum dolor sit amet.</p>
                                             <p className="opacity-[0.7] mb-0">
-                                                Note that you'll sometimes see this agreement referred to as a Terms of Use, User Agreement or Terms of Service agreement. These terms are interchangeable and refer to the same type of agreement
+                                                Note that you sometimes see this agreement referred to as a Terms of Use, User Agreement or Terms of Service agreement. These terms are interchangeable and refer to the same type of agreement
                                             </p>
                                         </div>
                                         <div className="mb-4">

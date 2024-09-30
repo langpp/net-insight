@@ -2,6 +2,7 @@
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React from 'react'
+import Image from 'next/image';
 
 const Contacts = () => {
     return (
@@ -51,7 +52,7 @@ const Contacts = () => {
                             <div className="flex items-start ">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/faces/4.jpg" alt="" />
+                                        <Image src="../../../assets/images/faces/4.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className=" mb-1 font-semibold text-[1rem]">
@@ -98,7 +99,7 @@ const Contacts = () => {
                             <div className="flex items-start ">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/faces/15.jpg" alt="" />
+                                        <Image src="../../../assets/images/faces/15.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className=" text-[1rem] mb-1 font-semibold">
@@ -145,7 +146,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/faces/2.jpg" alt="" />
+                                        <Image src="../../../assets/images/faces/2.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className=" text-[1rem] mb-1 font-semibold">
@@ -192,7 +193,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/faces/13.jpg" alt="" />
+                                        <Image src="../../../assets/images/faces/13.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">
@@ -239,7 +240,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/media/media-39.jpg" alt="" />
+                                        <Image src="../../../assets/images/media/media-39.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">
@@ -286,7 +287,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/faces/5.jpg" alt="" />
+                                        <Image src="../../../assets/images/faces/5.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">
@@ -333,7 +334,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/faces/10.jpg" alt="" />
+                                        <Image src="../../../assets/images/faces/10.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">
@@ -380,7 +381,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/faces/21.jpg" alt="" />
+                                        <Image src="../../../assets/images/faces/21.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">
@@ -427,7 +428,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/faces/11.jpg" alt="" />
+                                        <Image src="../../../assets/images/faces/11.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">
@@ -474,7 +475,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/media/media-63.jpg" alt="" />
+                                        <Image src="../../../assets/images/media/media-63.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">
@@ -568,7 +569,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/faces/12.jpg" alt="" />
+                                        <Image src="../../../assets/images/faces/12.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">
@@ -615,7 +616,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/faces/1.jpg" alt="" />
+                                        <Image src="../../../assets/images/faces/1.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">
@@ -662,7 +663,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/media/media-13.jpg" alt="" />
+                                        <Image src="../../../assets/images/media/media-13.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">
@@ -709,7 +710,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/media/media-36.jpg" alt="" />
+                                        <Image src="../../../assets/images/media/media-36.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">
@@ -756,7 +757,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/faces/8.jpg" alt="" />
+                                        <Image src="../../../assets/images/faces/8.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">
@@ -803,7 +804,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/faces/21.jpg" alt="" />
+                                        <Image src="../../../assets/images/faces/21.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">
@@ -850,7 +851,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/faces/14.jpg" alt="" />
+                                        <Image src="../../../assets/images/faces/14.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">
@@ -897,7 +898,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/media/media-8.jpg" alt="" />
+                                        <Image src="../../../assets/images/media/media-8.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">
@@ -944,7 +945,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/faces/7.jpg" alt="" />
+                                        <Image src="../../../assets/images/faces/7.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">
@@ -991,7 +992,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/media/media-34.jpg" alt="" />
+                                        <Image src="../../../assets/images/media/media-34.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">
@@ -1038,7 +1039,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/media/media-21.jpg" alt="" />
+                                        <Image src="../../../assets/images/media/media-21.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">
@@ -1085,7 +1086,7 @@ const Contacts = () => {
                             <div className="flex items-start">
                                 <div className="flex flex-grow flex-wrap gap-2">
                                     <div className="avatar avatar-xl avatar-rounded me-3">
-                                        <img src="../../../assets/images/faces/6.jpg" alt="" />
+                                        <Image src="../../../assets/images/faces/6.jpg" alt="" />
                                     </div>
                                     <div>
                                         <h6 className="text-[1rem] mb-1 font-semibold">

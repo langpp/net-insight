@@ -3,6 +3,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link';
 import React, { Fragment, useState } from 'react'
+import Image from 'next/image';
 
 const Productlist = () => {
 
@@ -87,7 +88,7 @@ const Productlist = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2">
                                                             <span className="avatar avatar-md avatar-rounded">
-                                                                <img src={idx.src} alt="" />
+                                                                <Image src={idx.src} alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="font-semibold">

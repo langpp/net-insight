@@ -13,7 +13,7 @@ const Faqs = () => {
             <div className="xl:col-span-3 col-span-12"></div>
             <div className="xl:col-span-6 col-span-12">
               <div className="text-center p-4 faq-header mb-6">
-                <h5 className="mb-1 text-[1.25rem] text-primary opacity-[5] font-semibold">F.A.Q's</h5>
+                <h5 className="mb-1 text-[1.25rem] text-primary opacity-[5] font-semibold">F.A.Q</h5>
                 <h4 className="mb-1 text-[1.5rem] text-defaulttextcolor font-semibold">Frequently Asked Questions</h4>
                 <p className="text-[.9375rem] text-[#8c9097] dark:text-white/50 opacity-[7]">We have shared some of the most frequently asked questions to help you out! </p>
               </div>
@@ -55,7 +55,7 @@ const Faqs = () => {
                         className="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
                         aria-labelledby="hs-accordion-heading-1">
                         <p className="text-gray-800 dark:text-gray-200 py-4 px-5">
-                          <strong>This is the first item's accordion body.</strong> It is shown by
+                          <strong>This is the first item accordion body.</strong> It is shown by
                           default, until the collapse plugin adds the appropriate classes that we
                           use to style each element
                           <code>.accordion-body</code>, though the transition does limit overflow.
@@ -84,7 +84,7 @@ const Faqs = () => {
                         className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                         aria-labelledby="hs-accordion-heading-2">
                         <p className="text-gray-800 dark:text-gray-200 py-4 px-5">
-                          <strong>This is the first item's accordion body.</strong> It is shown by
+                          <strong>This is the first item accordion body.</strong> It is shown by
                           default, until the collapse plugin adds the appropriate classes that we
                           use to style each element
                           <code>.accordion-body</code>, though the transition does limit overflow.
@@ -113,7 +113,7 @@ const Faqs = () => {
                         className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                         aria-labelledby="hs-accordion-heading-3">
                         <p className="text-gray-800 dark:text-gray-200 py-4 px-5">
-                          <strong>This is the first item's accordion body.</strong> It is shown by
+                          <strong>This is the first item accordion body.</strong> It is shown by
                           default, until the collapse plugin adds the appropriate classes that we
                           use to style each element
                           <code>.accordion-body</code>, though the transition does limit overflow.
@@ -142,7 +142,7 @@ const Faqs = () => {
                         className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                         aria-labelledby="hs-accordion-heading-4">
                         <p className="text-gray-800 dark:text-gray-200 py-4 px-5">
-                          <strong>This is the first item's accordion body.</strong> It is shown by
+                          <strong>This is the first item accordion body.</strong> It is shown by
                           default, until the collapse plugin adds the appropriate classes that we
                           use to style each element
                           <code>.accordion-body</code>, though the transition does limit overflow.
@@ -184,7 +184,7 @@ const Faqs = () => {
                         className="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
                         aria-labelledby="hs-accordion-heading-one">
                         <p className="text-gray-800 dark:text-gray-200 py-4 px-5">
-                          <strong>This is the first item's accordion body.</strong> It is shown by
+                          <strong>This is the first item accordion body.</strong> It is shown by
                           default, until the collapse plugin adds the appropriate classes that we
                           use to style each element
                           <code>.accordion-body</code>, though the transition does limit overflow.
@@ -213,7 +213,7 @@ const Faqs = () => {
                         className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                         aria-labelledby="hs-accordion-heading-two">
                         <p className="text-gray-800 dark:text-gray-200 py-4 px-5">
-                          <strong>This is the first item's accordion body.</strong> It is shown by
+                          <strong>This is the first item accordion body.</strong> It is shown by
                           default, until the collapse plugin adds the appropriate classes that we
                           use to style each element
                           <code>.accordion-body</code>, though the transition does limit overflow.
@@ -242,7 +242,7 @@ const Faqs = () => {
                         className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                         aria-labelledby="hs-accordion-heading-three">
                         <p className="text-gray-800 dark:text-gray-200 py-4 px-5">
-                          <strong>This is the first item's accordion body.</strong> It is shown by
+                          <strong>This is the first item accordion body.</strong> It is shown by
                           default, until the collapse plugin adds the appropriate classes that we
                           use to style each element
                           <code>.accordion-body</code>, though the transition does limit overflow.
@@ -271,7 +271,7 @@ const Faqs = () => {
                         className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                         aria-labelledby="hs-accordion-heading-four">
                         <p className="text-gray-800 dark:text-gray-200 py-4 px-5">
-                          <strong>This is the first item's accordion body.</strong> It is shown by
+                          <strong>This is the first item accordion body.</strong> It is shown by
                           default, until the collapse plugin adds the appropriate classes that we
                           use to style each element
                           <code>.accordion-body</code>, though the transition does limit overflow.

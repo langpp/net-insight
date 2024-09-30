@@ -4,6 +4,7 @@ import Seo from '@/shared/layout-components/seo/seo'
 import dynamic from 'next/dynamic';
 import Link from 'next/link'
 import React, { Fragment, useState } from 'react';
+import Image from 'next/image';
 const CountUp = dynamic(() => import("react-countup"), { ssr: false });
 const Invoicelist = () => {
     const [manageInvoiceData, setManageInvoiceData] = useState([...Manageinvoicedata]);
@@ -58,7 +59,7 @@ const Invoicelist = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 leading-none">
                                                             <span className="avatar avatar-sm avatar-rounded">
-                                                                <img src={idx.src} alt="" />
+                                                                <Image src={idx.src} alt="" />
                                                             </span>
                                                         </div>
                                                         <div>

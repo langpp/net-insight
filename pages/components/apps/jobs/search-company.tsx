@@ -3,6 +3,7 @@ import Seo from '@/shared/layout-components/seo/seo'
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import React, { Fragment, useState } from 'react';
+import Image from 'next/image';
 const Select = dynamic(() => import("react-select"), { ssr: false });
 
 const Searchcompany = () => {
@@ -318,7 +319,7 @@ const Searchcompany = () => {
                                 </div>
                                 <div className="flex items-center flex-wrap gap-2">
                                     <span className="avatar avatar-xl bg-white dark:bg-bodybg shadow-sm border dark:border-defaultborder/10 p-2 !rounded-full">
-                                        <img src="../../../../assets/images/company-logos/1.png" alt="" />
+                                        <Image src="../../../../assets/images/company-logos/1.png" alt="" />
                                     </span>
                                     <div className="ms-2">
                                         <h5 className="font-semibold mb-0 flex items-center"><Link href="/components/pages/profile/"> Spotech Technical Solutions <i className="bi bi-check-circle-fill text-success text-base" title="Verified company"></i></Link></h5>
@@ -371,7 +372,7 @@ const Searchcompany = () => {
                                 </div>
                                 <div className="flex items-center flex-wrap gap-2">
                                     <span className="avatar avatar-xl bg-white dark:bg-bodybg  shadow-sm border dark:border-defaultborder/10 p-2 !rounded-full">
-                                        <img src="../../../../assets/images/company-logos/2.png" alt="" />
+                                        <Image src="../../../../assets/images/company-logos/2.png" alt="" />
                                     </span>
                                     <div className="ms-2">
                                         <h5 className="font-semibold mb-0 flex items-center"><Link href="/components/pages/profile/"> G Technical Solutions <i className="bi bi-check-circle-fill text-success text-base" title="Verified company"></i></Link></h5>
@@ -424,7 +425,7 @@ const Searchcompany = () => {
                                 </div>
                                 <div className="flex items-center flex-wrap gap-2">
                                     <span className="avatar avatar-xl bg-white dark:bg-bodybg  shadow-sm border dark:border-defaultborder/10 p-2 !rounded-full">
-                                        <img src="../../../../assets/images/company-logos/3.png" alt="" />
+                                        <Image src="../../../../assets/images/company-logos/3.png" alt="" />
                                     </span>
                                     <div className="ms-2">
                                         <h5 className="font-semibold mb-0 flex items-center"><Link href="/components/pages/profile/"> Diego Technical Solutions <i className="bi bi-check-circle-fill text-success text-base" title="Verified company"></i></Link></h5>
@@ -477,7 +478,7 @@ const Searchcompany = () => {
                                 </div>
                                 <div className="flex items-center flex-wrap gap-2">
                                     <span className="avatar avatar-xl bg-white dark:bg-bodybg  shadow-sm border dark:border-defaultborder/10 p-2 !rounded-full">
-                                        <img src="../../../../assets/images/company-logos/7.png" alt="" />
+                                        <Image src="../../../../assets/images/company-logos/7.png" alt="" />
                                     </span>
                                     <div className="ms-2">
                                         <h5 className="font-semibold mb-0 flex items-center"><Link href="/components/pages/profile/"> Spoteck Solutions Pvt Ltd <i className="bi bi-check-circle-fill text-success text-base" title="Verified company"></i></Link></h5>
@@ -540,7 +541,7 @@ const Searchcompany = () => {
                                 </div>
                                 <div className="flex items-center flex-wrap gap-2">
                                     <span className="avatar avatar-xl bg-white dark:bg-bodybg  shadow-sm border dark:border-defaultborder/10 p-2 !rounded-full">
-                                        <img src="../../../../assets/images/company-logos/5.png" alt="" />
+                                        <Image src="../../../../assets/images/company-logos/5.png" alt="" />
                                     </span>
                                     <div className="ms-2">
                                         <h5 className="font-semibold mb-0 flex items-center"><Link href="/components/pages/profile/"> Vehement Capital Partners <i className="bi bi-check-circle-fill text-success text-base" title="Verified company"></i></Link></h5>
@@ -603,7 +604,7 @@ const Searchcompany = () => {
                                 </div>
                                 <div className="flex items-center flex-wrap gap-2">
                                     <span className="avatar avatar-xl bg-white dark:bg-bodybg  shadow-sm border dark:border-defaultborder/10 p-2 !rounded-full">
-                                        <img src="../../../../assets/images/company-logos/6.png" alt="" />
+                                        <Image src="../../../../assets/images/company-logos/6.png" alt="" />
                                     </span>
                                     <div className="ms-2">
                                         <h5 className="font-semibold mb-0 flex items-center"><Link href="/components/pages/profile/"> Wonka Industries <i className="bi bi-check-circle-fill text-success text-base" title="Verified company"></i></Link></h5>

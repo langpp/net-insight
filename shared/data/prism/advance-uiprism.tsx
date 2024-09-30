@@ -9,7 +9,7 @@ export const accordion1 = `
         className="hs-accordion-content w-full overflow-hidden hidden transition-[height] duration-300"
         aria-labelledby="hs-basic-heading-one">
         <div className="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is shown by
+            <strong>This is the first item accordion body.</strong> It is shown by
             default, until the collapse plugin adds the appropriate classes that we
             use
             to
@@ -18,7 +18,7 @@ export const accordion1 = `
             the
             showing and hiding via CSS transitions. You can modify any of this with
             custom
-            CSS or overriding our default variables. It's also worth noting that
+            CSS or overriding our default variables. It also worth noting that
             just
             about
             any HTML can go within the <code>.accordion-body</code>, though the
@@ -52,7 +52,7 @@ export const accordion2 = `<div className="hs-accordion-group">
     className="hs-accordion-content w-full hidden overflow-hidden transition-[height] duration-300"
     aria-labelledby="hs-basic-with-arrow-heading-one">
     <div className="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by
+        <strong>This is the first item accordion body.</strong> It is shown by
         default, until the collapse plugin adds the appropriate classes that we
         use
         to
@@ -61,7 +61,7 @@ export const accordion2 = `<div className="hs-accordion-group">
         the
         showing and hiding via CSS transitions. You can modify any of this with
         custom
-        CSS or overriding our default variables. It's also worth noting that
+        CSS or overriding our default variables. It also worth noting that
         just
         about
         any HTML can go within the <code>.accordion-body</code>, though the
@@ -92,7 +92,7 @@ export const accordion2 = `<div className="hs-accordion-group">
     className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
     aria-labelledby="hs-basic-with-arrow-heading-two">
     <div className="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by
+        <strong>This is the first item accordion body.</strong> It is shown by
         default, until the collapse plugin adds the appropriate classes that we
         use
         to
@@ -101,7 +101,7 @@ export const accordion2 = `<div className="hs-accordion-group">
         the
         showing and hiding via CSS transitions. You can modify any of this with
         custom
-        CSS or overriding our default variables. It's also worth noting that
+        CSS or overriding our default variables. It also worth noting that
         just
         about
         any HTML can go within the <code>.accordion-body</code>, though the
@@ -132,7 +132,7 @@ export const accordion2 = `<div className="hs-accordion-group">
     className="hs-accordion-content hidden overflow-hidden w-full transition-[height] duration-300"
     aria-labelledby="hs-basic-with-arrow-heading-three">
     <div className="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden
+        <strong>This is the third item accordion body.</strong> It is hidden
         by
         default, until the collapse plugin adds the appropriate classes that we
         use
@@ -142,7 +142,7 @@ export const accordion2 = `<div className="hs-accordion-group">
         the
         showing and hiding via CSS transitions. You can modify any of this with
         custom
-        CSS or overriding our default variables. It's also worth noting that
+        CSS or overriding our default variables. It also worth noting that
         just
         about
         any HTML can go within the <code>.accordion-body</code>, though the
@@ -235,7 +235,7 @@ export const accordion6 = `<div className="hs-accordion-group">
     className="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
     aria-labelledby="hs-primary-heading-1">
     <p className="text-gray-800 dark:text-gray-200 py-4 px-5">
-      <em>This is the third item's accordion body.</em> It is hidden by default, until the collapse
+      <em>This is the third item accordion body.</em> It is hidden by default, until the collapse
       plugin adds the appropriate classes that we use to style each element. These classes control the
       overall appearance, as well as the showing and hiding via CSS transitions.
     </p>
@@ -263,7 +263,7 @@ export const accordion6 = `<div className="hs-accordion-group">
     className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
     aria-labelledby="hs-primary-heading-2">
     <p className="text-gray-800 dark:text-gray-200 py-4 px-5">
-      <em>This is the third item's accordion body.</em> It is hidden by default, until the collapse
+      <em>This is the third item accordion body.</em> It is hidden by default, until the collapse
       plugin adds the appropriate classes that we use to style each element. These classes control the
       overall appearance, as well as the showing and hiding via CSS transitions.
     </p>
@@ -291,7 +291,7 @@ export const accordion6 = `<div className="hs-accordion-group">
     className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
     aria-labelledby="hs-primary-heading-3">
     <p className="text-gray-800 dark:text-gray-200 py-4 px-5">
-      <em>This is the third item's accordion body.</em> It is hidden by default, until the collapse
+      <em>This is the third item accordion body.</em> It is hidden by default, until the collapse
       plugin adds the appropriate classes that we use to style each element. These classes control the
       overall appearance, as well as the showing and hiding via CSS transitions.
     </p>
@@ -322,7 +322,7 @@ export const accordion7 = `<div className="hs-accordion-group">
     className="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
     aria-labelledby="hs-secondary-heading-1">
     <p className="text-gray-800 dark:text-gray-200 py-4 px-5">
-      <em>This is the third item's accordion body.</em> It is hidden by default, until the collapse
+      <em>This is the third item accordion body.</em> It is hidden by default, until the collapse
       plugin adds the appropriate classes that we use to style each element. These classes control the
       overall appearance, as well as the showing and hiding via CSS transitions.
     </p>
@@ -350,7 +350,7 @@ export const accordion7 = `<div className="hs-accordion-group">
     className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
     aria-labelledby="hs-secondary-heading-2">
     <p className="text-gray-800 dark:text-gray-200 py-4 px-5">
-      <em>This is the third item's accordion body.</em> It is hidden by default, until the collapse
+      <em>This is the third item accordion body.</em> It is hidden by default, until the collapse
       plugin adds the appropriate classes that we use to style each element. These classes control the
       overall appearance, as well as the showing and hiding via CSS transitions.
     </p>
@@ -378,7 +378,7 @@ export const accordion7 = `<div className="hs-accordion-group">
     className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
     aria-labelledby="hs-secondary-heading-3">
     <p className="text-gray-800 dark:text-gray-200 py-4 px-5">
-      <em>This is the third item's accordion body.</em> It is hidden by default, until the collapse
+      <em>This is the third item accordion body.</em> It is hidden by default, until the collapse
       plugin adds the appropriate classes that we use to style each element. These classes control the
       overall appearance, as well as the showing and hiding via CSS transitions.
     </p>
@@ -411,11 +411,11 @@ id="accordionprimaryborderExample">
             className="hs-accordion-content accordion-collapse w-full hidde transition-[height] duration-300"
             aria-labelledby="hs-basic-heading1">
             <div className="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by
+                <strong>This is the first item accordion body.</strong> It is shown by
                 default, until the collapse plugin adds the appropriate classes that we
                 use to style each element. These classes control the overall appearance,
                 as well as the showing and hiding via CSS transitions. You can modify
-                any of this with custom CSS or overriding our default variables. It's
+                any of this with custom CSS or overriding our default variables. It
                 also worth noting that just about any HTML can go within the
                 <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
@@ -443,11 +443,11 @@ id="accordionprimaryborderExample">
             className="hs-accordion-content accordion-collapse w-full hidde transition-[height] duration-300 hidden"
             aria-labelledby="hs-basic-heading2">
             <div className="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by
+                <strong>This is the first item accordion body.</strong> It is shown by
                 default, until the collapse plugin adds the appropriate classes that we
                 use to style each element. These classes control the overall appearance,
                 as well as the showing and hiding via CSS transitions. You can modify
-                any of this with custom CSS or overriding our default variables. It's
+                any of this with custom CSS or overriding our default variables. It
                 also worth noting that just about any HTML can go within the
                 <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
@@ -475,11 +475,11 @@ id="accordionprimaryborderExample">
             className="hs-accordion-content accordion-collapse w-full hidden transition-[height] duration-300"
             aria-labelledby="hs-basic-heading-two">
             <div className="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by
+                <strong>This is the first item accordion body.</strong> It is shown by
                 default, until the collapse plugin adds the appropriate classes that we
                 use to style each element. These classes control the overall appearance,
                 as well as the showing and hiding via CSS transitions. You can modify
-                any of this with custom CSS or overriding our default variables. It's
+                any of this with custom CSS or overriding our default variables. It
                 also worth noting that just about any HTML can go within the
                 <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
@@ -513,11 +513,11 @@ id="accordionsuccessborderExample">
             className="hs-accordion-content accordion-collapse w-full hidde transition-[height] duration-300"
             aria-labelledby="hs-basic-heading11">
             <div className="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by
+                <strong>This is the first item accordion body.</strong> It is shown by
                 default, until the collapse plugin adds the appropriate classes that we
                 use to style each element. These classes control the overall appearance,
                 as well as the showing and hiding via CSS transitions. You can modify
-                any of this with custom CSS or overriding our default variables. It's
+                any of this with custom CSS or overriding our default variables. It
                 also worth noting that just about any HTML can go within the
                 <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
@@ -545,11 +545,11 @@ id="accordionsuccessborderExample">
             className="hs-accordion-content accordion-collapse w-full hidde transition-[height] duration-300 hidden"
             aria-labelledby="hs-basic-heading12">
             <div className="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by
+                <strong>This is the first item accordion body.</strong> It is shown by
                 default, until the collapse plugin adds the appropriate classes that we
                 use to style each element. These classes control the overall appearance,
                 as well as the showing and hiding via CSS transitions. You can modify
-                any of this with custom CSS or overriding our default variables. It's
+                any of this with custom CSS or overriding our default variables. It
                 also worth noting that just about any HTML can go within the
                 <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
@@ -577,11 +577,11 @@ id="accordionsuccessborderExample">
             className="hs-accordion-content accordion-collapse w-full hidden transition-[height] duration-300"
             aria-labelledby="hs-basic-heading13">
             <div className="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by
+                <strong>This is the first item accordion body.</strong> It is shown by
                 default, until the collapse plugin adds the appropriate classes that we
                 use to style each element. These classes control the overall appearance,
                 as well as the showing and hiding via CSS transitions. You can modify
-                any of this with custom CSS or overriding our default variables. It's
+                any of this with custom CSS or overriding our default variables. It
                 also worth noting that just about any HTML can go within the
                 <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
@@ -615,11 +615,11 @@ id="accordioniconLeftExample">
             className="hs-accordion-content accordion-collapse w-full hidden transition-[height] duration-300"
             aria-labelledby="hs-basic-heading21">
             <div className="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by
+                <strong>This is the first item accordion body.</strong> It is shown by
                 default, until the collapse plugin adds the appropriate classes that we
                 use to style each element. These classes control the overall appearance,
                 as well as the showing and hiding via CSS transitions. You can modify
-                any of this with custom CSS or overriding our default variables. It's
+                any of this with custom CSS or overriding our default variables. It
                 also worth noting that just about any HTML can go within the
                 <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
@@ -647,11 +647,11 @@ id="accordioniconLeftExample">
             className="hs-accordion-content accordion-collapse w-full hidde transition-[height] duration-300 hidden"
             aria-labelledby="hs-basic-heading22">
             <div className="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by
+                <strong>This is the first item accordion body.</strong> It is shown by
                 default, until the collapse plugin adds the appropriate classes that we
                 use to style each element. These classes control the overall appearance,
                 as well as the showing and hiding via CSS transitions. You can modify
-                any of this with custom CSS or overriding our default variables. It's
+                any of this with custom CSS or overriding our default variables. It
                 also worth noting that just about any HTML can go within the
                 <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
@@ -679,11 +679,11 @@ id="accordioniconLeftExample">
             className="hs-accordion-content accordion-collapse w-full hidden transition-[height] duration-300"
             aria-labelledby="hs-basic-heading23">
             <div className="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by
+                <strong>This is the first item accordion body.</strong> It is shown by
                 default, until the collapse plugin adds the appropriate classes that we
                 use to style each element. These classes control the overall appearance,
                 as well as the showing and hiding via CSS transitions. You can modify
-                any of this with custom CSS or overriding our default variables. It's
+                any of this with custom CSS or overriding our default variables. It
                 also worth noting that just about any HTML can go within the
                 <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
@@ -717,11 +717,11 @@ id="customizedAccordion">
             className="hs-accordion-content accordion-collapse w-full hidden transition-[height] duration-300"
             aria-labelledby="hs-basic-heading31">
             <div className="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by
+                <strong>This is the first item accordion body.</strong> It is shown by
                 default, until the collapse plugin adds the appropriate classes that we
                 use to style each element. These classes control the overall appearance,
                 as well as the showing and hiding via CSS transitions. You can modify
-                any of this with custom CSS or overriding our default variables. It's
+                any of this with custom CSS or overriding our default variables. It
                 also worth noting that just about any HTML can go within the
                 <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
@@ -749,11 +749,11 @@ id="customizedAccordion">
             className="hs-accordion-content accordion-collapse w-full hidde transition-[height] duration-300 hidden"
             aria-labelledby="hs-basic-heading32">
             <div className="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by
+                <strong>This is the first item accordion body.</strong> It is shown by
                 default, until the collapse plugin adds the appropriate classes that we
                 use to style each element. These classes control the overall appearance,
                 as well as the showing and hiding via CSS transitions. You can modify
-                any of this with custom CSS or overriding our default variables. It's
+                any of this with custom CSS or overriding our default variables. It
                 also worth noting that just about any HTML can go within the
                 <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
@@ -781,11 +781,11 @@ id="customizedAccordion">
             className="hs-accordion-content accordion-collapse w-full hidden transition-[height] duration-300"
             aria-labelledby="hs-basic-heading33">
             <div className="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by
+                <strong>This is the first item accordion body.</strong> It is shown by
                 default, until the collapse plugin adds the appropriate classes that we
                 use to style each element. These classes control the overall appearance,
                 as well as the showing and hiding via CSS transitions. You can modify
-                any of this with custom CSS or overriding our default variables. It's
+                any of this with custom CSS or overriding our default variables. It
                 also worth noting that just about any HTML can go within the
                 <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
@@ -836,7 +836,7 @@ export const modal2 =`<a href="#" className="hs-dropdown-toggle ti-btn ti-btn-pr
                 </button>
         </div>
         <div className="ti-modal-body px-4">
-            <p>I will not close if you click outside me. Don't even try to
+            <p>I will not close if you click outside me. Dont even try to
                 press
                 escape key.</p>
         </div>
@@ -1524,7 +1524,7 @@ Button
               <div className="flex items-center">
                   <div className="me-2">
                       <span className="avatar avatar-md !rounded-full">
-                          <img src="../assets/images/faces/12.jpg" alt="" className="!rounded-full">
+                          <Image src="../assets/images/faces/12.jpg" alt="" className="!rounded-full">
                       </span>
                   </div>
                   <div className="flex-grow">
@@ -1550,7 +1550,7 @@ Button
               <div className="flex items-center">
                   <div className="me-2">
                       <span className="avatar avatar-md !rounded-full">
-                          <img src="../assets/images/faces/1.jpg" alt="" className="!rounded-full">
+                          <Image src="../assets/images/faces/1.jpg" alt="" className="!rounded-full">
                       </span>
                   </div>
                   <div className="flex-grow">
@@ -1567,7 +1567,7 @@ Button
                       </span>
                   </div>
                   <div className="flex-grow">
-                      <p className="font-semibold mb-0">Medeleine Hey! there i'm available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
+                      <p className="font-semibold mb-0">Medeleine Hey! there im available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
                       <span className="text-[0.75rem] text-[#8c9097] dark:text-white/50"><i className="ri-time-line align-middle me-1 inline-block"></i>3 hrs ago</span>
                   </div>
               </div>
@@ -1602,7 +1602,7 @@ Button
               <div className="flex items-center">
                   <div className="me-2">
                       <span className="avatar avatar-md !rounded-full">
-                          <img src="../assets/images/faces/6.jpg" alt="" className="!rounded-full">
+                          <Image src="../assets/images/faces/6.jpg" alt="" className="!rounded-full">
                       </span>
                   </div>
                   <div className="flex-grow">
@@ -1641,7 +1641,7 @@ Button
               <div className="flex items-center">
                   <div className="me-2">
                       <span className="avatar avatar-md !rounded-full">
-                          <img src="../assets/images/faces/14.jpg" alt="" className="!rounded-full">
+                          <Image src="../assets/images/faces/14.jpg" alt="" className="!rounded-full">
                       </span>
                   </div>
                   <div className="flex-grow">
@@ -1729,7 +1729,7 @@ Enable body scrolling
           <div className="flex items-center">
               <div className="me-2">
                   <span className="avatar avatar-md !rounded-full">
-                      <img src="../assets/images/faces/12.jpg" alt="" className="!rounded-full">
+                      <Image src="../assets/images/faces/12.jpg" alt="" className="!rounded-full">
                   </span>
               </div>
               <div className="flex-grow">
@@ -1755,7 +1755,7 @@ Enable body scrolling
           <div className="flex items-center">
               <div className="me-2">
                   <span className="avatar avatar-md !rounded-full">
-                      <img src="../assets/images/faces/1.jpg" alt="" className="!rounded-full">
+                      <Image src="../assets/images/faces/1.jpg" alt="" className="!rounded-full">
                   </span>
               </div>
               <div className="flex-grow">
@@ -1772,7 +1772,7 @@ Enable body scrolling
                   </span>
               </div>
               <div className="flex-grow">
-                  <p className="font-semibold mb-0">Medeleine Hey! there i'm available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
+                  <p className="font-semibold mb-0">Medeleine Hey! there im available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
                   <span className="text-[0.75rem] text-[#8c9097] dark:text-white/50"><i className="ri-time-line align-middle me-1 inline-block"></i>3 hrs ago</span>
               </div>
           </div>
@@ -1807,7 +1807,7 @@ Enable body scrolling
           <div className="flex items-center">
               <div className="me-2">
                   <span className="avatar avatar-md !rounded-full">
-                      <img src="../assets/images/faces/6.jpg" alt="" className="!rounded-full">
+                      <Image src="../assets/images/faces/6.jpg" alt="" className="!rounded-full">
                   </span>
               </div>
               <div className="flex-grow">
@@ -1846,7 +1846,7 @@ Enable body scrolling
           <div className="flex items-center">
               <div className="me-2">
                   <span className="avatar avatar-md !rounded-full">
-                      <img src="../assets/images/faces/14.jpg" alt="" className="!rounded-full">
+                      <Image src="../assets/images/faces/14.jpg" alt="" className="!rounded-full">
                   </span>
               </div>
               <div className="flex-grow">
@@ -1936,7 +1936,7 @@ Enable backdrop
            <div className="flex items-center">
                <div className="me-2">
                    <span className="avatar avatar-md !rounded-full">
-                       <img src="../assets/images/faces/12.jpg" alt="" className="!rounded-full">
+                       <Image src="../assets/images/faces/12.jpg" alt="" className="!rounded-full">
                    </span>
                </div>
                <div className="flex-grow">
@@ -1962,7 +1962,7 @@ Enable backdrop
            <div className="flex items-center">
                <div className="me-2">
                    <span className="avatar avatar-md !rounded-full">
-                       <img src="../assets/images/faces/1.jpg" alt="" className="!rounded-full">
+                       <Image src="../assets/images/faces/1.jpg" alt="" className="!rounded-full">
                    </span>
                </div>
                <div className="flex-grow">
@@ -1979,7 +1979,7 @@ Enable backdrop
                    </span>
                </div>
                <div className="flex-grow">
-                   <p className="font-semibold mb-0">Medeleine Hey! there i'm available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
+                   <p className="font-semibold mb-0">Medeleine Hey! there im available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
                    <span className="text-[0.75rem] text-[#8c9097] dark:text-white/50"><i className="ri-time-line align-middle me-1 inline-block"></i>3 hrs ago</span>
                </div>
            </div>
@@ -2014,7 +2014,7 @@ Enable backdrop
            <div className="flex items-center">
                <div className="me-2">
                    <span className="avatar avatar-md !rounded-full">
-                       <img src="../assets/images/faces/6.jpg" alt="" className="!rounded-full">
+                       <Image src="../assets/images/faces/6.jpg" alt="" className="!rounded-full">
                    </span>
                </div>
                <div className="flex-grow">
@@ -2053,7 +2053,7 @@ Enable backdrop
            <div className="flex items-center">
                <div className="me-2">
                    <span className="avatar avatar-md !rounded-full">
-                       <img src="../assets/images/faces/14.jpg" alt="" className="!rounded-full">
+                       <Image src="../assets/images/faces/14.jpg" alt="" className="!rounded-full">
                    </span>
                </div>
                <div className="flex-grow">
@@ -2144,7 +2144,7 @@ export const offcanvas5 = `
               <div className="flex items-center">
                   <div className="me-2">
                       <span className="avatar avatar-md !rounded-full">
-                          <img src="../assets/images/faces/12.jpg" alt="" className="!rounded-full">
+                          <Image src="../assets/images/faces/12.jpg" alt="" className="!rounded-full">
                       </span>
                   </div>
                   <div className="flex-grow">
@@ -2170,7 +2170,7 @@ export const offcanvas5 = `
               <div className="flex items-center">
                   <div className="me-2">
                       <span className="avatar avatar-md !rounded-full">
-                          <img src="../assets/images/faces/1.jpg" alt="" className="!rounded-full">
+                          <Image src="../assets/images/faces/1.jpg" alt="" className="!rounded-full">
                       </span>
                   </div>
                   <div className="flex-grow">
@@ -2187,7 +2187,7 @@ export const offcanvas5 = `
                       </span>
                   </div>
                   <div className="flex-grow">
-                      <p className="font-semibold mb-0">Medeleine Hey! there i'm available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
+                      <p className="font-semibold mb-0">Medeleine Hey! there im available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
                       <span className="text-[0.75rem] text-[#8c9097] dark:text-white/50"><i className="ri-time-line align-middle me-1 inline-block"></i>3 hrs ago</span>
                   </div>
               </div>
@@ -2222,7 +2222,7 @@ export const offcanvas5 = `
               <div className="flex items-center">
                   <div className="me-2">
                       <span className="avatar avatar-md !rounded-full">
-                          <img src="../assets/images/faces/6.jpg" alt="" className="!rounded-full">
+                          <Image src="../assets/images/faces/6.jpg" alt="" className="!rounded-full">
                       </span>
                   </div>
                   <div className="flex-grow">
@@ -2261,7 +2261,7 @@ export const offcanvas5 = `
               <div className="flex items-center">
                   <div className="me-2">
                       <span className="avatar avatar-md !rounded-full">
-                          <img src="../assets/images/faces/14.jpg" alt="" className="!rounded-full">
+                          <Image src="../assets/images/faces/14.jpg" alt="" className="!rounded-full">
                       </span>
                   </div>
                   <div className="flex-grow">
@@ -2372,7 +2372,7 @@ Toggle right offcanvas
                 <div className="flex items-center">
                     <div className="me-2">
                         <span className="avatar avatar-md !rounded-full">
-                            <img src="../assets/images/faces/12.jpg" alt="" className="!rounded-full">
+                            <Image src="../assets/images/faces/12.jpg" alt="" className="!rounded-full">
                         </span>
                     </div>
                     <div className="flex-grow">
@@ -2398,7 +2398,7 @@ Toggle right offcanvas
                 <div className="flex items-center">
                     <div className="me-2">
                         <span className="avatar avatar-md !rounded-full">
-                            <img src="../assets/images/faces/1.jpg" alt="" className="!rounded-full">
+                            <Image src="../assets/images/faces/1.jpg" alt="" className="!rounded-full">
                         </span>
                     </div>
                     <div className="flex-grow">
@@ -2415,7 +2415,7 @@ Toggle right offcanvas
                         </span>
                     </div>
                     <div className="flex-grow">
-                        <p className="font-semibold mb-0">Medeleine Hey! there i'm available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
+                        <p className="font-semibold mb-0">Medeleine Hey! there im available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
                         <span className="text-[0.75rem] text-[#8c9097] dark:text-white/50"><i className="ri-time-line align-middle me-1 inline-block"></i>3 hrs ago</span>
                     </div>
                 </div>
@@ -2450,7 +2450,7 @@ Toggle right offcanvas
                 <div className="flex items-center">
                     <div className="me-2">
                         <span className="avatar avatar-md !rounded-full">
-                            <img src="../assets/images/faces/6.jpg" alt="" className="!rounded-full">
+                            <Image src="../assets/images/faces/6.jpg" alt="" className="!rounded-full">
                         </span>
                     </div>
                     <div className="flex-grow">
@@ -2489,7 +2489,7 @@ Toggle right offcanvas
                 <div className="flex items-center">
                     <div className="me-2">
                         <span className="avatar avatar-md !rounded-full">
-                            <img src="../assets/images/faces/14.jpg" alt="" className="!rounded-full">
+                            <Image src="../assets/images/faces/14.jpg" alt="" className="!rounded-full">
                         </span>
                     </div>
                     <div className="flex-grow">

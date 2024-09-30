@@ -3,6 +3,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Liveauction = () => {
     return (
@@ -56,7 +57,7 @@ const Liveauction = () => {
                                     <div className="box-body !p-4">
                                         <div className="mb-4 overflow-hidden relative">
                                             <Link aria-label="anchor" href="#!" className="stretched-link"></Link>
-                                            <img src={idx.src1} alt="img" className="nft-img img-fluid" />
+                                            <Image src={idx.src1} alt="img" className="nft-img img-fluid" />
                                             <Link href="#!" className="nft-btn" aria-label="Like"><i className="ti ti-heart"></i></Link>
                                             <span className="nft-timer-container">
                                                 <i className="ti ti-bolt text-[.875rem]"></i>
@@ -68,7 +69,7 @@ const Liveauction = () => {
                                                 <Link aria-label="anchor" href="/components/pages/profile/" className="stretched-link"></Link>
                                                 <div className="me-2">
                                                     <span className="avatar avatar-rounded">
-                                                        <img src={idx.src2} alt="img" />
+                                                        <Image src={idx.src2} alt="img" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -83,7 +84,7 @@ const Liveauction = () => {
                                             <div className="flex-grow">
                                                 <p className="text-[.875rem] mb-1 text-[#8c9097] dark:text-white/50">Highest Bid</p>
                                                 <div className="text-[1rem] mb-0 flex items-center font-semibold">
-                                                    <span className="avatar avatar-xs me-1"><img src="../../../../assets/images/nft-images/34.png" alt="" /></span>
+                                                    <span className="avatar avatar-xs me-1"><Image src="../../../../assets/images/nft-images/34.png" alt="" /></span>
                                                     {idx.text3}
                                                 </div>
                                             </div>
@@ -124,7 +125,7 @@ const Liveauction = () => {
                                                     <div className="flex items-center">
                                                         <div className="leading-none">
                                                             <span className="avatar avatar-md avatar-rounded me-2">
-                                                                <img src={idx.src} alt="" />
+                                                                <Image src={idx.src} alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="items-center">
@@ -166,7 +167,7 @@ const Liveauction = () => {
                                             <div className="flex gap-4 items-center flex-wrap">
                                                 <div className="leading-none">
                                                     <span className="avatar avatar-xl">
-                                                        <img src="../../../../assets/images/nft-images/31.png" alt="" />
+                                                        <Image src="../../../../assets/images/nft-images/31.png" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -179,7 +180,7 @@ const Liveauction = () => {
                                             <div className="flex gap-4 items-center flex-wrap">
                                                 <div className="leading-none">
                                                     <span className="avatar avatar-xl">
-                                                        <img src="../../../../assets/images/nft-images/25.png" alt="" />
+                                                        <Image src="../../../../assets/images/nft-images/25.png" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -192,7 +193,7 @@ const Liveauction = () => {
                                             <div className="flex gap-4 items-center">
                                                 <div className="leading-none">
                                                     <span className="avatar avatar-xl">
-                                                        <img src="../../../../assets/images/nft-images/21.png" alt="" />
+                                                        <Image src="../../../../assets/images/nft-images/21.png" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -205,7 +206,7 @@ const Liveauction = () => {
                                             <div className="flex gap-4 items-center ">
                                                 <div className="leading-none">
                                                     <span className="avatar avatar-xl">
-                                                        <img src="../../../../assets/images/nft-images/26.png" alt="" />
+                                                        <Image src="../../../../assets/images/nft-images/26.png" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>

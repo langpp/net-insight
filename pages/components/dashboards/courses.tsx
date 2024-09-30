@@ -3,6 +3,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Courses = () => {
     return (
@@ -224,7 +225,7 @@ const Courses = () => {
                                                         <div className="flex items-center">
                                                             <div className="me-2">
                                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                                    <img src="../../../assets/images/faces/2.jpg" alt="" />
+                                                                    <Image src="../../../assets/images/faces/2.jpg" alt="" />
                                                                 </span>
                                                             </div>
                                                             <div className="font-semibold">Sarah Taylor</div>
@@ -256,7 +257,7 @@ const Courses = () => {
                                                         <div className="flex items-center">
                                                             <div className="me-2">
                                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                                    <img src="../../../assets/images/faces/11.jpg" alt="" />
+                                                                    <Image src="../../../assets/images/faces/11.jpg" alt="" />
                                                                 </span>
                                                             </div>
                                                             <div className="font-semibold">Jason Smith</div>
@@ -288,7 +289,7 @@ const Courses = () => {
                                                         <div className="flex items-center">
                                                             <div className="me-2">
                                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                                    <img src="../../../assets/images/faces/14.jpg" alt="" />
+                                                                    <Image src="../../../assets/images/faces/14.jpg" alt="" />
                                                                 </span>
                                                             </div>
                                                             <div className="font-semibold">Alex Perira</div>
@@ -320,7 +321,7 @@ const Courses = () => {
                                                         <div className="flex items-center">
                                                             <div className="me-2">
                                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                                    <img src="../../../assets/images/faces/8.jpg" alt="" />
+                                                                    <Image src="../../../assets/images/faces/8.jpg" alt="" />
                                                                 </span>
                                                             </div>
                                                             <div className="font-semibold">Kamala Singh</div>
@@ -352,7 +353,7 @@ const Courses = () => {
                                                         <div className="flex items-center">
                                                             <div className="me-2">
                                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                                    <img src="../../../assets/images/faces/4.jpg" alt="" />
+                                                                    <Image src="../../../assets/images/faces/4.jpg" alt="" />
                                                                 </span>
                                                             </div>
                                                             <div className="font-semibold">Jessica Leon</div>
@@ -384,7 +385,7 @@ const Courses = () => {
                                                         <div className="flex items-center">
                                                             <div className="me-2">
                                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                                    <img src="../../../assets/images/faces/12.jpg" alt="" />
+                                                                    <Image src="../../../assets/images/faces/12.jpg" alt="" />
                                                                 </span>
                                                             </div>
                                                             <div className="font-semibold">Israel Khan</div>
@@ -413,7 +414,7 @@ const Courses = () => {
                                         <div className="flex flex-grow items-center">
                                             <div className="me-2">
                                                 <span className="avatar avatar-rounded">
-                                                    <img src="../../../assets/images/faces/1.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/1.jpg" alt="" />
                                                 </span>
                                             </div>
                                             <div>
@@ -432,7 +433,7 @@ const Courses = () => {
                                         <div className="flex flex-grow items-center">
                                             <div className="me-2">
                                                 <span className="avatar avatar-rounded">
-                                                    <img src="../../../assets/images/faces/5.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/5.jpg" alt="" />
                                                 </span>
                                             </div>
                                             <div>
@@ -451,7 +452,7 @@ const Courses = () => {
                                         <div className="flex flex-grow items-center">
                                             <div className="me-2">
                                                 <span className="avatar avatar-rounded">
-                                                    <img src="../../../assets/images/faces/8.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/8.jpg" alt="" />
                                                 </span>
                                             </div>
                                             <div>
@@ -470,7 +471,7 @@ const Courses = () => {
                                         <div className="flex flex-grow items-center">
                                             <div className="me-2">
                                                 <span className="avatar avatar-rounded">
-                                                    <img src="../../../assets/images/faces/12.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/12.jpg" alt="" />
                                                 </span>
                                             </div>
                                             <div>
@@ -489,7 +490,7 @@ const Courses = () => {
                                         <div className="flex flex-grow items-center">
                                             <div className="me-2">
                                                 <span className="avatar avatar-rounded">
-                                                    <img src="../../../assets/images/faces/15.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/15.jpg" alt="" />
                                                 </span>
                                             </div>
                                             <div>
@@ -534,7 +535,7 @@ const Courses = () => {
                                                 <div className="flex items-center">
                                                     <div className="me-2">
                                                         <span className="avatar avatar-rounded">
-                                                            <img src="../../../assets/images/faces/13.jpg" alt="" />
+                                                            <Image src="../../../assets/images/faces/13.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div>
@@ -561,7 +562,7 @@ const Courses = () => {
                                                 <div className="flex items-center">
                                                     <div className="me-2">
                                                         <span className="avatar avatar-rounded">
-                                                            <img src="../../../assets/images/faces/5.jpg" alt="" />
+                                                            <Image src="../../../assets/images/faces/5.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div>
@@ -588,7 +589,7 @@ const Courses = () => {
                                                 <div className="flex items-center">
                                                     <div className="me-2">
                                                         <span className="avatar avatar-rounded">
-                                                            <img src="../../../assets/images/faces/10.jpg" alt="" />
+                                                            <Image src="../../../assets/images/faces/10.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div>
@@ -615,7 +616,7 @@ const Courses = () => {
                                                 <div className="flex items-center">
                                                     <div className="me-2">
                                                         <span className="avatar avatar-rounded">
-                                                            <img src="../../../assets/images/faces/9.jpg" alt="" />
+                                                            <Image src="../../../assets/images/faces/9.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div>
@@ -719,7 +720,7 @@ const Courses = () => {
                                                     <div className="flex items-center leading-none">
                                                         <div className="me-2">
                                                             <span className="avatar avatar-xs ">
-                                                                <img src={idx.src} alt="" className="!rounded-md" />
+                                                                <Image src={idx.src} alt="" className="!rounded-md" />
                                                             </span>
                                                         </div>
                                                         <div>{idx.name}</div>

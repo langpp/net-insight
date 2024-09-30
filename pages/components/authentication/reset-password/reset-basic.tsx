@@ -1,6 +1,7 @@
 import Seo from '@/shared/layout-components/seo/seo';
 import Link from 'next/link';
 import React, { Fragment, useState } from 'react'
+import Image from 'next/image';
 
 const Resetbasic = () => {
 
@@ -18,8 +19,8 @@ const Resetbasic = () => {
           <div className="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-6 sm:col-span-8 col-span-12">
                 <div className="my-[2.5rem] flex justify-center">
                     <Link href="/components/dashboards/crm/">
-                        <img src="../../../../assets/images/brand-logos/desktop-logo.png" alt="logo" className="desktop-logo"/>
-                        <img src="../../../../assets/images/brand-logos/desktop-dark.png" alt="logo" className="desktop-dark"/>
+                        <Image src="../../../../assets/images/brand-logos/desktop-logo.png" alt="logo" className="desktop-logo"/>
+                        <Image src="../../../../assets/images/brand-logos/desktop-dark.png" alt="logo" className="desktop-dark"/>
                     </Link>
                 </div>
                 <div className="box">

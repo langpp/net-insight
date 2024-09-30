@@ -56,7 +56,7 @@ const Modalscloses = () => {
                     </button>
                   </div>
                   <div className="ti-modal-body px-4">
-                    <p>I will not close if you click outside me. Don't even try to
+                    <p>I will not close if you click outside me. Dont even try to
                       press
                       escape key.</p>
                   </div>

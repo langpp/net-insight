@@ -3,6 +3,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment, useEffect, useRef, useState } from 'react';
+import Image from 'next/image';
 
 const Draggablecards = () => {
 
@@ -34,7 +35,7 @@ const Draggablecards = () => {
     useEffect(() => {
         // Check if window is defined (to prevent issues during server-side rendering)
         if (typeof window !== "undefined") {
-            // Import the dragula library here (make sure it's installed first)
+            // Import the dragula library here (make sure its installed first)
             const dragula = require("dragula");
             const windowElement = window;
 
@@ -113,7 +114,7 @@ const Draggablecards = () => {
                         </div>
                     </div>
                     <div className="box custom-box overlay-box  text-white">
-                        <img src="../../../assets/images/media/media-35.jpg" className="box-img" alt="..." />
+                        <Image src="../../../assets/images/media/media-35.jpg" className="box-img" alt="..." />
                         <div className="box-img-overlay flex flex-col p-0 top-auto">
                             <div className="box-header !text-white">
                                 <div className="box-title !text-white">
@@ -121,7 +122,7 @@ const Draggablecards = () => {
                                 </div>
                             </div>
                             <div className="box-body deals-content  !text-white">
-                                <div className="box-text mb-2 !text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which {`don't`} look even.</div>
+                                <div className="box-text mb-2 !text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which {`dont`} look even.</div>
                                 <div className="box-text ">Last updated 3 mins ago</div>
                             </div>
                         </div>
@@ -132,7 +133,7 @@ const Draggablecards = () => {
                             <div className="flex items-center">
                                 <div className="me-4">
                                     <span className="avatar avatar-md">
-                                        <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                        <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                                     </span>
                                 </div>
                                 <div>
@@ -148,7 +149,7 @@ const Draggablecards = () => {
                             <div className="flex items-center">
                                 <div className="me-3">
                                     <span className="avatar avatar-xl">
-                                        <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                        <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                     </span>
                                 </div>
                                 <div>
@@ -162,13 +163,13 @@ const Draggablecards = () => {
                 </div>
                 <div className="xl:col-span-6 col-span-12" id="draggable-right" ref={rightContainerRef} onMouseEnter={OnDivChange}>
                     <div className="box custom-box overlay-box">
-                        <img src="../../../assets/images/media/media-36.jpg" className="box-img" alt="..." />
+                        <Image src="../../../assets/images/media/media-36.jpg" className="box-img" alt="..." />
                         <div className="box-img-overlay flex flex-col p-0 !top-auto inset-x-0 bottom-0">
                             <div className="box-body deals-content text-white">
                                 <div className="box-text !text-white">
                                     Image Overlays Are Awesome!
                                 </div>
-                                <div className="box-text mb-2 !text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which {`don't`} look even.</div>
+                                <div className="box-text mb-2 !text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which {`dont`} look even.</div>
                             </div>
                             <div className="box-footer !text-white">Last updated 3 mins ago</div>
                         </div>
@@ -178,7 +179,7 @@ const Draggablecards = () => {
                             <div className="flex items-center w-full">
                                 <div className="me-2">
                                     <span className="avatar">
-                                        <img src="../../../assets/images/faces/5.jpg" alt="img" className="!rounded-full" />
+                                        <Image src="../../../assets/images/faces/5.jpg" alt="img" className="!rounded-full" />
                                     </span>
                                 </div>
                                 <div className="">

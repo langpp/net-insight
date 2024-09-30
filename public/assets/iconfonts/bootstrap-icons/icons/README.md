@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://v5.getbootstrap.com/">
-    <img src="https://v5.getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" width="200" height="165">
+    <Image src="https://v5.getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" width="200" height="165">
   </a>
 </p>
 
@@ -24,7 +24,7 @@
 
 ## Install
 
-Bootstrap Icons are packaged up and published to npm. We only include the processed SVGs in this package—it's up to you and your team to implement. [Read our docs](https://icons.getbootstrap.com/) for usage instructions.
+Bootstrap Icons are packaged up and published to npm. We only include the processed SVGs in this package—its up to you and your team to implement. [Read our docs](https://icons.getbootstrap.com/) for usage instructions.
 
 ```shell
 npm i bootstrap-icons
@@ -43,7 +43,7 @@ composer require twbs/bootstrap-icons
 Depending on your setup, you can include Bootstrap Icons in a handful of ways.
 
 - Copy-paste SVGs as embedded HTML
-- Reference via `<img>` element
+- Reference via `<Image>` element
 - Use the SVG sprite
 - Include via CSS
 
@@ -66,7 +66,7 @@ Then open `http://localhost:4000` in your browser.
 
 ### npm scripts
 
-Here are some key scripts you'll use during development. Be sure to look to our `package.json` for a complete list of scripts.
+Here are some key scripts you use during development. Be sure to look to our `package.json` for a complete list of scripts.
 
 | Script | Description |
 | --- | --- |

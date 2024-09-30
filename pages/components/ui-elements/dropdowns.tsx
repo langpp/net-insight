@@ -1094,7 +1094,7 @@ const Dropdowns = () => {
                         <div className="bd-example">
                             <div className="dropdown-menu border dark:border-defaultborder/10 shadow-sm p-6 text-[#8c9097] dark:text-white/50 text-[0.875rem] max-w-[200px]">
                                 <p>
-                                    Some example text that's free-flowing within the dropdown menu.
+                                    Some example text thats free-flowing within the dropdown menu.
                                 </p>
                                 <p className="mb-0">
                                     And this is more example text.

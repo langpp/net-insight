@@ -5,6 +5,7 @@ import Seo from '@/shared/layout-components/seo/seo'
 import Showcode from '@/shared/layout-components/showcode/showcode'
 import Link from 'next/link'
 import React, { useState } from 'react'
+import Image from 'next/image';
 
 const Alerts = () => {
 
@@ -55,7 +56,7 @@ const Alerts = () => {
                                 </div>
                                 <div className="flex-1 md:flex md:justify-between ms-2">
                                     <p className="text-sm dark:text-defaulttextcolor/70">
-                                        A new software update is available. See what's new in version 3.0.7
+                                        A new software update is available. See whats new in version 3.0.7
                                     </p>
                                     <p className="text-sm mt-3 md:mt-0 md:ms-6">
                                         <span className="dark:text-defaulttextcolor/70 hover:text-gray-500 font-medium whitespace-nowrap"
@@ -413,7 +414,7 @@ const Alerts = () => {
                         <div className="alert alert-img alert-primary alert-dismissible fase show !rounded-full flex-wrap relative"
                             role="alert" id="dismiss-alert44">
                             <div className="avatar avatar-sm me-3 avatar-rounded">
-                                <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                             </div>
                             <div>A simple primary rounded alert with image—check it out!</div>
                             <button type="button"
@@ -431,7 +432,7 @@ const Alerts = () => {
                         <div className="alert alert-img alert-secondary alert-dismissible fase show !rounded-full flex-wrap relative"
                             role="alert" id="dismiss-alert45">
                             <div className="avatar avatar-sm me-3 avatar-rounded">
-                                <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                             </div>
                             <div>A simple secondary rounded alert with image—check it out!</div>
                             <button type="button"
@@ -449,7 +450,7 @@ const Alerts = () => {
                         <div className="alert alert-img alert-warning alert-dismissible fase show !rounded-full flex-wrap relative"
                             role="alert" id="dismiss-alert46">
                             <div className="avatar avatar-sm me-3 avatar-rounded">
-                                <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                             </div>
                             <div>A simple warning rounded alert with image—check it out!</div>
                             <button type="button"
@@ -467,7 +468,7 @@ const Alerts = () => {
                         <div className="alert alert-img alert-danger alert-dismissible fase show !rounded-full flex-wrap relative"
                             role="alert" id="dismiss-alert47">
                             <div className="avatar avatar-sm me-3 avatar-rounded">
-                                <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                             </div>
                             <div>A simple danger rounded alert with image—check it out!</div>
                             <button type="button"
@@ -485,7 +486,7 @@ const Alerts = () => {
                         <div className="alert alert-img alert-info alert-dismissible fase show !rounded-full flex-wrap relative"
                             role="alert" id="dismiss-alert48">
                             <div className="avatar avatar-sm me-3 avatar-rounded">
-                                <img src="../../../assets/images/faces/13.jpg" alt="img" />
+                                <Image src="../../../assets/images/faces/13.jpg" alt="img" />
                             </div>
                             <div>A simple info rounded alert with image—check it out!</div>
                             <button type="button"
@@ -503,7 +504,7 @@ const Alerts = () => {
                         <div className="alert alert-img alert-light alert-dismissible fase show !rounded-full flex-wrap relative"
                             role="alert" id="dismiss-alert49">
                             <div className="avatar avatar-sm me-3 avatar-rounded">
-                                <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                             </div>
                             <div>A simple light rounded alert with image—check it out!</div>
                             <button type="button"
@@ -521,7 +522,7 @@ const Alerts = () => {
                         <div className="alert alert-img alert-dark alert-dismissible fase show !rounded-full flex-wrap relative"
                             role="alert" id="dismiss-alert50">
                             <div className="avatar avatar-sm me-3 avatar-rounded">
-                                <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                             </div>
                             <div>A simple dark rounded alert with image—check it out!</div>
                             <button type="button"
@@ -543,7 +544,7 @@ const Alerts = () => {
                         <div className="alert alert-img alert-primary alert-dismissible fase show flex-wrap relative"
                             role="alert" id="dismiss-alert51">
                             <div className="avatar avatar-xs me-3">
-                                <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                             </div>
                             <div>A simple primary alert with image—check it out!</div>
                             <button type="button"
@@ -561,7 +562,7 @@ const Alerts = () => {
                         <div className="alert alert-img alert-secondary alert-dismissible fase show flex-wrap relative"
                             role="alert" id="dismiss-alert52">
                             <div className="avatar avatar-sm me-3">
-                                <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                             </div>
                             <div>A simple secondary alert with image—check it out!</div>
                             <button type="button"
@@ -579,7 +580,7 @@ const Alerts = () => {
                         <div className="alert alert-img alert-warning alert-dismissible fase show flex-wrap relative"
                             role="alert" id="dismiss-alert53">
                             <div className="avatar me-3">
-                                <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                             </div>
                             <div>A simple warning alert with image—check it out!</div>
                             <button type="button"
@@ -597,7 +598,7 @@ const Alerts = () => {
                         <div className="alert alert-img alert-danger alert-dismissible fase show flex-wrap relative"
                             role="alert" id="dismiss-alert54">
                             <div className="avatar avatar-md me-3">
-                                <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                             </div>
                             <div>A simple danger alert with image—check it out!</div>
                             <button type="button"
@@ -615,7 +616,7 @@ const Alerts = () => {
                         <div className="alert alert-img alert-info alert-dismissible fase show flex-wrap relative"
                             role="alert" id="dismiss-alert55">
                             <div className="avatar avatar-lg me-3">
-                                <img src="../../../assets/images/faces/13.jpg" alt="img" />
+                                <Image src="../../../assets/images/faces/13.jpg" alt="img" />
                             </div>
                             <div>A simple info alert with image—check it out!</div>
                             <button type="button"
@@ -633,7 +634,7 @@ const Alerts = () => {
                         <div className="alert alert-img alert-dark alert-dismissible fase show flex-wrap relative"
                             role="alert" id="dismiss-alert56">
                             <div className="avatar avatar-xl me-3">
-                                <img src="../../../assets/images/faces/14.jpg" alt="img" />
+                                <Image src="../../../assets/images/faces/14.jpg" alt="img" />
                             </div>
                             <div>A simple info alert with image—check it out!</div>
                             <button type="button"

@@ -2,6 +2,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import React, { Fragment, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from 'next/image';
 
 // import required modules
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
@@ -30,16 +31,16 @@ const Nftdetails = () => {
                                         className="mySwiper2  swiper-preview-details bg-light product-details-page"
                                     >
                                         <SwiperSlide id="img-container">
-                                            <img className="img-fluid !rounded-md" src="../../../../assets/images/nft-images/32.png" alt="img" />
+                                            <Image className="img-fluid !rounded-md" src="../../../../assets/images/nft-images/32.png" alt="img" />
                                         </SwiperSlide>
                                         <SwiperSlide className="image-container">
-                                            <img className="img-fluid !rounded-md" src="../../../../assets/images/nft-images/31.png" alt="img" />
+                                            <Image className="img-fluid !rounded-md" src="../../../../assets/images/nft-images/31.png" alt="img" />
                                         </SwiperSlide>
                                         <SwiperSlide className="image-container">
-                                            <img className="img-fluid !rounded-md" src="../../../../assets/images/nft-images/30.png" alt="img" />
+                                            <Image className="img-fluid !rounded-md" src="../../../../assets/images/nft-images/30.png" alt="img" />
                                         </SwiperSlide>
                                         <SwiperSlide className="image-container">
-                                            <img className="img-fluid !rounded-md" src="../../../../assets/images/nft-images/33.png" alt="img" />
+                                            <Image className="img-fluid !rounded-md" src="../../../../assets/images/nft-images/33.png" alt="img" />
                                         </SwiperSlide>
                                     </Swiper>
                                     <Swiper
@@ -53,16 +54,16 @@ const Nftdetails = () => {
                                         className="mySwiper swiper swiper-view-details mt-2"
                                     >
                                         <SwiperSlide >
-                                            <img className="img-fluid !rounded-md" src="../../../../assets/images/nft-images/32.png" alt="img" />
+                                            <Image className="img-fluid !rounded-md" src="../../../../assets/images/nft-images/32.png" alt="img" />
                                         </SwiperSlide>
                                         <SwiperSlide >
-                                            <img className="img-fluid !rounded-md" src="../../../../assets/images/nft-images/31.png" alt="img" />
+                                            <Image className="img-fluid !rounded-md" src="../../../../assets/images/nft-images/31.png" alt="img" />
                                         </SwiperSlide>
                                         <SwiperSlide >
-                                            <img className="img-fluid !rounded-md" src="../../../../assets/images/nft-images/30.png" alt="img" />
+                                            <Image className="img-fluid !rounded-md" src="../../../../assets/images/nft-images/30.png" alt="img" />
                                         </SwiperSlide>
                                         <SwiperSlide >
-                                            <img className="img-fluid !rounded-md" src="../../../../assets/images/nft-images/33.png" alt="img" />
+                                            <Image className="img-fluid !rounded-md" src="../../../../assets/images/nft-images/33.png" alt="img" />
                                         </SwiperSlide>
                                     </Swiper>
                                     <div className="grid mt-4">
@@ -70,7 +71,7 @@ const Nftdetails = () => {
                                     </div>
                                 </div>
                                 <div className="md:block hidden">
-                                    <p className="text-[.9375rem] font-semibold mb-2">Featured NFT's :</p>
+                                    <p className="text-[.9375rem] font-semibold mb-2">Featured NFts :</p>
                                     <div className="table-responsive">
                                         <table className="table table-bordered whitespace-nowrap min-w-full">
                                             <tbody>
@@ -79,7 +80,7 @@ const Nftdetails = () => {
                                                         <Link href="#!">
                                                             <div className="flex items-start">
                                                                 <div className="similar-products-image me-2">
-                                                                    <img src="../../../../assets/images/nft-images/16.png" alt="" />
+                                                                    <Image src="../../../../assets/images/nft-images/16.png" alt="" />
                                                                 </div>
                                                                 <div className="flex-grow">
                                                                     <p className="mb-1 text-[0.875rem] font-semibold similar-product-name text-truncate">Neo-Nebulae</p>
@@ -90,10 +91,10 @@ const Nftdetails = () => {
                                                                 </div>
                                                                 <div className="text-center">
                                                                     <p className="mb-0 text-[1rem] font-semibold">
-                                                                        <span className="avatar avatar-xs avatar-rounded p-1"><img src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>1.099
+                                                                        <span className="avatar avatar-xs avatar-rounded p-1"><Image src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>1.099
                                                                     </p>
                                                                     <p className="mb-0 text-[#8c9097] dark:text-white/50">
-                                                                        <s><span className="avatar avatar-xs avatar-rounded p-1"><img src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>1.759</s>
+                                                                        <s><span className="avatar avatar-xs avatar-rounded p-1"><Image src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>1.759</s>
                                                                     </p>
                                                                 </div>
                                                             </div>
@@ -105,7 +106,7 @@ const Nftdetails = () => {
                                                         <Link href="#!">
                                                             <div className="flex items-start">
                                                                 <div className="similar-products-image me-2">
-                                                                    <img src="../../../../assets/images/nft-images/17.png" alt="" />
+                                                                    <Image src="../../../../assets/images/nft-images/17.png" alt="" />
                                                                 </div>
                                                                 <div className="flex-grow">
                                                                     <p className="mb-1 text-[0.875rem] font-semibold similar-product-name text-truncate">Chromatic Chaos</p>
@@ -116,10 +117,10 @@ const Nftdetails = () => {
                                                                 </div>
                                                                 <div className="text-center">
                                                                     <p className="mb-0 text-[1rem] font-semibold">
-                                                                        <span className="avatar avatar-xs avatar-rounded p-1"><img src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>7.99
+                                                                        <span className="avatar avatar-xs avatar-rounded p-1"><Image src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>7.99
                                                                     </p>
                                                                     <p className="mb-0 text-[#8c9097] dark:text-white/50">
-                                                                        <s><span className="avatar avatar-xs avatar-rounded p-1"><img src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>12.99</s>
+                                                                        <s><span className="avatar avatar-xs avatar-rounded p-1"><Image src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>12.99</s>
                                                                     </p>
                                                                 </div>
                                                             </div>
@@ -131,7 +132,7 @@ const Nftdetails = () => {
                                                         <Link href="#!">
                                                             <div className="flex items-start">
                                                                 <div className="similar-products-image me-2">
-                                                                    <img src="../../../../assets/images/nft-images/18.png" alt="" />
+                                                                    <Image src="../../../../assets/images/nft-images/18.png" alt="" />
                                                                 </div>
                                                                 <div className="flex-grow">
                                                                     <p className="mb-1 font-semibold similar-product-name text-truncate">Surreal Synthesis</p>
@@ -142,10 +143,10 @@ const Nftdetails = () => {
                                                                 </div>
                                                                 <div className="text-center">
                                                                     <p className="mb-0 text-[1rem] font-semibold">
-                                                                        <span className="avatar avatar-xs avatar-rounded p-1"><img src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>1.499
+                                                                        <span className="avatar avatar-xs avatar-rounded p-1"><Image src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>1.499
                                                                     </p>
                                                                     <p className="mb-0 text-[#8c9097] dark:text-white/50">
-                                                                        <s><span className="avatar avatar-xs avatar-rounded p-1"><img src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>2.599</s>
+                                                                        <s><span className="avatar avatar-xs avatar-rounded p-1"><Image src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>2.599</s>
                                                                     </p>
                                                                 </div>
                                                             </div>
@@ -157,7 +158,7 @@ const Nftdetails = () => {
                                                         <Link href="#!">
                                                             <div className="flex items-start">
                                                                 <div className="similar-products-image me-2">
-                                                                    <img src="../../../../assets/images/nft-images/19.png" alt="" />
+                                                                    <Image src="../../../../assets/images/nft-images/19.png" alt="" />
                                                                 </div>
                                                                 <div className="flex-grow">
                                                                     <p className="mb-1 font-semibold similar-product-name text-truncate">Virtual Visions</p>
@@ -168,10 +169,10 @@ const Nftdetails = () => {
                                                                 </div>
                                                                 <div className="text-center">
                                                                     <p className="mb-0 text-[1rem] font-semibold">
-                                                                        <span className="avatar avatar-xs avatar-rounded p-1"><img src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>2.299
+                                                                        <span className="avatar avatar-xs avatar-rounded p-1"><Image src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>2.299
                                                                     </p>
                                                                     <p className="mb-0 text-[#8c9097] dark:text-white/50">
-                                                                        <s><span className="avatar avatar-xs avatar-rounded p-1"><img src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>3.299</s>
+                                                                        <s><span className="avatar avatar-xs avatar-rounded p-1"><Image src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>3.299</s>
                                                                     </p>
                                                                 </div>
                                                             </div>
@@ -183,7 +184,7 @@ const Nftdetails = () => {
                                                         <Link href="#!">
                                                             <div className="flex items-start">
                                                                 <div className="similar-products-image me-2">
-                                                                    <img src="../../../../assets/images/nft-images/20.png" alt="" />
+                                                                    <Image src="../../../../assets/images/nft-images/20.png" alt="" />
                                                                 </div>
                                                                 <div className="flex-grow">
                                                                     <p className="mb-1 font-semibold similar-product-name text-truncate">Pixel Prism</p>
@@ -194,10 +195,10 @@ const Nftdetails = () => {
                                                                 </div>
                                                                 <div className="text-center">
                                                                     <p className="mb-0 text-[1rem] font-semibold">
-                                                                        <span className="avatar avatar-xs avatar-rounded p-1"><img src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>8.99
+                                                                        <span className="avatar avatar-xs avatar-rounded p-1"><Image src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>8.99
                                                                     </p>
                                                                     <p className="mb-0 text-[#8c9097] dark:text-white/50">
-                                                                        <s><span className="avatar avatar-xs avatar-rounded p-1"><img src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>12.99</s>
+                                                                        <s><span className="avatar avatar-xs avatar-rounded p-1"><Image src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>12.99</s>
                                                                     </p>
                                                                 </div>
                                                             </div>
@@ -209,7 +210,7 @@ const Nftdetails = () => {
                                                         <Link href="#!">
                                                             <div className="flex items-start">
                                                                 <div className="similar-products-image me-2">
-                                                                    <img src="../../../../assets/images/nft-images/21.png" alt="" />
+                                                                    <Image src="../../../../assets/images/nft-images/21.png" alt="" />
                                                                 </div>
                                                                 <div className="flex-grow">
                                                                     <p className="mb-1 font-semibold similar-product-name text-truncate">Electric Euphoria</p>
@@ -220,10 +221,10 @@ const Nftdetails = () => {
                                                                 </div>
                                                                 <div className="text-center">
                                                                     <p className="mb-0 text-[1rem] font-semibold">
-                                                                        <span className="avatar avatar-xs avatar-rounded p-1"><img src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>1.799
+                                                                        <span className="avatar avatar-xs avatar-rounded p-1"><Image src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>1.799
                                                                     </p>
                                                                     <p className="mb-0 text-[#8c9097] dark:text-white/50">
-                                                                        <s><span className="avatar avatar-xs avatar-rounded p-1"><img src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>2.499</s>
+                                                                        <s><span className="avatar avatar-xs avatar-rounded p-1"><Image src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>2.499</s>
                                                                     </p>
                                                                 </div>
                                                             </div>
@@ -235,7 +236,7 @@ const Nftdetails = () => {
                                                         <Link href="#!">
                                                             <div className="flex items-start">
                                                                 <div className="similar-products-image me-2">
-                                                                    <img src="../../../../assets/images/nft-images/22.png" alt="" />
+                                                                    <Image src="../../../../assets/images/nft-images/22.png" alt="" />
                                                                 </div>
                                                                 <div className="flex-grow">
                                                                     <p className="mb-1 font-semibold similar-product-name text-truncate">Virtual Veracity</p>
@@ -246,10 +247,10 @@ const Nftdetails = () => {
                                                                 </div>
                                                                 <div className="text-center">
                                                                     <p className="mb-0 text-[1rem] font-semibold">
-                                                                        <span className="avatar avatar-xs avatar-rounded p-1"><img src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>2.299
+                                                                        <span className="avatar avatar-xs avatar-rounded p-1"><Image src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>2.299
                                                                     </p>
                                                                     <p className="mb-0 text-[#8c9097] dark:text-white/50">
-                                                                        <s><span className="avatar avatar-xs avatar-rounded p-1"><img src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>2.999</s>
+                                                                        <s><span className="avatar avatar-xs avatar-rounded p-1"><Image src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>2.999</s>
                                                                     </p>
                                                                 </div>
                                                             </div>
@@ -258,7 +259,7 @@ const Nftdetails = () => {
                                                 </tr>
                                                 <tr>
                                                     <td className="grid">
-                                                        <button type="button" className="ti-btn ti-btn-primary">View All NFT's</button>
+                                                        <button type="button" className="ti-btn ti-btn-primary">View All NFts</button>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -276,13 +277,13 @@ const Nftdetails = () => {
                                     <div className="grid grid-cols-12 mb-6">
                                         <div className="xxl:col-span-3 xl:col-span-12 col-span-12">
                                             <p className="mb-1 leading-none text-[.6875rem] text-success font-semibold">Special Offer</p>
-                                            <p className="mb-1"><span className="h3"><span className="avatar avatar-sm avatar-rounded p-1 bg-light"><img src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>1.299<sup className="text-[0.875rem]">.00</sup></span><span className="ms-3 badge bg-danger-transparent">50% Off</span></p>
+                                            <p className="mb-1"><span className="h3"><span className="avatar avatar-sm avatar-rounded p-1 bg-light"><Image src="../../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>1.299<sup className="text-[0.875rem]">.00</sup></span><span className="ms-3 badge bg-danger-transparent">50% Off</span></p>
                                             <p className="mb-0 text-[#8c9097] dark:text-white/50 text-[0.75rem]">M.R.P-<s>ETH2,599.00</s></p>
                                         </div>
                                         <div className="xxl:col-span-4 xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-12  col-span-12 xxl:mt-0 mt-4">
                                             <p className="mb-2 text-[.9375rem] font-semibold">Creator</p>
                                             <div className="flex items-center font-semibold">
-                                                <span className="avatar avatar-xs avatar-rounded leading-none me-1"><img src="../../../../assets/images/faces/9.jpg" alt="" /></span>
+                                                <span className="avatar avatar-xs avatar-rounded leading-none me-1"><Image src="../../../../assets/images/faces/9.jpg" alt="" /></span>
                                                 Json Taylor
                                             </div>
                                         </div>
@@ -294,7 +295,7 @@ const Nftdetails = () => {
                                     <div className="mb-4">
                                         <p className="text-[.9375rem] font-semibold mb-1">Description :</p>
                                         <p className="text-[#8c9097] dark:text-white/50 mb-0">
-                                            "Digital Dreamscape" is a mesmerizing NFT artwork created by a renowned digital artist. This unique piece takes viewers on a journey through a vivid and ethereal world, where vibrant colors blend seamlessly with abstract forms. The artwork is a digital representation of the artist's imagination, combining elements of surrealism and futuristic aesthetics.
+                                            Digital Dreamscape is a mesmerizing NFT artwork created by a renowned digital artist. This unique piece takes viewers on a journey through a vivid and ethereal world, where vibrant colors blend seamlessly with abstract forms. The artwork is a digital representation of the artists imagination, combining elements of surrealism and futuristic aesthetics.
                                         </p>
                                     </div>
                                     <div className="mb-4">
@@ -382,7 +383,7 @@ const Nftdetails = () => {
                                             <div className="xl:col-span-6 col-span-12">
                                                 <ul className="mb-0 list-disc ps-4">
                                                     <li className="text-[#8c9097] dark:text-white/50 mb-2">
-                                                        NFT Title: "DIgital Dream Space"
+                                                        NFT Title: DIgital Dream Space
                                                     </li>
                                                     <li className="text-[#8c9097] dark:text-white/50 mb-2">
                                                         Edition: Limited edition of 25
@@ -481,7 +482,7 @@ const Nftdetails = () => {
                                                         <div className="flex flex-grow">
                                                             <div className="me-2">
                                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                                    <img src="../../../../assets/images/faces/15.jpg" alt="" />
+                                                                    <Image src="../../../../assets/images/faces/15.jpg" alt="" />
                                                                 </span>
                                                             </div>
                                                             <div className="leading-none me-2">
@@ -504,17 +505,17 @@ const Nftdetails = () => {
                                                     </div>
                                                     <div className="sm:ps-6 ps-0 mb-4">
                                                         <p className="font-semibold mb-1 ps-2">Truely amazing NFT&#128512;</p>
-                                                        <p className="mb-0 text-[0.75rem] text-[#8c9097] dark:text-white/50 ps-2">Digital Dreamspace is a truly captivating NFT that takes you on an unforgettable journey. The artwork's vivid colors and ethereal elements create a sense of tranquility and wonder </p>
+                                                        <p className="mb-0 text-[0.75rem] text-[#8c9097] dark:text-white/50 ps-2">Digital Dreamspace is a truly captivating NFT that takes you on an unforgettable journey. The artwork vivid colors and ethereal elements create a sense of tranquility and wonder </p>
                                                     </div>
                                                     <div className="product-images sm:!ps-4 !ps-0">
                                                         <div className="grid grid-cols-12 sm:gap-6">
                                                             <div className="xl:col-span-6 col-span-12">
                                                                 <div className="products-review-images flex space-x-2 rtl:space-x-reverse">
                                                                     <Link aria-label="anchor" href="#!">
-                                                                        <img src="../../../../assets/images/nft-images/13.png" alt="" />
+                                                                        <Image src="../../../../assets/images/nft-images/13.png" alt="" />
                                                                     </Link>
                                                                     <Link aria-label="anchor" href="#!">
-                                                                        <img src="../../../../assets/images/nft-images/15.png" alt="" />
+                                                                        <Image src="../../../../assets/images/nft-images/15.png" alt="" />
                                                                     </Link>
                                                                 </div>
                                                             </div>

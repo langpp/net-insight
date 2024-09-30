@@ -3,6 +3,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Projects = () => {
     return (
@@ -138,7 +139,7 @@ const Projects = () => {
                                                         <div className="flex items-center justify-between">
                                                             <div className="flex items-start">
                                                                 <span className="avatar avatar-sm leading-none">
-                                                                    <img src="../../../assets/images/faces/2.jpg" alt="" className="rounded-md" />
+                                                                    <Image src="../../../assets/images/faces/2.jpg" alt="" className="rounded-md" />
                                                                 </span>
                                                                 <div className="ms-4 leading-none">
                                                                     <span className="font-semibold">Melissa Smith</span>
@@ -156,7 +157,7 @@ const Projects = () => {
                                                         <div className="flex items-center justify-between">
                                                             <div className="flex items-start">
                                                                 <span className="avatar avatar-sm leading-none">
-                                                                    <img src="../../../assets/images/faces/12.jpg" alt="" className="rounded-md" />
+                                                                    <Image src="../../../assets/images/faces/12.jpg" alt="" className="rounded-md" />
                                                                 </span>
                                                                 <div className="ms-4 leading-none">
                                                                     <span className="font-semibold">Jason Momoa</span>
@@ -174,7 +175,7 @@ const Projects = () => {
                                                         <div className="flex items-center justify-between">
                                                             <div className="flex items-start">
                                                                 <span className="avatar avatar-sm leading-none">
-                                                                    <img src="../../../assets/images/faces/1.jpg" alt="" className="rounded-md" />
+                                                                    <Image src="../../../assets/images/faces/1.jpg" alt="" className="rounded-md" />
                                                                 </span>
                                                                 <div className="ms-4 leading-none">
                                                                     <span className="font-semibold">Kamala Hars</span>
@@ -192,7 +193,7 @@ const Projects = () => {
                                                         <div className="flex items-center justify-between">
                                                             <div className="flex items-start">
                                                                 <span className="avatar avatar-sm leading-none">
-                                                                    <img src="../../../assets/images/faces/15.jpg" alt="" className="rounded-md" />
+                                                                    <Image src="../../../assets/images/faces/15.jpg" alt="" className="rounded-md" />
                                                                 </span>
                                                                 <div className="ms-4 leading-none">
                                                                     <span className="font-semibold">Diego Sanch</span>
@@ -210,7 +211,7 @@ const Projects = () => {
                                                         <div className="flex items-center justify-between">
                                                             <div className="flex items-start">
                                                                 <span className="avatar avatar-sm leading-none">
-                                                                    <img src="../../../assets/images/faces/10.jpg" alt="" className="rounded-md" />
+                                                                    <Image src="../../../assets/images/faces/10.jpg" alt="" className="rounded-md" />
                                                                 </span>
                                                                 <div className="ms-4 leading-none">
                                                                     <span className="font-semibold">Jake Sully</span>
@@ -263,13 +264,13 @@ const Projects = () => {
                                                                 <span className="block mt-1">
                                                                     <span className="avatar-list-stacked">
                                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                                            <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                                            <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                                         </span>
                                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                                            <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                                            <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                                         </span>
                                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                                            <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                                            <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                                         </span>
                                                                     </span>
                                                                 </span>
@@ -295,10 +296,10 @@ const Projects = () => {
                                                                 <span className="block mt-1">
                                                                     <span className="avatar-list-stacked">
                                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                                            <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                                            <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                                         </span>
                                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                                            <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                                                            <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                                                                         </span>
                                                                     </span>
                                                                 </span>
@@ -324,13 +325,13 @@ const Projects = () => {
                                                                 <span className="block mt-1">
                                                                     <span className="avatar-list-stacked">
                                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                                            <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                                            <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                                         </span>
                                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                                            <img src="../../../assets/images/faces/4.jpg" alt="img" />
+                                                                            <Image src="../../../assets/images/faces/4.jpg" alt="img" />
                                                                         </span>
                                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                                            <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                                            <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                                         </span>
                                                                     </span>
                                                                 </span>
@@ -356,10 +357,10 @@ const Projects = () => {
                                                                 <span className="block mt-1">
                                                                     <span className="avatar-list-stacked">
                                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                                            <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                                            <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                                         </span>
                                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                                            <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                                            <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                                         </span>
                                                                     </span>
                                                                 </span>
@@ -414,13 +415,13 @@ const Projects = () => {
                                                     </div>
                                                     <div className="avatar-list-stacked">
                                                         <span className="avatar avatar-sm avatar-rounded">
-                                                            <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                            <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                         </span>
                                                         <span className="avatar avatar-sm avatar-rounded">
-                                                            <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                            <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                         </span>
                                                         <span className="avatar avatar-sm avatar-rounded">
-                                                            <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                            <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                         </span>
                                                     </div>
                                                 </div>
@@ -439,10 +440,10 @@ const Projects = () => {
                                                     </div>
                                                     <div className="avatar-list-stacked">
                                                         <span className="avatar avatar-sm avatar-rounded">
-                                                            <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                            <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                         </span>
                                                         <span className="avatar avatar-sm avatar-rounded">
-                                                            <img src="../../../assets/images/faces/9.jpg" alt="img" />
+                                                            <Image src="../../../assets/images/faces/9.jpg" alt="img" />
                                                         </span>
                                                     </div>
                                                 </div>
@@ -461,10 +462,10 @@ const Projects = () => {
                                                     </div>
                                                     <div className="avatar-list-stacked">
                                                         <span className="avatar avatar-sm avatar-rounded">
-                                                            <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                            <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                         </span>
                                                         <span className="avatar avatar-sm avatar-rounded">
-                                                            <img src="../../../assets/images/faces/9.jpg" alt="img" />
+                                                            <Image src="../../../assets/images/faces/9.jpg" alt="img" />
                                                         </span>
                                                     </div>
                                                 </div>
@@ -482,13 +483,13 @@ const Projects = () => {
                                                     </div>
                                                     <div className="avatar-list-stacked">
                                                         <span className="avatar avatar-sm avatar-rounded">
-                                                            <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                                            <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                                                         </span>
                                                         <span className="avatar avatar-sm avatar-rounded">
-                                                            <img src="../../../assets/images/faces/14.jpg" alt="img" />
+                                                            <Image src="../../../assets/images/faces/14.jpg" alt="img" />
                                                         </span>
                                                         <span className="avatar avatar-sm avatar-rounded">
-                                                            <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                            <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                         </span>
                                                     </div>
                                                 </div>
@@ -505,7 +506,7 @@ const Projects = () => {
                         <div className="xxl:col-span-12 col-span-12">
                             <div className="box shadow-none projects-tracking-card overflow-hidden text-center">
                                 <div className="box-body">
-                                    <img src="../../../assets/images/media/media-86.svg" alt="" className="mb-1 inline-flex" />
+                                    <Image src="../../../assets/images/media/media-86.svg" alt="" className="mb-1 inline-flex" />
                                     <div>
                                         <span className="text-[0.9375rem] font-semibold block mt-6 mb-4">Track your work progress here</span>
                                         <button type="button" className="ti-btn !py-1 !px-2 bg-primary !text-[0.75rem] text-white  ti-btn-wave">Track Here</button>
@@ -692,13 +693,13 @@ const Projects = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                     </span>
                                                     <Link className="avatar avatar-xs bg-primary avatar-rounded text-white text-[0.65rem] font-normal" href="#!">
                                                         +2
@@ -731,16 +732,16 @@ const Projects = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/9.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/9.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                                                     </span>
                                                 </div>
                                             </td>
@@ -770,13 +771,13 @@ const Projects = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/1.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/1.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/4.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/4.jpg" alt="img" />
                                                     </span>
                                                 </div>
                                             </td>
@@ -806,13 +807,13 @@ const Projects = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/4.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/4.jpg" alt="img" />
                                                     </span>
                                                     <Link className="avatar avatar-xs bg-primary avatar-rounded text-white text-[0.65rem] font-normal" href="#!">
                                                         +5
@@ -845,13 +846,13 @@ const Projects = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/9.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/9.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/16.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/16.jpg" alt="img" />
                                                     </span>
                                                     <Link className="avatar avatar-xs bg-primary avatar-rounded text-white text-[0.65rem] font-normal" href="#!">
                                                         +3
@@ -884,19 +885,19 @@ const Projects = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/4.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/4.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/7.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/7.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/12.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/12.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/13.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/13.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs avatar-rounded">
-                                                        <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                                                     </span>
                                                 </div>
                                             </td>

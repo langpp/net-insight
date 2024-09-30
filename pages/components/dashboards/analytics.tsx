@@ -3,6 +3,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Analytics = () => {
     return (
@@ -266,7 +267,7 @@ const Analytics = () => {
                             <div className="box custom-card upgrade-card text-white">
                                 <div className="box-body text-white">
                                     <span className="avatar avatar-xxl !border-0">
-                                        <img src="../../../assets/images/media/media-84.png" alt="" />
+                                        <Image src="../../../assets/images/media/media-84.png" alt="" />
                                     </span>
                                     <div className="upgrade-card-content">
                                         <span className="opacity-[0.7] font-normal mb-1 !text-white">Plan is expiring !</span>
@@ -505,7 +506,7 @@ const Analytics = () => {
                                     <div className="flex items-center">
                                         <div className="leading-none">
                                             <span className="avatar avatar-sm !mb-0 text-default">
-                                                <img src="../../../assets/images/flags/us_flag.jpg" alt="" className="!rounded-full h-[1.75rem] w-[1.75rem]" />
+                                                <Image src="../../../assets/images/flags/us_flag.jpg" alt="" className="!rounded-full h-[1.75rem] w-[1.75rem]" />
                                             </span>
                                         </div>
                                         <div className="ms-4 flex-grow leading-none">
@@ -520,7 +521,7 @@ const Analytics = () => {
                                     <div className="flex items-center">
                                         <div className="leading-none">
                                             <span className="avatar avatar-sm !mb-0 avatar-rounded text-default">
-                                                <img src="../../../assets/images/flags/germany_flag.jpg" alt="" className="!rounded-full h-[1.75rem] w-[1.75rem]" />
+                                                <Image src="../../../assets/images/flags/germany_flag.jpg" alt="" className="!rounded-full h-[1.75rem] w-[1.75rem]" />
                                             </span>
                                         </div>
                                         <div className="ms-4 flex-grow leading-none">
@@ -535,7 +536,7 @@ const Analytics = () => {
                                     <div className="flex items-center">
                                         <div className="leading-none">
                                             <span className="avatar avatar-sm !mb-0 avatar-rounded text-default">
-                                                <img src="../../../assets/images/flags/mexico_flag.jpg" alt="" className="!rounded-full h-[1.75rem] w-[1.75rem]" />
+                                                <Image src="../../../assets/images/flags/mexico_flag.jpg" alt="" className="!rounded-full h-[1.75rem] w-[1.75rem]" />
                                             </span>
                                         </div>
                                         <div className="ms-4 flex-grow leading-none">
@@ -550,7 +551,7 @@ const Analytics = () => {
                                     <div className="flex items-center">
                                         <div className="leading-none">
                                             <span className="avatar avatar-sm !mb-0 avatar-rounded text-default">
-                                                <img src="../../../assets/images/flags/uae_flag.jpg" alt="" className="!rounded-full h-[1.75rem] w-[1.75rem]" />
+                                                <Image src="../../../assets/images/flags/uae_flag.jpg" alt="" className="!rounded-full h-[1.75rem] w-[1.75rem]" />
                                             </span>
                                         </div>
                                         <div className="ms-4 flex-grow leading-none">
@@ -565,7 +566,7 @@ const Analytics = () => {
                                     <div className="flex items-center">
                                         <div className="leading-none">
                                             <span className="avatar avatar-sm !mb-0 avatar-rounded text-default">
-                                                <img src="../../../assets/images/flags/argentina_flag.jpg" alt="" className="!rounded-full h-[1.75rem] w-[1.75rem]" />
+                                                <Image src="../../../assets/images/flags/argentina_flag.jpg" alt="" className="!rounded-full h-[1.75rem] w-[1.75rem]" />
                                             </span>
                                         </div>
                                         <div className="ms-4 flex-grow leading-none">
@@ -580,7 +581,7 @@ const Analytics = () => {
                                     <div className="flex items-center">
                                         <div className="leading-none">
                                             <span className="avatar avatar-sm !mb-0 avatar-rounded text-default">
-                                                <img src="../../../assets/images/flags/russia_flag.jpg" alt="" className="!rounded-full h-[1.75rem] w-[1.75rem]" />
+                                                <Image src="../../../assets/images/flags/russia_flag.jpg" alt="" className="!rounded-full h-[1.75rem] w-[1.75rem]" />
                                             </span>
                                         </div>
                                         <div className="ms-4 flex-grow leading-none">
@@ -595,7 +596,7 @@ const Analytics = () => {
                                     <div className="flex items-center">
                                         <div className="leading-none">
                                             <span className="avatar avatar-sm !mb-0 avatar-rounded text-default">
-                                                <img src="../../../assets/images/flags/china_flag.jpg" alt="" className="!rounded-full h-[1.75rem] w-[1.75rem]" />
+                                                <Image src="../../../assets/images/flags/china_flag.jpg" alt="" className="!rounded-full h-[1.75rem] w-[1.75rem]" />
                                             </span>
                                         </div>
                                         <div className="ms-4 flex-grow leading-none">
@@ -610,7 +611,7 @@ const Analytics = () => {
                                     <div className="flex items-center">
                                         <div className="leading-none">
                                             <span className="avatar avatar-sm !mb-0 avatar-rounded text-default">
-                                                <img src="../../../assets/images/flags/french_flag.jpg" alt="" className="!rounded-full h-[1.75rem] w-[1.75rem]" />
+                                                <Image src="../../../assets/images/flags/french_flag.jpg" alt="" className="!rounded-full h-[1.75rem] w-[1.75rem]" />
                                             </span>
                                         </div>
                                         <div className="ms-4 flex-grow leading-none">
@@ -625,7 +626,7 @@ const Analytics = () => {
                                     <div className="flex items-center">
                                         <div className="leading-none">
                                             <span className="avatar avatar-sm !mb-0 avatar-rounded text-default">
-                                                <img src="../../../assets/images/flags/canada_flag.jpg" alt="" className="!rounded-full h-[1.75rem] w-[1.75rem]" />
+                                                <Image src="../../../assets/images/flags/canada_flag.jpg" alt="" className="!rounded-full h-[1.75rem] w-[1.75rem]" />
                                             </span>
                                         </div>
                                         <div className="ms-4 flex-grow leading-none">

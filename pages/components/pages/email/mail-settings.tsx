@@ -6,6 +6,7 @@ import Link from 'next/link';
 import React, { Fragment, useEffect, useState } from 'react';
 const Select = dynamic(() => import("react-select"), { ssr: false });
 import { useRouter } from "next/router";
+import Image from 'next/image';
 
 const Mailsettings = () => {
 
@@ -95,7 +96,6 @@ const Mailsettings = () => {
                                             <div className="mb-6 sm:flex items-center">
                                                 <div className="mb-0 me-[3rem]">
                                                     <span className="avatar avatar-xxl avatar-rounded">
-                                                        <img src={Image} alt="" id="profile-img" />
                                                         <Link aria-label="anchor" href="#!" className="badge rounded-full bg-primary avatar-badge">
                                                             <input type="file" name="photo" data-hs-overlay="#hs-small-modal" className="absolute w-full h-full opacity-0" id="profile-image" />
                                                             <i className="fe fe-camera !text-[0.65rem]"></i>

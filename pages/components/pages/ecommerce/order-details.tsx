@@ -2,6 +2,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link';
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Orderdetails = () => {
 
@@ -44,7 +45,7 @@ const Orderdetails = () => {
                                                 <div className="flex items-center">
                                                     <div className="me-4">
                                                         <span className="avatar avatar-xxl bg-light">
-                                                            <img src="../../../../assets/images/ecommerce/png/14.png" alt="" />
+                                                            <Image src="../../../../assets/images/ecommerce/png/14.png" alt="" />
                                                         </span>
                                                     </div>
                                                     <div>
@@ -72,7 +73,7 @@ const Orderdetails = () => {
                                                 <div className="flex items-center">
                                                     <div className="me-4">
                                                         <span className="avatar avatar-xxl bg-light">
-                                                            <img src="../../../../assets/images/ecommerce/png/1.png" alt="" />
+                                                            <Image src="../../../../assets/images/ecommerce/png/1.png" alt="" />
                                                         </span>
                                                     </div>
                                                     <div>
@@ -100,7 +101,7 @@ const Orderdetails = () => {
                                                 <div className="flex items-center">
                                                     <div className="me-4">
                                                         <span className="avatar avatar-xxl bg-light">
-                                                            <img src="../../../../assets/images/ecommerce/png/11.png" alt="" />
+                                                            <Image src="../../../../assets/images/ecommerce/png/11.png" alt="" />
                                                         </span>
                                                     </div>
                                                     <div>
@@ -200,7 +201,7 @@ const Orderdetails = () => {
                             <div className="flex items-center border-b border-dashed dark:border-defaultborder/10 p-3 flex-wrap">
                                 <div className="me-2">
                                     <span className="avatar avatar-lg avatar-rounded">
-                                        <img src="../../../../assets/images/faces/9.jpg" alt="" />
+                                        <Image src="../../../../assets/images/faces/9.jpg" alt="" />
                                     </span>
                                 </div>
                                 <div className="flex-grow">
@@ -276,7 +277,7 @@ const Orderdetails = () => {
                                             <div className="flex mb-0">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md avatar-rounded">
-                                                        <img src="../../../../assets/images/ecommerce/png/32.png" alt="" />
+                                                        <Image src="../../../../assets/images/ecommerce/png/32.png" alt="" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -300,7 +301,7 @@ const Orderdetails = () => {
                                             <div className="flex mb-0">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md avatar-rounded">
-                                                        <img src="../../../../assets/images/ecommerce/png/33.png" alt="" />
+                                                        <Image src="../../../../assets/images/ecommerce/png/33.png" alt="" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -325,7 +326,7 @@ const Orderdetails = () => {
                                             <div className="flex mb-0">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md avatar-rounded">
-                                                        <img src="../../../../assets/images/ecommerce/png/34.png" alt="" />
+                                                        <Image src="../../../../assets/images/ecommerce/png/34.png" alt="" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">

@@ -2,6 +2,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link';
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Invoicedetails = () => {
 
@@ -19,7 +20,7 @@ const Invoicedetails = () => {
                         <div className="box-header md:flex block">
                             <div className="h5 mb-0 sm:flex bllock items-center">
                                 <div className="avatar avatar-sm">
-                                    <img src="../../../../assets/images/brand-logos/toggle-logo.png" alt="" />
+                                    <Image src="../../../../assets/images/brand-logos/toggle-logo.png" alt="" />
                                 </div>
                                 <div className="sm:ms-2 ms-0 sm:mt-0 mt-2">
                                     <div className="h6 font-semibold mb-0 ">SHOPPING INVOICE : <span className="text-primary">#8140-2099</span></div>

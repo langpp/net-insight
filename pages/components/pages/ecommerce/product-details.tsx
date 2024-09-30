@@ -4,6 +4,7 @@ import React, { Fragment, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Thumbs, FreeMode, Navigation } from 'swiper/modules';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Productdetails = () => {
 
@@ -25,31 +26,31 @@ const Productdetails = () => {
                                                 spaceBetween={10} autoplay={{ delay: 2500, disableOnInteraction: false, }} navigation={true} thumbs={{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }}
                                                 modules={[FreeMode, Navigation, Thumbs, Autoplay]} className="mySwiper2 swiper swiper-preview swiper-preview-details rounded-md bg-light" >
                                                 <SwiperSlide id="img-container">
-                                                    <img className="img-fluid" src="../../../../assets/images/ecommerce/png/15.png" alt="img" />
+                                                    <Image className="img-fluid" src="../../../../assets/images/ecommerce/png/15.png" alt="img" />
                                                 </SwiperSlide>
                                                 <SwiperSlide className="image-container">
-                                                    <img className="img-fluid" src="../../../../assets/images/ecommerce/png/13.png" alt="img" />
+                                                    <Image className="img-fluid" src="../../../../assets/images/ecommerce/png/13.png" alt="img" />
                                                 </SwiperSlide>
                                                 <SwiperSlide className="image-container">
-                                                    <img className="img-fluid" src="../../../../assets/images/ecommerce/png/14.png" alt="img" />
+                                                    <Image className="img-fluid" src="../../../../assets/images/ecommerce/png/14.png" alt="img" />
                                                 </SwiperSlide>
                                                 <SwiperSlide className="image-container">
-                                                    <img className="img-fluid" src="../../../../assets/images/ecommerce/png/17.png" alt="img" />
+                                                    <Image className="img-fluid" src="../../../../assets/images/ecommerce/png/17.png" alt="img" />
                                                 </SwiperSlide>
                                             </Swiper>
                                             <Swiper onSwiper={setThumbsSwiper} autoplay={{ delay: 2500, disableOnInteraction: false, }} spaceBetween={10} slidesPerView={4} freeMode={true} watchSlidesProgress={true}
                                                 modules={[FreeMode, Navigation, Thumbs, Autoplay]} className="mySwiper swiper swiper-view">
                                                 <SwiperSlide className="rtl:me-0">
-                                                    <img className="img-fluid" src="../../../../assets/images/ecommerce/png/15.png" alt="img" />
+                                                    <Image className="img-fluid" src="../../../../assets/images/ecommerce/png/15.png" alt="img" />
                                                 </SwiperSlide>
                                                 <SwiperSlide>
-                                                    <img className="img-fluid" src="../../../../assets/images/ecommerce/png/13.png" alt="img" />
+                                                    <Image className="img-fluid" src="../../../../assets/images/ecommerce/png/13.png" alt="img" />
                                                 </SwiperSlide>
                                                 <SwiperSlide>
-                                                    <img className="img-fluid" src="../../../../assets/images/ecommerce/png/14.png" alt="img" />
+                                                    <Image className="img-fluid" src="../../../../assets/images/ecommerce/png/14.png" alt="img" />
                                                 </SwiperSlide>
                                                 <SwiperSlide>
-                                                    <img className="img-fluid" src="../../../../assets/images/ecommerce/png/17.png" alt="img" />
+                                                    <Image className="img-fluid" src="../../../../assets/images/ecommerce/png/17.png" alt="img" />
                                                 </SwiperSlide>
                                             </Swiper>
                                         </div>
@@ -63,7 +64,7 @@ const Productdetails = () => {
                                                                 <Link href="#!">
                                                                     <div className="flex items-start">
                                                                         <div className="similar-products-image me-2">
-                                                                            <img src="../../../../assets/images/ecommerce/png/16.png" alt="" />
+                                                                            <Image src="../../../../assets/images/ecommerce/png/16.png" alt="" />
                                                                         </div>
                                                                         <div className="flex-grow">
                                                                             <p className="mb-1 text-[0.875rem] font-semibold similar-product-name text-truncate">Omega watch series 3</p>
@@ -89,7 +90,7 @@ const Productdetails = () => {
                                                                 <Link href="#!">
                                                                     <div className="flex items-start">
                                                                         <div className="similar-products-image me-2">
-                                                                            <img src="../../../../assets/images/ecommerce/png/17.png" alt="" />
+                                                                            <Image src="../../../../assets/images/ecommerce/png/17.png" alt="" />
                                                                         </div>
                                                                         <div className="flex-grow">
                                                                             <p className="mb-1 text-[0.875rem] font-semibold similar-product-name text-truncate">Strap on watch(White)</p>
@@ -115,7 +116,7 @@ const Productdetails = () => {
                                                                 <Link href="#!">
                                                                     <div className="flex items-start">
                                                                         <div className="similar-products-image me-2">
-                                                                            <img src="../../../../assets/images/ecommerce/png/18.png" alt="" />
+                                                                            <Image src="../../../../assets/images/ecommerce/png/18.png" alt="" />
                                                                         </div>
                                                                         <div className="flex-grow">
                                                                             <p className="mb-1 font-semibold similar-product-name text-truncate">Orange watch series 3</p>
@@ -141,7 +142,7 @@ const Productdetails = () => {
                                                                 <Link href="#!">
                                                                     <div className="flex items-start">
                                                                         <div className="similar-products-image me-2">
-                                                                            <img src="../../../../assets/images/ecommerce/png/19.png" alt="" />
+                                                                            <Image src="../../../../assets/images/ecommerce/png/19.png" alt="" />
                                                                         </div>
                                                                         <div className="flex-grow">
                                                                             <p className="mb-1 font-semibold similar-product-name text-truncate">Omega watch special edition</p>
@@ -167,7 +168,7 @@ const Productdetails = () => {
                                                                 <Link href="#!">
                                                                     <div className="flex items-start">
                                                                         <div className="similar-products-image me-2">
-                                                                            <img src="../../../../assets/images/ecommerce/png/20.png" alt="" />
+                                                                            <Image src="../../../../assets/images/ecommerce/png/20.png" alt="" />
                                                                         </div>
                                                                         <div className="flex-grow">
                                                                             <p className="mb-1 font-semibold similar-product-name text-truncate">Fassil smart watch(45mm)</p>
@@ -193,7 +194,7 @@ const Productdetails = () => {
                                                                 <Link href="#!">
                                                                     <div className="flex items-start">
                                                                         <div className="similar-products-image me-2">
-                                                                            <img src="../../../../assets/images/ecommerce/png/21.png" alt="" />
+                                                                            <Image src="../../../../assets/images/ecommerce/png/21.png" alt="" />
                                                                         </div>
                                                                         <div className="flex-grow">
                                                                             <p className="mb-1 font-semibold similar-product-name text-truncate">Electro viintage watch(40mm)</p>
@@ -219,7 +220,7 @@ const Productdetails = () => {
                                                                 <Link href="#!">
                                                                     <div className="flex items-start">
                                                                         <div className="similar-products-image me-2">
-                                                                            <img src="../../../../assets/images/ecommerce/png/22.png" alt="" />
+                                                                            <Image src="../../../../assets/images/ecommerce/png/22.png" alt="" />
                                                                         </div>
                                                                         <div className="flex-grow">
                                                                             <p className="mb-1 font-semibold similar-product-name text-truncate">Bolts smart watch(Amoled)</p>
@@ -519,7 +520,7 @@ const Productdetails = () => {
                                                                 <div className="flex flex-grow">
                                                                     <div className="me-2">
                                                                         <span className="avatar avatar-sm avatar-rounded">
-                                                                            <img src="../../../../assets/images/faces/15.jpg" alt="" />
+                                                                            <Image src="../../../../assets/images/faces/15.jpg" alt="" />
                                                                         </span>
                                                                     </div>
                                                                     <div className="leading-none me-2">
@@ -550,10 +551,10 @@ const Productdetails = () => {
                                                                     <div className="xl:col-span-6  col-span-12">
                                                                         <div className="products-review-images flex">
                                                                             <Link aria-label="anchor" href="#!">
-                                                                                <img src="../../../../assets/images/ecommerce/png/13.png" alt="" />
+                                                                                <Image src="../../../../assets/images/ecommerce/png/13.png" alt="" />
                                                                             </Link>
                                                                             <Link aria-label="anchor" href="#!">
-                                                                                <img src="../../../../assets/images/ecommerce/png/15.png" alt="" />
+                                                                                <Image src="../../../../assets/images/ecommerce/png/15.png" alt="" />
                                                                             </Link>
                                                                         </div>
                                                                     </div>
@@ -640,7 +641,7 @@ const Productdetails = () => {
                                             </div>
                                             <div className="text-center">
                                                 <Link aria-label="anchor" href="#!">
-                                                    <img src="../../../../assets/images/ecommerce/png/25.png" alt="" className="img-fluid rounded bg-light mx-auto" />
+                                                    <Image src="../../../../assets/images/ecommerce/png/25.png" alt="" className="img-fluid rounded bg-light mx-auto" />
                                                 </Link>
                                             </div>
                                         </div>

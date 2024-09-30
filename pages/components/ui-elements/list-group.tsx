@@ -5,6 +5,7 @@ import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React from 'react';
 import Showcode from '@/shared/layout-components/showcode/showcode';
+import Image from 'next/image';
 
 const Listgroup = () => {
     return (
@@ -19,7 +20,7 @@ const Listgroup = () => {
                                 <li className="ti-list-group-item" key={Math.random()}>
                                     <div className="flex items-center">
                                         <span className="avatar avatar-sm">
-                                            <img src={idx.src} alt="img" className="!rounded-md" />
+                                            <Image src={idx.src} alt="img" className="!rounded-md" />
                                         </span>
                                         <div className="ms-2 font-semibold">
                                             {idx.text}
@@ -54,7 +55,7 @@ const Listgroup = () => {
                     <Showcode title="Disabled Items" code={list3}>
                         <ul className="ti-list-group">
                             {DisableItems.map((idx) => (
-                                <li className={`ti-list-group-item ${idx.text}`} aria-disabled="true" key={Math.random()}>{idx.class}
+                                <li className={`ti-list-group-item ${idx.text}`} key={Math.random()}>{idx.class}
                                 </li>
                             ))}
                         </ul>
@@ -170,7 +171,7 @@ const Listgroup = () => {
                                             <h6 className="mb-1 font-semibold">It uses a dictionary of over 200 Latin words?</h6>
                                             <small className="text-[#8c9097] dark:text-white/50">15 hrs ago</small>
                                         </div>
-                                        <p className="mb-1">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                        <p className="mb-1">Lorem Ipsum has been the industry standard dummy text ever since the 1500s.</p>
                                         <small className="text-[#8c9097] dark:text-white/50">4,Nov 2022.</small>
                                     </Link>
                                 </li>
@@ -214,7 +215,7 @@ const Listgroup = () => {
                             <li className="ti-list-group-item flex justify-between items-start">
                                 <div className="ms-2 me-auto text-[#8c9097] dark:text-white/50">
                                     <div className="font-semibold text-[.875rem] !text-defaulttextcolor">majority have suffered.</div>
-                                    If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.
+                                    If you are going to use a passage of Lorem Ipsum, you need to be sure there isnt anything.
                                 </div>
                             </li>
                         </ol>
@@ -227,7 +228,7 @@ const Listgroup = () => {
                             <li className="ti-list-group-item">There are many variations of passages.</li>
                             <li className="ti-list-group-item">All the Lorem Ipsum generators.</li>
                             <li className="ti-list-group-item">Written in 45 BC. This book is a treatise on the theory.</li>
-                            <li className="ti-list-group-item">Randomised words which don't look.</li>
+                            <li className="ti-list-group-item">Randomised words which dont look.</li>
                             <li className="ti-list-group-item">Always free from repetition, injected humour.</li>
                         </ol>
                     </Showcode>

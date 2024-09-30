@@ -181,7 +181,7 @@ export const input5 = `  <form>
         address</label>
     <input type="email" className="form-control" id="exampleInputEmail1"
         aria-describedby="emailHelp">
-    <div id="emailHelp" className="form-text">We'll
+    <div id="emailHelp" className="form-text">We
         never share your email
         with
         anyone else.</div>
@@ -241,7 +241,7 @@ export const input8 = `<form>
             <input className="form-check-input" type="checkbox"
                 id="disabledFieldsetCheck" disabled>
             <label className="form-check-label ps-2" htmlFor="disabledFieldsetCheck">
-                Can't check this
+                Cant check this
             </label>
         </div>
     </div>
@@ -1126,7 +1126,7 @@ export const input9 = ` <form>
         address</label>
     <input type="email" className="form-control" id="exampleInputEmail1"
         aria-describedby="emailHelp"/>
-    <div id="emailHelp" className="form-text">We'll
+    <div id="emailHelp" className="form-text">We
         never share your email
         with
         anyone else.</div>
@@ -1175,7 +1175,7 @@ export const input11 = `  <form>
             <input className="form-check-input" type="checkbox"
                 id="disabledFieldsetCheck" disabled/>
             <label className="form-check-label ps-2" htmlFor="disabledFieldsetCheck">
-                Can't check this
+                Cant check this
             </label>
         </div>
     </div>

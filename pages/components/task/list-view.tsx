@@ -7,6 +7,7 @@ import DatePicker from "react-datepicker";
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { TransactionsStatistics } from '@/shared/data/apps/crypto/transactiondata'
+import Image from 'next/image';
 
 const Listview = () => {
 
@@ -191,13 +192,13 @@ const Listview = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                     </span>
                                                     <Link className="avatar avatar-sm bg-primary avatar-rounded text-white" href="#!">
                                                         +2
@@ -250,10 +251,10 @@ const Listview = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/12.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/12.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                     </span>
                                                     <Link className="avatar avatar-sm bg-primary avatar-rounded text-white" href="#!">
                                                         +4
@@ -306,13 +307,13 @@ const Listview = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/9.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/9.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/13.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/13.jpg" alt="img" />
                                                     </span>
                                                     <Link className="avatar avatar-sm bg-primary avatar-rounded text-white" href="#!">
                                                         +5
@@ -365,13 +366,13 @@ const Listview = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                     </span>
                                                     <Link className="avatar avatar-sm bg-primary avatar-rounded text-white" href="#!">
                                                         +2
@@ -424,10 +425,10 @@ const Listview = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                                                     </span>
                                                     <Link className="avatar avatar-sm bg-primary avatar-rounded text-white" href="#!">
                                                         +3
@@ -480,7 +481,7 @@ const Listview = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/12.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/12.jpg" alt="img" />
                                                     </span>
                                                 </div>
                                             </td>
@@ -530,13 +531,13 @@ const Listview = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/1.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/1.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                     </span>
                                                     <Link className="avatar avatar-sm bg-primary avatar-rounded text-white" href="#!">
                                                         +1
@@ -589,10 +590,10 @@ const Listview = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/9.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/9.jpg" alt="img" />
                                                     </span>
                                                     <Link className="avatar avatar-sm bg-primary avatar-rounded text-white" href="#!">
                                                         +2
@@ -645,16 +646,16 @@ const Listview = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/14.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/14.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/12.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/12.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                                                     </span>
                                                     <Link className="avatar avatar-sm bg-primary avatar-rounded text-white" href="#!">
                                                         +1
@@ -707,10 +708,10 @@ const Listview = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/12.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/12.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                        <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                     </span>
                                                     <Link className="avatar avatar-sm bg-primary avatar-rounded text-white" href="#!">
                                                         +4

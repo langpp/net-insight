@@ -21,7 +21,7 @@ const Popovers = () => {
                                         <div className="!border-b !border-solid dark:border-defaultborder/10 !rounded-t-md !py-2  !px-4 text-defaulttextcolor border-defaultborder text-start w-full text-[1rem]">
                                             <h6>Popover Top</h6>
                                         </div>
-                                        <p className="!text-defaulttextcolor !text-[0.8rem] !py-4 !px-4 text-start">And here's some amazing content. It's very engaging. Right?</p>
+                                        <p className="!text-defaulttextcolor !text-[0.8rem] !py-4 !px-4 text-start">And here some amazing content. It very engaging. Right?</p>
                                     </div>
                                 </Link>
                             </div>
@@ -31,7 +31,7 @@ const Popovers = () => {
                                         <div className="!border-b !border-solid dark:border-defaultborder/10 !rounded-t-md !py-2  !px-4 text-defaulttextcolor border-defaultborder text-start w-full text-[1rem]">
                                             <h6>Popover Right</h6>
                                         </div>
-                                        <p className="!text-defaulttextcolor !text-[0.8rem] !py-4 !px-4 text-start">And here's some amazing content. It's very engaging. Right?</p>
+                                        <p className="!text-defaulttextcolor !text-[0.8rem] !py-4 !px-4 text-start">And here some amazing content. It very engaging. Right?</p>
                                     </div>
                                 </Link>
                             </div>
@@ -41,7 +41,7 @@ const Popovers = () => {
                                         <div className="!border-b !border-solid dark:border-defaultborder/10 !rounded-t-md !py-2  !px-4 text-defaulttextcolor border-defaultborder text-start w-full text-[1rem]">
                                             <h6>Popover Bottom</h6>
                                         </div>
-                                        <p className="!text-defaulttextcolor !text-[0.8rem] !py-4 !px-4 text-start">And here's some amazing content. It's very engaging. Right?</p>
+                                        <p className="!text-defaulttextcolor !text-[0.8rem] !py-4 !px-4 text-start">And here some amazing content. It very engaging. Right?</p>
                                     </div>
                                 </Link>
                             </div>
@@ -51,7 +51,7 @@ const Popovers = () => {
                                         <div className="!border-b !border-solid dark:border-defaultborder/10 !rounded-t-md !py-2  !px-4 text-defaulttextcolor border-defaultborder text-start w-full text-[1rem]">
                                             <h6>Popover Left</h6>
                                         </div>
-                                        <p className="!text-defaulttextcolor !text-[0.8rem] !py-4 !px-4 text-start">And here's some amazing content. It's very engaging. Right?</p>
+                                        <p className="!text-defaulttextcolor !text-[0.8rem] !py-4 !px-4 text-start">And here some amazing content. It very engaging. Right?</p>
                                     </div>
                                 </Link>
                             </div>

@@ -4,6 +4,7 @@ import Seo from '@/shared/layout-components/seo/seo'
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import React, { Fragment } from 'react';
+import Image from 'next/image';
 const Select = dynamic(() => import("react-select"), { ssr: false });
 
 const Buysell = () => {
@@ -110,7 +111,7 @@ const Buysell = () => {
                                                 <div className="gap-2 flex items-center">
                                                     <div className="leading-none">
                                                         <span className="avatar bg-light p-2">
-                                                            <img src="../../../../assets/images/crypto-currencies/regular/Bitcoin.svg" alt="" />
+                                                            <Image src="../../../../assets/images/crypto-currencies/regular/Bitcoin.svg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="font-semibold">Bitcoin - BTC</div>
@@ -168,7 +169,7 @@ const Buysell = () => {
                                                 <div className="gap-2 flex items-center">
                                                     <div className="leading-none">
                                                         <span className="avatar bg-light p-2">
-                                                            <img src="../../../../assets/images/crypto-currencies/regular/Bitcoin.svg" alt="" />
+                                                            <Image src="../../../../assets/images/crypto-currencies/regular/Bitcoin.svg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="font-semibold">Bitcoin - BTC</div>
@@ -276,7 +277,7 @@ const Buysell = () => {
                                                         </div>
                                                         <div>
                                                             <span className="avatar avatar-xl avatar-rounded">
-                                                                <img src="../../../../assets/images/crypto-currencies/square-color/Bitcoin.svg" alt="" />
+                                                                <Image src="../../../../assets/images/crypto-currencies/square-color/Bitcoin.svg" alt="" />
                                                             </span>
                                                         </div>
                                                     </div>
@@ -292,7 +293,7 @@ const Buysell = () => {
                                                         </div>
                                                         <div>
                                                             <span className="avatar avatar-xl avatar-rounded">
-                                                                <img src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
+                                                                <Image src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
                                                             </span>
                                                         </div>
                                                     </div>
@@ -308,7 +309,7 @@ const Buysell = () => {
                                                         </div>
                                                         <div>
                                                             <span className="avatar avatar-xl avatar-rounded">
-                                                                <img src="../../../../assets/images/crypto-currencies/square-color/Litecoin.svg" alt="" />
+                                                                <Image src="../../../../assets/images/crypto-currencies/square-color/Litecoin.svg" alt="" />
                                                             </span>
                                                         </div>
                                                     </div>

@@ -5,6 +5,7 @@ import Seo from '@/shared/layout-components/seo/seo'
 import store from '@/shared/redux/store'
 import Link from 'next/link'
 import React, { Fragment, useEffect } from 'react'
+import Image from 'next/image';
 
 const Widgets = () => {
 
@@ -328,9 +329,9 @@ const Widgets = () => {
                                     <p className="mb-2 text-[#8c9097] dark:text-white/50 font-normal">Recents</p>
                                     <div className="flex items-center justify-between">
                                         <div className="avatar-list-stacked">
-                                            <Link href="#!" className="avatar avatar-sm rounded-circle overflow-hidden" aria-label="Mis x matched"><img src="../../../assets/images/faces/2.jpg" alt="img" className="w-full" /></Link>
-                                            <Link href="#!" className="avatar avatar-sm rounded-circle overflow-hidden" aria-label="Barbel Bob"><img src="../../../assets/images/faces/12.jpg" alt="img" className="w-full" /></Link>
-                                            <Link href="#!" className="avatar avatar-sm rounded-circle overflow-hidden" aria-label="Phan Rel"><img src="../../../assets/images/faces/20.jpg" alt="img" className="w-full" /></Link>
+                                            <Link href="#!" className="avatar avatar-sm rounded-circle overflow-hidden" aria-label="Mis x matched"><Image src="../../../assets/images/faces/2.jpg" alt="img" className="w-full" /></Link>
+                                            <Link href="#!" className="avatar avatar-sm rounded-circle overflow-hidden" aria-label="Barbel Bob"><Image src="../../../assets/images/faces/12.jpg" alt="img" className="w-full" /></Link>
+                                            <Link href="#!" className="avatar avatar-sm rounded-circle overflow-hidden" aria-label="Phan Rel"><Image src="../../../assets/images/faces/20.jpg" alt="img" className="w-full" /></Link>
                                             <Link href="#!" className="avatar avatar-sm rounded-circle overflow-hidden bg-primary text-white" >+4</Link>
                                         </div>
                                     </div>
@@ -1601,16 +1602,16 @@ const Widgets = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-xs !rounded-full">
-                                                        <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs !rounded-full">
-                                                        <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs !rounded-full">
-                                                        <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs !rounded-full">
-                                                        <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                     </span>
                                                     <Link className="avatar avatar-xs bg-primary !rounded-full text-white" href="#!">
                                                         +2
@@ -1635,10 +1636,10 @@ const Widgets = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-xs !rounded-full">
-                                                        <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs !rounded-full">
-                                                        <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                     </span>
                                                 </div>
                                             </td>
@@ -1660,13 +1661,13 @@ const Widgets = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-xs !rounded-full">
-                                                        <img src="../../../assets/images/faces/4.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/4.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs !rounded-full">
-                                                        <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs !rounded-full">
-                                                        <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                     </span>
                                                     <Link className="avatar avatar-xs bg-primary !rounded-full text-white" href="#!">
                                                         +1
@@ -1691,13 +1692,13 @@ const Widgets = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-xs !rounded-full">
-                                                        <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs !rounded-full">
-                                                        <img src="../../../assets/images/faces/12.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/12.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs !rounded-full">
-                                                        <img src="../../../assets/images/faces/13.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/13.jpg" alt="img" />
                                                     </span>
                                                 </div>
                                             </td>
@@ -1719,13 +1720,13 @@ const Widgets = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-xs !rounded-full">
-                                                        <img src="../../../assets/images/faces/1.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/1.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs !rounded-full">
-                                                        <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs !rounded-full">
-                                                        <img src="../../../assets/images/faces/9.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/9.jpg" alt="img" />
                                                     </span>
                                                     <Link className="avatar avatar-xs bg-primary !rounded-full text-white" href="#!">
                                                         +3
@@ -1750,13 +1751,13 @@ const Widgets = () => {
                                             <td>
                                                 <div className="avatar-list-stacked">
                                                     <span className="avatar avatar-xs !rounded-full">
-                                                        <img src="../../../assets/images/faces/4.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/4.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs !rounded-full">
-                                                        <img src="../../../assets/images/faces/12.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/12.jpg" alt="img" />
                                                     </span>
                                                     <span className="avatar avatar-xs !rounded-full">
-                                                        <img src="../../../assets/images/faces/16.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/16.jpg" alt="img" />
                                                     </span>
                                                     <Link className="avatar avatar-xs bg-primary !rounded-full text-white" href="#!">
                                                         +3

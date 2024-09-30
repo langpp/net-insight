@@ -7,7 +7,7 @@
 
 _High Quality web friendly icons_
 
-'Boxicons' is a carefully designed open source iconset with 1500+ icons. It's crafted to look enrich your website/app experience.
+'Boxicons' is a carefully designed open source iconset with 1500+ icons. It crafted to look enrich your website/app experience.
 
 
 _Announcing Boxicons v2.1.3!_
@@ -32,7 +32,7 @@ import 'boxicons';
 
 ### Using via CSS
 
-1. Include the stylesheet on your document's `<head>`
+1. Include the stylesheet on your documents `<head>`
 
 ```html
 <head>
@@ -121,7 +121,7 @@ The Custom Element class (`BoxIconElement`) exposes the following static members
 ### Code Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/atisawd/boxicons/graphs/contributors"><img src="https://opencollective.com/boxicons/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/atisawd/boxicons/graphs/contributors"><Image src="https://opencollective.com/boxicons/contributors.svg?width=890&button=false" /></a>
 
 ### Financial Contributors
 
@@ -129,22 +129,22 @@ Become a financial contributor and help us sustain our community. [[Contribute](
 
 #### Individuals
 
-<a href="https://opencollective.com/boxicons"><img src="https://opencollective.com/boxicons/individuals.svg?width=890"></a>
+<a href="https://opencollective.com/boxicons"><Image src="https://opencollective.com/boxicons/individuals.svg?width=890"></a>
 
 #### Organizations
 
 Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/boxicons/contribute)]
 
-<a href="https://opencollective.com/boxicons/organization/0/website"><img src="https://opencollective.com/boxicons/organization/0/avatar.svg"></a>
-<a href="https://opencollective.com/boxicons/organization/1/website"><img src="https://opencollective.com/boxicons/organization/1/avatar.svg"></a>
-<a href="https://opencollective.com/boxicons/organization/2/website"><img src="https://opencollective.com/boxicons/organization/2/avatar.svg"></a>
-<a href="https://opencollective.com/boxicons/organization/3/website"><img src="https://opencollective.com/boxicons/organization/3/avatar.svg"></a>
-<a href="https://opencollective.com/boxicons/organization/4/website"><img src="https://opencollective.com/boxicons/organization/4/avatar.svg"></a>
-<a href="https://opencollective.com/boxicons/organization/5/website"><img src="https://opencollective.com/boxicons/organization/5/avatar.svg"></a>
-<a href="https://opencollective.com/boxicons/organization/6/website"><img src="https://opencollective.com/boxicons/organization/6/avatar.svg"></a>
-<a href="https://opencollective.com/boxicons/organization/7/website"><img src="https://opencollective.com/boxicons/organization/7/avatar.svg"></a>
-<a href="https://opencollective.com/boxicons/organization/8/website"><img src="https://opencollective.com/boxicons/organization/8/avatar.svg"></a>
-<a href="https://opencollective.com/boxicons/organization/9/website"><img src="https://opencollective.com/boxicons/organization/9/avatar.svg"></a>
+<a href="https://opencollective.com/boxicons/organization/0/website"><Image src="https://opencollective.com/boxicons/organization/0/avatar.svg"></a>
+<a href="https://opencollective.com/boxicons/organization/1/website"><Image src="https://opencollective.com/boxicons/organization/1/avatar.svg"></a>
+<a href="https://opencollective.com/boxicons/organization/2/website"><Image src="https://opencollective.com/boxicons/organization/2/avatar.svg"></a>
+<a href="https://opencollective.com/boxicons/organization/3/website"><Image src="https://opencollective.com/boxicons/organization/3/avatar.svg"></a>
+<a href="https://opencollective.com/boxicons/organization/4/website"><Image src="https://opencollective.com/boxicons/organization/4/avatar.svg"></a>
+<a href="https://opencollective.com/boxicons/organization/5/website"><Image src="https://opencollective.com/boxicons/organization/5/avatar.svg"></a>
+<a href="https://opencollective.com/boxicons/organization/6/website"><Image src="https://opencollective.com/boxicons/organization/6/avatar.svg"></a>
+<a href="https://opencollective.com/boxicons/organization/7/website"><Image src="https://opencollective.com/boxicons/organization/7/avatar.svg"></a>
+<a href="https://opencollective.com/boxicons/organization/8/website"><Image src="https://opencollective.com/boxicons/organization/8/avatar.svg"></a>
+<a href="https://opencollective.com/boxicons/organization/9/website"><Image src="https://opencollective.com/boxicons/organization/9/avatar.svg"></a>
 
 ## License
 

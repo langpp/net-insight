@@ -60,9 +60,9 @@ Embed your icons within the HTML of your page (as opposed to an external image f
   <div class="col-md-4">
 {{< md >}}
 ### Sprite
-Use the SVG sprite to insert any icon through the `<use>` element. Use the icon's filename as the fragment identifier (e.g., `toggles` is `#toggles`). SVG sprites allow you to reference an external file similar to an `<img>` element, but with the power of `currentColor` for easy theming.
+Use the SVG sprite to insert any icon through the `<use>` element. Use the icon's filename as the fragment identifier (e.g., `toggles` is `#toggles`). SVG sprites allow you to reference an external file similar to an `<Image>` element, but with the power of `currentColor` for easy theming.
 
-**Heads up!** There's an issue with Chrome where [`<use>` doesn't work across domains](https://bugs.chromium.org/p/chromium/issues/detail?id=470601).
+**Heads up!** There's an issue with Chrome where [`<use>` doesnt work across domains](https://bugs.chromium.org/p/chromium/issues/detail?id=470601).
 {{< /md >}}
   </div>
   <div class="col-md-8">
@@ -84,11 +84,11 @@ Use the SVG sprite to insert any icon through the `<use>` element. Use the icon'
   <div class="col-md-4">
 {{< md >}}
 ### External image
-Copy the Bootstrap Icons SVGs to your directory of choice and reference them like normal images with the `<img>` element.
+Copy the Bootstrap Icons SVGs to your directory of choice and reference them like normal images with the `<Image>` element.
 {{< /md >}}
   </div>
   <div class="col-md-8">
-    {{< example >}}<img src="/assets/img/bootstrap.svg" alt="Bootstrap" width="32" height="32">{{< /example >}}
+    {{< example >}}<Image src="/assets/img/bootstrap.svg" alt="Bootstrap" width="32" height="32">{{< /example >}}
   </div>
 </div>
 
@@ -162,11 +162,11 @@ For purely decorative icons, add `aria-hidden="true"`. Otherwise, provide an app
   </div>
   <div class="col-md-8">
     <div class="bd-example">
-      <img src="/assets/img/bootstrap.svg" alt="Bootstrap" width="32" height="32">
+      <Image src="/assets/img/bootstrap.svg" alt="Bootstrap" width="32" height="32">
     </div>
 {{< highlight html >}}
-<!-- alt="..." on <img> element -->
-<img src="/assets/img/bootstrap.svg" alt="Bootstrap" ...>
+<!-- alt="..." on <Image> element -->
+<Image src="/assets/img/bootstrap.svg" alt="Bootstrap" ...>
 {{< /highlight >}}
     <div class="bd-example">
       <i class="bi-github" role="img" style="font-size: 2em" aria-label="GitHub"></i>
@@ -204,7 +204,7 @@ For purely decorative icons, add `aria-hidden="true"`. Otherwise, provide an app
   <div class="col-md-4">
 {{< md >}}
 ## Working with SVGs
-SVGs are awesome to work with, but they do have some known quirks to work around. Given the numerous ways in which SVGs can be used, we haven't included these attributes and workarounds in our code.
+SVGs are awesome to work with, but they do have some known quirks to work around. Given the numerous ways in which SVGs can be used, we havent included these attributes and workarounds in our code.
 {{< /md >}}
   </div>
   <div class="col-md-8">
@@ -213,7 +213,7 @@ Known issues include:
 
 - **SVGs receive focus by default in Internet Explorer and Edge Legacy.** When embedding your SVGs, add `focusable="false"` to the `<svg>` element. [Learn more on Stack Overflow.](https://stackoverflow.com/questions/18646111/disable-onfocus-event-for-svg-element)
 
-- **When using SVGs with `<img>` elements, screen readers may not announce them as images, or skip the image completely.** Include an additional `role="img"` on the `<img>` element to avoid any issues. [See this article for details.](https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-2)
+- **When using SVGs with `<Image>` elements, screen readers may not announce them as images, or skip the image completely.** Include an additional `role="img"` on the `<Image>` element to avoid any issues. [See this article for details.](https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-2)
 
 - **External SVG sprites may not function correctly in Internet Explorer.** Use the [svg4everybody](https://github.com/jonathantneal/svg4everybody) polyfill as needed.
 

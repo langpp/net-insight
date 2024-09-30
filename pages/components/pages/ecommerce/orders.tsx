@@ -2,6 +2,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Orders = () => {
     return (
@@ -43,7 +44,7 @@ const Orders = () => {
                             <div className="sm:flex block items-center w-full">
                                 <div className="me-2">
                                     <span className="avatar bg-light avatar-md mb-1">
-                                        <img src="../../../../assets/images/ecommerce/png/1.png" alt="" />
+                                        <Image src="../../../../assets/images/ecommerce/png/1.png" alt="" />
                                     </span>
                                 </div>
                                 <div className="flex-grow">
@@ -86,7 +87,7 @@ const Orders = () => {
                             <div className="sm:flex block items-center w-full ">
                                 <div className="me-2">
                                     <span className="avatar bg-light avatar-md mb-1">
-                                        <img src="../../../../assets/images/ecommerce/png/2.png" alt="" />
+                                        <Image src="../../../../assets/images/ecommerce/png/2.png" alt="" />
                                     </span>
                                 </div>
                                 <div className="flex-grow">
@@ -132,7 +133,7 @@ const Orders = () => {
                             <div className="sm:flex block items-center w-full ">
                                 <div className="me-2">
                                     <span className="avatar bg-light avatar-md mb-1">
-                                        <img src="../../../../assets/images/ecommerce/png/3.png" alt="" />
+                                        <Image src="../../../../assets/images/ecommerce/png/3.png" alt="" />
                                     </span>
                                 </div>
                                 <div className="flex-grow">
@@ -177,7 +178,7 @@ const Orders = () => {
                             <div className="sm:flex block items-center w-full ">
                                 <div className="me-2">
                                     <span className="avatar bg-light avatar-md mb-1">
-                                        <img src="../../../../assets/images/ecommerce/png/4.png" alt="" />
+                                        <Image src="../../../../assets/images/ecommerce/png/4.png" alt="" />
                                     </span>
                                 </div>
                                 <div className="flex-grow">
@@ -218,7 +219,7 @@ const Orders = () => {
                             <div className="sm:flex block items-center w-full ">
                                 <div className="me-2">
                                     <span className="avatar bg-light avatar-md mb-1">
-                                        <img src="../../../../assets/images/ecommerce/png/13.png" alt="" />
+                                        <Image src="../../../../assets/images/ecommerce/png/13.png" alt="" />
                                     </span>
                                 </div>
                                 <div className="flex-grow">
@@ -263,7 +264,7 @@ const Orders = () => {
                             <div className="sm:flex block items-center w-full ">
                                 <div className="me-2">
                                     <span className="avatar bg-light avatar-md mb-1">
-                                        <img src="../../../../assets/images/ecommerce/png/8.png" alt="" />
+                                        <Image src="../../../../assets/images/ecommerce/png/8.png" alt="" />
                                     </span>
                                 </div>
                                 <div className="flex-grow">
@@ -306,7 +307,7 @@ const Orders = () => {
                             <div className="sm:flex block items-center w-full ">
                                 <div className="me-2">
                                     <span className="avatar bg-light avatar-md mb-1">
-                                        <img src="../../../../assets/images/ecommerce/png/9.png" alt="" />
+                                        <Image src="../../../../assets/images/ecommerce/png/9.png" alt="" />
                                     </span>
                                 </div>
                                 <div className="flex-grow">
@@ -349,7 +350,7 @@ const Orders = () => {
                             <div className="sm:flex block items-center w-full ">
                                 <div className="me-2">
                                     <span className="avatar bg-light avatar-md mb-1">
-                                        <img src="../../../../assets/images/ecommerce/png/11.png" alt="" />
+                                        <Image src="../../../../assets/images/ecommerce/png/11.png" alt="" />
                                     </span>
                                 </div>
                                 <div className="flex-grow">
@@ -392,7 +393,7 @@ const Orders = () => {
                             <div className="sm:flex block items-center w-full ">
                                 <div className="me-2">
                                     <span className="avatar bg-light avatar-md mb-1">
-                                        <img src="../../../../assets/images/ecommerce/png/14.png" alt="" />
+                                        <Image src="../../../../assets/images/ecommerce/png/14.png" alt="" />
                                     </span>
                                 </div>
                                 <div className="flex-grow">
@@ -438,7 +439,7 @@ const Orders = () => {
                             <div className="sm:flex block items-center w-full ">
                                 <div className="me-2">
                                     <span className="avatar bg-light avatar-md mb-1">
-                                        <img src="../../../../assets/images/ecommerce/png/7.png" alt="" />
+                                        <Image src="../../../../assets/images/ecommerce/png/7.png" alt="" />
                                     </span>
                                 </div>
                                 <div className="flex-grow">
@@ -483,7 +484,7 @@ const Orders = () => {
                             <div className="sm:flex block items-center w-full ">
                                 <div className="me-2">
                                     <span className="avatar bg-light avatar-md mb-1">
-                                        <img src="../../../../assets/images/ecommerce/png/16.png" alt="" />
+                                        <Image src="../../../../assets/images/ecommerce/png/16.png" alt="" />
                                     </span>
                                 </div>
                                 <div className="flex-grow">
@@ -524,7 +525,7 @@ const Orders = () => {
                             <div className="sm:flex block items-center w-full">
                                 <div className="me-2">
                                     <span className="avatar bg-light avatar-md mb-1">
-                                        <img src="../../../../assets/images/ecommerce/png/10.png" alt="" />
+                                        <Image src="../../../../assets/images/ecommerce/png/10.png" alt="" />
                                     </span>
                                 </div>
                                 <div className="flex-grow">

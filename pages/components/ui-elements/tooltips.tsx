@@ -5,6 +5,7 @@ import Seo from '@/shared/layout-components/seo/seo'
 import Showcode from '@/shared/layout-components/showcode/showcode'
 import Link from 'next/link'
 import React from 'react'
+import Image from 'next/image';
 
 const Tooltips = () => {
     return (
@@ -177,7 +178,7 @@ const Tooltips = () => {
                         <div className="hs-tooltip ti-main-tooltip">
                             <button type="button"
                                 className="hs-tooltip-toggle avatar avatar-md me-2 online avatar-rounded">
-                                <img src="../../../assets/images/faces/12.jpg" alt="img" />
+                                <Image src="../../../assets/images/faces/12.jpg" alt="img" />
                             </button>
                             <span
                                 className="hs-tooltip-content  ti-main-tooltip-content !py-1 !px-2 !bg-primary dark:!bg-primary !text-xs !font-medium !text-white shadow-sm "
@@ -188,7 +189,7 @@ const Tooltips = () => {
                         <div className="hs-tooltip ti-main-tooltip">
                             <button type="button"
                                 className="hs-tooltip-toggle avatar avatar-lg me-2 online avatar-rounded">
-                                <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                             </button>
                             <span
                                 className="hs-tooltip-content  ti-main-tooltip-content !py-1 !px-1 !bg-primary dark:!bg-primary !text-xs !font-medium !text-white shadow-sm "
@@ -199,7 +200,7 @@ const Tooltips = () => {
                         <div className="hs-tooltip ti-main-tooltip">
                             <button type="button"
                                 className="hs-tooltip-toggle avatar avatar-xl me-2 offline avatar-rounded">
-                                <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                             </button>
                             <span
                                 className="hs-tooltip-content  ti-main-tooltip-content !py-1 !px-1 !bg-primary dark:!bg-primary !text-xs !font-medium !text-white shadow-sm "

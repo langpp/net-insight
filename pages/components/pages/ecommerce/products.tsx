@@ -1,10 +1,10 @@
 import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import React, { Fragment, useState } from 'react';
-import { AddToCart } from '@/shared/redux/action';
 import { connect } from 'react-redux';
 import { Itemsdata1 } from '@/shared/data/pages/ecommerces/ecommercedata';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Products = ({ local_varaiable }:any) => {
 
@@ -39,8 +39,8 @@ const Products = ({ local_varaiable }:any) => {
                                 <nav className="w-full mx-auto px-4 xxl:flex sm:items-center xxl:justify-between navbar navbar-expand-xxl bg-white dark:bg-bodybg !py-2" aria-label="Global">
                                     <div className="flex items-center justify-between">
                                         <Link href="/components/dashboards/crm/" className="header-logo me-6">
-                                            <img src="../../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="dark:hidden block" />
-                                            <img src="../../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="hidden dark:block" />
+                                            <Image src="../../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="dark:hidden block" />
+                                            <Image src="../../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="hidden dark:block" />
                                         </Link>
                                         <div className="xxl:hidden">
                                             <button type="button"
@@ -485,13 +485,13 @@ const Products = ({ local_varaiable }:any) => {
                                     <div className="box product-card">
                                         <div className="box-body">
                                             <Link href="/components/pages/ecommerce/product-details/" className="product-image">
-                                                <img src={idx.preview} className="card-img mb-3 rounded-md"
+                                                <Image src={idx.preview} className="card-img mb-3 rounded-md"
                                                     alt="..." />
                                             </Link>
                                             <div className="product-icons">
                                                 <Link aria-label="anchor" href="/components/pages/ecommerce/wishlist/" className="wishlist"><i
                                                     className="ri-heart-line"></i></Link>
-                                                <Link aria-label="anchor" href="/components/pages/ecommerce/cart/" className="cart" onClick={() => { AddToCart(idx.id); }}><i
+                                                <Link aria-label="anchor" href="/components/pages/ecommerce/cart/" className="cart" onClick={() => {  }}><i
                                                     className="ri-shopping-cart-line"></i></Link>
                                                 <Link aria-label="anchor" href="/components/pages/ecommerce/product-details/" className="view"><i
                                                     className="ri-eye-line"></i></Link>
@@ -540,4 +540,4 @@ Products.layout = "Contentlayout"
 const mapStateToProps = (state: any) => ({
     local_varaiable: state
 });
-export default connect(mapStateToProps, { AddToCart })(Products);
+export default connect(mapStateToProps, {  })(Products);

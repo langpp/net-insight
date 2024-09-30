@@ -8,6 +8,7 @@ import DatePicker from 'react-datepicker';
 import dynamic from 'next/dynamic'
 const Select = dynamic(() => import("react-select"), { ssr: false });
 import Swal from 'sweetalert2';
+import Image from 'next/image';
 
 const Contacts = () => {
     const [images, setImages] = useState<any>([]);
@@ -37,7 +38,7 @@ const Contacts = () => {
     const handleClick = (id: number) => {
         Swal.fire({
             title: 'Are you sure?',
-            text: "You won't be able to revert this!",
+            text: "You wont be able to revert this!",
             icon: 'warning',
             showCancelButton: true,
             confirmButtonColor: '#3085d6',
@@ -122,7 +123,7 @@ const Contacts = () => {
                                                     <div className="flex items-center gap-2">
                                                         <div className="leading-none">
                                                             <span className="avatar avatar-rounded avatar-sm">
-                                                                <img src={idx.src1} alt="" />
+                                                                <Image src={idx.src1} alt="" />
                                                             </span>
                                                         </div>
                                                         <div>
@@ -148,7 +149,7 @@ const Contacts = () => {
                                                     <div className="flex items-center gap-2">
                                                         <div className="leading-none">
                                                             <span className="avatar avatar-sm p-1 bg-light avatar-rounded">
-                                                                <img src={idx.src2} alt="" />
+                                                                <Image src={idx.src2} alt="" />
                                                             </span>
                                                         </div>
                                                         <div>{idx.text1}</div>
@@ -208,7 +209,7 @@ const Contacts = () => {
                 <div className="ti-offcanvas-body !p-0">
                     <div className="sm:flex items-start p-6 border-b border-dashed border-defaultborder dark:border-defaultborder/10 main-profile-cover">
                         <div className="avatar avatar-xxl avatar-rounded online me-4 !bottom-0 !mb-0">
-                            <img src="../../../../assets/images/faces/4.jpg" alt="" />
+                            <Image src="../../../../assets/images/faces/4.jpg" alt="" />
                         </div>
                         <div className="flex-grow main-profile-info">
                             <div className="flex items-center justify-between">
@@ -315,16 +316,16 @@ const Contacts = () => {
                         </p>
                         <div className="avatar-list-stacked">
                             <span className="avatar avatar-rounded">
-                                <img src="../../../../assets/images/faces/2.jpg" alt="img" />
+                                <Image src="../../../../assets/images/faces/2.jpg" alt="img" />
                             </span>
                             <span className="avatar avatar-rounded">
-                                <img src="../../../../assets/images/faces/8.jpg" alt="img" />
+                                <Image src="../../../../assets/images/faces/8.jpg" alt="img" />
                             </span>
                             <span className="avatar avatar-rounded">
-                                <img src="../../../../assets/images/faces/2.jpg" alt="img" />
+                                <Image src="../../../../assets/images/faces/2.jpg" alt="img" />
                             </span>
                             <span className="avatar avatar-rounded">
-                                <img src="../../../../assets/images/faces/10.jpg" alt="img" />
+                                <Image src="../../../../assets/images/faces/10.jpg" alt="img" />
                             </span>
                         </div>
                     </div>
@@ -345,7 +346,7 @@ const Contacts = () => {
                                 <div className="xl:col-span-12 col-span-12">
                                     <div className="mb-0 text-center">
                                         <span className="avatar avatar-xxl avatar-rounded">
-                                            <img
+                                            <Image
                                                 src={selectedImage || '../../../../assets/images/faces/9.jpg'}
                                                 alt=""
                                                 id="profile-img"

@@ -3,6 +3,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Personal = () => {
     return (
@@ -170,22 +171,22 @@ const Personal = () => {
                                         <div className="box-body">
                                             <div className="avatar-list-stacked mb-6">
                                                 <span className="avatar avatar-rounded">
-                                                    <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-rounded">
-                                                    <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-rounded">
-                                                    <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-rounded">
-                                                    <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-rounded">
-                                                    <img src="../../../assets/images/faces/4.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/4.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-rounded">
-                                                    <img src="../../../assets/images/faces/13.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/13.jpg" alt="img" />
                                                 </span>
                                                 <Link aria-label="anchor" className="avatar bg-light !text-defaulttextcolor avatar-rounded" href="#!">
                                                     <i className="ri-arrow-right-s-line text-[1.125rem]"></i>
@@ -296,7 +297,7 @@ const Personal = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2">
                                                             <span className="avatar avatar-rounded">
-                                                                <img src="../../../assets/images/faces/2.jpg" alt="" />
+                                                                <Image src="../../../assets/images/faces/2.jpg" alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow">
@@ -344,7 +345,7 @@ const Personal = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2">
                                                             <span className="avatar avatar-rounded">
-                                                                <img src="../../../assets/images/faces/7.jpg" alt="" />
+                                                                <Image src="../../../assets/images/faces/7.jpg" alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow">
@@ -371,22 +372,22 @@ const Personal = () => {
                                         <div className="box-body">
                                             <div className="avatar-list-stacked mb-6">
                                                 <span className="avatar avatar-rounded">
-                                                    <img src="../../../assets/images/faces/1.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/1.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-rounded">
-                                                    <img src="../../../assets/images/faces/9.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/9.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-rounded">
-                                                    <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-rounded">
-                                                    <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-rounded">
-                                                    <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-rounded">
-                                                    <img src="../../../assets/images/faces/14.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/14.jpg" alt="img" />
                                                 </span>
                                                 <Link aria-label="anchor" className="avatar bg-light !text-defaulttextcolor avatar-rounded" href="#!">
                                                     <i className="ri-arrow-right-s-line text-[1.125rem]"></i>
@@ -402,7 +403,7 @@ const Personal = () => {
                                                         <div className="flex flex-wrap items-center">
                                                             <div className="me-2">
                                                                 <span className="avatar avatar-rounded">
-                                                                    <img src="../../../assets/images/faces/12.jpg" alt="" />
+                                                                    <Image src="../../../assets/images/faces/12.jpg" alt="" />
                                                                 </span>
                                                             </div>
                                                             <div className="flex-grow">
@@ -419,7 +420,7 @@ const Personal = () => {
                                                         <div className="flex flex-wrap items-center">
                                                             <div className="me-2">
                                                                 <span className="avatar avatar-rounded">
-                                                                    <img src="../../../assets/images/faces/2.jpg" alt="" />
+                                                                    <Image src="../../../assets/images/faces/2.jpg" alt="" />
                                                                 </span>
                                                             </div>
                                                             <div className="flex-grow">
@@ -488,7 +489,7 @@ const Personal = () => {
                                     <div className="text-center mb-4">
                                         <div className="mb-4">
                                             <span className="avatar avatar-xxl avatar-rounded circle-progress p-1">
-                                                <img src="../../../assets/images/faces/9.jpg" alt="" />
+                                                <Image src="../../../assets/images/faces/9.jpg" alt="" />
                                             </span>
                                         </div>
                                         <div>
@@ -587,7 +588,7 @@ const Personal = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar">
-                                                        <img src="../../../assets/images/faces/2.jpg" alt="" className="rounded-md" />
+                                                        <Image src="../../../assets/images/faces/2.jpg" alt="" className="rounded-md" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -618,7 +619,7 @@ const Personal = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar">
-                                                        <img src="../../../assets/images/faces/9.jpg" alt="" className="rounded-md" />
+                                                        <Image src="../../../assets/images/faces/9.jpg" alt="" className="rounded-md" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -649,7 +650,7 @@ const Personal = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar">
-                                                        <img src="../../../assets/images/faces/10.jpg" alt="" className="rounded-md" />
+                                                        <Image src="../../../assets/images/faces/10.jpg" alt="" className="rounded-md" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">

@@ -2,6 +2,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Timeline = () => {
     return (
@@ -21,7 +22,7 @@ const Timeline = () => {
                         <div className="timeline-body">
                             <div className="flex items-start timeline-main-content flex-wrap mt-0">
                                 <div className="avatar avatar-md online me-3 avatar-rounded md:mt-0 mt-6">
-                                    <img alt="avatar" src="../../../assets/images/faces/4.jpg" />
+                                    <Image alt="avatar" src="../../../assets/images/faces/4.jpg" />
                                 </div>
                                 <div className="flex-grow">
                                     <div className="flex items-center">
@@ -50,7 +51,7 @@ const Timeline = () => {
                         <div className="timeline-body">
                             <div className="flex items-start timeline-main-content flex-wrap mt-0">
                                 <div className="avatar avatar-md online me-3 avatar-rounded md:mt-0 mt-6">
-                                    <img alt="avatar" src="../../../assets/images/faces/15.jpg" />
+                                    <Image alt="avatar" src="../../../assets/images/faces/15.jpg" />
                                 </div>
                                 <div className="flex-grow">
                                     <div className="flex items-center">
@@ -79,7 +80,7 @@ const Timeline = () => {
                         <div className="timeline-body">
                             <div className="flex items-start timeline-main-content flex-wrap mt-0">
                                 <div className="avatar avatar-md online me-3 avatar-rounded md:mt-0 mt-6">
-                                    <img alt="avatar" src="../../../assets/images/faces/11.jpg" />
+                                    <Image alt="avatar" src="../../../assets/images/faces/11.jpg" />
                                 </div>
                                 <div className="flex-grow">
                                     <div className="flex items-center">
@@ -108,7 +109,7 @@ const Timeline = () => {
                         <div className="timeline-body">
                             <div className="flex items-start timeline-main-content flex-wrap mt-0">
                                 <div className="avatar avatar-md online me-3 avatar-rounded md:mt-0 mt-6">
-                                    <img alt="avatar" src="../../../assets/images/faces/5.jpg" />
+                                    <Image alt="avatar" src="../../../assets/images/faces/5.jpg" />
                                 </div>
                                 <div className="flex-grow">
                                     <div className="flex items-center">
@@ -137,7 +138,7 @@ const Timeline = () => {
                         <div className="timeline-body">
                             <div className="flex items-start timeline-main-content flex-wrap mt-0">
                                 <div className="avatar avatar-md online me-3 avatar-rounded md:mt-0 mt-6">
-                                    <img alt="avatar" src="../../../assets/images/faces/10.jpg" />
+                                    <Image alt="avatar" src="../../../assets/images/faces/10.jpg" />
                                 </div>
                                 <div className="flex-grow">
                                     <div className="flex items-center">
@@ -166,7 +167,7 @@ const Timeline = () => {
                         <div className="timeline-body">
                             <div className="flex items-start timeline-main-content flex-wrap mt-0">
                                 <div className="avatar avatar-md online me-3 avatar-rounded md:mt-0 mt-6">
-                                    <img alt="avatar" src="../../../assets/images/faces/2.jpg" />
+                                    <Image alt="avatar" src="../../../assets/images/faces/2.jpg" />
                                 </div>
                                 <div className="flex-grow">
                                     <div className="flex items-center">

@@ -8,6 +8,7 @@ const Select = dynamic(() => import("react-select"), { ssr: false });
 const ReactQuill = dynamic(() => import("react-quill"), { ssr: false });
 import { FilePond } from 'react-filepond';
 import DatePicker from "react-datepicker";
+import Image from 'next/image';
 
 const Createblog = () => {
 
@@ -122,7 +123,7 @@ const Createblog = () => {
                                     <li className="list-group-item" key={Math.random()}>
                                         <div className="flex gap-2 flex-wrap items-center">
                                             <span className="avatar avatar-xl me-1">
-                                                <img src={idx.src} className="img-fluid !rounded-md" alt="..." />
+                                                <Image src={idx.src} className="img-fluid !rounded-md" alt="..." />
                                             </span>
                                             <div className="flex-grow">
                                                 <Link href="#!" className="text-[0.875rem] font-semibold mb-0">{idx.title}</Link>

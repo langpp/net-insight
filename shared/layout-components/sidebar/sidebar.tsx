@@ -8,6 +8,7 @@ import { basePath } from "@/next.config";
 import store from "@/shared/redux/store";
 import SimpleBar from "simplebar-react";
 import Menuloop from "./menuloop";
+import Image from 'next/image';
 
 const Sidebar = ({ local_varaiable, ThemeChanger }: any) => {
   const [menuitems, setMenuitems] = useState(MenuItems);
@@ -659,42 +660,42 @@ const Sidebar = ({ local_varaiable, ThemeChanger }: any) => {
       >
         <div className="main-sidebar-header">
           <Link href="/components/dashboards/crm/" className="header-logo">
-            <img
+            <Image
               src={`${
                 process.env.NODE_ENV === "production" ? basePath : ""
               }/icon-color.png`}
               alt="logo"
               className="main-logo desktop-logo"
             />
-            <img
+            <Image
               src={`${
                 process.env.NODE_ENV === "production" ? basePath : ""
               }/favicon-white.png`}
               alt="logo"
               className="main-logo toggle-logo"
             />
-            <img
+            <Image
               src={`${
                 process.env.NODE_ENV === "production" ? basePath : ""
               }/icon-color.png`}
               alt="logo"
               className="main-logo desktop-dark"
             />
-            <img
+            <Image
               src={`${
                 process.env.NODE_ENV === "production" ? basePath : ""
               }/favicon-white.png`}
               alt="logo"
               className="main-logo toggle-dark"
             />
-            <img
+            <Image
               src={`${
                 process.env.NODE_ENV === "production" ? basePath : ""
               }/icon-color.png`}
               alt="logo"
               className="main-logo desktop-white"
             />
-            <img
+            <Image
               src={`${
                 process.env.NODE_ENV === "production" ? basePath : ""
               }/favicon.png`}

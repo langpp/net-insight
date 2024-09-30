@@ -2,6 +2,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Walletintegration = () => {
     return (
@@ -24,7 +25,7 @@ const Walletintegration = () => {
                                         <div className="flex items-center gap-2">
                                             <div>
                                                 <span className="avatar avatar-rounded avatar-sm bg-light p-1">
-                                                    <img src="../../../../assets/images/nft-images/34.png" alt="" />
+                                                    <Image src="../../../../assets/images/nft-images/34.png" alt="" />
                                                 </span>
                                             </div>
                                             <div className="text-[.875rem] font-semibold my-auto">Etherium</div>
@@ -35,7 +36,7 @@ const Walletintegration = () => {
                                         <div className="flex items-center gap-2">
                                             <div>
                                                 <span className="avatar avatar-rounded avatar-sm bg-light p-1">
-                                                    <img src="../../../../assets/images/nft-images/35.png" alt="" />
+                                                    <Image src="../../../../assets/images/nft-images/35.png" alt="" />
                                                 </span>
                                             </div>
                                             <div className="text-[.875rem] font-semibold my-auto">Binance</div>
@@ -46,7 +47,7 @@ const Walletintegration = () => {
                                         <div className="flex items-center gap-2">
                                             <div>
                                                 <span className="avatar avatar-rounded avatar-sm bg-light p-1">
-                                                    <img src="../../../../assets/images/nft-images/36.png" alt="" />
+                                                    <Image src="../../../../assets/images/nft-images/36.png" alt="" />
                                                 </span>
                                             </div>
                                             <div className="text-[.875rem] font-semibold my-auto">Solana</div>
@@ -57,7 +58,7 @@ const Walletintegration = () => {
                                         <div className="flex items-center gap-2">
                                             <div>
                                                 <span className="avatar avatar-rounded avatar-sm bg-light p-1">
-                                                    <img src="../../../../assets/images/nft-images/39.png" alt="" />
+                                                    <Image src="../../../../assets/images/nft-images/39.png" alt="" />
                                                 </span>
                                             </div>
                                             <div className="text-[.875rem] font-semibold my-auto">Tezos</div>
@@ -68,7 +69,7 @@ const Walletintegration = () => {
                                         <div className="flex items-center gap-2">
                                             <div>
                                                 <span className="avatar avatar-rounded avatar-sm bg-light p-1">
-                                                    <img src="../../../../assets/images/nft-images/37.png" alt="" />
+                                                    <Image src="../../../../assets/images/nft-images/37.png" alt="" />
                                                 </span>
                                             </div>
                                             <div className="text-[.875rem] font-semibold my-auto">Avalanche</div>
@@ -79,7 +80,7 @@ const Walletintegration = () => {
                                         <div className="flex items-center gap-2">
                                             <div>
                                                 <span className="avatar avatar-rounded avatar-sm bg-light p-1">
-                                                    <img src="../../../../assets/images/nft-images/38.png" alt="" />
+                                                    <Image src="../../../../assets/images/nft-images/38.png" alt="" />
                                                 </span>
                                             </div>
                                             <div className="text-[.875rem] font-semibold my-auto">boxano</div>
@@ -107,7 +108,7 @@ const Walletintegration = () => {
                                             <div className="flex items-center justify-center gap-4">
                                                 <div className="leadining-none">
                                                     <span className="avatar avatar-rounded p-2 bg-light">
-                                                        <img src="../../../../assets/images/nft-images/42.png" alt="" />
+                                                        <Image src="../../../../assets/images/nft-images/42.png" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -122,7 +123,7 @@ const Walletintegration = () => {
                                             <div className="flex items-center justify-center gap-4">
                                                 <div className="lh-1">
                                                     <span className="avatar avatar-rounded p-2 bg-light">
-                                                        <img src="../../../../assets/images/nft-images/41.png" alt="" />
+                                                        <Image src="../../../../assets/images/nft-images/41.png" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -137,7 +138,7 @@ const Walletintegration = () => {
                                             <div className="flex items-center justify-center gap-4">
                                                 <div className="lh-1">
                                                     <span className="avatar avatar-rounded bg-light">
-                                                        <img src="../../../../assets/images/nft-images/43.png" alt="" />
+                                                        <Image src="../../../../assets/images/nft-images/43.png" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -152,7 +153,7 @@ const Walletintegration = () => {
                                             <div className="flex items-center justify-center gap-4">
                                                 <div className="lh-1">
                                                     <span className="avatar avatar-rounded bg-light p-2">
-                                                        <img src="../../../../assets/images/nft-images/40.png" alt="" />
+                                                        <Image src="../../../../assets/images/nft-images/40.png" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -167,7 +168,7 @@ const Walletintegration = () => {
                                             <div className="flex items-center justify-center gap-4">
                                                 <div className="lh-1">
                                                     <span className="avatar avatar-rounded bg-light p-2">
-                                                        <img src="../../../../assets/images/nft-images/44.png" alt="" />
+                                                        <Image src="../../../../assets/images/nft-images/44.png" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -182,7 +183,7 @@ const Walletintegration = () => {
                                             <div className="flex items-center justify-center gap-4">
                                                 <div className="lh-1">
                                                     <span className="avatar avatar-rounded bg-light">
-                                                        <img src="../../../../assets/images/nft-images/45.png" alt="" />
+                                                        <Image src="../../../../assets/images/nft-images/45.png" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>

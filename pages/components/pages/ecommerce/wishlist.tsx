@@ -1,10 +1,11 @@
 import { Itemsdata1 } from '@/shared/data/pages/ecommerces/ecommercedata';
 import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
-import { AddToCart, ProductReduxData } from '@/shared/redux/action';
+import {  } from '@/shared/redux/action';
 import Link from 'next/link';
 import React, { Fragment, useState } from 'react'
 import { connect } from 'react-redux';
+import Image from 'next/image';
 
 const Wishlist = ({ AddToCart }:any) => {
 
@@ -52,7 +53,7 @@ const Wishlist = ({ AddToCart }:any) => {
                         <div className="box product-card">
                             <div className="box-body">
                                 <Link href="#!" className="product-image">
-                                    <img src={idx.preview} className="card-img mb-3 rounded-sm" alt="..." />
+                                    <Image src={idx.preview} className="card-img mb-3 rounded-sm" alt="..." />
                                 </Link>
                                 <div className="product-icons">
                                     <Link aria-label="anchor" onClick={() => handleRemove(idx.id)} href="#!" className="wishlist btn-delete"><i className="ri-close-line"></i></Link>
@@ -98,4 +99,4 @@ Wishlist.layout = "Contentlayout"
 const mapStateToProps = (state:any) => ({
     local_varaiable: state
 });
-export default connect(mapStateToProps, { AddToCart, ProductReduxData })(Wishlist);
+export default connect(mapStateToProps, { })(Wishlist);

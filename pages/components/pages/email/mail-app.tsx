@@ -7,6 +7,7 @@ import React, { Fragment, useEffect, useState } from 'react'
 const Select = dynamic(() => import("react-select"), { ssr: false });
 import PerfectScrollbar from 'react-perfect-scrollbar';
 import SimpleBar from 'simplebar-react'
+import Image from 'next/image';
 const ReactQuill = dynamic(() => import("react-quill"), { ssr: false });
 
 const Mailapp = () => {
@@ -128,7 +129,7 @@ const Mailapp = () => {
                         <div className="flex items-start !p-4 !bg-primary">
                             <div>
                                 <span className="avatar avatar-md online avatar-rounded">
-                                    <img src="../../../../assets/images/faces/9.jpg" alt="" />
+                                    <Image src="../../../../assets/images/faces/9.jpg" alt="" />
                                 </span>
                             </div>
                             <div className="ms-2">
@@ -165,7 +166,7 @@ const Mailapp = () => {
                                             <div className="flex items-start leading-none">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-sm online avatar-rounded">
-                                                        <img src="../../../../assets/images/faces/4.jpg" alt="" />
+                                                        <Image src="../../../../assets/images/faces/4.jpg" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -180,7 +181,7 @@ const Mailapp = () => {
                                             <div className="flex items-start leading-none">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-sm online avatar-rounded">
-                                                        <img src="../../../../assets/images/faces/6.jpg" alt="" />
+                                                        <Image src="../../../../assets/images/faces/6.jpg" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -239,7 +240,7 @@ const Mailapp = () => {
                                                 <div className="me-1 leading-none">
                                                     <span
                                                         className={`avatar avatar-md ${idx.active} me-2 avatar-rounded mail-msg-avatar`}>
-                                                        <img src={idx.img} alt="" />
+                                                        <Image src={idx.img} alt="" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -275,7 +276,7 @@ const Mailapp = () => {
                         <div className="mail-info-header flex flex-wrap gap-2 items-center">
                             <div className="me-1">
                                 <span className="avatar avatar-md online me-2 avatar-rounded mail-msg-avatar">
-                                    <img src="../../../../assets/images/faces/12.jpg" alt="" />
+                                    <Image src="../../../../assets/images/faces/12.jpg" alt="" />
                                 </span>
                             </div>
                             <div className="flex-grow">
@@ -364,8 +365,8 @@ const Mailapp = () => {
                             </div>
                             <div className="main-mail-content mb-6">
                                 <p className="text-[.875rem] font-semibold mb-4">Hi, Json Taylor Greetings 🖐</p>
-                                <p className="mb-2 text-[0.75rem] text-[#8c9097] dark:text-white/50">Earth, our home, is the third planet from the sun. While scientists continue to hunt for clues of life beyond Earth, our home planet remains the only place in the universe where we've ever identified living organisms. .</p>
-                                <p className="mb-2 text-[0.75rem] text-[#8c9097] dark:text-white/50">Earth has a diameter of roughly 8,000 miles (13,000 kilometers) and is mostly round because gravity generally pulls matter into a ball. But the spin of our home planet causes it to be squashed at its poles and swollen at the equator, making the true shape of the Earth an "oblate spheroid.".</p>
+                                <p className="mb-2 text-[0.75rem] text-[#8c9097] dark:text-white/50">Earth, our home, is the third planet from the sun. While scientists continue to hunt for clues of life beyond Earth, our home planet remains the only place in the universe where we ever identified living organisms. .</p>
+                                <p className="mb-2 text-[0.75rem] text-[#8c9097] dark:text-white/50">Earth has a diameter of roughly 8,000 miles (13,000 kilometers) and is mostly round because gravity generally pulls matter into a ball. But the spin of our home planet causes it to be squashed at its poles and swollen at the equator, making the true shape of the Earth an oblate spheroid.</p>
                                 <p className="mb-0 mt-4">
                                     <span className="block">Regards,</span>
                                     <span className="block">Michael Jeremy</span>
@@ -481,7 +482,7 @@ const Mailapp = () => {
                             <div className="hs-tooltip ti-main-tooltip [--placement:left]">
                                 <Link href="#!" className="mail-recepeint-person hs-tooltip-toggle">
                                     <span className="avatar online avatar-rounded">
-                                        <img src="../../../../assets/images/faces/5.jpg" alt="" />
+                                        <Image src="../../../../assets/images/faces/5.jpg" alt="" />
                                     </span>
                                     <span className="hs-tooltip-content ti-main-tooltip-content !py-[0.2rem] px-2 !bg-black !text-xs !font-medium !text-white shadow-sm dark:bg-slate-700"
                                         role="tooltip">
@@ -492,7 +493,7 @@ const Mailapp = () => {
                             <div className="hs-tooltip ti-main-tooltip [--placement:left]">
                                 <Link href="#!" className="mail-recepeint-person hs-tooltip-toggle">
                                     <span className="avatar online avatar-rounded">
-                                        <img src="../../../../assets/images/faces/7.jpg" alt="" />
+                                        <Image src="../../../../assets/images/faces/7.jpg" alt="" />
                                     </span>
                                     <span
                                         className="hs-tooltip-content ti-main-tooltip-content !py-[0.2rem] px-2 !bg-black !text-xs !font-medium !text-white shadow-sm dark:bg-slate-700"
@@ -504,7 +505,7 @@ const Mailapp = () => {
                             <div className="hs-tooltip ti-main-tooltip [--placement:left]">
                                 <Link href="#!" className="mail-recepeint-person hs-tooltip-toggle">
                                     <span className="avatar offline avatar-rounded">
-                                        <img src="../../../../assets/images/faces/4.jpg" alt="" />
+                                        <Image src="../../../../assets/images/faces/4.jpg" alt="" />
                                     </span>
                                     <span
                                         className="hs-tooltip-content ti-main-tooltip-content !py-[0.2rem] px-2 !bg-black !text-xs !font-medium !text-white shadow-sm dark:bg-slate-700"
@@ -516,7 +517,7 @@ const Mailapp = () => {
                             <div className="hs-tooltip ti-main-tooltip [--placement:left]">
                                 <Link href="#!" className="mail-recepeint-person hs-tooltip-toggle">
                                     <span className="avatar offline online avatar-rounded">
-                                        <img src="../../../../assets/images/faces/8.jpg" alt="" />
+                                        <Image src="../../../../assets/images/faces/8.jpg" alt="" />
                                     </span>
                                     <span
                                         className="hs-tooltip-content ti-main-tooltip-content !py-[0.2rem] px-2 !bg-black !text-xs !font-medium !text-white shadow-sm dark:bg-slate-700"
@@ -528,7 +529,7 @@ const Mailapp = () => {
                             <div className="hs-tooltip ti-main-tooltip [--placement:left]">
                                 <Link href="#!" className="mail-recepeint-person hs-tooltip-toggle">
                                     <span className="avatar offline avatar-rounded">
-                                        <img src="../../../../assets/images/faces/3.jpg" alt="" />
+                                        <Image src="../../../../assets/images/faces/3.jpg" alt="" />
                                     </span>
                                     <span
                                         className="hs-tooltip-content ti-main-tooltip-content !py-[0.2rem] px-2 !bg-black !text-xs !font-medium !text-white shadow-sm dark:bg-slate-700"
@@ -540,7 +541,7 @@ const Mailapp = () => {
                             <div className="hs-tooltip ti-main-tooltip [--placement:left]">
                                 <Link href="#!" className="mail-recepeint-person hs-tooltip-toggle">
                                     <span className="avatar offline avatar-rounded">
-                                        <img src="../../../../assets/images/faces/11.jpg" alt="" />
+                                        <Image src="../../../../assets/images/faces/11.jpg" alt="" />
                                     </span>
                                     <span
                                         className="hs-tooltip-content ti-main-tooltip-content !py-[0.2rem] px-2 !bg-black !text-xs !font-medium !text-white shadow-sm dark:bg-slate-700"
@@ -552,7 +553,7 @@ const Mailapp = () => {
                             <div className="hs-tooltip ti-main-tooltip [--placement:left]">
                                 <Link href="#!" className="mail-recepeint-person hs-tooltip-toggle">
                                     <span className="avatar offline avatar-rounded">
-                                        <img src="../../../../assets/images/faces/11.jpg" alt="" />
+                                        <Image src="../../../../assets/images/faces/11.jpg" alt="" />
                                     </span>
                                     <span
                                         className="hs-tooltip-content ti-main-tooltip-content !py-[0.2rem] px-2 !bg-black !text-xs !font-medium !text-white shadow-sm dark:bg-slate-700"
@@ -564,7 +565,7 @@ const Mailapp = () => {
                             <div className="hs-tooltip ti-main-tooltip [--placement:left]">
                                 <Link href="#!" className="mail-recepeint-person hs-tooltip-toggle">
                                     <span className="avatar online avatar-rounded">
-                                        <img src="../../../../assets/images/faces/16.jpg" alt="" />
+                                        <Image src="../../../../assets/images/faces/16.jpg" alt="" />
                                     </span>
                                     <span
                                         className="hs-tooltip-content ti-main-tooltip-content !py-[0.2rem] px-2 !bg-black !text-xs !font-medium !text-white shadow-sm dark:bg-slate-700"
@@ -576,7 +577,7 @@ const Mailapp = () => {
                             <div className="hs-tooltip ti-main-tooltip [--placement:left]">
                                 <Link href="#!" className="mail-recepeint-person hs-tooltip-toggle">
                                     <span className="avatar offline avatar-rounded">
-                                        <img src="../../../../assets/images/faces/10.jpg" alt="" />
+                                        <Image src="../../../../assets/images/faces/10.jpg" alt="" />
                                     </span>
                                     <span
                                         className="hs-tooltip-content ti-main-tooltip-content !py-[0.2rem] px-2 !bg-black !text-xs !font-medium !text-white shadow-sm dark:bg-slate-700"
@@ -588,7 +589,7 @@ const Mailapp = () => {
                             <div className="hs-tooltip ti-main-tooltip [--placement:left]">
                                 <Link href="#!" className="mail-recepeint-person hs-tooltip-toggle">
                                     <span className="avatar offline avatar-rounded">
-                                        <img src="../../../../assets/images/faces/15.jpg" alt="" />
+                                        <Image src="../../../../assets/images/faces/15.jpg" alt="" />
                                     </span>
                                     <span
                                         className="hs-tooltip-content ti-main-tooltip-content !py-[0.2rem] px-2 !bg-black !text-xs !font-medium !text-white shadow-sm dark:bg-slate-700"

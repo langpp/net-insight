@@ -2,6 +2,7 @@ import { Exploretopicsdata, Populartagsdata } from '@/shared/data/pages/blogs/bl
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const BlogDetails = () => {
     return (
@@ -16,7 +17,7 @@ const BlogDetails = () => {
                                 <div className="sm:flex items-center">
                                     <div className="sm:flex items-center flex-grow">
                                         <span className="avatar avatar-sm avatar-rounded me-4">
-                                            <img src="../../../../assets/images/faces/15.jpg" alt="" />
+                                            <Image src="../../../../assets/images/faces/15.jpg" alt="" />
                                         </span>
                                         <div>
                                             <p className="mb-0 font-semibold">Json Taylor - <span className="text-[0.6875rem] text-[#8c9097] dark:text-white/50 font-normal">Tue,25 Dec 2022 - 11:45</span></p>
@@ -30,7 +31,7 @@ const BlogDetails = () => {
                                 </div>
                             </div>
                             <Link href="#!">
-                                <img src="../../../../assets/images/media/media-23.jpg" className="card-img rounded-0 blog-details-img" alt="..." />
+                                <Image src="../../../../assets/images/media/media-23.jpg" className="card-img rounded-0 blog-details-img" alt="..." />
                             </Link>
                             <div className="box-body border-b dark:border-defaultborder/10 border-dashed">
                                 <div className="sm:flex block items-center justify-between">
@@ -63,13 +64,13 @@ const BlogDetails = () => {
                                     <Link aria-label="anchor" href="#!" className="card-anchor"></Link>
                                     <div className="box-body">
                                         <blockquote className="blockquote mb-0 text-center">
-                                            <p className="text-[1rem] font-semibold mb-2 text-dark">In nature, nothing is perfect and everything is perfect. Trees can be contorted, bent in weird ways, and they're still beautiful..</p>
+                                            <p className="text-[1rem] font-semibold mb-2 text-dark">In nature, nothing is perfect and everything is perfect. Trees can be contorted, bent in weird ways, and theyre still beautiful..</p>
                                             <footer className="text-[#6c757d] mt-2 text-[.875rem] opacity-[0.7]">Someone famous as <cite title="Source Title">-Alice Walker</cite></footer>
                                         </blockquote>
                                     </div>
                                 </div>
                                 <p className="mb-[3rem] text-[#8c9097] dark:text-white/50">
-                                    From enchanting nature's beauty quotes that evoke visions of lush meadows full of brilliantly-colored flowers or dense forests with sky-high trees to famous quotes about nature's ever-present—and absolutely fundamental—role in our lives, these 101 quotes about nature will have you itching to get off your couch and get outside. For famous <b>quotes about nature</b>, we have them here!
+                                    From enchanting natures beauty quotes that evoke visions of lush meadows full of brilliantly-colored flowers or dense forests with sky-high trees to famous quotes about natures ever-present—and absolutely fundamental—role in our lives, these 101 quotes about nature will have you itching to get off your couch and get outside. For famous <b>quotes about nature</b>, we have them here!
                                 </p>
                                 <p className="text-center">
                                     <button type="button" className="ti-btn bg-primary text-white !font-medium">Load More</button>
@@ -113,7 +114,7 @@ const BlogDetails = () => {
                         <div className="box">
                             <div className="box-body text-center !p-6">
                                 <span className="avatar avatar-rounded avatar-xxl !mb-4">
-                                    <img src="../../../../assets/images/faces/2.jpg" alt="img" />
+                                    <Image src="../../../../assets/images/faces/2.jpg" alt="img" />
                                 </span>
                                 <p className="mb-1 text-[0.9375rem] font-semibold text-defaulttextcolor dark:text-defaulttextcolor/70 leading-none">Emiley Jackson</p>
                                 <p className="text-[0.75rem] text-[#8c9097] dark:text-white/50 mb-1"><span>emaileyjackson2134</span>@gmail.com</p>
@@ -152,7 +153,7 @@ const BlogDetails = () => {
                                     <li className="list-group-item">
                                         <div className="flex gap-4 flex-wrap items-center">
                                             <span className="avatar avatar-xl ">
-                                                <img src="../../../../assets/images/media/media-39.jpg" className="img-fluid rounded-md" alt="..." />
+                                                <Image src="../../../../assets/images/media/media-39.jpg" className="img-fluid rounded-md" alt="..." />
                                             </span>
                                             <div className="flex-grow">
                                                 <Link href="#!" className="text-[0.875rem] font-semibold mb-0">Animals</Link>
@@ -169,7 +170,7 @@ const BlogDetails = () => {
                                     <li className="list-group-item">
                                         <div className="flex gap-4 flex-wrap items-center">
                                             <span className="avatar avatar-xl">
-                                                <img src="../../../../assets/images/media/media-56.jpg" className="img-fluid rounded-md" alt="..." />
+                                                <Image src="../../../../assets/images/media/media-56.jpg" className="img-fluid rounded-md" alt="..." />
                                             </span>
                                             <div className="flex-grow">
                                                 <Link href="#!" className="text-[0.875rem] font-semibold mb-0">Travel</Link>
@@ -186,7 +187,7 @@ const BlogDetails = () => {
                                     <li className="list-group-item">
                                         <div className="flex gap-4 flex-wrap items-center">
                                             <span className="avatar avatar-xl">
-                                                <img src="../../../../assets/images/media/media-54.jpg" className="img-fluid rounded-md" alt="..." />
+                                                <Image src="../../../../assets/images/media/media-54.jpg" className="img-fluid rounded-md" alt="..." />
                                             </span>
                                             <div className="flex-grow">
                                                 <Link href="#!" className="text-[0.875rem] font-semibold mb-0">Interior</Link>
@@ -203,7 +204,7 @@ const BlogDetails = () => {
                                     <li className="list-group-item">
                                         <div className="flex gap-4 flex-wrap items-center">
                                             <span className="avatar avatar-xl">
-                                                <img src="../../../../assets/images/media/media-52.jpg" className="img-fluid rounded-md" alt="..." />
+                                                <Image src="../../../../assets/images/media/media-52.jpg" className="img-fluid rounded-md" alt="..." />
                                             </span>
                                             <div className="flex-grow">
                                                 <Link href="#!" className="text-[0.875rem] font-semibold mb-0">Nature</Link>

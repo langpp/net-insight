@@ -5,6 +5,7 @@ import Link from 'next/link';
 import React, { Fragment, useState } from 'react';
 import DatePicker from "react-datepicker";
 import { MultiSelect } from 'react-multi-select-component';
+import Image from 'next/image';
 const Select = dynamic(() => import("react-select"), {ssr : false});
 
 const Todolist = () => {
@@ -222,7 +223,7 @@ const Todolist = () => {
                                 </ul>
                             </div>
                             <div className="p-4 !flex items-center justify-center">
-                                <img src="../../../assets/images/media/media-66.png" alt="" />
+                                <Image src="../../../assets/images/media/media-66.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -284,16 +285,16 @@ const Todolist = () => {
                                                             <p className="mb-0">Assigned To :
                                                                 <span className="avatar-list-stacked ms-1">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                                     </span>
                                                                 </span>
                                                             </p>
@@ -318,10 +319,10 @@ const Todolist = () => {
                                                             <p className="mb-0">Assigned To :
                                                                 <span className="avatar-list-stacked ms-1">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                                                                     </span>
                                                                 </span>
                                                             </p>
@@ -347,13 +348,13 @@ const Todolist = () => {
                                                             <p className="mb-0">Assigned To :
                                                                 <span className="avatar-list-stacked ms-1">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                                     </span>
                                                                 </span>
                                                             </p>
@@ -380,13 +381,13 @@ const Todolist = () => {
                                                             <p className="mb-0">Assigned To :
                                                                 <span className="avatar-list-stacked ms-1">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/1.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/1.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/12.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/12.jpg" alt="img" />
                                                                     </span>
                                                                 </span>
                                                             </p>
@@ -411,13 +412,13 @@ const Todolist = () => {
                                                             <p className="mb-0">Assigned To :
                                                                 <span className="avatar-list-stacked ms-1">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/9.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/9.jpg" alt="img" />
                                                                     </span>
                                                                 </span>
                                                             </p>
@@ -442,13 +443,13 @@ const Todolist = () => {
                                                             <p className="mb-0">Assigned To :
                                                                 <span className="avatar-list-stacked ms-1">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                                     </span>
                                                                 </span>
                                                             </p>
@@ -476,16 +477,16 @@ const Todolist = () => {
                                                             <p className="mb-0">Assigned To :
                                                                 <span className="avatar-list-stacked ms-1">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/14.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/14.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/13.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/13.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/21.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/21.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/16.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/16.jpg" alt="img" />
                                                                     </span>
                                                                 </span>
                                                             </p>
@@ -510,13 +511,13 @@ const Todolist = () => {
                                                             <p className="mb-0">Assigned To :
                                                                 <span className="avatar-list-stacked ms-1">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/1.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/1.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                                     </span>
                                                                 </span>
                                                             </p>
@@ -541,10 +542,10 @@ const Todolist = () => {
                                                             <p className="mb-0">Assigned To :
                                                                 <span className="avatar-list-stacked ms-1">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/9.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/9.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/13.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/13.jpg" alt="img" />
                                                                     </span>
                                                                 </span>
                                                             </p>
@@ -576,16 +577,16 @@ const Todolist = () => {
                                                             <p className="mb-0">Assigned To :
                                                                 <span className="avatar-list-stacked ms-1">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                                     </span>
                                                                 </span>
                                                             </p>
@@ -613,16 +614,16 @@ const Todolist = () => {
                                                             <p className="mb-0">Assigned To :
                                                                 <span className="avatar-list-stacked ms-1">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/14.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/14.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/13.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/13.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/21.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/21.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/16.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/16.jpg" alt="img" />
                                                                     </span>
                                                                 </span>
                                                             </p>
@@ -654,13 +655,13 @@ const Todolist = () => {
                                                             <p className="mb-0">Assigned To :
                                                                 <span className="avatar-list-stacked ms-1">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/1.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/1.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/12.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/12.jpg" alt="img" />
                                                                     </span>
                                                                 </span>
                                                             </p>
@@ -687,10 +688,10 @@ const Todolist = () => {
                                                             <p className="mb-0">Assigned To :
                                                                 <span className="avatar-list-stacked ms-1">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                                                                     </span>
                                                                 </span>
                                                             </p>
@@ -717,10 +718,10 @@ const Todolist = () => {
                                                             <p className="mb-0">Assigned To :
                                                                 <span className="avatar-list-stacked ms-1">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/9.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/9.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/13.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/13.jpg" alt="img" />
                                                                     </span>
                                                                 </span>
                                                             </p>
@@ -752,13 +753,13 @@ const Todolist = () => {
                                                             <p className="mb-0">Assigned To :
                                                                 <span className="avatar-list-stacked ms-1">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/9.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/9.jpg" alt="img" />
                                                                     </span>
                                                                 </span>
                                                             </p>
@@ -785,13 +786,13 @@ const Todolist = () => {
                                                             <p className="mb-0">Assigned To :
                                                                 <span className="avatar-list-stacked ms-1">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                                     </span>
                                                                 </span>
                                                             </p>
@@ -819,13 +820,13 @@ const Todolist = () => {
                                                             <p className="mb-0">Assigned To :
                                                                 <span className="avatar-list-stacked ms-1">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                                     </span>
                                                                 </span>
                                                             </p>
@@ -852,13 +853,13 @@ const Todolist = () => {
                                                             <p className="mb-0">Assigned To :
                                                                 <span className="avatar-list-stacked ms-1">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/1.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/1.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                                        <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                                     </span>
                                                                 </span>
                                                             </p>

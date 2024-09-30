@@ -4,6 +4,7 @@ import Seo from '@/shared/layout-components/seo/seo'
 import dynamic from 'next/dynamic';
 import Link from 'next/link'
 import React, { Fragment, useState } from 'react';
+import Image from 'next/image';
 const CountUp = dynamic(() => import("react-countup"), { ssr: false });
 
 const Transactions = () => {
@@ -89,7 +90,7 @@ const Transactions = () => {
                                                 <td>
                                                     <div className="flex items-center gap-2">
                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                            <img src={idx.src1} alt="" />
+                                                            <Image src={idx.src1} alt="" />
                                                         </span>
                                                         <div className="font-semibold">{idx.name}</div>
                                                     </div>
@@ -100,7 +101,7 @@ const Transactions = () => {
                                                 <td>
                                                     <div className="flex items-center gap-2">
                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                            <img src={idx.src2} alt="" />
+                                                            <Image src={idx.src2} alt="" />
                                                         </span>
                                                         <div className="font-semibold">{idx.coin}</div>
                                                     </div>

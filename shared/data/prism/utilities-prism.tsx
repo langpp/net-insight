@@ -61,32 +61,32 @@ This is 10% opacity success border</div>
 </div>`
 
 export const border7 = `<div className="box-body flex flex-wrap gap-2">
-<img src="../../../assets/images/media/media-58.jpg" 
+<Image src="../../../assets/images/media/media-58.jpg" 
 className="bd-placeholder-img rounded-md" alt="..." />
-<img src="../../../assets/images/media/media-58.jpg" 
+<Image src="../../../assets/images/media/media-58.jpg" 
 className="bd-placeholder-img rounded-t-md" alt="..." />
-<img src="../../../assets/images/media/media-58.jpg" 
+<Image src="../../../assets/images/media/media-58.jpg" 
 className="bd-placeholder-img rounded-e-md" alt="..." />
-<img src="../../../assets/images/media/media-58.jpg"
+<Image src="../../../assets/images/media/media-58.jpg"
 className="bd-placeholder-img rounded-b-md" alt="..." />
-<img src="../../../assets/images/media/media-58.jpg" 
+<Image src="../../../assets/images/media/media-58.jpg" 
 className="bd-placeholder-img rounded-s-md" alt="..." />
-<img src="../../../assets/images/media/media-58.jpg"
+<Image src="../../../assets/images/media/media-58.jpg"
 className="bd-placeholder-img rounded-full" alt="..." />
-<img src="../../../assets/images/media/media-58.jpg"
+<Image src="../../../assets/images/media/media-58.jpg"
 className="bd-placeholder-img  rounded-full" alt="..." />
 </div>`
 
 export const border8 = `<div className="box-body flex flex-wrap gap-2">
-<img src="../../../assets/images/media/media-58.jpg" 
+<Image src="../../../assets/images/media/media-58.jpg" 
 className="bd-placeholder-img rounded-none" alt="..." />
-<img src="../../../assets/images/media/media-58.jpg"
+<Image src="../../../assets/images/media/media-58.jpg"
  className="bd-placeholder-img rounded-sm" alt="..." />
- <img src="../../../assets/images/media/media-58.jpg"
+ <Image src="../../../assets/images/media/media-58.jpg"
   className="bd-placeholder-img rounded-md" alt="..." />
-<img src="../../../assets/images/media/media-58.jpg" 
+<Image src="../../../assets/images/media/media-58.jpg" 
 className="bd-placeholder-img rounded-lg" alt="..." />
-<img src="../../../assets/images/media/media-58.jpg" 
+<Image src="../../../assets/images/media/media-58.jpg" 
 className="bd-placeholder-img rounded-xl" alt="..." />
 </div>`
 
@@ -94,27 +94,27 @@ className="bd-placeholder-img rounded-xl" alt="..." />
 
 export const avatar1 = `<div className="box-body py-4">
 <span className="avatar me-2 avatar-radius-0">
-<img src="../../../assets/images/faces/1.jpg" alt="img"/>
+<Image src="../../../assets/images/faces/1.jpg" alt="img"/>
 </span>
 <span className="avatar me-2">
-<img src="../../../assets/images/faces/2.jpg" alt="img" />
+<Image src="../../../assets/images/faces/2.jpg" alt="img" />
 </span>
 <span className="avatar me-2 avatar-rounded">
-<img src="../../../assets/images/faces/3.jpg" alt="img" />
+<Image src="../../../assets/images/faces/3.jpg" alt="img" />
 </span>
 </div>`
 
 export const avatar2 = `<div className="box-body">
 {Avatarsize.map((idx)=>
     (<span className={&#96;avatar avatar-&#36;{idx.class} me-2&#96;} 
-        key={Math.random()}><img src={idx.src} /></span>))}
+        key={Math.random()}><Image src={idx.src} /></span>))}
         </div>`
 
 export const avatar3 = `<div className="box-body">
 {AvatarIcon.map((idx) => 
     (<span className={&#96;avatar avatar-&#36;{idx.class}
 me-2 avatar-rounded&#96;} key={Math.random()}> 
-<img src={idx.src} alt="img" />
+<Image src={idx.src} alt="img" />
 <Link aria-label="anchor" href="#" 
 className={&#96;badge bg-&#36;{idx.color} 
 rounded-full avatar-badge&#96;}>
@@ -127,19 +127,19 @@ export const avatar4 = `<div className="box-body">
 {AvatarOnline.map((idx) =>
      (<span className={&#96;avatar avatar-&#36;{idx.class}
 me-2 online avatar-rounded&#96;} key={Math.random()}>
-<img src={idx.src} alt="img" /></span>))}</div>`
+<Image src={idx.src} alt="img" /></span>))}</div>`
 
 export const avatar5 = `<div className="box-body">
 {AvatarOffline.map((idx) => 
     (<span className={&#96;avatar avatar-&#36;{idx.class} 
         me-2 offline avatar-rounded&#96;} key={Math.random()}>
-        <img src={idx.src} alt="img" /></span>))}
+        <Image src={idx.src} alt="img" /></span>))}
         </div>`
 
 export const avatar6 = `<div className="box-body">
 {AvatarNumber.map((idx) => (<span className={&#96;avatar avatar-&#36;{idx.class}
      me-2 avatar-rounded&#96;} key={Math.random()}>
-     <img src={idx.src} alt="img" />
+     <Image src={idx.src} alt="img" />
      <span className={&#96;badge rounded-full bg-&#36;{idx.color} 
      avatar-badge&#96;}>{idx.number}</span></span>))}
      </div>`
@@ -153,7 +153,7 @@ export const avatar7 = `<div className="box-body">
 export const avatar8 = `<div className="box-body">
 <div className="avatar-list-stacked">{StackedAvatars.map((idx)=>
     (<span className="avatar" key={Math.random()}> 
-    <img src={idx.src} alt="img" /> </span> ))}
+    <Image src={idx.src} alt="img" /> </span> ))}
     <Link className="avatar bg-primary text-white" href="#">
      +8</Link></div>
      </div>`
@@ -161,7 +161,7 @@ export const avatar8 = `<div className="box-body">
 export const avatar9 = `<div className="box-body">
 <div className="avatar-list-stacked">
 {StackedAvatars.map((idx)=>(<span className="avatar avatar-rounded"
- key={Math.random()}> <img src={idx.src} alt="img" />
+ key={Math.random()}> <Image src={idx.src} alt="img" />
  </span>))}
  <Link className="avatar bg-primary avatar-rounded
   text-white" href="#"> +8</Link>

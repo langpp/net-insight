@@ -4,6 +4,7 @@ import Seo from '@/shared/layout-components/seo/seo'
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import React, { Fragment, useState } from 'react';
+import Image from 'next/image';
 const Select = dynamic(() => import("react-select"), { ssr: false });
 
 const Leads = () => {
@@ -89,7 +90,7 @@ const Leads = () => {
                                                     <div className="flex items-center gap-2">
                                                         <div className="leading-none">
                                                             <span className="avatar avatar-rounded avatar-sm">
-                                                                <img src={idx.src1} alt="" />
+                                                                <Image src={idx.src1} alt="" />
                                                             </span>
                                                         </div>
                                                         <div>
@@ -114,7 +115,7 @@ const Leads = () => {
                                                     <div className="flex items-center gap-2">
                                                         <div className="leading-none">
                                                             <span className="avatar avatar-sm p-1 bg-light avatar-rounded">
-                                                                <img src={idx.src2} alt="" />
+                                                                <Image src={idx.src2} alt="" />
                                                             </span>
                                                         </div>
                                                         <div>{idx.text1}</div>
@@ -186,7 +187,7 @@ const Leads = () => {
                                     <div className="xl:col-span-12 col-span-12">
                                         <div className="mb-0 text-center">
                                             <span className="avatar avatar-xxl avatar-rounded">
-                                                <img
+                                                <Image
                                                     src={selectedImage || '../../../../assets/images/faces/9.jpg'}
                                                     alt=""
                                                     id="profile-img"

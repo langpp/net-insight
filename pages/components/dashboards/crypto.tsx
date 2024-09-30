@@ -4,6 +4,7 @@ import Seo from '@/shared/layout-components/seo/seo'
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import React, { Fragment } from 'react';
+import Image from 'next/image';
 const Select = dynamic(() => import("react-select"), { ssr: false });
 
 const Crypto = () => {
@@ -21,7 +22,7 @@ const Crypto = () => {
                                         <div className="flex items-center">
                                             <div className="me-2">
                                                 <span className="avatar avatar-md avatar-rounded bg-light p-2">
-                                                    <img src="../../../assets/images/crypto-currencies/regular/Bitcoin.svg"
+                                                    <Image src="../../../assets/images/crypto-currencies/regular/Bitcoin.svg"
                                                         alt="" />
                                                 </span>
                                             </div>
@@ -57,7 +58,7 @@ const Crypto = () => {
                                         <div className="flex items-center">
                                             <div className="me-2">
                                                 <span className="avatar avatar-md avatar-rounded bg-light p-2">
-                                                    <img src="../../../assets/images/crypto-currencies/regular/Ethereum.svg"
+                                                    <Image src="../../../assets/images/crypto-currencies/regular/Ethereum.svg"
                                                         alt="" />
                                                 </span>
                                             </div>
@@ -93,7 +94,7 @@ const Crypto = () => {
                                         <div className="flex items-center">
                                             <div className="me-2">
                                                 <span className="avatar avatar-md avatar-rounded bg-light p-2">
-                                                    <img src="../../../assets/images/crypto-currencies/regular/Dash.svg"
+                                                    <Image src="../../../assets/images/crypto-currencies/regular/Dash.svg"
                                                         alt="" />
                                                 </span>
                                             </div>
@@ -148,7 +149,7 @@ const Crypto = () => {
                                     <div className="flex flex-wrap p-4 border-b border-dashed dark:border-defaultborder/10">
                                         <div className="me-3">
                                             <span className="avatar avatar-md avatar-rounded p-2 bg-light">
-                                                <img src="../../../assets/images/crypto-currencies/regular/Bitcoin.svg"
+                                                <Image src="../../../assets/images/crypto-currencies/regular/Bitcoin.svg"
                                                     alt="" />
                                             </span>
                                         </div>
@@ -207,7 +208,7 @@ const Crypto = () => {
                                             <Link href="#!">
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-center">
-                                                        <img src="../../../assets/images/crypto-currencies/square-color/Bitcoin.svg" alt="" className="w-[1.75rem] h-[1.75rem] me-2" />
+                                                        <Image src="../../../assets/images/crypto-currencies/square-color/Bitcoin.svg" alt="" className="w-[1.75rem] h-[1.75rem] me-2" />
                                                         <div>
                                                             <p className="mb-0 font-semibold">Bitcoin</p>
                                                             <p className="mb-0 text-[0.6875rem] text-success font-semibold">
@@ -229,7 +230,7 @@ const Crypto = () => {
                                             <Link href="#!">
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-center">
-                                                        <img src="../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" className="w-[1.75rem] h-[1.75rem] me-2" />
+                                                        <Image src="../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" className="w-[1.75rem] h-[1.75rem] me-2" />
                                                         <div>
                                                             <p className="mb-0 font-semibold">Etherium</p>
                                                             <p
@@ -252,7 +253,7 @@ const Crypto = () => {
                                             <Link href="#!">
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex tems-center">
-                                                        <img src="../../../assets/images/crypto-currencies/square-color/Dash.svg" alt="" className="w-[1.75rem] h-[1.75rem] me-2" />
+                                                        <Image src="../../../assets/images/crypto-currencies/square-color/Dash.svg" alt="" className="w-[1.75rem] h-[1.75rem] me-2" />
                                                         <div>
                                                             <p className="mb-0 font-semibold">Dash</p>
                                                             <p
@@ -275,7 +276,7 @@ const Crypto = () => {
                                             <Link href="#!">
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-center">
-                                                        <img src="../../../assets/images/crypto-currencies/square-color/Bytecoin.svg" alt="" className="w-[1.75rem] h-[1.75rem] me-2" />
+                                                        <Image src="../../../assets/images/crypto-currencies/square-color/Bytecoin.svg" alt="" className="w-[1.75rem] h-[1.75rem] me-2" />
                                                         <div>
                                                             <p className="mb-0 font-semibold">Bytecoin</p>
                                                             <p
@@ -298,7 +299,7 @@ const Crypto = () => {
                                             <Link href="#!">
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-center">
-                                                        <img src="../../../assets/images/crypto-currencies/square-color/Golem.svg" alt="" className="w-[1.75rem] h-[1.75rem] me-2" />
+                                                        <Image src="../../../assets/images/crypto-currencies/square-color/Golem.svg" alt="" className="w-[1.75rem] h-[1.75rem] me-2" />
                                                         <div>
                                                             <p className="mb-0 font-semibold">Golem</p>
                                                             <p
@@ -321,7 +322,7 @@ const Crypto = () => {
                                             <Link href="#!">
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-center">
-                                                        <img src="../../../assets/images/crypto-currencies/square-color/Siacoin.svg" alt="" className="w-[1.75rem] h-[1.75rem] me-2" />
+                                                        <Image src="../../../assets/images/crypto-currencies/square-color/Siacoin.svg" alt="" className="w-[1.75rem] h-[1.75rem] me-2" />
                                                         <div>
                                                             <p className="mb-0 font-semibold">SiaCoin</p>
                                                             <p
@@ -344,7 +345,7 @@ const Crypto = () => {
                                             <Link href="#!">
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-center">
-                                                        <img src="../../../assets/images/crypto-currencies/square-color/Monero.svg" alt="" className="w-[1.75rem] h-[1.75rem] me-2" />
+                                                        <Image src="../../../assets/images/crypto-currencies/square-color/Monero.svg" alt="" className="w-[1.75rem] h-[1.75rem] me-2" />
                                                         <div>
                                                             <p className="mb-0 font-semibold">Monero</p>
                                                             <p
@@ -383,7 +384,7 @@ const Crypto = () => {
                                     </div>
                                     <div className="ms-auto">
                                         <span className="avatar avatar-xxl">
-                                            <img className="buy-sell-image" src="../../../assets/images/media/media-82.png" alt="" />
+                                            <Image className="buy-sell-image" src="../../../assets/images/media/media-82.png" alt="" />
                                         </span>
                                     </div>
                                 </div>
@@ -579,7 +580,7 @@ const Crypto = () => {
                                                     </td>
                                                     <td>
                                                         <div className="flex items-center">
-                                                            <img src={idx.src1} alt="" className="leading-none avatar avatar-md avatar-rounded me-2 p-2 bg-light !my-auto" />
+                                                            <Image src={idx.src1} alt="" className="leading-none avatar avatar-md avatar-rounded me-2 p-2 bg-light !my-auto" />
                                                             <div className="items-center">
                                                                 <span className="text-[0.75rem] text-[#8c9097] dark:text-white/50">Currency</span>
                                                                 <p className="mb-0">{idx.text1} - <span
@@ -591,7 +592,7 @@ const Crypto = () => {
                                                         <div className="items-center text-center">
                                                             <div className="flex items-center font-semibold">
                                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                                    <img src={idx.src2} alt="" />
+                                                                    <Image src={idx.src2} alt="" />
                                                                 </span>
                                                                 <span className="ms-2">{idx.name}</span>
                                                             </div>
@@ -760,7 +761,7 @@ const Crypto = () => {
                                         <div className="flex items-center">
                                             <div className="me-2 leading-none">
                                                 <span className="avatar avatar-md avatar-rounded p-2 bg-light">
-                                                    <img src="../../../assets/images/faces/11.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/11.jpg" alt="" />
                                                 </span>
                                             </div>
                                             <div>
@@ -784,7 +785,7 @@ const Crypto = () => {
                                         <div className="flex items-center">
                                             <div className="me-2 leading-none">
                                                 <span className="avatar avatar-md avatar-rounded p-2 bg-light">
-                                                    <img src="../../../assets/images/faces/4.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/4.jpg" alt="" />
                                                 </span>
                                             </div>
                                             <div>
@@ -808,7 +809,7 @@ const Crypto = () => {
                                         <div className="flex items-center">
                                             <div className="me-2 leading-none">
                                                 <span className="avatar avatar-md avatar-rounded p-2 bg-light">
-                                                    <img src="../../../assets/images/faces/15.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/15.jpg" alt="" />
                                                 </span>
                                             </div>
                                             <div>
@@ -832,7 +833,7 @@ const Crypto = () => {
                                         <div className="flex items-center">
                                             <div className="me-2 leading-none">
                                                 <span className="avatar avatar-md avatar-rounded p-2 bg-light">
-                                                    <img src="../../../assets/images/faces/12.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/12.jpg" alt="" />
                                                 </span>
                                             </div>
                                             <div>
@@ -856,7 +857,7 @@ const Crypto = () => {
                                         <div className="flex items-center">
                                             <div className="me-2 leading-none">
                                                 <span className="avatar avatar-md avatar-rounded p-2 bg-light">
-                                                    <img src="../../../assets/images/faces/5.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/5.jpg" alt="" />
                                                 </span>
                                             </div>
                                             <div>
@@ -880,7 +881,7 @@ const Crypto = () => {
                                         <div className="flex items-center">
                                             <div className="me-2 leading-none">
                                                 <span className="avatar avatar-md avatar-rounded p-2 bg-light">
-                                                    <img src="../../../assets/images/faces/10.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/10.jpg" alt="" />
                                                 </span>
                                             </div>
                                             <div>
@@ -949,7 +950,7 @@ const Crypto = () => {
                                                 <td>
                                                     <div className="leading-none flex items-center">
                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                            <img src="../../../assets/images/crypto-currencies/regular/Bitcoin.svg"
+                                                            <Image src="../../../assets/images/crypto-currencies/regular/Bitcoin.svg"
                                                                 alt="" />
                                                         </span> - BTC
                                                     </div>
@@ -979,7 +980,7 @@ const Crypto = () => {
                                                 <td>
                                                     <div className="leading-none flex items-center">
                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                            <img src="../../../assets/images/crypto-currencies/regular/Ethereum.svg"
+                                                            <Image src="../../../assets/images/crypto-currencies/regular/Ethereum.svg"
                                                                 alt="" />
                                                         </span> - ETH
                                                     </div>
@@ -1009,7 +1010,7 @@ const Crypto = () => {
                                                 <td>
                                                     <div className="leading-none flex items-center">
                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                            <img src="../../../assets/images/crypto-currencies/regular/Dash.svg"
+                                                            <Image src="../../../assets/images/crypto-currencies/regular/Dash.svg"
                                                                 alt="" />
                                                         </span> - DASH
                                                     </div>
@@ -1039,7 +1040,7 @@ const Crypto = () => {
                                                 <td>
                                                     <div className="leading-none flex items-center">
                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                            <img src="../../../assets/images/crypto-currencies/regular/Ripple.svg"
+                                                            <Image src="../../../assets/images/crypto-currencies/regular/Ripple.svg"
                                                                 alt="" />
                                                         </span> - XRP
                                                     </div>
@@ -1069,7 +1070,7 @@ const Crypto = () => {
                                                 <td>
                                                     <div className="leading-none flex items-center">
                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                            <img src="../../../assets/images/crypto-currencies/regular/IOTA.svg"
+                                                            <Image src="../../../assets/images/crypto-currencies/regular/IOTA.svg"
                                                                 alt="" />
                                                         </span> - IOTA
                                                     </div>
@@ -1099,7 +1100,7 @@ const Crypto = () => {
                                                 <td>
                                                     <div className="leading-none flex items-center">
                                                         <span className="avatar avatar-xs avatar-rounded">
-                                                            <img src="../../../assets/images/crypto-currencies/regular/Neo.svg"
+                                                            <Image src="../../../assets/images/crypto-currencies/regular/Neo.svg"
                                                                 alt="" />
                                                         </span> - NEO
                                                     </div>

@@ -2,6 +2,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link';
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Reviews = () => {
 
@@ -31,7 +32,7 @@ const Reviews = () => {
                                 <div className="box-body">
                                     <div className="flex items-center mb-4">
                                         <span className="avatar avatar-md avatar-rounded me-4">
-                                            <img src={idx.src} alt="" />
+                                            <Image src={idx.src} alt="" />
                                         </span>
                                         <div>
                                             <p className="mb-0 font-semibold text-[.875rem] text-primary">{idx.name}</p>

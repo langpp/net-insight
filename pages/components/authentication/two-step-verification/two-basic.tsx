@@ -1,6 +1,7 @@
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link';
 import React, { Fragment, useState } from 'react'
+import Image from 'next/image';
 
 const Twobasic = () => {
 
@@ -34,8 +35,8 @@ const Twobasic = () => {
         <div className="xxl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-6 sm:col-span-8 col-span-12 flex flex-col">
           <div className="my-[3rem] flex justify-center">
             <Link href="/components/dashboards/crm/">
-              <img src="../../../../assets/images/brand-logos/desktop-logo.png" alt="logo" className="desktop-logo"/>
-              <img src="../../../../assets/images/brand-logos/desktop-dark.png" alt="logo" className="desktop-dark"/>
+              <Image src="../../../../assets/images/brand-logos/desktop-logo.png" alt="logo" className="desktop-logo"/>
+              <Image src="../../../../assets/images/brand-logos/desktop-dark.png" alt="logo" className="desktop-dark"/>
             </Link>
           </div>
           <div className="box">
@@ -76,7 +77,7 @@ const Twobasic = () => {
                 </div>
               </div>
               <div className="text-center">
-                <p className="text-[0.75rem] text-[#8c9097] dark:text-white/50 mt-4 text-danger"><sup><i className="ri-asterisk"></i></sup>Don't share
+                <p className="text-[0.75rem] text-[#8c9097] dark:text-white/50 mt-4 text-danger"><sup><i className="ri-asterisk"></i></sup>Dont share
                   the verification code with anyone !</p>
               </div>
             </div>

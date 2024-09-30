@@ -3,6 +3,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Marketplace = () => {
     return (
@@ -72,7 +73,7 @@ const Marketplace = () => {
                                 {Tabpane1data.map((idx) => (
                                     <div className="xxl:col-span-2 xl:col-span-3 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12" key={Math.random()}>
                                         <div className="box custom-box">
-                                            <img src={idx.src1} className="!rounded-t-md" alt="..." />
+                                            <Image src={idx.src1} className="!rounded-t-md" alt="..." />
                                             <div className="flex items-center justify-between nft-like-section w-full px-4">
                                                 <div className="flex-grow">
                                                     <button type="button" aria-label="button" className="ti-btn ti-btn-sm ti-btn-success-full !rounded-full btn-wave waves-effect waves-light">
@@ -87,7 +88,7 @@ const Marketplace = () => {
                                                 <div className="flex items-center mb-4">
                                                     <div className="me-2 leading-none">
                                                         <span className="avatar avatar-rounded avatar-md">
-                                                            <img src={idx.src2} alt="" />
+                                                            <Image src={idx.src2} alt="" />
                                                         </span>
                                                     </div>
                                                     <div>
@@ -105,7 +106,7 @@ const Marketplace = () => {
                                                     </div>
                                                     <div className="flex flex-wrap items-center leading-none">
                                                         <span className="avatar avatar-xs me-1">
-                                                            <img src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
+                                                            <Image src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
                                                         </span>{idx.text4}
                                                     </div>
                                                 </div>
@@ -131,7 +132,7 @@ const Marketplace = () => {
                             <div className="grid grid-cols-12 gap-6">
                                 <div className="xxl:col-span-2 xl:col-span-3 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12">
                                     <div className="box custom-box">
-                                        <img src="../../../../assets/images/nft-images/21.png" className="!rounded-t-md" alt="..." />
+                                        <Image src="../../../../assets/images/nft-images/21.png" className="!rounded-t-md" alt="..." />
                                         <div className="flex items-center justify-between nft-like-section w-full px-4">
                                             <div className="flex-grow">
                                                 <button type="button" aria-label="button" className="ti-btn ti-btn-sm ti-btn-success-full !rounded-full btn-wave waves-effect waves-light">
@@ -146,7 +147,7 @@ const Marketplace = () => {
                                             <div className="flex items-center mb-4">
                                                 <div className="me-2 leading-none">
                                                     <span className="avatar avatar-rounded avatar-md">
-                                                        <img src="../../../../assets/images/faces/4.jpg" alt="" />
+                                                        <Image src="../../../../assets/images/faces/4.jpg" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -164,7 +165,7 @@ const Marketplace = () => {
                                                 </div>
                                                 <div className="flex flex-wrap items-center leading-none">
                                                     <span className="avatar avatar-xs me-1">
-                                                        <img src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
+                                                        <Image src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
                                                     </span>0.11ETH
                                                 </div>
                                             </div>
@@ -176,7 +177,7 @@ const Marketplace = () => {
                                 </div>
                                 <div className="xxl:col-span-2 xl:col-span-3 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12">
                                     <div className="box custom-box">
-                                        <img src="../../../../assets/images/nft-images/25.png" className="!rounded-t-md" alt="..." />
+                                        <Image src="../../../../assets/images/nft-images/25.png" className="!rounded-t-md" alt="..." />
                                         <div className="flex items-center justify-between nft-like-section w-full px-4">
                                             <div className="flex-grow">
                                                 <button type="button" aria-label="button" className="ti-btn ti-btn-sm ti-btn-success-full !rounded-full btn-wave waves-effect waves-light">
@@ -191,7 +192,7 @@ const Marketplace = () => {
                                             <div className="flex items-center mb-4">
                                                 <div className="me-2 leading-none">
                                                     <span className="avatar avatar-rounded avatar-md">
-                                                        <img src="../../../../assets/images/faces/8.jpg" alt="" />
+                                                        <Image src="../../../../assets/images/faces/8.jpg" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -209,7 +210,7 @@ const Marketplace = () => {
                                                 </div>
                                                 <div className="flex flex-wrap items-center leading-none">
                                                     <span className="avatar avatar-xs me-1">
-                                                        <img src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
+                                                        <Image src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
                                                     </span>0.23ETH
                                                 </div>
                                             </div>
@@ -221,7 +222,7 @@ const Marketplace = () => {
                                 </div>
                                 <div className="xxl:col-span-2 xl:col-span-3 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12">
                                     <div className="box custom-box">
-                                        <img src="../../../../assets/images/nft-images/26.png" className="!rounded-t-md" alt="..." />
+                                        <Image src="../../../../assets/images/nft-images/26.png" className="!rounded-t-md" alt="..." />
                                         <div className="flex items-center justify-between nft-like-section w-full px-4">
                                             <div className="flex-grow">
                                                 <button type="button" aria-label="button" className="ti-btn ti-btn-sm ti-btn-success-full !rounded-full btn-wave waves-effect waves-light">
@@ -236,7 +237,7 @@ const Marketplace = () => {
                                             <div className="flex items-center mb-4">
                                                 <div className="me-2 leading-none">
                                                     <span className="avatar avatar-rounded avatar-md">
-                                                        <img src="../../../../assets/images/faces/9.jpg" alt="" />
+                                                        <Image src="../../../../assets/images/faces/9.jpg" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -254,7 +255,7 @@ const Marketplace = () => {
                                                 </div>
                                                 <div className="flex flex-wrap items-center leading-none">
                                                     <span className="avatar avatar-xs me-1">
-                                                        <img src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
+                                                        <Image src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
                                                     </span>0.38ETH
                                                 </div>
                                             </div>
@@ -270,7 +271,7 @@ const Marketplace = () => {
                             <div className="grid grid-cols-12 gap-6">
                                 <div className="xxl:col-span-2 xl:col-span-3 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12">
                                     <div className="box custom-box">
-                                        <img src="../../../../assets/images/nft-images/18.png" className="!rounded-t-md" alt="..." />
+                                        <Image src="../../../../assets/images/nft-images/18.png" className="!rounded-t-md" alt="..." />
                                         <div className="flex items-center justify-between nft-like-section w-full px-4">
                                             <div className="flex-grow">
                                                 <button type="button" aria-label="button" className="ti-btn ti-btn-sm ti-btn-success-full !rounded-full btn-wave waves-effect waves-light">
@@ -285,7 +286,7 @@ const Marketplace = () => {
                                             <div className="flex items-center mb-4">
                                                 <div className="me-2 leading-none">
                                                     <span className="avatar avatar-rounded avatar-md">
-                                                        <img src="../../../../assets/images/faces/1.jpg" alt="" />
+                                                        <Image src="../../../../assets/images/faces/1.jpg" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -303,7 +304,7 @@ const Marketplace = () => {
                                                 </div>
                                                 <div className="flex flex-wrap items-center leading-none">
                                                     <span className="avatar avatar-xs me-1">
-                                                        <img src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
+                                                        <Image src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
                                                     </span>0.24ETH
                                                 </div>
                                             </div>
@@ -315,7 +316,7 @@ const Marketplace = () => {
                                 </div>
                                 <div className="xxl:col-span-2 xl:col-span-3 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12">
                                     <div className="box custom-box">
-                                        <img src="../../../../assets/images/nft-images/20.png" className="!rounded-t-md" alt="..." />
+                                        <Image src="../../../../assets/images/nft-images/20.png" className="!rounded-t-md" alt="..." />
                                         <div className="flex items-center justify-between nft-like-section w-full px-4">
                                             <div className="flex-grow">
                                                 <button type="button" aria-label="button" className="ti-btn ti-btn-sm ti-btn-success-full !rounded-full btn-wave waves-effect waves-light">
@@ -330,7 +331,7 @@ const Marketplace = () => {
                                             <div className="flex items-center mb-4">
                                                 <div className="me-2 leading-none">
                                                     <span className="avatar avatar-rounded avatar-md">
-                                                        <img src="../../../../assets/images/faces/3.jpg" alt="" />
+                                                        <Image src="../../../../assets/images/faces/3.jpg" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -348,7 +349,7 @@ const Marketplace = () => {
                                                 </div>
                                                 <div className="flex flex-wrap items-center leading-none">
                                                     <span className="avatar avatar-xs me-1">
-                                                        <img src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
+                                                        <Image src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
                                                     </span>0.19ETH
                                                 </div>
                                             </div>
@@ -364,7 +365,7 @@ const Marketplace = () => {
                             <div className="grid grid-cols-12 gap-6">
                                 <div className="xxl:col-span-2 xl:col-span-3 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12">
                                     <div className="box custom-box">
-                                        <img src="../../../../assets/images/nft-images/18.png" className="!rounded-t-md" alt="..." />
+                                        <Image src="../../../../assets/images/nft-images/18.png" className="!rounded-t-md" alt="..." />
                                         <div className="flex items-center justify-between nft-like-section w-full px-4">
                                             <div className="flex-grow">
                                                 <button type="button" aria-label="button" className="ti-btn ti-btn-sm ti-btn-success-full !rounded-full btn-wave waves-effect waves-light">
@@ -379,7 +380,7 @@ const Marketplace = () => {
                                             <div className="flex items-center mb-4">
                                                 <div className="me-2 leading-none">
                                                     <span className="avatar avatar-rounded avatar-md">
-                                                        <img src="../../../../assets/images/faces/1.jpg" alt="" />
+                                                        <Image src="../../../../assets/images/faces/1.jpg" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -397,7 +398,7 @@ const Marketplace = () => {
                                                 </div>
                                                 <div className="flex flex-wrap items-center leading-none">
                                                     <span className="avatar avatar-xs me-1">
-                                                        <img src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
+                                                        <Image src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
                                                     </span>0.24ETH
                                                 </div>
                                             </div>
@@ -413,7 +414,7 @@ const Marketplace = () => {
                             <div className="grid grid-cols-12 gap-6">
                                 <div className="xxl:col-span-2 xl:col-span-3 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12">
                                     <div className="box custom-box">
-                                        <img src="../../../../assets/images/nft-images/18.png" className="!rounded-t-md" alt="..." />
+                                        <Image src="../../../../assets/images/nft-images/18.png" className="!rounded-t-md" alt="..." />
                                         <div className="flex items-center justify-between nft-like-section w-full px-4">
                                             <div className="flex-grow">
                                                 <button type="button" aria-label="button" className="ti-btn ti-btn-sm ti-btn-success-full !rounded-full btn-wave waves-effect waves-light">
@@ -428,7 +429,7 @@ const Marketplace = () => {
                                             <div className="flex items-center mb-4">
                                                 <div className="me-2 leading-none">
                                                     <span className="avatar avatar-rounded avatar-md">
-                                                        <img src="../../../../assets/images/faces/1.jpg" alt="" />
+                                                        <Image src="../../../../assets/images/faces/1.jpg" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -446,7 +447,7 @@ const Marketplace = () => {
                                                 </div>
                                                 <div className="flex flex-wrap items-center leading-none">
                                                     <span className="avatar avatar-xs me-1">
-                                                        <img src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
+                                                        <Image src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
                                                     </span>0.24ETH
                                                 </div>
                                             </div>
@@ -462,7 +463,7 @@ const Marketplace = () => {
                             <div className="grid grid-cols-12 gap-6">
                                 <div className="xxl:col-span-2 xl:col-span-3 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12">
                                     <div className="box custom-box">
-                                        <img src="../../../../assets/images/nft-images/18.png" className="!rounded-t-md" alt="..." />
+                                        <Image src="../../../../assets/images/nft-images/18.png" className="!rounded-t-md" alt="..." />
                                         <div className="flex items-center justify-between nft-like-section w-full px-4">
                                             <div className="flex-grow">
                                                 <button type="button" aria-label="button" className="ti-btn ti-btn-sm ti-btn-success-full !rounded-full btn-wave waves-effect waves-light">
@@ -477,7 +478,7 @@ const Marketplace = () => {
                                             <div className="flex items-center mb-4">
                                                 <div className="me-2 leading-none">
                                                     <span className="avatar avatar-rounded avatar-md">
-                                                        <img src="../../../../assets/images/faces/1.jpg" alt="" />
+                                                        <Image src="../../../../assets/images/faces/1.jpg" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -495,7 +496,7 @@ const Marketplace = () => {
                                                 </div>
                                                 <div className="flex flex-wrap items-center leading-none">
                                                     <span className="avatar avatar-xs me-1">
-                                                        <img src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
+                                                        <Image src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
                                                     </span>0.24ETH
                                                 </div>
                                             </div>
@@ -511,7 +512,7 @@ const Marketplace = () => {
                             <div className="grid grid-cols-12 gap-6">
                                 <div className="xxl:col-span-2 xl:col-span-3 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12">
                                     <div className="box custom-box">
-                                        <img src="../../../../assets/images/nft-images/18.png" className="!rounded-t-md" alt="..." />
+                                        <Image src="../../../../assets/images/nft-images/18.png" className="!rounded-t-md" alt="..." />
                                         <div className="flex items-center justify-between nft-like-section w-full px-4">
                                             <div className="flex-grow">
                                                 <button type="button" aria-label="button" className="ti-btn ti-btn-sm ti-btn-success-full !rounded-full btn-wave waves-effect waves-light">
@@ -526,7 +527,7 @@ const Marketplace = () => {
                                             <div className="flex items-center mb-4">
                                                 <div className="me-2 leading-none">
                                                     <span className="avatar avatar-rounded avatar-md">
-                                                        <img src="../../../../assets/images/faces/1.jpg" alt="" />
+                                                        <Image src="../../../../assets/images/faces/1.jpg" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -544,7 +545,7 @@ const Marketplace = () => {
                                                 </div>
                                                 <div className="flex flex-wrap items-center leading-none">
                                                     <span className="avatar avatar-xs me-1">
-                                                        <img src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
+                                                        <Image src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
                                                     </span>0.24ETH
                                                 </div>
                                             </div>
@@ -560,7 +561,7 @@ const Marketplace = () => {
                             <div className="grid grid-cols-12 gap-6">
                                 <div className="xxl:col-span-2 xl:col-span-3 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12">
                                     <div className="box custom-box">
-                                        <img src="../../../../assets/images/nft-images/18.png" className="!rounded-t-md" alt="..." />
+                                        <Image src="../../../../assets/images/nft-images/18.png" className="!rounded-t-md" alt="..." />
                                         <div className="flex items-center justify-between nft-like-section w-full px-4">
                                             <div className="flex-grow">
                                                 <button type="button" aria-label="button" className="ti-btn ti-btn-sm ti-btn-success-full !rounded-full btn-wave waves-effect waves-light">
@@ -575,7 +576,7 @@ const Marketplace = () => {
                                             <div className="flex items-center mb-4">
                                                 <div className="me-2 leading-none">
                                                     <span className="avatar avatar-rounded avatar-md">
-                                                        <img src="../../../../assets/images/faces/1.jpg" alt="" />
+                                                        <Image src="../../../../assets/images/faces/1.jpg" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -593,7 +594,7 @@ const Marketplace = () => {
                                                 </div>
                                                 <div className="flex flex-wrap items-center leading-none">
                                                     <span className="avatar avatar-xs me-1">
-                                                        <img src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
+                                                        <Image src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
                                                     </span>0.24ETH
                                                 </div>
                                             </div>
@@ -609,7 +610,7 @@ const Marketplace = () => {
                             <div className="grid grid-cols-12 gap-6">
                                 <div className="xxl:col-span-2 xl:col-span-3 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12">
                                     <div className="box custom-box">
-                                        <img src="../../../../assets/images/nft-images/18.png" className="!rounded-t-md" alt="..." />
+                                        <Image src="../../../../assets/images/nft-images/18.png" className="!rounded-t-md" alt="..." />
                                         <div className="flex items-center justify-between nft-like-section w-full px-4">
                                             <div className="flex-grow">
                                                 <button type="button" aria-label="button" className="ti-btn ti-btn-sm ti-btn-success-full !rounded-full btn-wave waves-effect waves-light">
@@ -624,7 +625,7 @@ const Marketplace = () => {
                                             <div className="flex items-center mb-4">
                                                 <div className="me-2 leading-none">
                                                     <span className="avatar avatar-rounded avatar-md">
-                                                        <img src="../../../../assets/images/faces/1.jpg" alt="" />
+                                                        <Image src="../../../../assets/images/faces/1.jpg" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -642,7 +643,7 @@ const Marketplace = () => {
                                                 </div>
                                                 <div className="flex flex-wrap items-center leading-none">
                                                     <span className="avatar avatar-xs me-1">
-                                                        <img src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
+                                                        <Image src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
                                                     </span>0.24ETH
                                                 </div>
                                             </div>
@@ -658,7 +659,7 @@ const Marketplace = () => {
                             <div className="grid grid-cols-12 gap-6">
                                 <div className="xxl:col-span-2 xl:col-span-3 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12">
                                     <div className="box custom-box">
-                                        <img src="../../../../assets/images/nft-images/18.png" className="!rounded-t-md" alt="..." />
+                                        <Image src="../../../../assets/images/nft-images/18.png" className="!rounded-t-md" alt="..." />
                                         <div className="flex items-center justify-between nft-like-section w-full px-4">
                                             <div className="flex-grow">
                                                 <button type="button" aria-label="button" className="ti-btn ti-btn-sm ti-btn-success-full !rounded-full btn-wave waves-effect waves-light">
@@ -673,7 +674,7 @@ const Marketplace = () => {
                                             <div className="flex items-center mb-4">
                                                 <div className="me-2 leading-none">
                                                     <span className="avatar avatar-rounded avatar-md">
-                                                        <img src="../../../../assets/images/faces/1.jpg" alt="" />
+                                                        <Image src="../../../../assets/images/faces/1.jpg" alt="" />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -691,7 +692,7 @@ const Marketplace = () => {
                                                 </div>
                                                 <div className="flex flex-wrap items-center leading-none">
                                                     <span className="avatar avatar-xs me-1">
-                                                        <img src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
+                                                        <Image src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
                                                     </span>0.24ETH
                                                 </div>
                                             </div>

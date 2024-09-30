@@ -17,10 +17,10 @@ const Flex = () => {
                         </div>
                         <div className="box-body">
                             <div className="bd-example flex-container mb-4">
-                                <div className="flex p-2">I'm a flexbox container!</div>
+                                <div className="flex p-2">Im a flexbox container!</div>
                             </div>
                             <div className="bd-example flex-container">
-                                <div className="inline-flex p-2">I'm an inline flexbox container!</div>
+                                <div className="inline-flex p-2">Im an inline flexbox container!</div>
                             </div>
                         </div>
                     </div>

@@ -2,10 +2,10 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import React, { Fragment, useEffect, useState } from 'react'
 import { connect } from 'react-redux';
-import { AddToCart } from "../../../../shared/redux/action"
 import { ItemData1 } from '@/shared/data/pages/ecommerces/ecommercedata';
 import Link from 'next/link';
 import Swal from 'sweetalert2';
+import Image from 'next/image';
 
 const Cart = ({ local_varaiable }:any) => {
 
@@ -38,7 +38,7 @@ const Cart = ({ local_varaiable }:any) => {
     const handleClick = (id: string) => {
         Swal.fire({
             title: 'Are you sure?',
-            text: "You won't be able to revert this!",
+            text: "You wont be able to revert this!",
             icon: 'warning',
             showCancelButton: true,
             confirmButtonColor: '#3085d6',
@@ -131,7 +131,7 @@ const Cart = ({ local_varaiable }:any) => {
                                                     <div className="flex items-center">
                                                         <div className="me-4">
                                                             <span className="avatar avatar-xxl bg-light">
-                                                                <img src={idx.preview} alt="" />
+                                                                <Image src={idx.preview} alt="" />
                                                             </span>
                                                         </div>
                                                         <div>
@@ -274,4 +274,4 @@ Cart.layout = "Contentlayout"
 const mapStateToProps = (state: any) => ({
     local_varaiable: state
 });
-export default connect(mapStateToProps, { AddToCart })(Cart);
+export default connect(mapStateToProps, {  })(Cart);

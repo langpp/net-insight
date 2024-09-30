@@ -4,6 +4,7 @@ import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from 'next/image';
 import {
     Autoplay
 } from 'swiper/modules';
@@ -36,7 +37,7 @@ const Nft = () => {
                                     </div>
                                     <div className="sm:col-span-4 col-span-12 sm:ps-3 my-auto">
                                         <div className="featured-nft">
-                                            <img src="../../../assets/images/nft-images/1.png" alt="" />
+                                            <Image src="../../../assets/images/nft-images/1.png" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -218,7 +219,7 @@ const Nft = () => {
                         {Trendingauctions.map((idx) => (
                             <div className="xxl:col-span-3 xl:col-span-3 lg:col-span-3 md:col-span-3 sm:col-span-6 col-span-12" key={Math.random()}>
                                 <div className="box">
-                                    <img src={idx.src1} className="card-img-top" alt="..." />
+                                    <Image src={idx.src1} className="card-img-top" alt="..." />
                                     <div className="flex items-center justify-between nft-like-section w-full px-4">
                                         <div className="flex-grow">
                                             <button aria-label="button" type="button" className="ti-btn ti-btn-sm ti-btn-icon bg-success text-white !rounded-full ti-btn-wave">
@@ -232,7 +233,7 @@ const Nft = () => {
                                     </div>
                                     <div className="box-body">
                                         <div className="flex items-center mb-3">
-                                            <img src={idx.src2} alt="" className="avatar avatar-md rounded-md me-2 leading-none !mb-0" />
+                                            <Image src={idx.src2} alt="" className="avatar avatar-md rounded-md me-2 leading-none !mb-0" />
                                             <div>
                                                 <p className="mb-0 font-semibold">{idx.name}</p>
                                                 <p className="text-[0.75rem] text-[#8c9097] dark:text-white/50 mb-0">{idx.mail}</p>
@@ -248,7 +249,7 @@ const Nft = () => {
                                             </div>
                                             <div className="flex flex-wrap items-center leading-none">
                                                 <span className="avatar avatar-xs me-1">
-                                                    <img src="../../../assets/images/crypto-currencies/square-color/Ethereum.svg"
+                                                    <Image src="../../../assets/images/crypto-currencies/square-color/Ethereum.svg"
                                                         alt="" />
                                                 </span>{idx.bid}
                                             </div>
@@ -300,7 +301,7 @@ const Nft = () => {
                                                 <div className="flex items-center">
                                                     <div className="leading-none">
                                                         <span className="avatar avatar-md avatar-rounded me-2">
-                                                            <img src="../../../assets/images/faces/4.jpg" alt="" />
+                                                            <Image src="../../../assets/images/faces/4.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="items-center">
@@ -334,7 +335,7 @@ const Nft = () => {
                                                 <div className="flex items-center">
                                                     <div className="leading-none">
                                                         <span className="avatar avatar-md avatar-rounded me-2">
-                                                            <img src="../../../assets/images/faces/15.jpg" alt="" />
+                                                            <Image src="../../../assets/images/faces/15.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="items-center">
@@ -368,7 +369,7 @@ const Nft = () => {
                                                 <div className="flex items-center">
                                                     <div className="leading-none">
                                                         <span className="avatar avatar-md avatar-rounded me-2">
-                                                            <img src="../../../assets/images/faces/5.jpg" alt="" />
+                                                            <Image src="../../../assets/images/faces/5.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="items-center">
@@ -402,7 +403,7 @@ const Nft = () => {
                                                 <div className="flex items-center">
                                                     <div className="leading-none">
                                                         <span className="avatar avatar-md avatar-rounded me-2">
-                                                            <img src="../../../assets/images/faces/12.jpg" alt="" />
+                                                            <Image src="../../../assets/images/faces/12.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="items-center">
@@ -436,7 +437,7 @@ const Nft = () => {
                                                 <div className="flex items-center">
                                                     <div className="leading-none">
                                                         <span className="avatar avatar-md avatar-rounded me-2">
-                                                            <img src="../../../assets/images/faces/3.jpg" alt="" />
+                                                            <Image src="../../../assets/images/faces/3.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="items-center">
@@ -470,7 +471,7 @@ const Nft = () => {
                                                 <div className="flex items-center">
                                                     <div className="leading-none">
                                                         <span className="avatar avatar-md avatar-rounded me-2">
-                                                            <img src="../../../assets/images/faces/13.jpg" alt="" />
+                                                            <Image src="../../../assets/images/faces/13.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                     <div className="items-center">
@@ -540,7 +541,7 @@ const Nft = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2">
                                                             <span className="avatar avatar-md p-2 avatar-rounded bg-light">
-                                                                <img src={idx.src} alt="" />
+                                                                <Image src={idx.src} alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="font-semibold">{idx.name}</div>
@@ -592,7 +593,7 @@ const Nft = () => {
                             <div className="flex flex-wrap p-3 border-b border-dashed dark:border-defaultborder/10">
                                 <div className="me-3">
                                     <span className="avatar avatar-md avatar-rounded p-2 bg-light">
-                                        <img src="../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" />
+                                        <Image src="../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" />
                                     </span>
                                 </div>
                                 <div className="sm:flex flex-wrap justify-evenly flex-grow">
@@ -639,19 +640,19 @@ const Nft = () => {
                                 <div className="box-body">
                                     <div className="grid grid-cols-12 gap-2">
                                         <div className="col-span-6">
-                                            <img src="../../../assets/images/nft-images/6.png" alt=""
+                                            <Image src="../../../assets/images/nft-images/6.png" alt=""
                                                 className="nft-featuredcollect-image" />
                                         </div>
                                         <div className="col-span-6">
-                                            <img src="../../../assets/images/nft-images/7.png" alt=""
+                                            <Image src="../../../assets/images/nft-images/7.png" alt=""
                                                 className="nft-featuredcollect-image" />
                                         </div>
                                         <div className="col-span-6">
-                                            <img src="../../../assets/images/nft-images/8.png" alt=""
+                                            <Image src="../../../assets/images/nft-images/8.png" alt=""
                                                 className="nft-featuredcollect-image" />
                                         </div>
                                         <div className="col-span-6">
-                                            <img src="../../../assets/images/nft-images/9.png" alt=""
+                                            <Image src="../../../assets/images/nft-images/9.png" alt=""
                                                 className="nft-featuredcollect-image" />
                                         </div>
                                     </div>
@@ -668,7 +669,7 @@ const Nft = () => {
                                         <div className="flex items-center">
                                             <div className="me-2 leading-none">
                                                 <span className="avatar avatar-rounded bg-light p-1 avatar-xs">
-                                                    <img src="../../../assets/images/crypto-currencies/regular/Ethereum.svg"
+                                                    <Image src="../../../assets/images/crypto-currencies/regular/Ethereum.svg"
                                                         alt="" />
                                                 </span>
                                             </div>
@@ -683,7 +684,7 @@ const Nft = () => {
                                         <div className="flex items-center flex-grow">
                                             <div className="me-2 leading-none">
                                                 <span className="avatar avatar-md avatar-rounded">
-                                                    <img src="../../../assets/images/faces/15.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/15.jpg" alt="" />
                                                     <Link aria-label="anchor" href="#!"
                                                         className="badge !rounded-full !text-white bg-primary avatar-badge"><i
                                                             className="ri-check-line align-middle"></i></Link>
@@ -720,19 +721,19 @@ const Nft = () => {
                                 <div className="box-body">
                                     <div className="grid grid-cols-12 gap-2">
                                         <div className="col-span-6">
-                                            <img src="../../../assets/images/nft-images/11.png" alt=""
+                                            <Image src="../../../assets/images/nft-images/11.png" alt=""
                                                 className="nft-featuredcollect-image" />
                                         </div>
                                         <div className="col-span-6">
-                                            <img src="../../../assets/images/nft-images/12.png" alt=""
+                                            <Image src="../../../assets/images/nft-images/12.png" alt=""
                                                 className="nft-featuredcollect-image" />
                                         </div>
                                         <div className="col-span-6">
-                                            <img src="../../../assets/images/nft-images/13.png" alt=""
+                                            <Image src="../../../assets/images/nft-images/13.png" alt=""
                                                 className="nft-featuredcollect-image" />
                                         </div>
                                         <div className="col-span-6">
-                                            <img src="../../../assets/images/nft-images/14.png" alt=""
+                                            <Image src="../../../assets/images/nft-images/14.png" alt=""
                                                 className="nft-featuredcollect-image" />
                                         </div>
                                     </div>
@@ -749,7 +750,7 @@ const Nft = () => {
                                         <div className="flex items-center">
                                             <div className="me-2 leading-none">
                                                 <span className="avatar avatar-rounded bg-light p-1 avatar-xs">
-                                                    <img src="../../../assets/images/crypto-currencies/regular/Ethereum.svg"
+                                                    <Image src="../../../assets/images/crypto-currencies/regular/Ethereum.svg"
                                                         alt="" />
                                                 </span>
                                             </div>
@@ -764,7 +765,7 @@ const Nft = () => {
                                         <div className="flex items-center flex-grow">
                                             <div className="me-2 leading-none">
                                                 <span className="avatar avatar-md avatar-rounded">
-                                                    <img src="../../../assets/images/faces/5.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/5.jpg" alt="" />
                                                     <Link aria-label="anchor" href="#!"
                                                         className="badge !rounded-full !text-white bg-primary avatar-badge"><i
                                                             className="ri-check-line align-middle"></i></Link>
@@ -800,19 +801,19 @@ const Nft = () => {
                                 <div className="box-body">
                                     <div className="grid grid-cols-12 gap-2">
                                         <div className="col-span-6">
-                                            <img src="../../../assets/images/nft-images/10.png" alt=""
+                                            <Image src="../../../assets/images/nft-images/10.png" alt=""
                                                 className="nft-featuredcollect-image" />
                                         </div>
                                         <div className="col-span-6">
-                                            <img src="../../../assets/images/nft-images/15.png" alt=""
+                                            <Image src="../../../assets/images/nft-images/15.png" alt=""
                                                 className="nft-featuredcollect-image" />
                                         </div>
                                         <div className="col-span-6">
-                                            <img src="../../../assets/images/nft-images/17.png" alt=""
+                                            <Image src="../../../assets/images/nft-images/17.png" alt=""
                                                 className="nft-featuredcollect-image" />
                                         </div>
                                         <div className="col-span-6">
-                                            <img src="../../../assets/images/nft-images/16.png" alt=""
+                                            <Image src="../../../assets/images/nft-images/16.png" alt=""
                                                 className="nft-featuredcollect-image" />
                                         </div>
                                     </div>
@@ -829,7 +830,7 @@ const Nft = () => {
                                         <div className="flex items-center">
                                             <div className="me-2 leading-none">
                                                 <span className="avatar avatar-rounded bg-light p-1 avatar-xs">
-                                                    <img src="../../../assets/images/crypto-currencies/regular/Ethereum.svg"
+                                                    <Image src="../../../assets/images/crypto-currencies/regular/Ethereum.svg"
                                                         alt="" />
                                                 </span>
                                             </div>
@@ -844,7 +845,7 @@ const Nft = () => {
                                         <div className="flex items-center flex-grow">
                                             <div className="me-2 leading-none">
                                                 <span className="avatar avatar-md avatar-rounded">
-                                                    <img src="../../../assets/images/faces/10.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/10.jpg" alt="" />
                                                     <Link aria-label="anchor" href="#!"
                                                         className="badge !rounded-full !text-white bg-primary avatar-badge"><i
                                                             className="ri-check-line align-middle"></i></Link>
@@ -925,7 +926,7 @@ const Nft = () => {
                                             <tr className="border border-inherit border-solid hover:bg-gray-100 dark:hover:bg-light dark:border-defaultborder/10" key={Math.random()}>
                                                 <td className=''>
                                                     <div className="flex items-center">
-                                                        <img src={idx.src} alt="" className="avatar avatar-md rounded-md me-2 leading-none !mb-0" />
+                                                        <Image src={idx.src} alt="" className="avatar avatar-md rounded-md me-2 leading-none !mb-0" />
                                                         <div>
                                                             <p className="mb-0 font-semibold"><Link href="#!" title="nft_name">{idx.name}</Link></p>
                                                             <Link href="#!" className="text-[0.75rem] text-[#8c9097] dark:text-white/50 font-normal" title="creator_name">{idx.mail}</Link>
@@ -935,7 +936,7 @@ const Nft = () => {
                                                 <td><span className="font-semibold text-primary">{idx.rank}</span></td>
                                                 <td>
                                                     <div className="flex items-center">
-                                                        <img src="../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" className="avatar avatar-xs avatar-rounded me-2 leading-none" />
+                                                        <Image src="../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" className="avatar avatar-xs avatar-rounded me-2 leading-none" />
                                                         <div>
                                                             <p className="mb-0 font-semibold"><Link href="#!" title="nft_name">{idx.volume}</Link></p>
                                                         </div>
@@ -947,7 +948,7 @@ const Nft = () => {
                                                 <td><span className={idx.color2}><i className={`ti ti-trending-${idx.class2} me-1 align-middle inline-block`}></i>{idx.value2}</span></td>
                                                 <td>
                                                     <div className="flex items-center">
-                                                        <img src="../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" className="avatar avatar-xs avatar-rounded me-2 leading-none" />
+                                                        <Image src="../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" className="avatar avatar-xs avatar-rounded me-2 leading-none" />
                                                         <div>
                                                             <p className="mb-0 font-semibold"><Link href="#!" title="nft_name">{idx.price}</Link></p>
                                                         </div>
@@ -1016,7 +1017,7 @@ const Nft = () => {
                                         <Link href="#!">
                                             <div className="flex flex-wrapitems-center justify-between">
                                                 <div className="flex items-center">
-                                                    <img src={idx.src} alt="" className="avatar avatar-md rounded-md me-2 leading-none !mb-0" />
+                                                    <Image src={idx.src} alt="" className="avatar avatar-md rounded-md me-2 leading-none !mb-0" />
                                                     <div>
                                                         <p className="font-semibold mb-0">{idx.name}</p>
                                                         <span className="text-[#8c9097] dark:text-white/50 text-[0.75rem]">{idx.mail}<span className={`ms-2 text-${idx.color} text-[0.6875rem]`}>{idx.icon}{idx.value}</span></span>
@@ -1024,7 +1025,7 @@ const Nft = () => {
                                                 </div>
                                                 <div>
                                                     <span className="text-[0.625rem] text-[#8c9097] dark:text-white/50 ps-4">PRICE</span>
-                                                    <p className="mb-0 font-semibold flex items-center"><span className="avatar avatar-sm p-1 !mb-0"><img src="../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>{idx.price}</p>
+                                                    <p className="mb-0 font-semibold flex items-center"><span className="avatar avatar-sm p-1 !mb-0"><Image src="../../../assets/images/crypto-currencies/regular/Ethereum.svg" alt="" /></span>{idx.price}</p>
                                                 </div>
                                             </div>
                                         </Link>

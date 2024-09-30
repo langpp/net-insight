@@ -11,6 +11,7 @@ import { addDays, setHours, setMinutes } from "date-fns";
 import { FilePond, registerPlugin } from 'react-filepond';
 import FilePondPluginImageExifOrientation from 'filepond-plugin-image-exif-orientation';
 import FilePondPluginImagePreview from 'filepond-plugin-image-preview';
+import Image from 'next/image';
 registerPlugin(FilePondPluginImagePreview, FilePondPluginImageExifOrientation);
 
 const Kanbanboard = () => {
@@ -130,22 +131,22 @@ const Kanbanboard = () => {
                                 </div>
                                 <div className="avatar-list-stacked my-3 md:my-0">
                                     <span className="avatar avatar-rounded">
-                                        <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                        <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                     </span>
                                     <span className="avatar avatar-rounded">
-                                        <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                        <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                     </span>
                                     <span className="avatar avatar-rounded">
-                                        <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                        <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                     </span>
                                     <span className="avatar avatar-rounded">
-                                        <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                        <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                     </span>
                                     <span className="avatar avatar-rounded">
-                                        <img src="../../../assets/images/faces/4.jpg" alt="img" />
+                                        <Image src="../../../assets/images/faces/4.jpg" alt="img" />
                                     </span>
                                     <span className="avatar avatar-rounded">
-                                        <img src="../../../assets/images/faces/13.jpg" alt="img" />
+                                        <Image src="../../../assets/images/faces/13.jpg" alt="img" />
                                     </span>
                                     <Link className="avatar bg-primary avatar-rounded text-white" href="#!">
                                         +8
@@ -212,16 +213,16 @@ const Kanbanboard = () => {
                                             </div>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/12.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/12.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/7.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/7.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                 </span>
                                             </div>
                                         </div>
@@ -265,10 +266,10 @@ const Kanbanboard = () => {
                                             </div>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/13.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/13.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                 </span>
                                             </div>
                                         </div>
@@ -297,7 +298,7 @@ const Kanbanboard = () => {
                                         </div>
                                         <div className="kanban-content mt-2">
                                             <div className="task-image mt-2">
-                                                <img src="../../../assets/images/media/media-36.jpg" className="img-fluid rounded kanban-image" alt="" />
+                                                <Image src="../../../assets/images/media/media-36.jpg" className="img-fluid rounded kanban-image" alt="" />
                                             </div>
                                             <h6 className="font-semibold mb-0 mt-2 text-[1rem]">Design multi usage landing.</h6>
                                         </div>
@@ -314,16 +315,16 @@ const Kanbanboard = () => {
                                             </div>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                 </span>
                                             </div>
                                         </div>
@@ -391,13 +392,13 @@ const Kanbanboard = () => {
                                             </div>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/9.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/9.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/14.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/14.jpg" alt="img" />
                                                 </span>
                                             </div>
                                         </div>
@@ -426,7 +427,7 @@ const Kanbanboard = () => {
                                         </div>
                                         <div className="kanban-content mt-2">
                                             <div className="task-image mt-2">
-                                                <img src="../../../assets/images/media/media-41.jpg" className="img-fluid rounded kanban-image" alt="" />
+                                                <Image src="../../../assets/images/media/media-41.jpg" className="img-fluid rounded kanban-image" alt="" />
                                             </div>
                                             <h6 className="font-semibold mb-0 mt-2">New Project Discussion.</h6>
                                         </div>
@@ -443,16 +444,16 @@ const Kanbanboard = () => {
                                             </div>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                 </span>
                                             </div>
                                         </div>
@@ -517,10 +518,10 @@ const Kanbanboard = () => {
                                             </div>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/13.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/13.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                 </span>
                                             </div>
                                         </div>
@@ -564,7 +565,7 @@ const Kanbanboard = () => {
                                             </div>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/12.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/12.jpg" alt="img" />
                                                 </span>
                                             </div>
                                         </div>
@@ -615,7 +616,7 @@ const Kanbanboard = () => {
                                         </div>
                                         <div className="kanban-content mt-2">
                                             <div className="task-image mt-2">
-                                                <img src="../../../assets/images/media/media-43.jpg" className="img-fluid rounded kanban-image" alt="" />
+                                                <Image src="../../../assets/images/media/media-43.jpg" className="img-fluid rounded kanban-image" alt="" />
                                             </div>
                                             <h6 className="font-semibold mb-0 mt-2">Design Architecture strategy.</h6>
                                         </div>
@@ -632,13 +633,13 @@ const Kanbanboard = () => {
                                             </div>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/7.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/7.jpg" alt="img" />
                                                 </span>
                                             </div>
                                         </div>
@@ -704,10 +705,10 @@ const Kanbanboard = () => {
                                             </div>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/13.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/13.jpg" alt="img" />
                                                 </span>
                                             </div>
                                         </div>
@@ -751,13 +752,13 @@ const Kanbanboard = () => {
                                             </div>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/1.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/1.jpg" alt="img" />
                                                 </span>
                                             </div>
                                         </div>
@@ -786,7 +787,7 @@ const Kanbanboard = () => {
                                         </div>
                                         <div className="kanban-content mt-2">
                                             <div className="task-image mt-2">
-                                                <img src="../../../assets/images/media/media-86.svg" className="img-fluid rounded kanban-image bg-light" alt="" />
+                                                <Image src="../../../assets/images/media/media-86.svg" className="img-fluid rounded kanban-image bg-light" alt="" />
                                             </div>
                                             <h6 className="font-semibold mb-0 mt-2">Project discussion with client.</h6>
                                         </div>
@@ -803,7 +804,7 @@ const Kanbanboard = () => {
                                             </div>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/4.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/4.jpg" alt="img" />
                                                 </span>
                                             </div>
                                         </div>
@@ -879,7 +880,7 @@ const Kanbanboard = () => {
                                 allowMultiple={true}
                                 maxFiles={3}
                                 server="/api"
-                                name="files" /* sets the file input name, it's filepond by default */
+                                name="files" /* sets the file input name, its filepond by default */
                                 labelIdle='Drag & Drop your file here or click '
                             />
                                 </div>

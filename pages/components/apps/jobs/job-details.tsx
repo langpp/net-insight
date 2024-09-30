@@ -5,6 +5,7 @@ import React, { Fragment } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // import required modules
 import { Autoplay, Navigation } from 'swiper/modules';
+import Image from 'next/image';
 
 const Jobdetails = () => {
 
@@ -39,7 +40,7 @@ const Jobdetails = () => {
                         <div className="sm:flex align-top justify-between">
                             <div>
                                 <div className="sm:flex flex-wrap gap-2">
-                                    <span className="avatar avatar-rounded avatar-lg"> <img src="../../../../assets/images/company-logos/8.png" alt="" /> </span>
+                                    <span className="avatar avatar-rounded avatar-lg"> <Image src="../../../../assets/images/company-logos/8.png" alt="" /> </span>
                                     <div>
                                         <h4 className="font-bold mb-0 flex items-center"><Link href="#!">UI Developer - Fresher</Link></h4>
                                         <Link href="#!" className="font-semibold"><i className="bi bi-building"></i> Spruko Technologies .PVT.LTD</Link>
@@ -415,7 +416,7 @@ const Jobdetails = () => {
                                     <li className="list-group-item !border-t-0 !border-s-0 !border-e-0 mb-2">
                                         <div className="sm:flex">
                                             <span className="avatar avatar-md !rounded-full bg-gray-200 border dark:border-defaultborder/10">
-                                                <img src="../../../../assets/images/company-logos/3.png" alt="" />
+                                                <Image src="../../../../assets/images/company-logos/3.png" alt="" />
                                             </span>
                                             <div className="ms-2 flex-grow">
                                                 <p className="font-semibold text-[.875rem] mb-1"><Link href="#!">Infratech PVT LTD</Link></p>
@@ -426,7 +427,7 @@ const Jobdetails = () => {
                                     <li className="list-group-item !border-s-0 !border-e-0  mb-2">
                                         <div className="sm:flex">
                                             <span className="avatar avatar-md !rounded-full bg-gray-200 border">
-                                                <img src="../../../../assets/images/company-logos/6.png" alt="" />
+                                                <Image src="../../../../assets/images/company-logos/6.png" alt="" />
                                             </span>
                                             <div className="ms-2 flex-grow">
                                                 <p className="font-semibold text-[.875rem] mb-1"><Link href="#!">Spruko Technologies PVT LTD</Link></p>
@@ -437,7 +438,7 @@ const Jobdetails = () => {
                                     <li className="list-group-item !border-s-0 !border-e-0  mb-2">
                                         <div className="sm:flex">
                                             <span className="avatar avatar-md !rounded-full bg-gray-200 border">
-                                                <img src="../../../../assets/images/company-logos/8.png" alt="" />
+                                                <Image src="../../../../assets/images/company-logos/8.png" alt="" />
                                             </span>
                                             <div className="ms-2 flex-grow">
                                                 <p className="font-semibold text-[.875rem] mb-1"><Link href="#!">Hardware Private Solutions </Link></p>
@@ -448,7 +449,7 @@ const Jobdetails = () => {
                                     <li className="list-group-item !border-b-0 !border-s-0 !border-e-0  mb-0">
                                         <div className="sm:flex">
                                             <span className="avatar avatar-md !rounded-full bg-gray-200 border">
-                                                <img src="../../../../assets/images/company-logos/5.png" alt="" />
+                                                <Image src="../../../../assets/images/company-logos/5.png" alt="" />
                                             </span>
                                             <div className="ms-2 flex-grow">
                                                 <p className="font-semibold text-[.875rem] mb-1"><Link href="#!"> G Technical Solutions</Link></p>

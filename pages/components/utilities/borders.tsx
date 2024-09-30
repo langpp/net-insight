@@ -3,6 +3,7 @@ import Seo from '@/shared/layout-components/seo/seo'
 import Showcode from '@/shared/layout-components/showcode/showcode'
 import React from 'react';
 import {border1, border2, border3, border4, border5, border6, border7, border8} from '../../../shared/data/prism/utilities-prism';
+import Image from 'next/image';
 
 const Borders = () => {
     return (
@@ -95,22 +96,22 @@ const Borders = () => {
             <div className="grid grid-cols-12 gap-6">
                 <div className="xl:col-span-6 col-span-12">
                     <Showcode title="Border Radius" customCardBodyClass="!flex flex-wrap gap-2" code={border7}>
-                            <img src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-md" alt="..." />
-                            <img src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-t-md" alt="..." />
-                            <img src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-e-md" alt="..." />
-                            <img src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-b-md" alt="..." />
-                            <img src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-s-md" alt="..." />
-                            <img src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-full" alt="..." />
-                            <img src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img  rounded-full" alt="..." />
+                            <Image src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-md" alt="..." />
+                            <Image src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-t-md" alt="..." />
+                            <Image src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-e-md" alt="..." />
+                            <Image src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-b-md" alt="..." />
+                            <Image src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-s-md" alt="..." />
+                            <Image src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-full" alt="..." />
+                            <Image src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img  rounded-full" alt="..." />
                         </Showcode>
                 </div>
                 <div className="xl:col-span-6 col-span-12">
                     <Showcode title="Sizes" customCardBodyClass="!flex flex-wrap gap-2" code={border8}>
-                            <img src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-none" alt="..." />
-                            <img src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-sm" alt="..." />
-                            <img src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-md" alt="..." />
-                            <img src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-lg" alt="..." />
-                            <img src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-xl" alt="..." />
+                            <Image src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-none" alt="..." />
+                            <Image src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-sm" alt="..." />
+                            <Image src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-md" alt="..." />
+                            <Image src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-lg" alt="..." />
+                            <Image src="../../../assets/images/media/media-58.jpg" className="bd-placeholder-img rounded-xl" alt="..." />
                         </Showcode>
                 </div>
             </div>

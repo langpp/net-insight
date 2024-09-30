@@ -1,6 +1,7 @@
 import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Wallet = () => {
     return (
@@ -21,7 +22,7 @@ const Wallet = () => {
                                     <div className="flex items-center gap-2">
                                         <div className="leading-none">
                                             <span className="avatar avatar-rounded">
-                                                <img src="../../../../assets/images/crypto-currencies/square-color/Bitcoin.svg" alt="" />
+                                                <Image src="../../../../assets/images/crypto-currencies/square-color/Bitcoin.svg" alt="" />
                                             </span>
                                         </div>
                                         <div>
@@ -53,7 +54,7 @@ const Wallet = () => {
                                     <div className="flex items-center gap-2">
                                         <div className="leading-none">
                                             <span className="avatar avatar-rounded">
-                                                <img src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
+                                                <Image src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
                                             </span>
                                         </div>
                                         <div>
@@ -85,7 +86,7 @@ const Wallet = () => {
                                     <div className="flex items-center gap-2">
                                         <div className="leading-none">
                                             <span className="avatar avatar-rounded">
-                                                <img src="../../../../assets/images/crypto-currencies/square-color/Ripple.svg" alt="" />
+                                                <Image src="../../../../assets/images/crypto-currencies/square-color/Ripple.svg" alt="" />
                                             </span>
                                         </div>
                                         <div>
@@ -117,7 +118,7 @@ const Wallet = () => {
                                     <div className="flex items-center gap-2">
                                         <div className="leading-none">
                                             <span className="avatar avatar-rounded">
-                                                <img src="../../../../assets/images/crypto-currencies/square-color/Litecoin.svg" alt="" />
+                                                <Image src="../../../../assets/images/crypto-currencies/square-color/Litecoin.svg" alt="" />
                                             </span>
                                         </div>
                                         <div>
@@ -162,7 +163,7 @@ const Wallet = () => {
                                             </div>
                                             <div>
                                                 <span className="avatar avatar-xxl border dark:border-defaultborder/10">
-                                                    <img src="../../../../assets/images/media/media-89.png" className="p-1 qr-image" alt="" />
+                                                    <Image src="../../../../assets/images/media/media-89.png" className="p-1 qr-image" alt="" />
                                                 </span>
                                             </div>
                                         </div>
@@ -235,7 +236,7 @@ const Wallet = () => {
                                             </div>
                                             <div>
                                                 <span className="avatar avatar-xxl border dark:border-defaultborder/10">
-                                                    <img src="../../../../assets/images/media/media-89.png" className="p-1 qr-image" alt="" />
+                                                    <Image src="../../../../assets/images/media/media-89.png" className="p-1 qr-image" alt="" />
                                                 </span>
                                             </div>
                                         </div>
@@ -308,7 +309,7 @@ const Wallet = () => {
                                             </div>
                                             <div>
                                                 <span className="avatar avatar-xxl border dark:border-defaultborder/10">
-                                                    <img src="../../../../assets/images/media/media-89.png" className="p-1 qr-image" alt="" />
+                                                    <Image src="../../../../assets/images/media/media-89.png" className="p-1 qr-image" alt="" />
                                                 </span>
                                             </div>
                                         </div>

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { Fragment, useEffect, useState } from "react";
 import Head from "next/head"
+import Image from 'next/image';
 
 const ResetPassword = () => {
 
@@ -51,7 +52,7 @@ const ResetPassword = () => {
           <div className="grid grid-cols-1">
             <div className="box !p-[2rem] my-[2.5rem]">
               <div className="box-body" role="tabpanel" id="pills-with-brand-color-01" aria-labelledby="pills-with-brand-color-item-1">
-                <img src={`${process.env.NODE_ENV === "production" ? basePath : ""}/icon-color.png`} alt="logo" className="login-logo" />
+                <Image src={`${process.env.NODE_ENV === "production" ? basePath : ""}/icon-color.png`} alt="logo" className="login-logo" />
                 {err && (
                   <div className="p-4 mb-4 bg-danger/40 text-sm border-t-4 border-danger text-danger/60 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
                     {err}

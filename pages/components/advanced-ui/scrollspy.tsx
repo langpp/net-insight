@@ -94,7 +94,7 @@ const Scrollspy = () => {
                                         <h3 className="text-lg font-semibold dark:text-white">First</h3>
                                         <p className="mt-1 text-sm leading-6 text-gray-600 dark:text-white/70">This is
                                             some placeholder content for the scrollspy page. Note that as you scroll
-                                            down the page, the appropriate navigation link is highlighted. It's
+                                            down the page, the appropriate navigation link is highlighted. It
                                             repeated throughout the component example. We keep adding some more
                                             example copy here to emphasize the scrolling and highlighting.</p>
                                     </div>
@@ -103,7 +103,7 @@ const Scrollspy = () => {
                                         <h3 className="text-lg font-semibold dark:text-white">Second</h3>
                                         <p className="mt-1 text-sm leading-6 text-gray-600 dark:text-white/70">This is
                                             some placeholder content for the scrollspy page. Note that as you scroll
-                                            down the page, the appropriate navigation link is highlighted. It's
+                                            down the page, the appropriate navigation link is highlighted. It
                                             repeated throughout the component example. We keep adding some more
                                             example copy here to emphasize the scrolling and highlighting.</p>
                                     </div>
@@ -112,7 +112,7 @@ const Scrollspy = () => {
                                         <h3 className="text-lg font-semibold dark:text-white">Third</h3>
                                         <p className="mt-1 text-sm leading-6 text-gray-600 dark:text-white/70">This is
                                             some placeholder content for the scrollspy page. Note that as you scroll
-                                            down the page, the appropriate navigation link is highlighted. It's
+                                            down the page, the appropriate navigation link is highlighted. It
                                             repeated throughout the component example. We keep adding some more
                                             example copy here to emphasize the scrolling and highlighting.</p>
                                     </div>
@@ -121,7 +121,7 @@ const Scrollspy = () => {
                                         <h3 className="text-lg font-semibold dark:text-white">Fourth</h3>
                                         <p className="mt-1 text-sm leading-6 text-gray-600 dark:text-white/70">This is
                                             some placeholder content for the scrollspy page. Note that as you scroll
-                                            down the page, the appropriate navigation link is highlighted. It's
+                                            down the page, the appropriate navigation link is highlighted. It
                                             repeated throughout the component example. We keep adding some more
                                             example copy here to emphasize the scrolling and highlighting.</p>
                                     </div>
@@ -130,7 +130,7 @@ const Scrollspy = () => {
                                         <h3 className="text-lg font-semibold dark:text-white">Fifth</h3>
                                         <p className="mt-1 text-sm leading-6 text-gray-600 dark:text-white/70">This is
                                             some placeholder content for the scrollspy page. Note that as you scroll
-                                            down the page, the appropriate navigation link is highlighted. It's
+                                            down the page, the appropriate navigation link is highlighted. It
                                             repeated throughout the component example. We keep adding some more
                                             example copy here to emphasize the scrolling and highlighting.</p>
                                     </div>
@@ -237,7 +237,7 @@ const Scrollspy = () => {
                                                 <p className="mt-1 text-sm leading-6 text-gray-600 dark:!text-defaulttextcolor/70">
                                                     This is some placeholder content for the scrollspy page. Note
                                                     that as you scroll down the page, the appropriate navigation
-                                                    link is highlighted. It's repeated throughout the component
+                                                    link is highlighted. It repeated throughout the component
                                                     example. We keep adding some more example copy here to emphasize
                                                     the scrolling and highlighting.</p>
                                             </div>
@@ -247,7 +247,7 @@ const Scrollspy = () => {
                                                 <p className="mt-1 text-sm leading-6 text-gray-600 dark:!text-defaulttextcolor/70">
                                                     This is some placeholder content for the scrollspy page. Note
                                                     that as you scroll down the page, the appropriate navigation
-                                                    link is highlighted. It's repeated throughout the component
+                                                    link is highlighted. It repeated throughout the component
                                                     example. We keep adding some more example copy here to emphasize
                                                     the scrolling and highlighting.</p>
                                             </div>
@@ -257,7 +257,7 @@ const Scrollspy = () => {
                                                 <p className="mt-1 text-sm leading-6 text-gray-600 dark:!text-defaulttextcolor/70">
                                                     This is some placeholder content for the scrollspy page. Note
                                                     that as you scroll down the page, the appropriate navigation
-                                                    link is highlighted. It's repeated throughout the component
+                                                    link is highlighted. It repeated throughout the component
                                                     example. We keep adding some more example copy here to emphasize
                                                     the scrolling and highlighting.</p>
                                             </div>
@@ -267,7 +267,7 @@ const Scrollspy = () => {
                                                 <p className="mt-1 text-sm leading-6 text-gray-600 dark:!text-defaulttextcolor/70">
                                                     This is some placeholder content for the scrollspy page. Note
                                                     that as you scroll down the page, the appropriate navigation
-                                                    link is highlighted. It's repeated throughout the component
+                                                    link is highlighted. It repeated throughout the component
                                                     example. We keep adding some more example copy here to emphasize
                                                     the scrolling and highlighting.</p>
                                             </div>
@@ -277,7 +277,7 @@ const Scrollspy = () => {
                                                 <p className="mt-1 text-sm leading-6 text-gray-600 dark:!text-defaulttextcolor/70">
                                                     This is some placeholder content for the scrollspy page. Note
                                                     that as you scroll down the page, the appropriate navigation
-                                                    link is highlighted. It's repeated throughout the component
+                                                    link is highlighted. It repeated throughout the component
                                                     example. We keep adding some more example copy here to emphasize
                                                     the scrolling and highlighting.</p>
                                             </div>
@@ -287,7 +287,7 @@ const Scrollspy = () => {
                                                 <p className="mt-1 text-sm leading-6 text-gray-600 dark:!text-defaulttextcolor/70">
                                                     This is some placeholder content for the scrollspy page. Note
                                                     that as you scroll down the page, the appropriate navigation
-                                                    link is highlighted. It's repeated throughout the component
+                                                    link is highlighted. It repeated throughout the component
                                                     example. We keep adding some more example copy here to emphasize
                                                     the scrolling and highlighting.</p>
                                             </div>
@@ -297,7 +297,7 @@ const Scrollspy = () => {
                                                 <p className="mt-1 text-sm leading-6 text-gray-600 dark:!text-defaulttextcolor/70">
                                                     This is some placeholder content for the scrollspy page. Note
                                                     that as you scroll down the page, the appropriate navigation
-                                                    link is highlighted. It's repeated throughout the component
+                                                    link is highlighted. It repeated throughout the component
                                                     example. We keep adding some more example copy here to emphasize
                                                     the scrolling and highlighting.</p>
                                             </div>

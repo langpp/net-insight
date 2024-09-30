@@ -5,6 +5,7 @@ import Link from 'next/link'
 import React from 'react'
 import Showcode from '@/shared/layout-components/showcode/showcode';
 import { tabledata1, tabledata10, tabledata11, tabledata12, tabledata13, tabledata14, tabledata15, tabledata16, tabledata17, tabledata18, tabledata19, tabledata2, tabledata20, tabledata21, tabledata22, tabledata23, tabledata24, tabledata25, tabledata26, tabledata27, tabledata28, tabledata29, tabledata3, tabledata30, tabledata31, tabledata32, tabledata4, tabledata5, tabledata6, tabledata7, tabledata8, tabledata9 } from '@/shared/data/prism/tables-prism'
+import Image from 'next/image';
 
 const Table = () => {
     return (
@@ -72,7 +73,7 @@ const Table = () => {
                                             <th scope="row">
                                                 <div className="flex items-center">
                                                     <span className={`avatar avatar-xs me-2 ${idx.class1} avatar-rounded`}>
-                                                        <img src={idx.src} alt="img" />
+                                                        <Image src={idx.src} alt="img" />
                                                     </span>{idx.name}
                                                 </div>
                                             </th>
@@ -118,7 +119,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <span className="avatar avatar-xs me-2 online avatar-rounded">
-                                                    <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                                                 </span>Mayor Kelly
                                             </div>
                                         </td>
@@ -134,7 +135,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <span className="avatar avatar-xs me-2 online avatar-rounded">
-                                                    <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                 </span>Wicky Kross
                                             </div>
                                         </td>
@@ -150,7 +151,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <span className="avatar avatar-xs me-2 online avatar-rounded">
-                                                    <img src="../../../assets/images/faces/1.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/1.jpg" alt="img" />
                                                 </span>Julia Cam
                                             </div>
                                         </td>
@@ -185,7 +186,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <span className="avatar avatar-xs me-2 online avatar-rounded">
-                                                    <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                 </span>Helsenky
                                             </div>
                                         </td>
@@ -201,7 +202,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <span className="avatar avatar-xs me-2 online avatar-rounded">
-                                                    <img src="../../../assets/images/faces/14.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/14.jpg" alt="img" />
                                                 </span>Brodus
                                             </div>
                                         </td>
@@ -217,7 +218,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <span className="avatar avatar-xs me-2 online avatar-rounded">
-                                                    <img src="../../../assets/images/faces/12.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/12.jpg" alt="img" />
                                                 </span>Chikka Alen
                                             </div>
                                         </td>
@@ -251,7 +252,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <span className="avatar avatar-xs me-2 online avatar-rounded">
-                                                    <img src="../../../assets/images/faces/13.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/13.jpg" alt="img" />
                                                 </span>Sukuro Kim
                                             </div>
                                         </td>
@@ -267,7 +268,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <span className="avatar avatar-xs me-2 online avatar-rounded">
-                                                    <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                 </span>Alex Carey
                                             </div>
                                         </td>
@@ -283,7 +284,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <span className="avatar avatar-xs me-2 online avatar-rounded">
-                                                    <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                 </span>Pamila Anderson
                                             </div>
                                         </td>
@@ -624,7 +625,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <div className="avatar avatar-sm me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                 </div>
                                                 <div>
                                                     <div className="leading-none">
@@ -641,13 +642,13 @@ const Table = () => {
                                         <td>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                 </span>
                                                 <Link className="avatar avatar-sm bg-primary text-white avatar-rounded"
                                                     href="#!">
@@ -667,7 +668,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <div className="avatar avatar-sm me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                 </div>
                                                 <div>
                                                     <div className="leading-none">
@@ -684,10 +685,10 @@ const Table = () => {
                                         <td>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/4.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/4.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                 </span>
                                                 <Link className="avatar avatar-sm bg-primary text-white avatar-rounded"
                                                     href="#!">
@@ -707,7 +708,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <div className="avatar avatar-sm me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/16.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/16.jpg" alt="img" />
                                                 </div>
                                                 <div>
                                                     <div className="leading-none">
@@ -724,13 +725,13 @@ const Table = () => {
                                         <td>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/1.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/1.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                                                 </span>
                                                 <Link className="avatar avatar-sm bg-primary text-white avatar-rounded"
                                                     href="#!">
@@ -750,7 +751,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <div className="avatar avatar-sm me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/13.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/13.jpg" alt="img" />
                                                 </div>
                                                 <div>
                                                     <div className="leading-none">
@@ -767,10 +768,10 @@ const Table = () => {
                                         <td>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/4.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/4.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                 </span>
                                                 <Link className="avatar avatar-sm bg-primary text-white avatar-rounded"
                                                     href="#!">
@@ -809,7 +810,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <div className="avatar avatar-sm me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                                                 </div>
                                                 <div>
                                                     <div className="leading-none">
@@ -831,7 +832,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <div className="avatar avatar-sm me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/12.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/12.jpg" alt="img" />
                                                 </div>
                                                 <div>
                                                     <div className="leading-none">
@@ -853,7 +854,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <div className="avatar avatar-sm me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                                                 </div>
                                                 <div>
                                                     <div className="leading-none">
@@ -875,7 +876,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <div className="avatar avatar-sm me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                 </div>
                                                 <div>
                                                     <div className="leading-none">
@@ -1556,7 +1557,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <span className="avatar avatar-xs me-2 online avatar-rounded">
-                                                    <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                                                 </span>Mayor Kelly
                                             </div>
                                         </td>
@@ -1566,13 +1567,13 @@ const Table = () => {
                                         <td>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                 </span>
                                                 <Link className="avatar avatar-sm bg-primary text-white avatar-rounded" href="#!">
                                                     +4
@@ -1598,7 +1599,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <span className="avatar avatar-xs me-2 online avatar-rounded">
-                                                    <img src="../../../assets/images/faces/12.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/12.jpg" alt="img" />
                                                 </span>Andrew Garfield
                                             </div>
                                         </td>
@@ -1608,16 +1609,16 @@ const Table = () => {
                                         <td>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/1.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/1.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                                                 </span>
                                                 <Link className="avatar avatar-sm bg-primary text-white avatar-rounded" href="#!">
                                                     +4
@@ -1643,7 +1644,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <span className="avatar avatar-xs me-2 online avatar-rounded">
-                                                    <img src="../../../assets/images/faces/14.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/14.jpg" alt="img" />
                                                 </span>Simon Cowel
                                             </div>
                                         </td>
@@ -1653,10 +1654,10 @@ const Table = () => {
                                         <td>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/16.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/16.jpg" alt="img" />
                                                 </span>
                                                 <Link className="avatar avatar-sm bg-primary text-white avatar-rounded" href="#!">
                                                     +10
@@ -1682,7 +1683,7 @@ const Table = () => {
                                         <td>
                                             <div className="flex items-center">
                                                 <span className="avatar avatar-xs me-2 online avatar-rounded">
-                                                    <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                                                 </span>Mirinda Hers
                                             </div>
                                         </td>
@@ -1692,13 +1693,13 @@ const Table = () => {
                                         <td>
                                             <div className="avatar-list-stacked">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/14.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/14.jpg" alt="img" />
                                                 </span>
                                                 <Link className="avatar avatar-sm bg-primary text-white avatar-rounded" href="#!">
                                                     +6

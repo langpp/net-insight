@@ -5,6 +5,7 @@ import { connect } from "react-redux";
 import store from "@/shared/redux/store";
 import Modalsearch from "../modal-search/modalsearch";
 import { basePath } from "@/next.config";
+import Image from 'next/image';
 
 const Header = ({ local_varaiable, ThemeChanger }: any) => {
   const [passwordshow1, setpasswordshow1] = useState(false);
@@ -467,42 +468,42 @@ const Header = ({ local_varaiable, ThemeChanger }: any) => {
                     href="/dashboard"
                     className="header-logo"
                   >
-                    <img
+                    <Image
                       src={`${
                         process.env.NODE_ENV === "production" ? basePath : ""
                       }/icon.png`}
                       alt="logo"
                       className="desktop-logo"
                     />
-                    <img
+                    <Image
                       src={`${
                         process.env.NODE_ENV === "production" ? basePath : ""
                       }/favicon-white.png`}
                       alt="logo"
                       className="toggle-logo"
                     />
-                    <img
+                    <Image
                       src={`${
                         process.env.NODE_ENV === "production" ? basePath : ""
                       }/icon.png`}
                       alt="logo"
                       className="desktop-dark"
                     />
-                    <img
+                    <Image
                       src={`${
                         process.env.NODE_ENV === "production" ? basePath : ""
                       }/favicon-white.png`}
                       alt="logo"
                       className="toggle-dark"
                     />
-                    <img
+                    <Image
                       src={`${
                         process.env.NODE_ENV === "production" ? basePath : ""
                       }/icon.png`}
                       alt="logo"
                       className="desktop-white"
                     />
-                    <img
+                    <Image
                       src={`${
                         process.env.NODE_ENV === "production" ? basePath : ""
                       }/favicon.png`}
@@ -701,7 +702,7 @@ const Header = ({ local_varaiable, ThemeChanger }: any) => {
                   type="button"
                   className="hs-dropdown-toggle ti-dropdown-toggle !gap-2 !p-0 flex-shrink-0 sm:me-2 me-0 !rounded-full !shadow-none text-xs align-middle !border-0 !shadow-transparent "
                 >
-                  <img
+                  <Image
                     className="inline-block rounded-full "
                     src={`${
                       process.env.NODE_ENV === "production" ? basePath : ""

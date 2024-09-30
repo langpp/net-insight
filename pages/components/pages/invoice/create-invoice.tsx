@@ -4,6 +4,7 @@ import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import React, { Fragment, useState } from 'react';
 import DatePicker from 'react-datepicker';
+import Image from 'next/image';
 const Select = dynamic(() => import("react-select"), { ssr: false });
 
 const Createinvoice = () => {
@@ -53,7 +54,7 @@ const Createinvoice = () => {
                         <div className="box-header xxl:!flex !block">
                             <div className="h5 mb-0 sm:flex block items-center">
                                 <div>
-                                    <img src="../../../../assets/images/brand-logos/toggle-logo.png" alt="" />
+                                    <Image src="../../../../assets/images/brand-logos/toggle-logo.png" alt="" />
                                 </div>
                                 <div className="sm:ms-2 ms-0 sm:mt-0 mt-2">
                                     <input type="text" className="form-control !text-[.8rem] !py-1 !px-[0.8rem] !bg-light !rounded-md" placeholder="Invoice Title" defaultValue="INV TITLE" />

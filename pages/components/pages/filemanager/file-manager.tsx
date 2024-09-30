@@ -3,6 +3,7 @@ import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment, useEffect, useState } from 'react'
 import PerfectScrollbar from 'react-perfect-scrollbar';
+import Image from 'next/image';
 
 const Filemanager = () => {
 
@@ -182,7 +183,7 @@ const Filemanager = () => {
                                 <li className="flex items-center justify-center">
                                     <div className="filemanager-upgrade-storage">
                                         <span>
-                                            <img src="../../../../assets/images/media/file-manager/2.png" alt="" />
+                                            <Image src="../../../../assets/images/media/file-manager/2.png" alt="" />
                                         </span>
                                         <div className="text-defaulttextcolor">
                                             <span className="text-[.9375rem] font-semibold">Want to <span className="font-bold text-success"><u>Buy</u></span> Storage?</span>
@@ -369,7 +370,7 @@ const Filemanager = () => {
                                                         <div className="flex items-center">
                                                             <div className="me-2">
                                                                 <span className="avatar avatar-xs">
-                                                                    <img src="../../../../assets/images/media/file-manager/1.png" alt="" />
+                                                                    <Image src="../../../../assets/images/media/file-manager/1.png" alt="" />
                                                                 </span>
                                                             </div>
                                                             <div>
@@ -439,7 +440,7 @@ const Filemanager = () => {
                     <div className="filemanager-file-details overflow-scroll" id="filemanager-file-details">
                         <div className="p-4 text-center border-b border-dashed dark:border-defaultborder/10 ">
                             <div className="file-details mb-4 !inline-flex">
-                                <img src="../../../../assets/images/media/file-manager/3.png" alt="" />
+                                <Image src="../../../../assets/images/media/file-manager/3.png" alt="" />
                             </div>
                             <div>
                                 <p className="mb-0 font-semibold text-[1rem]">AMB-2012.zip</p>
@@ -475,28 +476,28 @@ const Filemanager = () => {
                             <p className="mb-2 font-semibold text-[.875rem]">Shared With :</p>
                             <div className="flex items-center p-2 mb-1">
                                 <span className="avatar avatar-sm me-2">
-                                    <img src="../../../../assets/images/faces/1.jpg" alt="" className="!rounded-md" />
+                                    <Image src="../../../../assets/images/faces/1.jpg" alt="" className="!rounded-md" />
                                 </span>
                                 <span className="font-semibold flex-grow dark:text-defaulttextcolor/70">Akira Susan</span>
                                 <span className="badge bg-success/10 text-success font-normal">28,Nov 2022</span>
                             </div>
                             <div className="flex items-center p-2 mb-1">
                                 <span className="avatar avatar-sm me-2">
-                                    <img src="../../../../assets/images/faces/15.jpg" alt="" className="!rounded-md" />
+                                    <Image src="../../../../assets/images/faces/15.jpg" alt="" className="!rounded-md" />
                                 </span>
                                 <span className="font-semibold flex-grow dark:text-defaulttextcolor/70">Khalid Ahmad</span>
                                 <span className="badge bg-success/10 text-success font-normal">16,Oct 2022</span>
                             </div>
                             <div className="flex items-center p-2 mb-1">
                                 <span className="avatar avatar-sm me-2">
-                                    <img src="../../../../assets/images/faces/8.jpg" alt="" className="!rounded-md" />
+                                    <Image src="../../../../assets/images/faces/8.jpg" alt="" className="!rounded-md" />
                                 </span>
                                 <span className="font-semibold flex-grow dark:text-defaulttextcolor/70">Jeremiah Jackson</span>
                                 <span className="badge bg-success/10 text-success font-normal">05,Dec 2022</span>
                             </div>
                             <div className="flex items-center p-2">
                                 <span className="avatar avatar-sm me-2">
-                                    <img src="../../../../assets/images/faces/13.jpg" alt="" className="!rounded-md" />
+                                    <Image src="../../../../assets/images/faces/13.jpg" alt="" className="!rounded-md" />
                                 </span>
                                 <span className="font-semibold flex-grow dark:text-defaulttextcolor/70">Brigo Jhonson</span>
                                 <span className="badge bg-success/10 text-success font-normal">13,Nov 2022</span>

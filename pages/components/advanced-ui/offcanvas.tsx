@@ -3,6 +3,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import React, { Fragment } from 'react'
 import Showcode from '@/shared/layout-components/showcode/showcode'
+import Image from 'next/image';
 
 const Offcanvas = () => {
     return (
@@ -73,7 +74,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/12.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/12.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -99,7 +100,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/1.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/1.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -116,7 +117,7 @@ const Offcanvas = () => {
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
-                                                    <p className="font-semibold mb-0">Medeleine Hey! there i'm available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
+                                                    <p className="font-semibold mb-0">Medeleine Hey! there im available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
                                                     <span className="text-[0.75rem] text-[#8c9097] dark:text-white/50"><i className="ri-time-line align-middle me-1 inline-block"></i>3 hrs ago</span>
                                                 </div>
                                             </div>
@@ -151,7 +152,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/6.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/6.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -190,7 +191,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/14.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/14.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -281,7 +282,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/12.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/12.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -307,7 +308,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/1.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/1.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -324,7 +325,7 @@ const Offcanvas = () => {
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
-                                                    <p className="font-semibold mb-0">Medeleine Hey! there i'm available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
+                                                    <p className="font-semibold mb-0">Medeleine Hey! there im available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
                                                     <span className="text-[0.75rem] text-[#8c9097] dark:text-white/50"><i className="ri-time-line align-middle me-1 inline-block"></i>3 hrs ago</span>
                                                 </div>
                                             </div>
@@ -359,7 +360,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/6.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/6.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -398,7 +399,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/14.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/14.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -490,7 +491,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/12.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/12.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -516,7 +517,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/1.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/1.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -533,7 +534,7 @@ const Offcanvas = () => {
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
-                                                    <p className="font-semibold mb-0">Medeleine Hey! there i'm available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
+                                                    <p className="font-semibold mb-0">Medeleine Hey! there im available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
                                                     <span className="text-[0.75rem] text-[#8c9097] dark:text-white/50"><i className="ri-time-line align-middle me-1 inline-block"></i>3 hrs ago</span>
                                                 </div>
                                             </div>
@@ -568,7 +569,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/6.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/6.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -607,7 +608,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/14.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/14.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -701,7 +702,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/12.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/12.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -727,7 +728,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/1.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/1.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -744,7 +745,7 @@ const Offcanvas = () => {
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
-                                                    <p className="font-semibold mb-0">Medeleine Hey! there i'm available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
+                                                    <p className="font-semibold mb-0">Medeleine Hey! there im available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
                                                     <span className="text-[0.75rem] text-[#8c9097] dark:text-white/50"><i className="ri-time-line align-middle me-1 inline-block"></i>3 hrs ago</span>
                                                 </div>
                                             </div>
@@ -779,7 +780,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/6.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/6.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -818,7 +819,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/14.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/14.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -932,7 +933,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/12.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/12.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -958,7 +959,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/1.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/1.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -975,7 +976,7 @@ const Offcanvas = () => {
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
-                                                    <p className="font-semibold mb-0">Medeleine Hey! there i'm available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
+                                                    <p className="font-semibold mb-0">Medeleine Hey! there im available<span className="badge bg-light text-[#8c9097] dark:text-white/50 ltr:float-right rtl:float-left">5 Jan 2023</span></p>
                                                     <span className="text-[0.75rem] text-[#8c9097] dark:text-white/50"><i className="ri-time-line align-middle me-1 inline-block"></i>3 hrs ago</span>
                                                 </div>
                                             </div>
@@ -1010,7 +1011,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/6.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/6.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -1049,7 +1050,7 @@ const Offcanvas = () => {
                                             <div className="flex items-center">
                                                 <div className="me-2">
                                                     <span className="avatar avatar-md !rounded-full">
-                                                        <img src="../../../assets/images/faces/14.jpg" alt="" className="!rounded-full" />
+                                                        <Image src="../../../assets/images/faces/14.jpg" alt="" className="!rounded-full" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">

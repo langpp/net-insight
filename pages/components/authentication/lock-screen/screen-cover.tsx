@@ -11,6 +11,7 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import Seo from '@/shared/layout-components/seo/seo';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Image from 'next/image';
 
 const Screencover = () => {
 
@@ -29,8 +30,8 @@ const Screencover = () => {
               <div className="p-[3rem]">
                   <div className="mb-4">
                       <Link aria-label="anchor" href="/components/dashboards/crm/">
-                          <img src="../../../../assets/images/brand-logos/desktop-logo.png" alt="" className="authentication-brand desktop-logo"/>
-                          <img src="../../../../assets/images/brand-logos/desktop-dark.png" alt="" className="authentication-brand desktop-dark"/>
+                          <Image src="../../../../assets/images/brand-logos/desktop-logo.png" alt="" className="authentication-brand desktop-logo"/>
+                          <Image src="../../../../assets/images/brand-logos/desktop-dark.png" alt="" className="authentication-brand desktop-dark"/>
                       </Link>
                   </div>
                   <p className="h5 font-semibold mb-2">Lock Screen</p>
@@ -38,7 +39,7 @@ const Screencover = () => {
                   <div className="flex items-center mb-6">
                       <div className="leading-none">
                           <span className="avatar avatar-md avatar-rounded">
-                              <img src="../../../../assets/images/faces/15.jpg" alt=""/>
+                              <Image src="../../../../assets/images/faces/15.jpg" alt=""/>
                           </span>
                       </div>
                       <div className="ms-4">
@@ -81,7 +82,7 @@ const Screencover = () => {
                                 <div className="text-white text-center p-[3rem] flex items-center justify-center">
                                     <div>
                                         <div className="mb-[3rem]">
-                                            <img src="../../../../assets/images/authentication/2.png" className="authentication-image" alt=""/>
+                                            <Image src="../../../../assets/images/authentication/2.png" className="authentication-image" alt=""/>
                                         </div>
                                         <h6 className="font-semibold text-[1rem]">Lockscreen</h6>
                                             <p className="font-normal text-[.875rem] opacity-[0.7]"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eligendi expedita aliquam quaerat nulla voluptas facilis. Porro rem voluptates possimus, ad, autem quae culpa architecto, quam labore blanditiis at ratione.</p>
@@ -92,7 +93,7 @@ const Screencover = () => {
                                 <div className="text-white text-center p-[3rem] flex items-center justify-center">
                                     <div>
                                         <div className="mb-[3rem]">
-                                            <img src="../../../../assets/images/authentication/3.png" className="authentication-image" alt=""/>
+                                            <Image src="../../../../assets/images/authentication/3.png" className="authentication-image" alt=""/>
                                         </div>
                                         <h6 className="font-semibold text-[1rem]">Lockscreen</h6>
                                             <p className="font-normal text-[.875rem] opacity-[0.7]"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eligendi expedita aliquam quaerat nulla voluptas facilis. Porro rem voluptates possimus, ad, autem quae culpa architecto, quam labore blanditiis at ratione.</p>
@@ -103,7 +104,7 @@ const Screencover = () => {
                                 <div className="text-white text-center p-[3rem] flex items-center justify-center">
                                     <div>
                                         <div className="mb-[3rem]">
-                                            <img src="../../../../assets/images/authentication/2.png" className="authentication-image" alt=""/>
+                                            <Image src="../../../../assets/images/authentication/2.png" className="authentication-image" alt=""/>
                                         </div>
                                         <h6 className="font-semibold text-[1rem]">Lockscreen</h6>
                                             <p className="font-normal text-[.875rem] opacity-[0.7]"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eligendi expedita aliquam quaerat nulla voluptas facilis. Porro rem voluptates possimus, ad, autem quae culpa architecto, quam labore blanditiis at ratione.</p>

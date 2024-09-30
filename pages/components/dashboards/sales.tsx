@@ -3,6 +3,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment} from 'react';
+import Image from 'next/image';
 
 const Sales = () => {
 
@@ -460,13 +461,13 @@ const Sales = () => {
                                                     <td>
                                                         <div className="avatar-list-stacked !mb-0">
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/2.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/2.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/8.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/8.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/2.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/2.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                         </div>
                                                     </td>
@@ -483,10 +484,10 @@ const Sales = () => {
                                                     <td>
                                                         <div className="avatar-list-stacked !mb-0">
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/6.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/6.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/9.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/9.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                         </div>
                                                     </td>
@@ -503,16 +504,16 @@ const Sales = () => {
                                                     <td>
                                                         <div className="avatar-list-stacked !mb-0">
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/3.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/3.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/5.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/5.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/10.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/10.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/15.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/15.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                         </div>
                                                     </td>
@@ -529,7 +530,7 @@ const Sales = () => {
                                                     <td>
                                                         <div className="avatar-list-stacked !mb-0">
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/11.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/11.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                         </div>
                                                     </td>
@@ -546,13 +547,13 @@ const Sales = () => {
                                                     <td>
                                                         <div className="avatar-list-stacked !mb-0">
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/13.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/13.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/16.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/16.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/8.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/8.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                         </div>
                                                     </td>
@@ -569,10 +570,10 @@ const Sales = () => {
                                                     <td>
                                                         <div className="avatar-list-stacked !mb-0">
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/10.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/10.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/5.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/5.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                         </div>
                                                     </td>
@@ -610,10 +611,10 @@ const Sales = () => {
                                                     <td>
                                                         <div className="avatar-list-stacked !mb-0">
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/5.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/5.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/9.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/9.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                         </div>
                                                     </td>
@@ -630,13 +631,13 @@ const Sales = () => {
                                                     <td>
                                                         <div className="avatar-list-stacked !mb-0">
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/11.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/11.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/12.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/12.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/13.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/13.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                         </div>
                                                     </td>
@@ -653,7 +654,7 @@ const Sales = () => {
                                                     <td>
                                                         <div className="avatar-list-stacked !mb-0">
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/4.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/4.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                         </div>
                                                     </td>
@@ -670,10 +671,10 @@ const Sales = () => {
                                                     <td>
                                                         <div className="avatar-list-stacked !mb-0">
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/1.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/1.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/2.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/2.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                         </div>
                                                     </td>
@@ -690,16 +691,16 @@ const Sales = () => {
                                                     <td>
                                                         <div className="avatar-list-stacked !mb-0">
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/5.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/5.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/3.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/3.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/11.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/11.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/12.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/12.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                         </div>
                                                     </td>
@@ -716,7 +717,7 @@ const Sales = () => {
                                                     <td>
                                                         <div className="avatar-list-stacked !mb-0">
                                                             <span className="avatar avatar-xs !mb-0">
-                                                                <img src="../../../assets/images/faces/1.jpg" alt="img" className="rounded-full" />
+                                                                <Image src="../../../assets/images/faces/1.jpg" alt="img" className="rounded-full" />
                                                             </span>
                                                         </div>
                                                     </td>
@@ -847,7 +848,7 @@ const Sales = () => {
                                 <li className="list-group-item !py-3 !border-0">
                                     <Link href="#!" className="!border-0">
                                         <div className="flex items-start">
-                                            <img className="avatar avatar-md me-4 my-auto" src="../../../assets/images/faces/2.jpg" alt="Image description" />
+                                            <Image className="avatar avatar-md me-4 my-auto" src="../../../assets/images/faces/2.jpg" alt="Image description" />
                                             <div className="mt-0">
                                                 <p className="mb-1 font-semibold">Samantha Melon</p>
                                                 <p className="mb-0 text-[0.6875rem] text-success">User ID: #1234</p>
@@ -861,7 +862,7 @@ const Sales = () => {
                                 <li className="list-group-item !py-3 !border-0">
                                     <Link href="#!" className="!border-0">
                                         <div className="flex items-start">
-                                            <img className="avatar avatar-md me-4 my-auto" src="../../../assets/images/faces/1.jpg" alt="Image description" />
+                                            <Image className="avatar avatar-md me-4 my-auto" src="../../../assets/images/faces/1.jpg" alt="Image description" />
                                             <div className="mt-0">
                                                 <p className="mb-1 font-semibold">Allie Grater</p>
                                                 <p className="mb-0 text-[0.6875rem] text-success">User ID: #3432</p>
@@ -875,7 +876,7 @@ const Sales = () => {
                                 <li className="list-group-item !py-3 !border-0">
                                     <Link href="#!" className="!border-0">
                                         <div className="flex items-start">
-                                            <img className="avatar avatar-md me-4 my-auto" src="../../../assets/images/faces/5.jpg" alt="Image description" />
+                                            <Image className="avatar avatar-md me-4 my-auto" src="../../../assets/images/faces/5.jpg" alt="Image description" />
                                             <div className="mt-0">
                                                 <p className="mb-1 font-semibold">Gabe Lackmen</p>
                                                 <p className="mb-0 text-[0.6875rem] text-success">User ID: #2312</p>
@@ -889,7 +890,7 @@ const Sales = () => {
                                 <li className="list-group-item !py-3 !border-0">
                                     <Link href="#!" className="!border-0">
                                         <div className="flex items-start">
-                                            <img className="avatar avatar-md me-4 my-auto" src="../../../assets/images/faces/7.jpg" alt="Image description" />
+                                            <Image className="avatar avatar-md me-4 my-auto" src="../../../assets/images/faces/7.jpg" alt="Image description" />
                                             <div className="mt-0">
                                                 <p className="mb-1 font-semibold">Manuel Labor</p>
                                                 <p className="mb-0 text-[0.6875rem] text-success">User ID: #4231</p>
@@ -903,7 +904,7 @@ const Sales = () => {
                                 <li className="list-group-item !py-3 !border-0">
                                     <Link href="#!" className="!border-0">
                                         <div className="flex items-start">
-                                            <img className="avatar avatar-md me-4 my-auto" src="../../../assets/images/faces/9.jpg" alt="Image description" />
+                                            <Image className="avatar avatar-md me-4 my-auto" src="../../../assets/images/faces/9.jpg" alt="Image description" />
                                             <div className="mt-0">
                                                 <p className="mb-1 font-semibold">Hercules Bing</p>
                                                 <p className="mb-0 text-[0.6875rem] text-success">User ID: #1754</p>
@@ -917,7 +918,7 @@ const Sales = () => {
                                 <li className="list-group-item !py-3 !border-0">
                                     <Link href="#!" className="!border-0">
                                         <div className="flex items-start">
-                                            <img className="avatar avatar-md me-4 my-auto" src="../../../assets/images/faces/11.jpg" alt="Image description" />
+                                            <Image className="avatar avatar-md me-4 my-auto" src="../../../assets/images/faces/11.jpg" alt="Image description" />
                                             <div className="mt-0">
                                                 <p className="mb-1 font-semibold">Manuel Labor</p>
                                                 <p className="mb-0 text-[0.6875rem] text-success">User ID: #1345</p>
@@ -1337,7 +1338,7 @@ const Sales = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 lh-1">
                                                             <span className="avatar avatar-sm">
-                                                                <img src={idx.src} alt="" />
+                                                                <Image src={idx.src} alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="text-sm">{idx.name}</div>

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React, { Fragment } from 'react'
 import {DayCounter} from '../../../shared/data/authentication/comingsoondata'
 import { Helmet, HelmetProvider } from 'react-helmet-async'
+import Image from 'next/image';
 
 const Comingsoon = () => {
   return (
@@ -21,7 +22,7 @@ const Comingsoon = () => {
                             <div className="text-center">
                                 <div className="mb-2 flex justify-center">
                                     <Link aria-label="anchor" href="/components/dashboards/crm/">
-                                        <img src="../../../assets/images/brand-logos/toggle-logo.png" alt="" className="authentication-brand"/>
+                                        <Image src="../../../assets/images/brand-logos/toggle-logo.png" alt="" className="authentication-brand"/>
                                     </Link>
                                 </div>
                                 <p className="font-semibold text-[0.75rem] mb-1 opacity-[0.4]">STAY TUNED</p>
@@ -59,7 +60,7 @@ const Comingsoon = () => {
         </div>
         <div className="lg:col-span-5 col-span-12 hidden lg:block relative px-0">
             <div className="bg-light w-full h-full flex items-center justify-center under-maintenance-image-container">
-                <img src="../../../assets/images/media/media-87.svg" alt="" className="imig-fluid"/>
+                <Image src="../../../assets/images/media/media-87.svg" alt="" className="imig-fluid"/>
             </div>
         </div>
 

@@ -7,6 +7,7 @@ import FilePondPluginImagePreview from 'filepond-plugin-image-preview';
 const Select = dynamic(() => import("react-select"), { ssr: false });
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
+import Image from 'next/image';
 
 registerPlugin(FilePondPluginImagePreview, FilePondPluginImageExifOrientation);
 
@@ -109,7 +110,7 @@ const Createnft = () => {
                         </div>
                         <div className="box-body">
                             <div className="box custom-box !mb-0 !shadow-none border dark:border-defaultborder/10">
-                                <img src="../../../../assets/images/nft-images/18.png" className="box-img-top" alt="..." />
+                                <Image src="../../../../assets/images/nft-images/18.png" className="box-img-top" alt="..." />
                                 <div className="flex items-center justify-between nft-like-section w-full px-3">
                                     <div className="flex-fill">
                                         <button aria-label="button" type="button" className="btn btn-sm btn-icon btn-success rounded-pill btn-wave waves-effect waves-light">
@@ -124,7 +125,7 @@ const Createnft = () => {
                                     <div className="flex items-center mb-3">
                                         <div className="me-2 lh-1">
                                             <span className="avatar avatar-rounded avatar-md">
-                                                <img src="../../../../assets/images/faces/1.jpg" alt="" />
+                                                <Image src="../../../../assets/images/faces/1.jpg" alt="" />
                                             </span>
                                         </div>
                                         <div>
@@ -142,7 +143,7 @@ const Createnft = () => {
                                         </div>
                                         <div className="flex flex-wrap items-center">
                                             <span className="avatar avatar-xs me-1">
-                                                <img src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
+                                                <Image src="../../../../assets/images/crypto-currencies/square-color/Ethereum.svg" alt="" />
                                             </span>0.24ETH
                                         </div>
                                     </div>

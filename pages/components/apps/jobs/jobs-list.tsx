@@ -3,6 +3,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Jobslist = () => {
     return (
@@ -73,7 +74,7 @@ const Jobslist = () => {
                                                 <td>
                                                     <div className="flex items-center">
                                                         <span className="avatar avatar-sm p-1 me-1 bg-light !rounded-full">
-                                                            <img src={idx.src} alt="" />
+                                                            <Image src={idx.src} alt="" />
                                                         </span>
                                                         <Link href="#!" className="font-semibold mb-0">{idx.text1}</Link>
                                                     </div>

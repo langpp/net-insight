@@ -7,6 +7,7 @@ import Seo from '../../../shared/layout-components/seo/seo';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import store from '@/shared/redux/store';
 import { connect } from 'react-redux';
+import Image from 'next/image';
 
 const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
 
@@ -116,8 +117,8 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                             <div className="header-element">
                                 <div className="horizontal-logo">
                                     <Link href="/components/dashboards/crm/" className="header-logo">
-                                        <img src="../../../assets/images/brand-logos/toggle-logo.png" alt="logo" className="toggle-logo" />
-                                        <img src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="toggle-dark" /> </Link>
+                                        <Image src="../../../assets/images/brand-logos/toggle-logo.png" alt="logo" className="toggle-logo" />
+                                        <Image src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="toggle-dark" /> </Link>
                                 </div> </div>
 
                             <div className="header-element">
@@ -141,9 +142,9 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                             <nav className="main-menu-container nav nav-pills sub-open">
                                 <div className="landing-logo-container my-auto hidden lg:block">
                                     <div className="responsive-logo">
-                                        <Link className="responsive-logo-light" href="/components/dashboards/crm/" aria-label="Brand"><img
+                                        <Link className="responsive-logo-light" href="/components/dashboards/crm/" aria-label="Brand"><Image
                                             src="../../../assets/images/brand-logos/desktop-logo.png" alt="logo" className="mx-auto hidden h-8 leading-8" /></Link>
-                                        <Link className="responsive-logo-dark" href="/components/dashboards/crm/" aria-label="Brand"><img
+                                        <Link className="responsive-logo-dark" href="/components/dashboards/crm/" aria-label="Brand"><Image
                                             src="../../../assets/images/brand-logos/desktop-white.png" alt="logo" className="mx-auto h-8 leading-8" /></Link>
                                     </div>
                                 </div>
@@ -205,7 +206,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                             <p className="text-[1.125rem] mb-[3rem] opacity-[0.8] font-normal text-white">Register &amp; get free access to latest openings worldwide. Create &amp; submit your resume with few easy steps.</p>
                                             <div className="mb-4 custom-form-group ">
                                                 <input type="text" className="form-control !py-4 !px-6 w-full  !rounded-md form-control-lg shadow-sm" placeholder="Job title, Keywords or Company.."
-                                                    aria-label="Recipient's username" />
+                                                    aria-label="Recipients username" />
                                                 <div className="custom-form-btn">
                                                     <Link aria-label="anchor" href="#!" className="gps-location"><i className="ti ti-current-location"></i></Link>
                                                     <button className="ti-btn bg-primary text-white   !font-medium !border dark:border-defaultborder/10-0" type="button"><i className="bi bi-search me-2"></i> Search</button>
@@ -237,7 +238,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                     <div className="box border dark:border-defaultborder/10">
                                         <div className="grid grid-cols-12 g-0">
                                             <div className="md:col-span-3 col-span-4">
-                                                <img src="../../../assets/images/media/jobs-landing/1.jpg" className="img-fluid rounded-start h-full browse-jobs-image !rounded-s-md" alt="..." />
+                                                <Image src="../../../assets/images/media/jobs-landing/1.jpg" className="img-fluid rounded-start h-full browse-jobs-image !rounded-s-md" alt="..." />
                                             </div>
                                             <div className="md:col-span-9 col-span-8 my-auto">
                                                 <div className="box-body">
@@ -253,7 +254,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                     <div className="box border dark:border-defaultborder/10">
                                         <div className="grid grid-cols-12 g-0">
                                             <div className="md:col-span-3 col-span-4">
-                                                <img src="../../../assets/images/media/jobs-landing/2.jpg" className="img-fluid rounded-start h-full browse-jobs-image !rounded-s-md" alt="..." />
+                                                <Image src="../../../assets/images/media/jobs-landing/2.jpg" className="img-fluid rounded-start h-full browse-jobs-image !rounded-s-md" alt="..." />
                                             </div>
                                             <div className="md:col-span-9 col-span-8 my-auto">
                                                 <div className="box-body">
@@ -269,7 +270,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                     <div className="box border dark:border-defaultborder/10">
                                         <div className="grid grid-cols-12 g-0">
                                             <div className="md:col-span-3 col-span-4">
-                                                <img src="../../../assets/images/media/jobs-landing/3.jpg" className="img-fluid rounded-start h-full browse-jobs-image !rounded-s-md" alt="..." />
+                                                <Image src="../../../assets/images/media/jobs-landing/3.jpg" className="img-fluid rounded-start h-full browse-jobs-image !rounded-s-md" alt="..." />
                                             </div>
                                             <div className="md:col-span-9 col-span-8 my-auto">
                                                 <div className="box-body">
@@ -285,7 +286,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                     <div className="box border dark:border-defaultborder/10">
                                         <div className="grid grid-cols-12 g-0">
                                             <div className="md:col-span-3 col-span-4">
-                                                <img src="../../../assets/images/media/jobs-landing/4.jpg" className="img-fluid rounded-start h-full browse-jobs-image !rounded-s-md" alt="..." />
+                                                <Image src="../../../assets/images/media/jobs-landing/4.jpg" className="img-fluid rounded-start h-full browse-jobs-image !rounded-s-md" alt="..." />
                                             </div>
                                             <div className="md:col-span-9 col-span-8 my-auto">
                                                 <div className="box-body">
@@ -301,7 +302,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                     <div className="box border dark:border-defaultborder/10">
                                         <div className="grid grid-cols-12 g-0">
                                             <div className="md:col-span-3 col-span-4">
-                                                <img src="../../../assets/images/media/jobs-landing/5.jpg" className="img-fluid rounded-start h-full browse-jobs-image !rounded-s-md" alt="..." />
+                                                <Image src="../../../assets/images/media/jobs-landing/5.jpg" className="img-fluid rounded-start h-full browse-jobs-image !rounded-s-md" alt="..." />
                                             </div>
                                             <div className="md:col-span-9 col-span-8 my-auto">
                                                 <div className="box-body">
@@ -317,7 +318,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                     <div className="box border dark:border-defaultborder/10">
                                         <div className="grid grid-cols-12 g-0">
                                             <div className="md:col-span-3 col-span-4">
-                                                <img src="../../../assets/images/media/jobs-landing/6.jpg" className="img-fluid rounded-start h-full browse-jobs-image !rounded-s-md" alt="..." />
+                                                <Image src="../../../assets/images/media/jobs-landing/6.jpg" className="img-fluid rounded-start h-full browse-jobs-image !rounded-s-md" alt="..." />
                                             </div>
                                             <div className="md:col-span-9 col-span-8 my-auto">
                                                 <div className="box-body">
@@ -409,7 +410,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                         <div className="container">
                             <div className="grid grid-cols-12 gap-6 items-center justify-center">
                                 <div className="md:col-span-5 xl:col-span-4 col-span-12 text-center mt-6 lg:block hidden">
-                                    <img src="../../../assets/images/media/jobs-landing/8.png" width="350" alt="" />
+                                    <Image src="../../../assets/images/media/jobs-landing/8.png" width="350" alt="" />
                                 </div>
                                 <div className="md:col-span-7 xl:col-span-8 col-span-12">
                                     <div className="my-6">
@@ -633,7 +634,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                         <div className="container">
                             <div className="grid grid-cols-12 items-center justify-center">
                                 <div className="lg:col-span-4 col-span-12 lg:block hidden text-center mt-6">
-                                    <img src="../../../assets/images/media/jobs-landing/7.png" width="260" alt="" />
+                                    <Image src="../../../assets/images/media/jobs-landing/7.png" width="260" alt="" />
                                 </div>
                                 <div className="md:col-span-8 col-span-12 my-6">
                                     <h2 className="font-semibold mb-4 text-[2rem] dark:text-defaulttextcolor/70">Are You Looking For A best Candidate? <br /> Just <Link href="#!" className="text-primary text-decoration-line"> <u>Publish</u> </Link> your job here..</h2>
@@ -656,7 +657,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                 <div className="md:col-span-1 col-span-12">
                                     <div className="box border dark:border-defaultborder/10">
                                         <Link href="#!">
-                                            <img src="../../../assets/images/media/jobs-landing/blog/1.jpg" className="!rounded-t-md" alt="..." />
+                                            <Image src="../../../assets/images/media/jobs-landing/blog/1.jpg" className="!rounded-t-md" alt="..." />
                                         </Link>
                                         <div className="box-body">
                                             <span className="badge bg-secondary text-white blog-badge">Interview</span>
@@ -669,7 +670,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                 <div className="md:col-span-1 col-span-12">
                                     <div className="box border dark:border-defaultborder/10">
                                         <Link href="#!">
-                                            <img src="../../../assets/images/media/jobs-landing/blog/2.jpg" className="!rounded-t-md" alt="..." />
+                                            <Image src="../../../assets/images/media/jobs-landing/blog/2.jpg" className="!rounded-t-md" alt="..." />
                                         </Link>
                                         <div className="box-body">
                                             <span className="badge bg-danger text-white blog-badge">Freelancer</span>
@@ -682,7 +683,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                 <div className="md:col-span-1 col-span-12">
                                     <div className="box border dark:border-defaultborder/10">
                                         <Link href="#!">
-                                            <img src="../../../assets/images/media/jobs-landing/blog/3.jpg" className="!rounded-t-md" alt="..." />
+                                            <Image src="../../../assets/images/media/jobs-landing/blog/3.jpg" className="!rounded-t-md" alt="..." />
                                         </Link>
                                         <div className="box-body">
                                             <span className="badge bg-warning text-white blog-badge">Jobmaster</span>
@@ -711,7 +712,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                     <section className="section bg-light text-defaultsize text-defaulttextcolor">
                         <div className="container text-center">
                             <div className=" gap-6 mb-[3rem] justify-center text-center">
-                                <p className="text-[0.75rem] font-semibold mb-1"><span className="landing-section-heading">FAQ'S</span> </p>
+                                <p className="text-[0.75rem] font-semibold mb-1"><span className="landing-section-heading">FAQ</span> </p>
                                 <h3 className="font-semibold mb-2">Frequently Asked Questions?</h3>
                                 <div className="xl:col-span-9 col-span-12">
                                     <span className="block font-normal text-[0.9375rem] text-[#8c9097] dark:text-white/50">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</span>
@@ -842,7 +843,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                         <div className="box-body">
                                             <div className="flex items-center mb-4">
                                                 <span className="avatar avatar-md avatar-rounded me-4">
-                                                    <img src="../../../assets/images/faces/15.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/15.jpg" alt="" />
                                                 </span>
                                                 <div className='text-start'>
                                                     <p className="mb-0 font-semibold text-[1rem] text-primary">Json Taylor</p>
@@ -876,7 +877,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                         <div className="box-body">
                                             <div className="flex items-center mb-4">
                                                 <span className="avatar avatar-md avatar-rounded me-4">
-                                                    <img src="../../../assets/images/faces/4.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/4.jpg" alt="" />
                                                 </span>
                                                 <div className='text-start'>
                                                     <p className="mb-0 font-semibold text-[1rem] text-primary">Melissa Blue</p>
@@ -910,7 +911,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                         <div className="box-body">
                                             <div className="flex items-center mb-4">
                                                 <span className="avatar avatar-md avatar-rounded me-4">
-                                                    <img src="../../../assets/images/faces/2.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/2.jpg" alt="" />
                                                 </span>
                                                 <div className='text-start'>
                                                     <p className="mb-0 font-semibold text-[1rem] text-primary">Kiara Advain</p>
@@ -944,7 +945,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                         <div className="box-body">
                                             <div className="flex items-center mb-4">
                                                 <span className="avatar avatar-md avatar-rounded me-4">
-                                                    <img src="../../../assets/images/faces/10.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/10.jpg" alt="" />
                                                 </span>
                                                 <div className='text-start'>
                                                     <p className="mb-0 font-semibold text-[1rem] text-primary">Jhonson Smith</p>
@@ -978,7 +979,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                         <div className="box-body">
                                             <div className="flex items-center mb-4">
                                                 <span className="avatar avatar-md avatar-rounded me-4">
-                                                    <img src="../../../assets/images/faces/12.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/12.jpg" alt="" />
                                                 </span>
                                                 <div className='text-start'> 
                                                     <p className="mb-0 font-semibold text-[1rem] text-primary">Dwayne Stort</p>
@@ -1012,7 +1013,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                         <div className="box-body">
                                             <div className="flex items-center mb-4">
                                                 <span className="avatar avatar-md avatar-rounded me-4">
-                                                    <img src="../../../assets/images/faces/3.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/3.jpg" alt="" />
                                                 </span>
                                                 <div className='text-start'>
                                                     <p className="mb-0 font-semibold text-[1rem] text-primary">Jasmine Kova</p>
@@ -1046,7 +1047,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                         <div className="box-body">
                                             <div className="flex items-center mb-4">
                                                 <span className="avatar avatar-md avatar-rounded me-4">
-                                                    <img src="../../../assets/images/faces/16.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/16.jpg" alt="" />
                                                 </span>
                                                 <div className='text-start'>
                                                     <p className="mb-0 font-semibold text-[1rem] text-primary">Dolph MR</p>
@@ -1080,7 +1081,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                         <div className="box-body">
                                             <div className="flex items-center mb-4">
                                                 <span className="avatar avatar-md avatar-rounded me-4">
-                                                    <img src="../../../assets/images/faces/5.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/5.jpg" alt="" />
                                                 </span>
                                                 <div className='text-start'>
                                                     <p className="mb-0 font-semibold text-[1rem] text-primary">Brenda Simpson</p>
@@ -1114,7 +1115,7 @@ const Jobslanding = ({ local_varaiable, ThemeChanger }:any) => {
                                         <div className="box-body">
                                             <div className="flex items-center mb-4">
                                                 <span className="avatar avatar-md avatar-rounded me-4">
-                                                    <img src="../../../assets/images/faces/7.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/7.jpg" alt="" />
                                                 </span>
                                                 <div className='text-start'>
                                                     <p className="mb-0 font-semibold text-[1rem] text-primary">Julia Sams</p>

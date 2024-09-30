@@ -8,6 +8,7 @@ import { Autoplay, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Seo from '../../../shared/layout-components/seo/seo';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Image from 'next/image';
 
 const Landing = ({ local_varaiable, ThemeChanger }: any) => {
 
@@ -145,8 +146,8 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                             <div className="header-element">
                                 <div className="horizontal-logo">
                                     <Link href="/components/dashboards/crm/" className="header-logo">
-                                    <img src="../../../assets/images/brand-logos/toggle-logo.png" alt="logo" className="toggle-logo" />
-                                        <img src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="toggle-dark" /> 
+                                    <Image src="../../../assets/images/brand-logos/toggle-logo.png" alt="logo" className="toggle-logo" />
+                                        <Image src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="toggle-dark" /> 
                                     </Link>
                                     
                                 </div> </div>
@@ -172,9 +173,9 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                             <nav className="main-menu-container nav nav-pills flex-column sub-open">
                                 <div className="landing-logo-container my-auto hidden lg:block">
                                     <div className="responsive-logo">
-                                        <Link className="responsive-logo-light" href="/components/dashboards/crm/" aria-label="Brand"><img
+                                        <Link className="responsive-logo-light" href="/components/dashboards/crm/" aria-label="Brand"><Image
                                             src="../../../assets/images/brand-logos/desktop-logo.png" alt="logo" className="mx-auto" /></Link>
-                                        <Link className="responsive-logo-dark" href="/components/dashboards/crm/" aria-label="Brand"><img
+                                        <Link className="responsive-logo-dark" href="/components/dashboards/crm/" aria-label="Brand"><Image
                                             src="../../../assets/images/brand-logos/desktop-white.png" alt="logo" className="mx-auto" /></Link>
                                     </div>
                                 </div>
@@ -205,7 +206,7 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
 
                                     <li className="slide">
                                         <Link href="#faq" className="side-menu__item">
-                                            <span className="side-menu__label">Faq's</span>
+                                            <span className="side-menu__label">Faq</span>
                                         </Link>
                                     </li>
 
@@ -246,7 +247,7 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                     </div>
                                     <div className="xxl:col-span-5 xl:col-span-5 lg:col-span-6 col-span-12">
                                         <div className="text-end landing-main-image landing-heading-img flex justify-end w-full">
-                                            <img src="../../../assets/images/media/landing/1.png" alt="" className="img-fluid" />
+                                            <Image src="../../../assets/images/media/landing/1.png" alt="" className="img-fluid" />
                                         </div>
                                     </div>
                                 </div>
@@ -333,7 +334,7 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                             <div className="grid grid-cols-8 justify-center align-center">
                                 <div className="xxl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-12 customize-image text-center">
                                     <div className="lg:text-start !flex items-center lg:justify-start justify-center">
-                                        <img src="../../../assets/images/media/landing/3.png" alt="" className="img-fluid" />
+                                        <Image src="../../../assets/images/media/landing/3.png" alt="" className="img-fluid" />
                                     </div>
                                 </div>
                                 <div className="xxl:col-span-5 xl:col-span-5 lg:col-span-5 col-span-12 pt-5 pb-0 lg:px-2 !text-start px-12 my-auto">
@@ -557,27 +558,27 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                     <div className="">
                                         <div className="feature-logos sm:mt-[3rem] flex-wrap" >
                                             <div className="sm:ms-[3rem] ms-2 text-center">
-                                                <img src="../../../assets/images/media/landing/web/9.png" alt="image" className="featur-icon" />
+                                                <Image src="../../../assets/images/media/landing/web/9.png" alt="image" className="featur-icon" />
                                                 <h5 className="mt-3 text-white text-[1.25rem] ">NextJs</h5>
                                             </div>
                                             <div className="sm:ms-[3rem] ms-2 text-center">
-                                                <img src="../../../assets/images/media/landing/web/1.png" alt="image" className="featur-icon" />
+                                                <Image src="../../../assets/images/media/landing/web/1.png" alt="image" className="featur-icon" />
                                                 <h5 className="mt-3 text-white text-[1.25rem] ">Tailwind Css</h5>
                                             </div>
                                             <div className="sm:ms-[3rem] ms-2 text-center">
-                                                <img src="../../../assets/images/media/landing/web/4.png" alt="image" className="featur-icon" />
+                                                <Image src="../../../assets/images/media/landing/web/4.png" alt="image" className="featur-icon" />
                                                 <h5 className="mt-3 text-white text-[1.25rem] ">Sass</h5>
                                             </div>
                                             <div className="sm:ms-[3rem] ms-2 text-center">
-                                                <img src="../../../assets/images/media/landing/web/8.png" alt="image" className="featur-icon" />
+                                                <Image src="../../../assets/images/media/landing/web/8.png" alt="image" className="featur-icon" />
                                                 <h5 className="mt-3 text-white text-[1.25rem] ">Yarn</h5>
                                             </div>
                                             <div className="sm:ms-[3rem] ms-2 text-center">
-                                                <img src="../../../assets/images/media/landing/web/6.png" alt="image" className="featur-icon" />
+                                                <Image src="../../../assets/images/media/landing/web/6.png" alt="image" className="featur-icon" />
                                                 <h5 className="mt-3 text-white text-[1.25rem] ">NPM</h5>
                                             </div>
                                             <div className="sm:ms-[3rem] ms-2 text-center">
-                                                <img src="../../../assets/images/media/landing/web/7.png" alt="image" className="featur-icon" />
+                                                <Image src="../../../assets/images/media/landing/web/7.png" alt="image" className="featur-icon" />
                                                 <h5 className="mt-3 text-white text-[1.25rem] ">Preline</h5>
                                             </div>
                                         </div>
@@ -604,7 +605,7 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                         <div className="box-body">
                                             <div className="flex items-center mb-4">
                                                 <span className="avatar avatar-md avatar-rounded me-4">
-                                                    <img src="../../../assets/images/faces/15.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/15.jpg" alt="" />
                                                 </span>
                                                 <div>
                                                     <p className="mb-0 font-semibold text-[0.875rem]">Json Taylor</p>
@@ -638,7 +639,7 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                         <div className="box-body">
                                             <div className="flex items-center mb-4">
                                                 <span className="avatar avatar-md avatar-rounded me-4">
-                                                    <img src="../../../assets/images/faces/4.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/4.jpg" alt="" />
                                                 </span>
                                                 <div>
                                                     <p className="mb-0 font-semibold text-[0.875rem]">Melissa Blue</p>
@@ -672,7 +673,7 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                         <div className="box-body">
                                             <div className="flex items-center mb-4">
                                                 <span className="avatar avatar-md avatar-rounded me-4">
-                                                    <img src="../../../assets/images/faces/2.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/2.jpg" alt="" />
                                                 </span>
                                                 <div>
                                                     <p className="mb-0 font-semibold text-[0.875rem]">Kiara Advain</p>
@@ -706,7 +707,7 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                         <div className="box-body">
                                             <div className="flex items-center mb-4">
                                                 <span className="avatar avatar-md avatar-rounded me-4">
-                                                    <img src="../../../assets/images/faces/10.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/10.jpg" alt="" />
                                                 </span>
                                                 <div>
                                                     <p className="mb-0 font-semibold text-[0.875rem]">Jhonson Smith</p>
@@ -740,7 +741,7 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                         <div className="box-body">
                                             <div className="flex items-center mb-4">
                                                 <span className="avatar avatar-md avatar-rounded me-4">
-                                                    <img src="../../../assets/images/faces/12.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/12.jpg" alt="" />
                                                 </span>
                                                 <div>
                                                     <p className="mb-0 font-semibold text-[0.875rem]">Dwayne Stort</p>
@@ -774,7 +775,7 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                         <div className="box-body">
                                             <div className="flex items-center mb-4">
                                                 <span className="avatar avatar-md avatar-rounded me-4">
-                                                    <img src="../../../assets/images/faces/3.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/3.jpg" alt="" />
                                                 </span>
                                                 <div>
                                                     <p className="mb-0 font-semibold text-[0.875rem]">Jasmine Kova</p>
@@ -808,7 +809,7 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                         <div className="box-body">
                                             <div className="flex items-center mb-4">
                                                 <span className="avatar avatar-md avatar-rounded me-4">
-                                                    <img src="../../../assets/images/faces/16.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/16.jpg" alt="" />
                                                 </span>
                                                 <div>
                                                     <p className="mb-0 font-semibold text-[0.875rem]">Dolph MR</p>
@@ -842,7 +843,7 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                         <div className="box-body">
                                             <div className="flex items-center mb-4">
                                                 <span className="avatar avatar-md avatar-rounded me-4">
-                                                    <img src="../../../assets/images/faces/5.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/5.jpg" alt="" />
                                                 </span>
                                                 <div>
                                                     <p className="mb-0 font-semibold text-[0.875rem]">Brenda Simpson</p>
@@ -876,7 +877,7 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                         <div className="box-body">
                                             <div className="flex items-center mb-4">
                                                 <span className="avatar avatar-md avatar-rounded me-4">
-                                                    <img src="../../../assets/images/faces/7.jpg" alt="" />
+                                                    <Image src="../../../assets/images/faces/7.jpg" alt="" />
                                                 </span>
                                                 <div>
                                                     <p className="mb-0 font-semibold text-[0.875rem]">Julia Sams</p>
@@ -922,7 +923,7 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                     <div className="box text-center team-card ">
                                         <div className="box-body p-[3rem]">
                                             <span className="avatar avatar-xxl avatar-rounded !mb-4 team-avatar">
-                                                <img src="../../../assets/images/faces/15.jpg" alt="" />
+                                                <Image src="../../../assets/images/faces/15.jpg" alt="" />
                                             </span>
                                             <p className="font-semibold text-[1.0625rem] mb-0 text-default">Peter Parker</p>
                                             <span className="text-[#8c9097] dark:text-white/50 text-[0.875rem] !text-primary font-semibold">Director</span>
@@ -937,7 +938,7 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                     <div className="box text-center team-card ">
                                         <div className="box-body p-[3rem]">
                                             <span className="avatar avatar-xxl avatar-rounded !mb-4 team-avatar">
-                                                <img src="../../../assets/images/faces/12.jpg" alt="" />
+                                                <Image src="../../../assets/images/faces/12.jpg" alt="" />
                                             </span>
                                             <p className="font-semibold text-[1.0625rem] mb-0 text-default">Andrew garfield</p>
                                             <span className="text-[#8c9097] dark:text-white/50 text-[0.875rem] !text-primary font-semibold">Manager</span>
@@ -952,7 +953,7 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                     <div className="box text-center team-card ">
                                         <div className="box-body p-[3rem]">
                                             <span className="avatar avatar-xxl avatar-rounded !mb-4 team-avatar">
-                                                <img src="../../../assets/images/faces/5.jpg" alt="" />
+                                                <Image src="../../../assets/images/faces/5.jpg" alt="" />
                                             </span>
                                             <p className="font-semibold text-[1.0625rem] mb-0 text-default">Json Taylor</p>
                                             <span className="text-[#8c9097] dark:text-white/50 text-[0.875rem] !text-primary font-semibold">Web Designer</span>
@@ -967,7 +968,7 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                     <div className="box text-center team-card ">
                                         <div className="box-body p-[3rem]">
                                             <span className="avatar avatar-xxl avatar-rounded !mb-4 team-avatar">
-                                                <img src="../../../assets/images/faces/1.jpg" alt="" />
+                                                <Image src="../../../assets/images/faces/1.jpg" alt="" />
                                             </span>
                                             <p className="font-semibold text-[1.0625rem] mb-0 text-default">Elizabeth Rose</p>
                                             <span className="text-[#8c9097] dark:text-white/50 text-[0.875rem] !text-primary font-semibold">HR</span>
@@ -1289,11 +1290,11 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                                             aria-labelledby="faq-one">
                                                             <div className="p-5">
                                                                 <p className="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                                                    <strong>This is the first item's accordion body.</strong> It is shown by
+                                                                    <strong>This is the first item accordion body.</strong> It is shown by
                                                                     default, until the collapse plugin adds the appropriate classes that we
                                                                     use to style each element. These classes control the overall appearance,
                                                                     as well as the showing and hiding via CSS transitions. You can modify
-                                                                    any of this with custom CSS or overriding our default variables. It's
+                                                                    any of this with custom CSS or overriding our default variables. It
                                                                     also worth noting that just about any HTML can go within the
                                                                     <code>.accordion-body</code>, though the transition does limit overflow.
                                                                 </p>
@@ -1325,11 +1326,11 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                                             aria-labelledby="faq-two">
                                                             <div className="p-5">
                                                                 <p className="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                                                    <strong>This is the first item's accordion body.</strong> It is shown by
+                                                                    <strong>This is the first item accordion body.</strong> It is shown by
                                                                     default, until the collapse plugin adds the appropriate classes that we
                                                                     use to style each element. These classes control the overall appearance,
                                                                     as well as the showing and hiding via CSS transitions. You can modify
-                                                                    any of this with custom CSS or overriding our default variables. It's
+                                                                    any of this with custom CSS or overriding our default variables. It
                                                                     also worth noting that just about any HTML can go within the
                                                                     <code>.accordion-body</code>, though the transition does limit overflow.
                                                                 </p>
@@ -1361,11 +1362,11 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                                             aria-labelledby="faq-twenty">
                                                             <div className="p-5">
                                                                 <p className="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                                                    <strong>This is the first item's accordion body.</strong> It is shown by
+                                                                    <strong>This is the first item accordion body.</strong> It is shown by
                                                                     default, until the collapse plugin adds the appropriate classes that we
                                                                     use to style each element. These classes control the overall appearance,
                                                                     as well as the showing and hiding via CSS transitions. You can modify
-                                                                    any of this with custom CSS or overriding our default variables. It's
+                                                                    any of this with custom CSS or overriding our default variables. It
                                                                     also worth noting that just about any HTML can go within the
                                                                     <code>.accordion-body</code>, though the transition does limit overflow.
                                                                 </p>
@@ -1397,11 +1398,11 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                                             >
                                                             <div className="p-5">
                                                                 <p className="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                                                    <strong>This is the first item's accordion body.</strong> It is shown by
+                                                                    <strong>This is the first item accordion body.</strong> It is shown by
                                                                     default, until the collapse plugin adds the appropriate classes that we
                                                                     use to style each element. These classes control the overall appearance,
                                                                     as well as the showing and hiding via CSS transitions. You can modify
-                                                                    any of this with custom CSS or overriding our default variables. It's
+                                                                    any of this with custom CSS or overriding our default variables. It
                                                                     also worth noting that just about any HTML can go within the
                                                                     <code>.accordion-body</code>, though the transition does limit overflow.
                                                                 </p>
@@ -1433,11 +1434,11 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                                             aria-labelledby="faq-three">
                                                             <div className="p-5">
                                                                 <p className="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                                                    <strong>This is the first item's accordion body.</strong> It is shown by
+                                                                    <strong>This is the first item accordion body.</strong> It is shown by
                                                                     default, until the collapse plugin adds the appropriate classes that we
                                                                     use to style each element. These classes control the overall appearance,
                                                                     as well as the showing and hiding via CSS transitions. You can modify
-                                                                    any of this with custom CSS or overriding our default variables. It's
+                                                                    any of this with custom CSS or overriding our default variables. It
                                                                     also worth noting that just about any HTML can go within the
                                                                     <code>.accordion-body</code>, though the transition does limit overflow.
                                                                 </p>
@@ -1469,11 +1470,11 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                                             aria-labelledby="faq-four">
                                                             <div className="p-5">
                                                                 <p className="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                                                    <strong>This is the first item's accordion body.</strong> It is shown by
+                                                                    <strong>This is the first item accordion body.</strong> It is shown by
                                                                     default, until the collapse plugin adds the appropriate classes that we
                                                                     use to style each element. These classes control the overall appearance,
                                                                     as well as the showing and hiding via CSS transitions. You can modify
-                                                                    any of this with custom CSS or overriding our default variables. It's
+                                                                    any of this with custom CSS or overriding our default variables. It
                                                                     also worth noting that just about any HTML can go within the
                                                                     <code>.accordion-body</code>, though the transition does limit overflow.
                                                                 </p>
@@ -1511,11 +1512,11 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                                             aria-labelledby="faq-five">
                                                             <div className="p-5">
                                                                 <p className="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                                                    <strong>This is the first item's accordion body.</strong> It is shown by
+                                                                    <strong>This is the first item accordion body.</strong> It is shown by
                                                                     default, until the collapse plugin adds the appropriate classes that we
                                                                     use to style each element. These classes control the overall appearance,
                                                                     as well as the showing and hiding via CSS transitions. You can modify
-                                                                    any of this with custom CSS or overriding our default variables. It's
+                                                                    any of this with custom CSS or overriding our default variables. It
                                                                     also worth noting that just about any HTML can go within the
                                                                     <code>.accordion-body</code>, though the transition does limit overflow.
                                                                 </p>
@@ -1547,11 +1548,11 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                                             aria-labelledby="faq-six">
                                                             <div className="p-5">
                                                                 <p className="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                                                    <strong>This is the first item's accordion body.</strong> It is shown by
+                                                                    <strong>This is the first item accordion body.</strong> It is shown by
                                                                     default, until the collapse plugin adds the appropriate classes that we
                                                                     use to style each element. These classes control the overall appearance,
                                                                     as well as the showing and hiding via CSS transitions. You can modify
-                                                                    any of this with custom CSS or overriding our default variables. It's
+                                                                    any of this with custom CSS or overriding our default variables. It
                                                                     also worth noting that just about any HTML can go within the
                                                                     <code>.accordion-body</code>, though the transition does limit overflow.
                                                                 </p>
@@ -1583,11 +1584,11 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                                             aria-labelledby="faq-seven">
                                                             <div className="p-5">
                                                                 <p className="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                                                    <strong>This is the first item's accordion body.</strong> It is shown by
+                                                                    <strong>This is the first item accordion body.</strong> It is shown by
                                                                     default, until the collapse plugin adds the appropriate classes that we
                                                                     use to style each element. These classes control the overall appearance,
                                                                     as well as the showing and hiding via CSS transitions. You can modify
-                                                                    any of this with custom CSS or overriding our default variables. It's
+                                                                    any of this with custom CSS or overriding our default variables. It
                                                                     also worth noting that just about any HTML can go within the
                                                                     <code>.accordion-body</code>, though the transition does limit overflow.
                                                                 </p>
@@ -1619,11 +1620,11 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                                             aria-labelledby="faq-eight">
                                                             <div className="p-5">
                                                                 <p className="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                                                    <strong>This is the first item's accordion body.</strong> It is shown by
+                                                                    <strong>This is the first item accordion body.</strong> It is shown by
                                                                     default, until the collapse plugin adds the appropriate classes that we
                                                                     use to style each element. These classes control the overall appearance,
                                                                     as well as the showing and hiding via CSS transitions. You can modify
-                                                                    any of this with custom CSS or overriding our default variables. It's
+                                                                    any of this with custom CSS or overriding our default variables. It
                                                                     also worth noting that just about any HTML can go within the
                                                                     <code>.accordion-body</code>, though the transition does limit overflow.
                                                                 </p>
@@ -1655,11 +1656,11 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                                             aria-labelledby="faq-nine">
                                                             <div className="p-5">
                                                                 <p className="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                                                    <strong>This is the first item's accordion body.</strong> It is shown by
+                                                                    <strong>This is the first item accordion body.</strong> It is shown by
                                                                     default, until the collapse plugin adds the appropriate classes that we
                                                                     use to style each element. These classes control the overall appearance,
                                                                     as well as the showing and hiding via CSS transitions. You can modify
-                                                                    any of this with custom CSS or overriding our default variables. It's
+                                                                    any of this with custom CSS or overriding our default variables. It
                                                                     also worth noting that just about any HTML can go within the
                                                                     <code>.accordion-body</code>, though the transition does limit overflow.
                                                                 </p>
@@ -1691,11 +1692,11 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                                                             aria-labelledby="faq-ten">
                                                             <div className="p-5">
                                                                 <p className="text-defaulttextcolor dark:text-defaulttextcolor/70 ">
-                                                                    <strong>This is the first item's accordion body.</strong> It is shown by
+                                                                    <strong>This is the first item accordion body.</strong> It is shown by
                                                                     default, until the collapse plugin adds the appropriate classes that we
                                                                     use to style each element. These classes control the overall appearance,
                                                                     as well as the showing and hiding via CSS transitions. You can modify
-                                                                    any of this with custom CSS or overriding our default variables. It's
+                                                                    any of this with custom CSS or overriding our default variables. It
                                                                     also worth noting that just about any HTML can go within the
                                                                     <code>.accordion-body</code>, though the transition does limit overflow.
                                                                 </p>
@@ -1783,7 +1784,7 @@ const Landing = ({ local_varaiable, ThemeChanger }: any) => {
                             <div className="grid grid-cols-12 gap-6">
                                 <div className="xl:col-span-4 col-span-12">
                                     <div className="px-6">
-                                        <p className="font-semibold mb-4"><Link aria-label="anchor" href="/components/dashboards/crm/"><img src="../../../assets/images/brand-logos/desktop-dark.png" alt="" /></Link></p>
+                                        <p className="font-semibold mb-4"><Link aria-label="anchor" href="/components/dashboards/crm/"><Image src="../../../assets/images/brand-logos/desktop-dark.png" alt="" /></Link></p>
                                         <p className="mb-2 opacity-[0.6] font-normal">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit et magnam, fuga est mollitia eius, quo illum illo inventore optio aut quas omnis rem. Dolores accusantium aspernatur minus ea incidunt.
                                         </p>

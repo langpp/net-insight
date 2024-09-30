@@ -2,6 +2,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Navbar = () => {
   return (
@@ -19,8 +20,8 @@ const Navbar = () => {
                 className="flex flex-wrap sm:justify-start sm:flex-nowrap z-40 w-full bg-white text-sm dark:bg-bodybg">
                 <nav className=" w-full mx-auto sm: sm:flex sm:items-center sm:justify-between" aria-label="Global">
                   <Link href="#!" className="header-logo">
-                    <img src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="dark:hidden block" />
-                    <img src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="hidden dark:block" />
+                    <Image src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="dark:hidden block" />
+                    <Image src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="hidden dark:block" />
                   </Link>
                   <div className="flex flex-row items-center gap-5 mt-5 sm:justify-end sm:mt-0 sm:ps-5">
                     <Link className="font-medium text-primary" href="#!" aria-current="page">Landing</Link>
@@ -46,8 +47,8 @@ const Navbar = () => {
                 className="flex flex-wrap sm:justify-start sm:flex-nowrap z-40 w-full bg-white text-sm dark:bg-bodybg">
                 <nav className="w-full mx-auto  xxl:flex xxl:items-center xxl:justify-between" aria-label="Global">
                   <Link href="#!" className="header-logo">
-                    <img src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="dark:hidden block" />
-                    <img src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="hidden dark:block" />
+                    <Image src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="dark:hidden block" />
+                    <Image src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="hidden dark:block" />
                   </Link>
                   <div
                     className="flex flex-row items-center gap-5 mt-5 pb-2 overflow-x-auto xxl:justify-end xxl:mt-0 sm:ps-5 xxl:pb-0 xxl:overflow-x-visible">
@@ -87,8 +88,8 @@ const Navbar = () => {
                 <nav className="w-full mx-auto  sm:flex sm:items-center sm:justify-between" aria-label="Global">
                   <div className="flex items-center justify-between">
                     <Link href="#!" className="header-logo">
-                      <img src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="dark:hidden block" />
-                      <img src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="hidden dark:block" />
+                      <Image src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="dark:hidden block" />
+                      <Image src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="hidden dark:block" />
                     </Link>
                     <div className="sm:hidden">
                       <button type="button"
@@ -135,8 +136,8 @@ const Navbar = () => {
                 <nav className="w-full mx-auto  sm:flex sm:items-center sm:justify-between" aria-label="Global">
                   <div className="flex items-center justify-between">
                     <Link href="#!" className="header-logo">
-                      <img src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="dark:hidden block" />
-                      <img src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="hidden dark:block" />
+                      <Image src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="dark:hidden block" />
+                      <Image src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="hidden dark:block" />
                     </Link>
                     <div className="sm:hidden">
                       <button type="button"
@@ -184,8 +185,8 @@ const Navbar = () => {
                 <nav className="w-full mx-auto  sm:flex sm:items-center sm:justify-between" aria-label="Global">
                   <div className="flex items-center justify-between">
                     <Link href="#!" className="header-logo">
-                      <img src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="dark:hidden block" />
-                      <img src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="hidden dark:block" />
+                      <Image src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="dark:hidden block" />
+                      <Image src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="hidden dark:block" />
                     </Link>
                     <div className="sm:hidden">
                       <button type="button"
@@ -233,8 +234,8 @@ const Navbar = () => {
                 <nav className="w-full mx-auto  sm:flex sm:items-center sm:justify-between" aria-label="Global">
                   <div className="flex items-center justify-between">
                     <Link href="#!" className="header-logo">
-                      <img src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="dark:hidden block" />
-                      <img src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="hidden dark:block" />
+                      <Image src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="dark:hidden block" />
+                      <Image src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="hidden dark:block" />
                     </Link>
                     <div className="sm:hidden">
                       <button type="button"
@@ -282,8 +283,8 @@ const Navbar = () => {
                 <nav className="w-full mx-auto  sm:flex sm:items-center sm:justify-between" aria-label="Global">
                   <div className="flex items-center justify-between">
                     <Link href="#!" className="header-logo">
-                      <img src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="dark:hidden block" />
-                      <img src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="hidden dark:block" />
+                      <Image src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="dark:hidden block" />
+                      <Image src="../../../assets/images/brand-logos/toggle-dark.png" alt="logo" className="hidden dark:block" />
                     </Link>
                     <div className="sm:hidden">
                       <button type="button"
@@ -390,7 +391,7 @@ const Navbar = () => {
                 <nav className="w-full mx-auto px-4  sm:flex sm:items-center sm:justify-between" aria-label="Global">
                   <div className="flex items-center justify-between">
                     <Link href="#!" className="header-logo">
-                      <img src="../../../assets/images/brand-logos/toggle-white.png" alt="logo" className="block" />
+                      <Image src="../../../assets/images/brand-logos/toggle-white.png" alt="logo" className="block" />
                     </Link>
                     <div className="sm:hidden">
                       <button type="button"
@@ -428,7 +429,7 @@ const Navbar = () => {
                 <nav className="w-full mx-auto px-4  sm:flex sm:items-center sm:justify-between" aria-label="Global">
                   <div className="flex items-center justify-between">
                     <Link href="#!" className="header-logo">
-                      <img src="../../../assets/images/brand-logos/toggle-white.png" alt="logo" className="block" />
+                      <Image src="../../../assets/images/brand-logos/toggle-white.png" alt="logo" className="block" />
                     </Link>
                     <div className="sm:hidden">
                       <button type="button"

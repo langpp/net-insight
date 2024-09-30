@@ -5,6 +5,7 @@ import Link from 'next/link'
 import React, { Fragment, useState } from 'react'
 import Swal from 'sweetalert2';
 import dynamic from 'next/dynamic'
+import Image from 'next/image';
 const Select = dynamic(() => import("react-select"), { ssr: false });
 
 const Companies = () => {
@@ -33,7 +34,7 @@ const Companies = () => {
     const handleClick = (id: string) => {
         Swal.fire({
             title: 'Are you sure?',
-            text: "You won't be able to revert this!",
+            text: "You wont be able to revert this!",
             icon: 'warning',
             showCancelButton: true,
             confirmButtonColor: '#3085d6',
@@ -110,7 +111,7 @@ const Companies = () => {
                                                     <div className="flex items-center gap-2">
                                                         <div className="leading-none">
                                                             <span className="avatar avatar-sm p-1 bg-light avatar-rounded">
-                                                                <img src={idx.src2} alt="" />
+                                                                <Image src={idx.src2} alt="" />
                                                             </span>
                                                         </div>
                                                         <div>
@@ -140,7 +141,7 @@ const Companies = () => {
                                                     <div className="flex items-center gap-2">
                                                         <div className="leading-none">
                                                             <span className="avatar avatar-rounded avatar-sm">
-                                                                <img src={idx.src1} alt="" />
+                                                                <Image src={idx.src1} alt="" />
                                                             </span>
                                                         </div>
                                                         <div>
@@ -197,7 +198,7 @@ const Companies = () => {
                     <div className="sm:flex items-start p-6 border-b border-dashed border-defaultborder main-profile-cover">
                         <div>
                             <span className="avatar avatar-xxl avatar-rounded me-3 bg-light/10 p-2">
-                                <img src="../../../../assets/images/company-logos/12.png" alt="" />
+                                <Image src="../../../../assets/images/company-logos/12.png" alt="" />
                             </span>
                         </div>
                         <div className="flex-fill main-profile-info w-full">
@@ -305,7 +306,7 @@ const Companies = () => {
                         <div className="flex items-center gap-2">
                             <div className="leading-none">
                                 <span className="avatar avatar-rounded avatar-sm">
-                                    <img src="../../../../assets/images/faces/2.jpg" alt="img" />
+                                    <Image src="../../../../assets/images/faces/2.jpg" alt="img" />
                                 </span>
                             </div>
                             <div className="font-semibold">Lisa Convay</div>
@@ -328,7 +329,7 @@ const Companies = () => {
                                 <div className="xl:col-span-12 col-span-12">
                                     <div className="mb-0 text-center">
                                         <span className="avatar avatar-xxl avatar-rounded">
-                                            <img
+                                            <Image
                                                 src={selectedImage || '../../../../assets/images/faces/9.jpg'}
                                                 alt=""
                                                 id="profile-img"

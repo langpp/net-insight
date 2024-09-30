@@ -2,6 +2,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import dynamic from 'next/dynamic';
 import React from 'react';
+import Image from 'next/image';
 const CountUp = dynamic(() => import("react-countup"), { ssr: false });
 
 const AboutUs = () => {
@@ -44,7 +45,7 @@ const AboutUs = () => {
                                 </div>
                             </div>
                             <div className="xxl:col-span-6 xl:col-span-6 col-span-12 aboutus-img aboutus-banner-img">
-                                <img src="../../../assets/images/media/media-80.svg" className="img-fluid !w-full !h-[17.5rem] !z-[1]" alt="" />
+                                <Image src="../../../assets/images/media/media-80.svg" className="img-fluid !w-full !h-[17.5rem] !z-[1]" alt="" />
                             </div>
                             <div className="xl:col-span-12 col-span-12 about-company-stats container !mx-auto !justify-center !items-center !max-w-[41rem]">
                                 <div className="box text-default shadow border dark:border-defaulttextcolor/10">
@@ -190,7 +191,7 @@ const AboutUs = () => {
                                         <div className="box text-center">
                                             <div className="box-body">
                                                 <span className="avatar avatar-xl avatar-rounded mb-5">
-                                                    <img src={idx.src} alt="" />
+                                                    <Image src={idx.src} alt="" />
                                                 </span>
                                                 <p className="font-semibold text-[0.9375rem] mb-0">{idx.name}</p>
                                                 <span className="text-[#8c9097] dark:text-white/50 text-[0.75rem]">{idx.mail}</span>

@@ -4,6 +4,7 @@ import Pageheader from '@/shared/layout-components/page-header/pageheader'
 import Seo from '@/shared/layout-components/seo/seo'
 import Link from 'next/link'
 import React, { Fragment, useState } from 'react'
+import Image from 'next/image';
 
 const Ecommerce = () => {
 
@@ -134,7 +135,7 @@ const Ecommerce = () => {
                         <div className="xxl:col-span-6 xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
                             <div className="box overflow-hidden">
                                 <div className="ecommerce-sale-image">
-                                    <img src="../../../assets/images/ecommerce/png/35.png" className="card-img-top" alt="..." />
+                                    <Image src="../../../assets/images/ecommerce/png/35.png" className="card-img-top" alt="..." />
                                     <div className="card-img-overlay  p-6 text-white">
                                         <p className=" opacity-[0.7] text-[0.75rem]">Spruko Official.Inc</p>
                                         <p className="font-semibold mb-6 text-[1rem]">BIG SAVING DAYS</p>
@@ -179,7 +180,7 @@ const Ecommerce = () => {
                                                     <div className="flex tems-center">
                                                         <div className="leading-none">
                                                             <span className="inline-flex justify-center items-center">
-                                                                <img src={idx.src} alt="" className="w-[2.5rem] h-[2.5rem]leading-[2.5rem] text-[0.8rem] rounded-md" />
+                                                                <Image src={idx.src} alt="" className="w-[2.5rem] h-[2.5rem]leading-[2.5rem] text-[0.8rem] rounded-md" />
                                                             </span>
                                                         </div>
                                                         <div className="flex-grow ms-2">
@@ -229,7 +230,7 @@ const Ecommerce = () => {
                                                                 <div className="flex items-center">
                                                                     <div className="leading-none">
                                                                         <span className="avatar avatar-md online avatar-rounded me-2 !mb-0">
-                                                                            <img src="../../../assets/images/faces/4.jpg" alt="" />
+                                                                            <Image src="../../../assets/images/faces/4.jpg" alt="" />
                                                                         </span>
                                                                     </div>
                                                                     <div className="items-center">
@@ -252,7 +253,7 @@ const Ecommerce = () => {
                                                             </td>
                                                             <td>
                                                                 <span className="avatar avatar-md">
-                                                                    <img src="../../../assets/images/ecommerce/png/1.png" alt="" />
+                                                                    <Image src="../../../assets/images/ecommerce/png/1.png" alt="" />
                                                                 </span>
                                                             </td>
                                                             <td>
@@ -266,7 +267,7 @@ const Ecommerce = () => {
                                                                 <div className="flex items-center">
                                                                     <div className="leading-none">
                                                                         <span className="avatar avatar-md online avatar-rounded me-2 !mb-0">
-                                                                            <img src="../../../assets/images/faces/10.jpg" alt="" />
+                                                                            <Image src="../../../assets/images/faces/10.jpg" alt="" />
                                                                         </span>
                                                                     </div>
                                                                     <div className="items-center">
@@ -289,7 +290,7 @@ const Ecommerce = () => {
                                                             </td>
                                                             <td>
                                                                 <span className="avatar avatar-md">
-                                                                    <img src="../../../assets/images/ecommerce/png/2.png" alt="" />
+                                                                    <Image src="../../../assets/images/ecommerce/png/2.png" alt="" />
                                                                 </span>
                                                             </td>
                                                             <td>
@@ -303,7 +304,7 @@ const Ecommerce = () => {
                                                                 <div className="flex items-center">
                                                                     <div className="leading-none">
                                                                         <span className="avatar avatar-md offline avatar-rounded me-2 !mb-0">
-                                                                            <img src="../../../assets/images/faces/12.jpg" alt="" />
+                                                                            <Image src="../../../assets/images/faces/12.jpg" alt="" />
                                                                         </span>
                                                                     </div>
                                                                     <div className="items-center">
@@ -326,7 +327,7 @@ const Ecommerce = () => {
                                                             </td>
                                                             <td>
                                                                 <span className="avatar avatar-md">
-                                                                    <img src="../../../assets/images/ecommerce/png/3.png" alt="" />
+                                                                    <Image src="../../../assets/images/ecommerce/png/3.png" alt="" />
                                                                 </span>
                                                             </td>
                                                             <td>
@@ -340,7 +341,7 @@ const Ecommerce = () => {
                                                                 <div className="flex items-center">
                                                                     <div className="leading-none">
                                                                         <span className="avatar avatar-md online avatar-rounded me-2 !mb-0">
-                                                                            <img src="../../../assets/images/faces/5.jpg" alt="" />
+                                                                            <Image src="../../../assets/images/faces/5.jpg" alt="" />
                                                                         </span>
                                                                     </div>
                                                                     <div className="items-center">
@@ -363,7 +364,7 @@ const Ecommerce = () => {
                                                             </td>
                                                             <td>
                                                                 <span className="avatar avatar-md">
-                                                                    <img src="../../../assets/images/ecommerce/png/4.png" alt="" />
+                                                                    <Image src="../../../assets/images/ecommerce/png/4.png" alt="" />
                                                                 </span>
                                                             </td>
                                                             <td>
@@ -377,7 +378,7 @@ const Ecommerce = () => {
                                                                 <div className="flex items-center">
                                                                     <div className="leading-none">
                                                                         <span className="avatar avatar-md offline avatar-rounded me-2 !mb-0">
-                                                                            <img src="../../../assets/images/faces/14.jpg" alt="" />
+                                                                            <Image src="../../../assets/images/faces/14.jpg" alt="" />
                                                                         </span>
                                                                     </div>
                                                                     <div className="items-center">
@@ -400,7 +401,7 @@ const Ecommerce = () => {
                                                             </td>
                                                             <td>
                                                                 <span className="avatar avatar-md">
-                                                                    <img src="../../../assets/images/ecommerce/png/5.png" alt="" />
+                                                                    <Image src="../../../assets/images/ecommerce/png/5.png" alt="" />
                                                                 </span>
                                                             </td>
                                                             <td>
@@ -422,7 +423,7 @@ const Ecommerce = () => {
                                                                 <div className="flex items-center">
                                                                     <div className="leading-none">
                                                                         <span className="avatar avatar-md offline avatar-rounded me-2 !mb-0">
-                                                                            <img src="../../../assets/images/faces/2.jpg" alt="" />
+                                                                            <Image src="../../../assets/images/faces/2.jpg" alt="" />
                                                                         </span>
                                                                     </div>
                                                                     <div className="items-center">
@@ -445,7 +446,7 @@ const Ecommerce = () => {
                                                             </td>
                                                             <td>
                                                                 <span className="avatar avatar-md">
-                                                                    <img src="../../../assets/images/ecommerce/png/6.png" alt="" />
+                                                                    <Image src="../../../assets/images/ecommerce/png/6.png" alt="" />
                                                                 </span>
                                                             </td>
                                                             <td>
@@ -459,7 +460,7 @@ const Ecommerce = () => {
                                                                 <div className="flex items-center">
                                                                     <div className="leading-none">
                                                                         <span className="avatar avatar-md offline avatar-rounded me-2 !mb-0">
-                                                                            <img src="../../../assets/images/faces/13.jpg" alt="" />
+                                                                            <Image src="../../../assets/images/faces/13.jpg" alt="" />
                                                                         </span>
                                                                     </div>
                                                                     <div className="items-center">
@@ -482,7 +483,7 @@ const Ecommerce = () => {
                                                             </td>
                                                             <td>
                                                                 <span className="avatar avatar-md">
-                                                                    <img src="../../../assets/images/ecommerce/png/7.png" alt="" />
+                                                                    <Image src="../../../assets/images/ecommerce/png/7.png" alt="" />
                                                                 </span>
                                                             </td>
                                                             <td>
@@ -496,7 +497,7 @@ const Ecommerce = () => {
                                                                 <div className="flex items-center">
                                                                     <div className="leading-none">
                                                                         <span className="avatar avatar-md online avatar-rounded me-2 !mb-0">
-                                                                            <img src="../../../assets/images/faces/7.jpg" alt="" />
+                                                                            <Image src="../../../assets/images/faces/7.jpg" alt="" />
                                                                         </span>
                                                                     </div>
                                                                     <div className="items-center">
@@ -519,7 +520,7 @@ const Ecommerce = () => {
                                                             </td>
                                                             <td>
                                                                 <span className="avatar avatar-md">
-                                                                    <img src="../../../assets/images/ecommerce/png/8.png" alt="" />
+                                                                    <Image src="../../../assets/images/ecommerce/png/8.png" alt="" />
                                                                 </span>
                                                             </td>
                                                             <td>
@@ -533,7 +534,7 @@ const Ecommerce = () => {
                                                                 <div className="flex items-center">
                                                                     <div className="leading-none">
                                                                         <span className="avatar avatar-md online avatar-rounded me-2 !mb-0">
-                                                                            <img src="../../../assets/images/faces/12.jpg" alt="" />
+                                                                            <Image src="../../../assets/images/faces/12.jpg" alt="" />
                                                                         </span>
                                                                     </div>
                                                                     <div className="items-center">
@@ -556,7 +557,7 @@ const Ecommerce = () => {
                                                             </td>
                                                             <td>
                                                                 <span className="avatar avatar-md">
-                                                                    <img src="../../../assets/images/ecommerce/png/9.png" alt="" />
+                                                                    <Image src="../../../assets/images/ecommerce/png/9.png" alt="" />
                                                                 </span>
                                                             </td>
                                                             <td>
@@ -570,7 +571,7 @@ const Ecommerce = () => {
                                                                 <div className="flex items-center">
                                                                     <div className="leading-none">
                                                                         <span className="avatar avatar-md online avatar-rounded me-2 !mb-0">
-                                                                            <img src="../../../assets/images/faces/15.jpg" alt="" />
+                                                                            <Image src="../../../assets/images/faces/15.jpg" alt="" />
                                                                         </span>
                                                                     </div>
                                                                     <div className="items-center">
@@ -593,7 +594,7 @@ const Ecommerce = () => {
                                                             </td>
                                                             <td>
                                                                 <span className="avatar avatar-md">
-                                                                    <img src="../../../assets/images/ecommerce/png/10.png" alt="" />
+                                                                    <Image src="../../../assets/images/ecommerce/png/10.png" alt="" />
                                                                 </span>
                                                             </td>
                                                             <td>
@@ -615,7 +616,7 @@ const Ecommerce = () => {
                                                                 <div className="flex items-center">
                                                                     <div className="leading-none">
                                                                         <span className="avatar avatar-md online avatar-rounded me-2 !mb-0">
-                                                                            <img src="../../../assets/images/faces/6.jpg" alt="" />
+                                                                            <Image src="../../../assets/images/faces/6.jpg" alt="" />
                                                                         </span>
                                                                     </div>
                                                                     <div className="items-center">
@@ -638,7 +639,7 @@ const Ecommerce = () => {
                                                             </td>
                                                             <td>
                                                                 <span className="avatar avatar-md">
-                                                                    <img src="../../../assets/images/ecommerce/png/11.png" alt="" />
+                                                                    <Image src="../../../assets/images/ecommerce/png/11.png" alt="" />
                                                                 </span>
                                                             </td>
                                                             <td>
@@ -652,7 +653,7 @@ const Ecommerce = () => {
                                                                 <div className="flex items-center">
                                                                     <div className="leading-none">
                                                                         <span className="avatar avatar-md offline avatar-rounded me-2 !mb-0">
-                                                                            <img src="../../../assets/images/faces/14.jpg" alt="" />
+                                                                            <Image src="../../../assets/images/faces/14.jpg" alt="" />
                                                                         </span>
                                                                     </div>
                                                                     <div className="items-center">
@@ -675,7 +676,7 @@ const Ecommerce = () => {
                                                             </td>
                                                             <td>
                                                                 <span className="avatar avatar-md">
-                                                                    <img src="../../../assets/images/ecommerce/png/12.png" alt="" />
+                                                                    <Image src="../../../assets/images/ecommerce/png/12.png" alt="" />
                                                                 </span>
                                                             </td>
                                                             <td>
@@ -689,7 +690,7 @@ const Ecommerce = () => {
                                                                 <div className="flex items-center">
                                                                     <div className="leading-none">
                                                                         <span className="avatar avatar-md online avatar-rounded me-2 !mb-0">
-                                                                            <img src="../../../assets/images/faces/16.jpg" alt="" />
+                                                                            <Image src="../../../assets/images/faces/16.jpg" alt="" />
                                                                         </span>
                                                                     </div>
                                                                     <div className="items-center">
@@ -712,7 +713,7 @@ const Ecommerce = () => {
                                                             </td>
                                                             <td>
                                                                 <span className="avatar avatar-md">
-                                                                    <img src="../../../assets/images/ecommerce/png/13.png" alt="" />
+                                                                    <Image src="../../../assets/images/ecommerce/png/13.png" alt="" />
                                                                 </span>
                                                             </td>
                                                             <td>
@@ -726,7 +727,7 @@ const Ecommerce = () => {
                                                                 <div className="flex items-center">
                                                                     <div className="leading-none">
                                                                         <span className="avatar avatar-md online avatar-rounded me-2 !mb-0">
-                                                                            <img src="../../../assets/images/faces/3.jpg" alt="" />
+                                                                            <Image src="../../../assets/images/faces/3.jpg" alt="" />
                                                                         </span>
                                                                     </div>
                                                                     <div className="items-center">
@@ -749,7 +750,7 @@ const Ecommerce = () => {
                                                             </td>
                                                             <td>
                                                                 <span className="avatar avatar-md">
-                                                                    <img src="../../../assets/images/ecommerce/png/14.png" alt="" />
+                                                                    <Image src="../../../assets/images/ecommerce/png/14.png" alt="" />
                                                                 </span>
                                                             </td>
                                                             <td>
@@ -763,7 +764,7 @@ const Ecommerce = () => {
                                                                 <div className="flex items-center">
                                                                     <div className="leading-none">
                                                                         <span className="avatar avatar-md offline avatar-rounded me-2 !mb-0">
-                                                                            <img src="../../../assets/images/faces/9.jpg" alt="" />
+                                                                            <Image src="../../../assets/images/faces/9.jpg" alt="" />
                                                                         </span>
                                                                     </div>
                                                                     <div className="items-center">
@@ -786,7 +787,7 @@ const Ecommerce = () => {
                                                             </td>
                                                             <td>
                                                                 <span className="avatar avatar-md">
-                                                                    <img src="../../../assets/images/ecommerce/png/15.png" alt="" />
+                                                                    <Image src="../../../assets/images/ecommerce/png/15.png" alt="" />
                                                                 </span>
                                                             </td>
                                                             <td>
@@ -880,7 +881,7 @@ const Ecommerce = () => {
                                                 <tr className="border-y border-inherit border-solid dark:border-defaultborder/10 ">
                                                     <td className="text-center leading-none">
                                                         <span className="avatar avatar-md !rounded-full">
-                                                            <img src="../../../assets/images/ecommerce/png/36.png" className="p-2 !rounded-full bg-light" alt="" />
+                                                            <Image src="../../../assets/images/ecommerce/png/36.png" className="p-2 !rounded-full bg-light" alt="" />
                                                         </span>
                                                     </td>
                                                     <td>Ethnic School bag for children (24L)</td>
@@ -893,7 +894,7 @@ const Ecommerce = () => {
                                                 <tr className="border-y border-inherit border-solid dark:border-defaultborder/10 ">
                                                     <td className="text-center leading-none">
                                                         <span className="avatar avatar-md !rounded-full">
-                                                            <img src="../../../assets/images/ecommerce/png/38.png" className="p-2 !rounded-full bg-light" alt="" />
+                                                            <Image src="../../../assets/images/ecommerce/png/38.png" className="p-2 !rounded-full bg-light" alt="" />
                                                         </span>
                                                     </td>
                                                     <td>Leather jacket for men (S,M,L,XL)</td>
@@ -906,7 +907,7 @@ const Ecommerce = () => {
                                                 <tr className="border-y border-inherit border-solid dark:border-defaultborder/10 ">
                                                     <td className="text-center leading-none">
                                                         <span className="avatar avatar-md !rounded-full">
-                                                            <img src="../../../assets/images/ecommerce/png/39.png" className="p-2 !rounded-full bg-light" alt="" />
+                                                            <Image src="../../../assets/images/ecommerce/png/39.png" className="p-2 !rounded-full bg-light" alt="" />
                                                         </span>
                                                     </td>
                                                     <td>Childrens Teddy toy of high quality</td>
@@ -919,7 +920,7 @@ const Ecommerce = () => {
                                                 <tr>
                                                     <td className="text-center leading-none">
                                                         <span className="avatar avatar-md !rounded-full">
-                                                            <img src="../../../assets/images/ecommerce/png/40.png" className="p-2 !rounded-full bg-light" alt="" />
+                                                            <Image src="../../../assets/images/ecommerce/png/40.png" className="p-2 !rounded-full bg-light" alt="" />
                                                         </span>
                                                     </td>
                                                     <td>Orange smart watch with square dial (24mm)</td>
@@ -964,7 +965,7 @@ const Ecommerce = () => {
                                                 <div className="flex justify-between items-center">
                                                     <div className="flex items-center leading-none">
                                                         <span className="avatar avatar-xs me-2">
-                                                            <img src={idx.src} alt="" className="rounded-full h-[1.25rem] w-[1.25rem]" />
+                                                            <Image src={idx.src} alt="" className="rounded-full h-[1.25rem] w-[1.25rem]" />
                                                         </span>
                                                         <span className="top-country-name w-[4.5rem]">{idx.text}</span>
                                                     </div>
@@ -1006,7 +1007,7 @@ const Ecommerce = () => {
                                             <Link href="#!">
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-start justify-center">
-                                                        <img src="../../../assets/images/faces/4.jpg" alt="" className="avatar avatar-md avatar-rounded !mb-0 me-2" />
+                                                        <Image src="../../../assets/images/faces/4.jpg" alt="" className="avatar avatar-md avatar-rounded !mb-0 me-2" />
                                                         <div>
                                                             <p className="mb-0 font-semibold">Emma Wilson</p>
                                                             <p className="mb-0 text-[#8c9097] dark:text-white/50 text-[0.75rem]">15 Purchases<i className="bi bi-patch-check-fill text-[0.875rem] text-primary ms-2"></i></p>
@@ -1022,7 +1023,7 @@ const Ecommerce = () => {
                                             <Link href="#!">
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-start justify-center">
-                                                        <img src="../../../assets/images/faces/15.jpg" alt="" className="avatar avatar-md avatar-rounded !mb-0 me-2" />
+                                                        <Image src="../../../assets/images/faces/15.jpg" alt="" className="avatar avatar-md avatar-rounded !mb-0 me-2" />
                                                         <div>
                                                             <p className="mb-0 font-semibold">Robert Lewis</p>
                                                             <p className="mb-0 text-[#8c9097] dark:text-white/50 text-[0.75rem]">18 Purchases<i className="bi bi-patch-check-fill text-[0.875rem] text-primary ms-2"></i></p>
@@ -1038,7 +1039,7 @@ const Ecommerce = () => {
                                             <Link href="#!">
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-start justify-center">
-                                                        <img src="../../../assets/images/faces/5.jpg" alt="" className="avatar avatar-md avatar-rounded !mb-0 me-2" />
+                                                        <Image src="../../../assets/images/faces/5.jpg" alt="" className="avatar avatar-md avatar-rounded !mb-0 me-2" />
                                                         <div>
                                                             <p className="mb-0 font-semibold">Angelina Hose</p>
                                                             <p className="mb-0 text-[#8c9097] dark:text-white/50 text-[0.75rem]">21 Purchases<i className="bi bi-patch-check-fill text-[0.875rem] text-primary ms-2"></i></p>
@@ -1054,7 +1055,7 @@ const Ecommerce = () => {
                                             <Link href="#!">
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-start justify-center">
-                                                        <img src="../../../assets/images/faces/2.jpg" alt="" className="me-2 avatar avatar-md avatar-rounded !mb-0" />
+                                                        <Image src="../../../assets/images/faces/2.jpg" alt="" className="me-2 avatar avatar-md avatar-rounded !mb-0" />
                                                         <div>
                                                             <p className="mb-0 font-semibold">Samantha Sam</p>
                                                             <p className="mb-0 text-[#8c9097] dark:text-white/50 text-[0.75rem]">24 Purchases<i className="bi bi-patch-check-fill text-[0.875rem] text-primary ms-2"></i></p>
@@ -1122,7 +1123,7 @@ const Ecommerce = () => {
                                                     <div className="flex items-center">
                                                         <div className="me-2 leading-none">
                                                             <span className="avatar avatar-sm">
-                                                                <img src={idx.src} alt="" />
+                                                                <Image src={idx.src} alt="" />
                                                             </span>
                                                         </div>
                                                         <div className="text-sm">{idx.name}</div>

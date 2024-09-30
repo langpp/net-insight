@@ -3,6 +3,7 @@ import { Customers, Deals, Dealsstatistics, Earned, Ratio, Revenue, Revenueanaly
 import Seo from '@/shared/layout-components/seo/seo';
 import Link from 'next/link';
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 const Crm = () => {
   return (
@@ -79,7 +80,7 @@ const Crm = () => {
                         <div className="flex items-start flex-wrap">
                           <div className="me-2">
                             <span className=" inline-flex items-center justify-center">
-                              <img src="../../../assets/images/faces/10.jpg" alt=""
+                              <Image src="../../../assets/images/faces/10.jpg" alt=""
                                 className="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full" />
                             </span>
                           </div>
@@ -110,7 +111,7 @@ const Crm = () => {
                         <div className="flex items-top flex-wrap">
                           <div className="me-2">
                             <span className="inline-flex items-center justify-center">
-                              <img src="../../../assets/images/faces/12.jpg" alt=""
+                              <Image src="../../../assets/images/faces/12.jpg" alt=""
                                 className="!w-[1.75rem] !h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full" />
                             </span>
                           </div>
@@ -407,7 +408,7 @@ const Crm = () => {
                             <td>
                               <div className="flex items-center font-semibold">
                                 <span className="!me-2 inline-flex justify-center items-center">
-                                  <img src={idx.src} alt="img"
+                                  <Image src={idx.src} alt="img"
                                     className="w-[1.75rem] h-[1.75rem] leading-[1.75rem] text-[0.65rem]  rounded-full" />
                                 </span>{idx.name}
                               </div>

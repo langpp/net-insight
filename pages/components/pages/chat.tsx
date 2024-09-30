@@ -4,6 +4,7 @@ import Link from 'next/link'
 import React from 'react';
 import PerfectScrollbar from 'react-perfect-scrollbar';
 import SimpleBar from 'simplebar-react';
+import Image from 'next/image';
 
 const Chat = () => {
 
@@ -114,7 +115,7 @@ const Chat = () => {
                                         <div className="flex items-start">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md online me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow">
@@ -138,7 +139,7 @@ const Chat = () => {
                                         <div className="flex items-start">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md online me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow">
@@ -164,7 +165,7 @@ const Chat = () => {
                                         <div className="flex items-start">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md online me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow">
@@ -186,7 +187,7 @@ const Chat = () => {
                                         <div className="flex items-start">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md online me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow">
@@ -212,7 +213,7 @@ const Chat = () => {
                                         <div className="flex items-start">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md offline me-2 avatar-rounded" >
-                                                    <img src="../../../assets/images/faces/11.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/11.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow">
@@ -235,7 +236,7 @@ const Chat = () => {
                                         <div className="flex items-start">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md offline me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow">
@@ -258,7 +259,7 @@ const Chat = () => {
                                         <div className="flex items-start">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md offline me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow">
@@ -281,7 +282,7 @@ const Chat = () => {
                                         <div className="flex items-start">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md offline me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/4.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/4.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow">
@@ -304,7 +305,7 @@ const Chat = () => {
                                         <div className="flex items-start">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md offline me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/13.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/13.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow">
@@ -326,7 +327,7 @@ const Chat = () => {
                                         <div className="flex items-start">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md offline me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow">
@@ -360,16 +361,16 @@ const Chat = () => {
                                             </div>
                                             <div className="avatar-list-stacked my-auto">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/2.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/10.jpg" alt="img" />
                                                 </span>
                                                 <Link className="avatar avatar-sm bg-primary text-white avatar-rounded"
                                                     href="#!">
@@ -387,19 +388,19 @@ const Chat = () => {
                                             </div>
                                             <div className="avatar-list-stacked my-auto">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/1.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/1.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/7.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/7.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/9.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/9.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/12.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/12.jpg" alt="img" />
                                                 </span>
                                                 <Link className="avatar avatar-sm bg-primary text-white avatar-rounded"
                                                     href="#!">
@@ -417,13 +418,13 @@ const Chat = () => {
                                             </div>
                                             <div className="avatar-list-stacked my-auto">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/4.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/4.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/13.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/13.jpg" alt="img" />
                                                 </span>
                                                 <Link className="avatar avatar-sm bg-primary text-white avatar-rounded"
                                                     href="#!">
@@ -441,13 +442,13 @@ const Chat = () => {
                                             </div>
                                             <div className="avatar-list-stacked my-auto">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/1.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/1.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/7.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/7.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/14.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/14.jpg" alt="img" />
                                                 </span>
                                                 <Link className="avatar avatar-sm bg-primary text-white avatar-rounded"
                                                     href="#!">
@@ -465,16 +466,16 @@ const Chat = () => {
                                             </div>
                                             <div className="avatar-list-stacked my-auto">
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/6.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/6.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/12.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/12.jpg" alt="img" />
                                                 </span>
                                                 <span className="avatar avatar-sm avatar-rounded">
-                                                    <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                                                 </span>
                                                 <Link className="avatar avatar-sm bg-primary text-white avatar-rounded"
                                                     href="#!">
@@ -493,7 +494,7 @@ const Chat = () => {
                                             <div className="flex items-start">
                                                 <div className="me-1 leading-none">
                                                     <span className="avatar avatar-md online me-2 avatar-rounded">
-                                                        <img src="../../../assets/images/faces/17.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/17.jpg" alt="img" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -517,7 +518,7 @@ const Chat = () => {
                                             <div className="flex items-start">
                                                 <div className="me-1 leading-none">
                                                     <span className="avatar avatar-md online me-2 avatar-rounded">
-                                                        <img src="../../../assets/images/faces/18.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/18.jpg" alt="img" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -541,7 +542,7 @@ const Chat = () => {
                                             <div className="flex items-start">
                                                 <div className="me-1 leading-none">
                                                     <span className="avatar avatar-md offline me-2 avatar-rounded">
-                                                        <img src="../../../assets/images/faces/19.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/19.jpg" alt="img" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -565,7 +566,7 @@ const Chat = () => {
                                             <div className="flex items-start">
                                                 <div className="me-1 leading-none">
                                                     <span className="avatar avatar-md offline me-2 avatar-rounded">
-                                                        <img src="../../../assets/images/faces/20.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/20.jpg" alt="img" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -589,7 +590,7 @@ const Chat = () => {
                                             <div className="flex items-start">
                                                 <div className="me-1 leading-none">
                                                     <span className="avatar avatar-md offline me-2 avatar-rounded">
-                                                        <img src="../../../assets/images/faces/21.jpg" alt="img" />
+                                                        <Image src="../../../assets/images/faces/21.jpg" alt="img" />
                                                     </span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -617,7 +618,7 @@ const Chat = () => {
                                         <div className="flex items-center">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md online me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/5.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/5.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow my-auto">
@@ -641,7 +642,7 @@ const Chat = () => {
                                         <div className="flex items-center">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md online me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/7.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/7.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow my-auto">
@@ -665,7 +666,7 @@ const Chat = () => {
                                         <div className="flex items-center">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md offline me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/21.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/21.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow my-auto">
@@ -689,7 +690,7 @@ const Chat = () => {
                                         <div className="flex items-center">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md offline me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow my-auto">
@@ -713,7 +714,7 @@ const Chat = () => {
                                         <div className="flex items-center">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md offline me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/4.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/4.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow my-auto">
@@ -737,7 +738,7 @@ const Chat = () => {
                                         <div className="flex items-center">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md offline me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/16.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/16.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow my-auto">
@@ -761,7 +762,7 @@ const Chat = () => {
                                         <div className="flex items-center">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md offline me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/8.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow my-auto">
@@ -785,7 +786,7 @@ const Chat = () => {
                                         <div className="flex items-center">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md online me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/3.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/3.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow my-auto">
@@ -809,7 +810,7 @@ const Chat = () => {
                                         <div className="flex items-center">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md online me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/9.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/9.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow my-auto">
@@ -833,7 +834,7 @@ const Chat = () => {
                                         <div className="flex items-center">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md offline me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/21.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/21.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow my-auto">
@@ -857,7 +858,7 @@ const Chat = () => {
                                         <div className="flex items-center">
                                             <div className="me-1 leading-none">
                                                 <span className="avatar avatar-md offline me-2 avatar-rounded">
-                                                    <img src="../../../assets/images/faces/14.jpg" alt="img" />
+                                                    <Image src="../../../assets/images/faces/14.jpg" alt="img" />
                                                 </span>
                                             </div>
                                             <div className="flex-grow my-auto">
@@ -887,7 +888,7 @@ const Chat = () => {
                     <div className="sm:flex items-center p-2 border-b dark:border-defaultborder/10">
                         <div className="flex items-center leading-none">
                             <span className="avatar avatar-lg online me-4 avatar-rounded chatstatusperson">
-                                <img className="chatimageperson" src="../../../assets/images/faces/2.jpg" alt="img" />
+                                <Image className="chatimageperson" src="../../../assets/images/faces/2.jpg" alt="img" />
                             </span>
                             <div className="flex-grow">
                                 <p className="mb-1 font-semibold text-[.875rem]">
@@ -941,7 +942,7 @@ const Chat = () => {
                                     <div className="chat-list-inner">
                                         <div className="chat-user-profile">
                                             <span className="avatar avatar-md online avatar-rounded chatstatusperson">
-                                                <img className="chatimageperson" src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                <Image className="chatimageperson" src="../../../assets/images/faces/2.jpg" alt="img" />
                                             </span>
                                         </div>
                                         <div className="ms-4">
@@ -973,7 +974,7 @@ const Chat = () => {
                                         </div>
                                         <div className="chat-user-profile">
                                             <span className="avatar avatar-md online avatar-rounded">
-                                                <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                                <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                                             </span>
                                         </div>
                                     </div>
@@ -982,7 +983,7 @@ const Chat = () => {
                                     <div className="chat-list-inner">
                                         <div className="chat-user-profile">
                                             <span className="avatar avatar-md online avatar-rounded chatstatusperson">
-                                                <img className="chatimageperson" src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                <Image className="chatimageperson" src="../../../assets/images/faces/2.jpg" alt="img" />
                                             </span>
                                         </div>
                                         <div className="ms-3">
@@ -994,7 +995,7 @@ const Chat = () => {
                                                     <p className="mb-0">Who are you ?</p>
                                                 </div>
                                                 <div>
-                                                    <p className="mb-0">I don't know anyone named jeremiah.</p>
+                                                    <p className="mb-0">I dont know anyone named jeremiah.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1015,7 +1016,7 @@ const Chat = () => {
                                         </div>
                                         <div className="chat-user-profile">
                                             <span className="avatar avatar-md online avatar-rounded">
-                                                <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                                <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                                             </span>
                                         </div>
                                     </div>
@@ -1024,7 +1025,7 @@ const Chat = () => {
                                     <div className="chat-list-inner">
                                         <div className="chat-user-profile">
                                             <span className="avatar avatar-md online avatar-rounded chatstatusperson">
-                                                <img className="chatimageperson" src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                <Image className="chatimageperson" src="../../../assets/images/faces/2.jpg" alt="img" />
                                             </span>
                                         </div>
                                         <div className="ms-3">
@@ -1037,9 +1038,9 @@ const Chat = () => {
                                                 </div>
                                                 <div>
                                                     <p className="mb-0 sm:flex block">
-                                                        <Link aria-label="anchor" href="/components/apps/gallery/" className="avatar avatar-xl m-1 "><img src="../../../assets/images/media/media-64.jpg" alt="" className="rounded-md" /></Link>
-                                                        <Link aria-label="anchor" href="/components/apps/gallery/" className="avatar avatar-xl m-1 "><img src="../../../assets/images/media/media-63.jpg" alt="" className="rounded-md" /></Link>
-                                                        <Link aria-label="anchor" href="/components/apps/gallery/" className="avatar avatar-xl m-1 "><img src="../../../assets/images/media/media-62.jpg" alt="" className="rounded-md" /></Link>
+                                                        <Link aria-label="anchor" href="/components/apps/gallery/" className="avatar avatar-xl m-1 "><Image src="../../../assets/images/media/media-64.jpg" alt="" className="rounded-md" /></Link>
+                                                        <Link aria-label="anchor" href="/components/apps/gallery/" className="avatar avatar-xl m-1 "><Image src="../../../assets/images/media/media-63.jpg" alt="" className="rounded-md" /></Link>
+                                                        <Link aria-label="anchor" href="/components/apps/gallery/" className="avatar avatar-xl m-1 "><Image src="../../../assets/images/media/media-62.jpg" alt="" className="rounded-md" /></Link>
                                                     </p>
                                                 </div>
                                             </div>
@@ -1186,7 +1187,7 @@ const Chat = () => {
                                         </div>
                                         <div className="chat-user-profile">
                                             <span className="avatar avatar-md online avatar-rounded">
-                                                <img src="../../../assets/images/faces/15.jpg" alt="img" />
+                                                <Image src="../../../assets/images/faces/15.jpg" alt="img" />
                                             </span>
                                         </div>
                                     </div>
@@ -1195,7 +1196,7 @@ const Chat = () => {
                                     <div className="chat-list-inner">
                                         <div className="chat-user-profile">
                                             <span className="avatar avatar-md online avatar-rounded">
-                                                <img className="chatimageperson" src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                <Image className="chatimageperson" src="../../../assets/images/faces/2.jpg" alt="img" />
                                             </span>
                                         </div>
                                         <div className="ms-3">
@@ -1228,7 +1229,7 @@ const Chat = () => {
                     <button aria-label="button" type="button" className="ti-btn ti-btn-icon ti-btn-outline-light my-1 ms-2 responsive-chat-close2 xxl:hidden"> <i className="ri-close-line"></i> </button>
                     <div className="text-center mb-[3rem]">
                         <span className="avatar avatar-rounded online avatar-xxl me-2 mb-4 chatstatusperson">
-                            <img className="chatimageperson" src="../../../assets/images/faces/2.jpg" alt="img" />
+                            <Image className="chatimageperson" src="../../../assets/images/faces/2.jpg" alt="img" />
                         </span>
                         <p className="mb-1 text-[0.9375rem] font-semibold text-defaulttextcolor dark:text-defaulttextcolor/70 leading-none chatnameperson ">Emiley Jackson</p>
                         <p className="text-[0.75rem] text-[#8c9097] dark:text-white/50 !mb-4"><span className="chatnameperson">emaileyjackson2134</span>@gmail.com</p>
@@ -1322,7 +1323,7 @@ const Chat = () => {
                             {Photosmediadata.map((idx) => (
                                 <div className="xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-4 col-span-4" key={Math.random()}>
                                     <Link aria-label="anchor" href="/components/apps/gallery/" className="chat-media">
-                                        <img src={idx.src} alt="" />
+                                        <Image src={idx.src} alt="" />
                                     </Link>
                                 </div>
                             ))}
