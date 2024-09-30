@@ -14,8 +14,8 @@ export function Dark(actionfunction:any) {
         // "inputBorder": "",
         // "Light": "",
     })
-    localStorage.setItem("ynexdarktheme", "dark");
-    localStorage.removeItem("ynexlighttheme");
+    localStorage.setItem("netinsightdarktheme", "dark");
+    localStorage.removeItem("netinsightlighttheme");
     // localStorage.removeItem("bodyBgRGB");
     // localStorage.removeItem("darkBgRGB");
     // localStorage.removeItem("inputBorder");
@@ -35,7 +35,7 @@ export function Light(actionfunction:any) {
         "Light": "",
         "dataMenuStyles": theme.dataNavLayout == 'horizontal' ? '' : "dark",
     })
-    localStorage.setItem("ynexlighttheme", "light");
+    localStorage.setItem("netinsightlighttheme", "light");
     localStorage.removeItem("bodyBgRGB");
     localStorage.removeItem("primaryRGB");
     localStorage.removeItem("primaryRGB1");
@@ -49,14 +49,14 @@ export function Ltr(actionfunction:any) {
     actionfunction({
         ...theme, "dir": "ltr",
     })
-    localStorage.removeItem("ynexrtl");
+    localStorage.removeItem("netinsightrtl");
 };
 export function Rtl(actionfunction:any) {
     const theme = store.getState()
     actionfunction({
         ...theme, "dir": "rtl",
     })
-    localStorage.setItem("ynexrtl", "rtl");
+    localStorage.setItem("netinsightrtl", "rtl");
 };
 
 export const primaryColor1 = (actionfunction:any) => {
@@ -178,9 +178,9 @@ export const LandingpageReset = (actionfunction:any) => {
 };
 
 export const LocalStorageBackup1 = (actionfunction: any) => {
-    (localStorage.ynexdarktheme) ? Dark(actionfunction) : "";
-    (localStorage.ynexlighttheme) ? Light(actionfunction) : "";
-    (localStorage.ynexrtl) ? Rtl(actionfunction) : "";
+    (localStorage.netinsightdarktheme) ? Dark(actionfunction) : "";
+    (localStorage.netinsightlighttheme) ? Light(actionfunction) : "";
+    (localStorage.netinsightrtl) ? Rtl(actionfunction) : "";
   
     // Theme Primary: Colors: Start
     switch (localStorage.primaryRGB) {

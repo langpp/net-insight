@@ -15,8 +15,8 @@ export function Dark(actionfunction:any) {
         "Light": "",
         
     })
-    localStorage.setItem("ynexdarktheme", "dark");
-    localStorage.removeItem("ynexlighttheme");
+    localStorage.setItem("netinsightdarktheme", "dark");
+    localStorage.removeItem("netinsightlighttheme");
     localStorage.removeItem('darkBgRGB');
 }
 export function Light(actionfunction:any) {
@@ -32,15 +32,15 @@ export function Light(actionfunction:any) {
         "dataMenuStyles": "dark",
         
     })
-    localStorage.setItem("ynexlighttheme", "light");
-    localStorage.removeItem("ynexdarktheme");
+    localStorage.setItem("netinsightlighttheme", "light");
+    localStorage.removeItem("netinsightdarktheme");
     localStorage.removeItem("bodyBgRGB");
     localStorage.removeItem("primaryRGB");
     localStorage.removeItem("primaryRGB1");
     localStorage.removeItem("inputBorder");
     localStorage.removeItem("Light");
-    localStorage.removeItem("ynexMenu");
-    localStorage.removeItem("ynexHeader");
+    localStorage.removeItem("netinsightMenu");
+    localStorage.removeItem("netinsightHeader");
 
 }
 
@@ -50,7 +50,7 @@ export function Ltr(actionfunction:any) {
         ...theme, "dir": "ltr",
         
     })
-    localStorage.removeItem("ynexrtl");
+    localStorage.removeItem("netinsightrtl");
 };
 export function Rtl(actionfunction:any) {
     const theme = store.getState()
@@ -58,21 +58,21 @@ export function Rtl(actionfunction:any) {
         ...theme, "dir": "rtl",
         
     })
-    localStorage.setItem("ynexrtl", "rtl");
+    localStorage.setItem("netinsightrtl", "rtl");
 };
 export const Vertical = (actionfunction:any) => {
     const theme = store.getState()
     actionfunction({
         ...theme,
-        "dataNavLayout": "vertical",
+        "dataNavLayout": "horizontal",
         "dataMenuStyles": "dark",
         "dataVerticalStyle": "overlay",
-        "dataToggled": "",
-        "dataNavStyle": '',
+        "dataToggled": "menu-hover-closed",
+        "dataNavStyle": 'menu-hover',
         
     })
-    localStorage.setItem("ynexlayout", "vertical");
-    localStorage.removeItem("ynexnavstyles");
+    localStorage.setItem("netinsightlayout", "vertical");
+    localStorage.removeItem("netinsightnavstyles");
 
 };
 
@@ -84,13 +84,13 @@ export const HorizontalClick = (actionfunction:any) => {
     actionfunction({
         ...theme,
         "dataNavLayout": "horizontal",
-        // "dataMenuStyles": localStorage.ynexdarktheme ? 'dark' : localStorage.darkBgRGB ? 'dark' : localStorage.ynexMenu ? localStorage.ynexMenu : "light",
+        // "dataMenuStyles": localStorage.netinsightdarktheme ? 'dark' : localStorage.darkBgRGB ? 'dark' : localStorage.netinsightMenu ? localStorage.netinsightMenu : "light",
         "dataVerticalStyle": "",
-        "dataNavStyle": localStorage.ynexnavstyles ? localStorage.ynexnavstyles : "menu-click",
+        "dataNavStyle": "menu-hover",
         
     })
-    localStorage.setItem("ynexlayout", "horizontal");
-    localStorage.removeItem("ynexverticalstyles");
+    localStorage.setItem("netinsightlayout", "horizontal");
+    localStorage.removeItem("netinsightverticalstyles");
 };
 export const Menuclick = (actionfunction:any) => {
     const theme = store.getState()
@@ -101,7 +101,7 @@ export const Menuclick = (actionfunction:any) => {
         "dataVerticalStyle": "",
         
     })
-    localStorage.setItem("ynexnavstyles", "menu-click");
+    localStorage.setItem("netinsightnavstyles", "menu-click");
 
 };
 export const MenuHover = (actionfunction:any) => {
@@ -114,8 +114,8 @@ export const MenuHover = (actionfunction:any) => {
         "horStyle": "",
         
     })
-    localStorage.setItem("ynexnavstyles", "menu-hover");
-    localStorage.removeItem("ynexverticalstyles");
+    localStorage.setItem("netinsightnavstyles", "menu-hover");
+    localStorage.removeItem("netinsightverticalstyles");
     closeMenuFn();
 };
 
@@ -128,8 +128,8 @@ export const IconClick = (actionfunction:any) => {
         "dataToggled": "icon-click-closed",
         
     })
-    localStorage.setItem("ynexnavstyles", "icon-click");
-    localStorage.removeItem("ynexverticalstyles");
+    localStorage.setItem("netinsightnavstyles", "icon-click");
+    localStorage.removeItem("netinsightverticalstyles");
     const Sidebar:any = document.querySelector(".main-menu");
     Sidebar.style.marginInline = "0px";
 };
@@ -153,8 +153,8 @@ export const IconHover = (actionfunction:any) => {
         "dataToggled": "icon-hover-closed",
         
     })
-    localStorage.setItem("ynexnavstyles", "icon-hover");
-    localStorage.removeItem("ynexverticalstyles");
+    localStorage.setItem("netinsightnavstyles", "icon-hover");
+    localStorage.removeItem("netinsightverticalstyles");
     const Sidebar:any = document.querySelector(".main-menu");
     Sidebar.style.marginInline = "0px";
     closeMenuFn()
@@ -167,9 +167,9 @@ export const Regular = (actionfunction:any) => {
         "dataPageStyle": "regular",
         
     });
-    localStorage.setItem("ynexregular", "Regular");
-    localStorage.removeItem("ynexclassic");
-    localStorage.removeItem("ynexmodern");
+    localStorage.setItem("netinsightregular", "Regular");
+    localStorage.removeItem("netinsightclassic");
+    localStorage.removeItem("netinsightmodern");
 };
 export const Classic = (actionfunction:any) => {
     const theme = store.getState();
@@ -178,9 +178,9 @@ export const Classic = (actionfunction:any) => {
         "dataPageStyle": "classic",
         
     });
-    localStorage.setItem("ynexclassic", "Classic");
-    localStorage.removeItem("ynexregular");
-    localStorage.removeItem("ynexmodern");
+    localStorage.setItem("netinsightclassic", "Classic");
+    localStorage.removeItem("netinsightregular");
+    localStorage.removeItem("netinsightmodern");
 };
 export const Modern = (actionfunction:any) => {
     const theme = store.getState();
@@ -189,9 +189,9 @@ export const Modern = (actionfunction:any) => {
         "dataPageStyle": "modern",
         
     });
-    localStorage.setItem("ynexmodern", "Modern");
-    localStorage.removeItem("ynexregular");
-    localStorage.removeItem("ynexclassic");
+    localStorage.setItem("netinsightmodern", "Modern");
+    localStorage.removeItem("netinsightregular");
+    localStorage.removeItem("netinsightclassic");
 };
 export function Enable(actionfunction:any) {
     const theme = store.getState();
@@ -200,8 +200,8 @@ export function Enable(actionfunction:any) {
         "loader": "enable",
         
     });
-    localStorage.setItem("ynexloaderenable", "enable");
-    localStorage.removeItem("ynexloaderdisable");
+    localStorage.setItem("netinsightloaderenable", "enable");
+    localStorage.removeItem("netinsightloaderdisable");
 }
 export function Disable(actionfunction:any) {
     const theme = store.getState();
@@ -210,8 +210,8 @@ export function Disable(actionfunction:any) {
         "loader": "disable",
         
     });
-    localStorage.setItem("ynexloaderdisable", "disable");
-    localStorage.removeItem("ynexloaderenable");
+    localStorage.setItem("netinsightloaderdisable", "disable");
+    localStorage.removeItem("netinsightloaderenable");
 }
 
 export const Fullwidth = (actionfunction:any) => {
@@ -221,8 +221,8 @@ export const Fullwidth = (actionfunction:any) => {
         "dataWidth": "fullwidth",
         
     })
-    localStorage.setItem("ynexfullwidth", "Fullwidth");
-    localStorage.removeItem("ynexboxed");
+    localStorage.setItem("netinsightfullwidth", "Fullwidth");
+    localStorage.removeItem("netinsightboxed");
 
 };
 export const Boxed = (actionfunction:any) => {
@@ -232,8 +232,8 @@ export const Boxed = (actionfunction:any) => {
         "dataWidth": "boxed",
         
     })
-    localStorage.setItem("ynexboxed", "Boxed");
-    localStorage.removeItem("ynexfullwidth");
+    localStorage.setItem("netinsightboxed", "Boxed");
+    localStorage.removeItem("netinsightfullwidth");
 };
 export const FixedMenu = (actionfunction:any) => {
     const theme = store.getState()
@@ -242,8 +242,8 @@ export const FixedMenu = (actionfunction:any) => {
         "dataMenuPosition": "fixed",
         
     })
-    localStorage.setItem("ynexmenufixed", "MenuFixed");
-    localStorage.removeItem("ynexmenuscrollable");
+    localStorage.setItem("netinsightmenufixed", "MenuFixed");
+    localStorage.removeItem("netinsightmenuscrollable");
 };
 export const scrollMenu = (actionfunction:any) => {
     const theme = store.getState()
@@ -252,8 +252,8 @@ export const scrollMenu = (actionfunction:any) => {
         "dataMenuPosition": "scrollable",
         
     })
-    localStorage.setItem("ynexmenuscrollable", "Menuscrolled");
-    localStorage.removeItem("ynexmenufixed")
+    localStorage.setItem("netinsightmenuscrollable", "Menuscrolled");
+    localStorage.removeItem("netinsightmenufixed")
 };
 export const Headerpostionfixed = (actionfunction:any) => {
     const theme = store.getState()
@@ -262,8 +262,8 @@ export const Headerpostionfixed = (actionfunction:any) => {
         "dataHeaderPosition": "fixed",
         
     })
-    localStorage.setItem("ynexheaderfixed", 'FixedHeader');
-    localStorage.removeItem("ynexheaderscrollable");
+    localStorage.setItem("netinsightheaderfixed", 'FixedHeader');
+    localStorage.removeItem("netinsightheaderscrollable");
 };
 export const Headerpostionscroll = (actionfunction:any) => {
     const theme = store.getState()
@@ -272,8 +272,8 @@ export const Headerpostionscroll = (actionfunction:any) => {
         "dataHeaderPosition": "scrollable",
         
     })
-    localStorage.setItem("ynexheaderscrollable", "ScrollableHeader");
-    localStorage.removeItem("ynexheaderfixed");
+    localStorage.setItem("netinsightheaderscrollable", "ScrollableHeader");
+    localStorage.removeItem("netinsightheaderfixed");
 };
 
 export const Defaultmenu = (actionfunction:any) => {
@@ -281,24 +281,24 @@ export const Defaultmenu = (actionfunction:any) => {
     actionfunction({
         ...theme,
         "dataVerticalStyle": "overlay",
-        "dataNavLayout": "vertical",
-        "dataToggled": "",
-        "dataNavStyle": "",
+        "dataNavLayout": "horizontal",
+        "dataToggled": "menu-hover-closed",
+        "dataNavStyle": "menu-hover",
         
     })
-    localStorage.removeItem("ynexverticalstyles");
+    localStorage.removeItem("netinsightverticalstyles");
 };
 
 export const Closedmenu = (actionfunction:any) => {
     const theme = store.getState()
     actionfunction({
         ...theme,
-        "dataNavLayout": "vertical",
+        "dataNavLayout": "horizontal",
         "dataVerticalStyle": "closed",
         "dataToggled": "close-menu-close",
         
     })
-    localStorage.setItem("ynexverticalstyles", "closed");
+    localStorage.setItem("netinsightverticalstyles", "closed");
 
 };
 function icontextOpenFn() {
@@ -317,13 +317,13 @@ export const iconText = (actionfunction:any) => {
     const theme = store.getState()
     actionfunction({
         ...theme,
-        "dataNavLayout": "vertical",
+        "dataNavLayout": "horizontal",
         "dataVerticalStyle": "icontext",
         "dataToggled": "icon-text-close",
         "dataNavStyle": "",
         
     })
-    localStorage.setItem("ynexverticalstyles", "icontext");
+    localStorage.setItem("netinsightverticalstyles", "icontext");
     const MainContent = document.querySelector(".main-content");
     const appSidebar = document.querySelector('.app-sidebar');
 
@@ -340,12 +340,12 @@ export const iconOverayFn = (actionfunction:any) => {
     const theme = store.getState()
     actionfunction({
         ...theme,
-        "dataNavLayout": "vertical",
+        "dataNavLayout": "horizontal",
         "dataVerticalStyle": "overlay",
         "dataToggled": "icon-overlay-close",
         
     })
-    localStorage.setItem("ynexverticalstyles", "overlay");
+    localStorage.setItem("netinsightverticalstyles", "overlay");
 
     var icon = document.getElementById("switcher-icon-overlay") as HTMLInputElement;
     if(icon){
@@ -381,13 +381,13 @@ export const DetachedFn = (actionfunction:any) => {
     const theme = store.getState()
     actionfunction({
         ...theme,
-        "dataNavLayout": "vertical",
+        "dataNavLayout": "horizontal",
         "dataVerticalStyle": "detached",
         "dataToggled": "detached-close",
         "dataNavStyle": "",
         
     })
-    localStorage.setItem("ynexverticalstyles", "detached");
+    localStorage.setItem("netinsightverticalstyles", "detached");
 
     const MainContent = document.querySelector(".main-content");
     const appSidebar = document.querySelector('.app-sidebar');
@@ -404,13 +404,13 @@ export const DoubletFn = (actionfunction:any) => {
     const theme = store.getState()
     actionfunction({
         ...theme,
-        "dataNavLayout": "vertical",
+        "dataNavLayout": "horizontal",
         "dataVerticalStyle": "doublemenu",
         "dataToggled": "double-menu-open",
         "dataNavStyle": "",
         
     })
-    localStorage.setItem("ynexverticalstyles", "doublemenu");
+    localStorage.setItem("netinsightverticalstyles", "doublemenu");
 
     setTimeout(() => {
         if (!document.querySelector(".main-menu .has-sub.open")) {
@@ -433,7 +433,7 @@ export const colorMenu = (actionfunction:any) => {
         "dataMenuStyles": "color",
         
     })
-    localStorage.setItem("ynexMenu", "color");
+    localStorage.setItem("netinsightMenu", "color");
     localStorage.removeItem("gradient");
 
 };
@@ -445,7 +445,7 @@ export const lightMenu = (actionfunction:any) => {
         "dataMenuStyles": "light",
         
     })
-    localStorage.setItem("ynexMenu", "light");
+    localStorage.setItem("netinsightMenu", "light");
     localStorage.removeItem("dark");
 };
 
@@ -456,7 +456,7 @@ export const darkMenu = (actionfunction:any) => {
         "dataMenuStyles": "dark",
         
     })
-    localStorage.setItem("ynexMenu", "dark");
+    localStorage.setItem("netinsightMenu", "dark");
     localStorage.removeItem("light");
 };
 
@@ -467,7 +467,7 @@ export const gradientMenu = (actionfunction:any) => {
         "dataMenuStyles": "gradient",
         
     })
-    localStorage.setItem("ynexMenu", "gradient");
+    localStorage.setItem("netinsightMenu", "gradient");
     localStorage.removeItem("color");
 };
 export const transparentMenu = (actionfunction:any) => {
@@ -477,7 +477,7 @@ export const transparentMenu = (actionfunction:any) => {
         "dataMenuStyles": "transparent",
         
     })
-    localStorage.setItem("ynexMenu", "transparent");
+    localStorage.setItem("netinsightMenu", "transparent");
     localStorage.removeItem("gradient");
 };
 
@@ -488,7 +488,7 @@ export const lightHeader = (actionfunction:any) => {
         "dataHeaderStyles": "light",
         
     })
-    localStorage.setItem("ynexHeader", "light");
+    localStorage.setItem("netinsightHeader", "light");
     localStorage.removeItem("dark");
 };
 export const darkHeader = (actionfunction:any) => {
@@ -498,7 +498,7 @@ export const darkHeader = (actionfunction:any) => {
         "dataHeaderStyles": "dark",
         
     })
-    localStorage.setItem("ynexHeader", "dark");
+    localStorage.setItem("netinsightHeader", "dark");
     localStorage.removeItem("light");
 };
 export const colorHeader = (actionfunction:any) => {
@@ -509,7 +509,7 @@ export const colorHeader = (actionfunction:any) => {
         
     })
     localStorage.removeItem("dark");
-    localStorage.setItem("ynexHeader", "color");
+    localStorage.setItem("netinsightHeader", "color");
 };
 export const gradientHeader = (actionfunction:any) => {
     const theme = store.getState()
@@ -519,7 +519,7 @@ export const gradientHeader = (actionfunction:any) => {
         
     })
     localStorage.removeItem("transparent");
-    localStorage.setItem("ynexHeader", "gradient");
+    localStorage.setItem("netinsightHeader", "gradient");
 };
 export const transparentHeader = (actionfunction:any) => {
     const theme = store.getState()
@@ -529,7 +529,7 @@ export const transparentHeader = (actionfunction:any) => {
         
     })
     localStorage.removeItem("gradient");
-    localStorage.setItem("ynexHeader", "transparent");
+    localStorage.setItem("netinsightHeader", "transparent");
 };
 
 export const primaryColor1 = (actionfunction:any) => {
@@ -604,8 +604,8 @@ export const backgroundColor1 = (actionfunction:any) => {
     localStorage.setItem('darkBgRGB', "20 30 96");
     localStorage.setItem('bodyBgRGB', "34 44 110");
     localStorage.setItem('Light', "25 35 102");
-    localStorage.setItem('ynexMenu', "dark");
-    localStorage.setItem('ynexHeader', "dark");
+    localStorage.setItem('netinsightMenu', "dark");
+    localStorage.setItem('netinsightHeader', "dark");
 
 
 };
@@ -625,8 +625,8 @@ export const backgroundColor2 = (actionfunction:any) => {
     localStorage.setItem('darkBgRGB', "8 78 115");
     localStorage.setItem('bodyBgRGB', "22 92 129");
     localStorage.setItem('Light', "13 83 120",);
-    localStorage.setItem('ynexMenu', "dark");
-    localStorage.setItem('ynexHeader', "dark");
+    localStorage.setItem('netinsightMenu', "dark");
+    localStorage.setItem('netinsightHeader', "dark");
 };
 export const backgroundColor3 = (actionfunction:any) => {
     const theme = store.getState();
@@ -644,8 +644,8 @@ export const backgroundColor3 = (actionfunction:any) => {
     localStorage.setItem('darkBgRGB', "90 37 135");
     localStorage.setItem('bodyBgRGB', "104 51 149");
     localStorage.setItem('Light', "95 42 140");
-    localStorage.setItem('ynexMenu', "dark");
-    localStorage.setItem('ynexHeader', "dark");
+    localStorage.setItem('netinsightMenu', "dark");
+    localStorage.setItem('netinsightHeader', "dark");
 };
 export const backgroundColor4 = (actionfunction:any) => {
     const theme = store.getState();
@@ -663,8 +663,8 @@ export const backgroundColor4 = (actionfunction:any) => {
     localStorage.setItem('darkBgRGB', "24 101 51");
     localStorage.setItem('bodyBgRGB', "38 115 64");
     localStorage.setItem('Light', "29 106 56");
-    localStorage.setItem('ynexMenu', "dark");
-    localStorage.setItem('ynexHeader', "dark");
+    localStorage.setItem('netinsightMenu', "dark");
+    localStorage.setItem('netinsightHeader', "dark");
 };
 export const backgroundColor5 = (actionfunction:any) => {
     const theme = store.getState();
@@ -682,8 +682,8 @@ export const backgroundColor5 = (actionfunction:any) => {
     localStorage.setItem('darkBgRGB', "120 66 20");
     localStorage.setItem('bodyBgRGB', "134 80 34");
     localStorage.setItem('Light', "125 71 25");
-    localStorage.setItem('ynexMenu', "dark");
-    localStorage.setItem('ynexHeader', "dark");
+    localStorage.setItem('netinsightMenu', "dark");
+    localStorage.setItem('netinsightHeader', "dark");
 };
 
 const ColorPicker = (props: JSX.IntrinsicAttributes & ClassAttributes<HTMLInputElement> & InputHTMLAttributes<HTMLInputElement>) => {
@@ -746,8 +746,8 @@ export const Themebackgroundcolor = ({ actionfunction }:any) => {
         localStorage.setItem('darkBgRGB', `${r} ${g} ${b}`);
         localStorage.setItem('Light', `${r + 5} ${g + 5} ${b + 5}`);
         localStorage.setItem('inputBorder', `${r + 5} ${g + 5} ${b + 5}`);
-        localStorage.setItem('ynexMenu', "dark");
-        localStorage.setItem('ynexHeader', "dark");
+        localStorage.setItem('netinsightMenu', "dark");
+        localStorage.setItem('netinsightHeader', "dark");
 
     };
     return (
@@ -810,12 +810,12 @@ export const Reset = (actionfunction: any) => {
         lang: "en",
         dir: "ltr",
         class: "light",
-        dataMenuStyles: "dark",
-        dataNavLayout: "vertical",
+        dataMenuStyles: "light",
+        dataNavLayout: "horizontal",
         dataHeaderStyles: "light",
         dataVerticalStyle: "overlay",
-        dataToggled: "",
-        dataNavStyle: "",
+        dataToggled: "menu-hover-closed",
+        dataNavStyle: "menu-hover",
         horStyle: "",
         dataPageStyle: "regular",
         dataWidth: "fullwidth",
@@ -839,36 +839,36 @@ export const Reset = (actionfunction: any) => {
 }
 
 export const LocalStorageBackup = (actionfunction:any) => {
-    (localStorage.ynexdarktheme) ? Dark(actionfunction) : "";
-    (localStorage.ynexlighttheme) ? Light(actionfunction) : "";
-    (localStorage.ynexrtl) ? Rtl(actionfunction) : "";
-    (localStorage.ynexregular) ? Regular(actionfunction) : "";
-    (localStorage.ynexclassic) ? Classic(actionfunction) : "";
-    (localStorage.ynexmodern) ? Modern(actionfunction) : "";
-    (localStorage.ynexloaderenable) ? Enable(actionfunction) : "";
-    (localStorage.ynexloaderdisable) ? Disable(actionfunction) : "";
-    (localStorage.ynexfullwidth) ? Fullwidth(actionfunction) : "";
-    (localStorage.ynexboxed) ? Boxed(actionfunction) : "";
-    (localStorage.ynexmenufixed) ? FixedMenu(actionfunction) : "";
-    (localStorage.ynexmenuscrollable) ? scrollMenu(actionfunction) : "";
-    (localStorage.ynexheaderfixed) ? Headerpostionfixed(actionfunction) : "";
-    (localStorage.ynexheaderscrollable) ? Headerpostionscroll(actionfunction) : "";
+    (localStorage.netinsightdarktheme) ? Dark(actionfunction) : "";
+    (localStorage.netinsightlighttheme) ? Light(actionfunction) : "";
+    (localStorage.netinsightrtl) ? Rtl(actionfunction) : "";
+    (localStorage.netinsightregular) ? Regular(actionfunction) : "";
+    (localStorage.netinsightclassic) ? Classic(actionfunction) : "";
+    (localStorage.netinsightmodern) ? Modern(actionfunction) : "";
+    (localStorage.netinsightloaderenable) ? Enable(actionfunction) : "";
+    (localStorage.netinsightloaderdisable) ? Disable(actionfunction) : "";
+    (localStorage.netinsightfullwidth) ? Fullwidth(actionfunction) : "";
+    (localStorage.netinsightboxed) ? Boxed(actionfunction) : "";
+    (localStorage.netinsightmenufixed) ? FixedMenu(actionfunction) : "";
+    (localStorage.netinsightmenuscrollable) ? scrollMenu(actionfunction) : "";
+    (localStorage.netinsightheaderfixed) ? Headerpostionfixed(actionfunction) : "";
+    (localStorage.netinsightheaderscrollable) ? Headerpostionscroll(actionfunction) : "";
     (localStorage.bgimage1) ? bgImage1(actionfunction) : '';
     (localStorage.bgimage2) ? bgImage2(actionfunction) : '';
     (localStorage.bgimage3) ? bgImage3(actionfunction) : '';
     (localStorage.bgimage4) ? bgImage4(actionfunction) : '';
     (localStorage.bgimage5) ? bgImage5(actionfunction) : '';
 
-    (localStorage.ynexnavstyles === "menu-click") ? Menuclick(actionfunction) : '';
-    (localStorage.ynexnavstyles === "menu-hover") ? MenuHover(actionfunction) : '';
-    (localStorage.ynexnavstyles === "icon-click") ? IconClick(actionfunction) : '';
-    (localStorage.ynexnavstyles === "icon-hover") ? IconHover(actionfunction) : '';
+    (localStorage.netinsightnavstyles === "menu-click") ? Menuclick(actionfunction) : '';
+    (localStorage.netinsightnavstyles === "menu-hover") ? MenuHover(actionfunction) : '';
+    (localStorage.netinsightnavstyles === "icon-click") ? IconClick(actionfunction) : '';
+    (localStorage.netinsightnavstyles === "icon-hover") ? IconHover(actionfunction) : '';
 
 
-    (localStorage.ynexlayout == 'horizontal') && HorizontalClick(actionfunction);
+    (localStorage.netinsightlayout == 'horizontal') && HorizontalClick(actionfunction);
 
     // // ThemeColor MenuColor Start
-    switch (localStorage.ynexMenu) {
+    switch (localStorage.netinsightMenu) {
         case 'light':
             lightMenu(actionfunction);
             break;
@@ -895,7 +895,7 @@ export const LocalStorageBackup = (actionfunction:any) => {
     // ThemeColor MenuColor End
 
     // ThemeColor Header Colors: start
-    switch (localStorage.ynexHeader) {
+    switch (localStorage.netinsightHeader) {
         case 'light':
             lightHeader(actionfunction);
 
@@ -1045,8 +1045,8 @@ export const LocalStorageBackup = (actionfunction:any) => {
             break;
     }
 
-    if (localStorage.ynexverticalstyles) {
-        let verticalStyles = localStorage.getItem("ynexverticalstyles");
+    if (localStorage.netinsightverticalstyles) {
+        let verticalStyles = localStorage.getItem("netinsightverticalstyles");
 
         switch (verticalStyles) {
             case "default":
@@ -1119,7 +1119,7 @@ export const LocalStorageBackup = (actionfunction:any) => {
             
         })
     }
-    switch (localStorage.ynexMenu) {
+    switch (localStorage.netinsightMenu) {
         case 'light':
             lightMenu(actionfunction);
             break;
@@ -1143,7 +1143,7 @@ export const LocalStorageBackup = (actionfunction:any) => {
             break;
     }
     // ThemeColor Header Colors: start
-    switch (localStorage.ynexHeader) {
+    switch (localStorage.netinsightHeader) {
         case 'light':
             lightHeader(actionfunction);
 

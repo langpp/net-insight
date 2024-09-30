@@ -7,9 +7,7 @@ const Landinglayout = ({children}:any) => {
 
   useEffect(() => {
 		import("preline");
-
 	}, []);
-
 
   return (
     <Fragment>
