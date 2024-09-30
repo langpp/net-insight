@@ -469,44 +469,32 @@ const Header = ({ local_varaiable, ThemeChanger }: any) => {
                     className="header-logo"
                   >
                     <Image
-                      src={`${
-                        process.env.NODE_ENV === "production" ? basePath : ""
-                      }/icon.png`}
+                      src={`/icon.png`}
                       alt="logo"
                       className="desktop-logo"
                     />
                     <Image
-                      src={`${
-                        process.env.NODE_ENV === "production" ? basePath : ""
-                      }/favicon-white.png`}
+                      src={`/favicon-white.png`}
                       alt="logo"
                       className="toggle-logo"
                     />
                     <Image
-                      src={`${
-                        process.env.NODE_ENV === "production" ? basePath : ""
-                      }/icon.png`}
+                      src={`/icon.png`}
                       alt="logo"
                       className="desktop-dark"
                     />
                     <Image
-                      src={`${
-                        process.env.NODE_ENV === "production" ? basePath : ""
-                      }/favicon-white.png`}
+                      src={`/favicon-white.png`}
                       alt="logo"
                       className="toggle-dark"
                     />
                     <Image
-                      src={`${
-                        process.env.NODE_ENV === "production" ? basePath : ""
-                      }/icon.png`}
+                      src={`/icon.png`}
                       alt="logo"
                       className="desktop-white"
                     />
                     <Image
-                      src={`${
-                        process.env.NODE_ENV === "production" ? basePath : ""
-                      }/favicon.png`}
+                      src={`/favicon.png`}
                       alt="logo"
                       className="toggle-white"
                     />

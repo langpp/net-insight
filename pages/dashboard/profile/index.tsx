@@ -18,7 +18,7 @@ const Profile = () => {
                             <div className="sm:flex items-start p-6      main-profile-cover">
                                 <div>
                                     <span className="avatar avatar-xxl avatar-rounded online me-4">
-                                        <Image src="../../../assets/images/faces/9.jpg" alt="" />
+                                        <Image src="/assets/images/faces/9.jpg" alt="" />
                                     </span>
                                 </div>
                                 <div className="flex-grow main-profile-info">
@@ -185,10 +185,10 @@ const Profile = () => {
                                                             </p>
                                                             <p className="profile-activity-media mb-0 flex w-full mt-2 sm:mt-0">
                                                                 <Link aria-label="anchor" href="#!">
-                                                                    <Image src="../../../assets/images/media/media-17.jpg" alt="" />
+                                                                    <Image src="/assets/images/media/media-17.jpg" alt="" />
                                                                 </Link>
                                                                 <Link aria-label="anchor" href="#!">
-                                                                    <Image src="../../../assets/images/media/media-18.jpg" alt="" />
+                                                                    <Image src="/assets/images/media/media-18.jpg" alt="" />
                                                                 </Link>
                                                             </p>
                                                         </div>
@@ -196,7 +196,7 @@ const Profile = () => {
                                                     <li>
                                                         <div>
                                                             <span className="avatar avatar-sm avatar-rounded profile-timeline-avatar">
-                                                                <Image src="../../../assets/images/faces/11.jpg" alt="" />
+                                                                <Image src="/assets/images/faces/11.jpg" alt="" />
                                                             </span>
                                                             <p className="text-[#8c9097] dark:text-white/50 mb-2">
                                                                 <span className="text-default"><b>Json Smith</b> reacted to the post 👍</span>.<span className="ltr:float-right rtl:float-left text-[.6875rem] text-[#8c9097] dark:text-white/50">18,Dec 2022 - 12:16</span>
@@ -209,14 +209,14 @@ const Profile = () => {
                                                     <li>
                                                         <div>
                                                             <span className="avatar avatar-sm avatar-rounded profile-timeline-avatar">
-                                                                <Image src="../../../assets/images/faces/4.jpg" alt="" />
+                                                                <Image src="/assets/images/faces/4.jpg" alt="" />
                                                             </span>
                                                             <p className="text-[#8c9097] dark:text-white/50 mb-2">
                                                                 <span className="text-default"><b>Alicia Keys</b> shared a document with <b>you</b></span>.<span className="ltr:float-right rtl:float-left text-[.6875rem] text-[#8c9097] dark:text-white/50">21,Dec 2022 - 15:32</span>
                                                             </p>
                                                             <p className="profile-activity-media mb-0 flex w-full mt-2 sm:mt-0 items-center">
                                                                 <Link aria-label="anchor" href="#!">
-                                                                    <Image src="../../../assets/images/media/file-manager/3.png" alt="" />
+                                                                    <Image src="/assets/images/media/file-manager/3.png" alt="" />
                                                                 </Link>
                                                                 <span className="text-[.6875rem] text-[#8c9097] dark:text-white/50">432.87KB</span>
                                                             </p>
@@ -232,22 +232,22 @@ const Profile = () => {
                                                             </p>
                                                             <p className="profile-activity-media mb-4">
                                                                 <Link aria-label="anchor" href="#!">
-                                                                    <Image src="../../../assets/images/media/media-75.jpg" alt="" />
+                                                                    <Image src="/assets/images/media/media-75.jpg" alt="" />
                                                                 </Link>
                                                             </p>
                                                             <div>
                                                                 <div className="avatar-list-stacked">
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <Image src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                                        <Image src="/assets/images/faces/2.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <Image src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                                        <Image src="/assets/images/faces/8.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <Image src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                                        <Image src="/assets/images/faces/2.jpg" alt="img" />
                                                                     </span>
                                                                     <span className="avatar avatar-sm avatar-rounded">
-                                                                        <Image src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                                        <Image src="/assets/images/faces/10.jpg" alt="img" />
                                                                     </span>
                                                                 </div>
                                                             </div>
@@ -256,7 +256,7 @@ const Profile = () => {
                                                     <li>
                                                         <div>
                                                             <span className="avatar avatar-sm avatar-rounded profile-timeline-avatar">
-                                                                <Image src="../../../assets/images/faces/5.jpg" alt="" />
+                                                                <Image src="/assets/images/faces/5.jpg" alt="" />
                                                             </span>
                                                             <p className="text-[#8c9097] dark:text-white/50 mb-1">
                                                                 <span className="text-default"><b>Melissa Blue</b> liked your post <b>travel excites</b></span>.<span className="ltr:float-right rtl:float-left text-[.6875rem] text-[#8c9097] dark:text-white/50">11,Dec 2022 - 11:18</span>
@@ -264,13 +264,13 @@ const Profile = () => {
                                                             <p className="text-[#8c9097] dark:text-white/50">you are already feeling the tense atmosphere of the video playing in the background</p>
                                                             <p className="profile-activity-media sm:flex mb-0">
                                                                 <Link aria-label="anchor" href="#!">
-                                                                    <Image src="../../../assets/images/media/media-59.jpg" className="m-1" alt="" />
+                                                                    <Image src="/assets/images/media/media-59.jpg" className="m-1" alt="" />
                                                                 </Link>
                                                                 <Link aria-label="anchor" href="#!">
-                                                                    <Image src="../../../assets/images/media/media-60.jpg" className="m-1" alt="" />
+                                                                    <Image src="/assets/images/media/media-60.jpg" className="m-1" alt="" />
                                                                 </Link>
                                                                 <Link aria-label="anchor" href="#!">
-                                                                    <Image src="../../../assets/images/media/media-61.jpg" className="m-1" alt="" />
+                                                                    <Image src="/assets/images/media/media-61.jpg" className="m-1" alt="" />
                                                                 </Link>
                                                             </p>
                                                         </div>
@@ -278,7 +278,7 @@ const Profile = () => {
                                                     <li>
                                                         <div>
                                                             <span className="avatar avatar-sm avatar-rounded profile-timeline-avatar">
-                                                                <Image src="../../../assets/images/media/media-39.jpg" alt="" />
+                                                                <Image src="/assets/images/media/media-39.jpg" alt="" />
                                                             </span>
                                                             <p className="mb-1">
                                                                 <b>You</b> Commented on <b>Peter Engola</b> post <Link className="text-secondary" href="#!"><u>#Mother Nature</u></Link>.<span className="ltr:float-right rtl:float-left text-[.6875rem] text-[#8c9097] dark:text-white/50">24,Dec 2022 - 14:34</span>
@@ -286,10 +286,10 @@ const Profile = () => {
                                                             <p className="text-[#8c9097] dark:text-white/50">Technology id developing rapidly kepp uo your work 👌</p>
                                                             <p className="profile-activity-media mb-0 flex w-full mt-2 sm:mt-0">
                                                                 <Link aria-label="anchor" href="#!">
-                                                                    <Image src="../../../assets/images/media/media-26.jpg" alt="" />
+                                                                    <Image src="/assets/images/media/media-26.jpg" alt="" />
                                                                 </Link>
                                                                 <Link aria-label="anchor" href="#!">
-                                                                    <Image src="../../../assets/images/media/media-29.jpg" alt="" />
+                                                                    <Image src="/assets/images/media/media-29.jpg" alt="" />
                                                                 </Link>
                                                             </p>
                                                         </div>
@@ -303,7 +303,7 @@ const Profile = () => {
                                                         <div className="sm:flex items-center leading-none">
                                                             <div className="me-4">
                                                                 <span className="avatar avatar-md avatar-rounded">
-                                                                    <Image src="../../../assets/images/faces/9.jpg" alt="" />
+                                                                    <Image src="/assets/images/faces/9.jpg" alt="" />
                                                                 </span>
                                                             </div>
                                                             <div className="flex-grow">
@@ -325,7 +325,7 @@ const Profile = () => {
                                                                     <div className="p-4 flex items-start flex-wrap">
                                                                         <div className="me-2">
                                                                             <span className="avatar avatar-sm avatar-rounded">
-                                                                                <Image src="../../../assets/images/faces/9.jpg" alt="" />
+                                                                                <Image src="/assets/images/faces/9.jpg" alt="" />
                                                                             </span>
                                                                         </div>
                                                                         <div className="flex-grow">
@@ -374,7 +374,7 @@ const Profile = () => {
                                                                     <div className="p-4 flex items-start flex-wrap">
                                                                         <div className="me-2">
                                                                             <span className="avatar avatar-sm avatar-rounded">
-                                                                                <Image src="../../../assets/images/faces/9.jpg" alt="" />
+                                                                                <Image src="/assets/images/faces/9.jpg" alt="" />
                                                                             </span>
                                                                         </div>
                                                                         <div className="flex-grow">
@@ -385,12 +385,12 @@ const Profile = () => {
                                                                                 <div>
                                                                                     <Link aria-label="anchor" href="#!">
                                                                                         <span className="avatar avatar-md me-1">
-                                                                                            <Image src="../../../assets/images/media/media-52.jpg" alt="" />
+                                                                                            <Image src="/assets/images/media/media-52.jpg" alt="" />
                                                                                         </span>
                                                                                     </Link>
                                                                                     <Link aria-label="anchor" href="#!">
                                                                                         <span className="avatar avatar-md me-1">
-                                                                                            <Image src="../../../assets/images/media/media-56.jpg" alt="" />
+                                                                                            <Image src="/assets/images/media/media-56.jpg" alt="" />
                                                                                         </span>
                                                                                     </Link>
                                                                                 </div>
@@ -431,16 +431,16 @@ const Profile = () => {
                                                                             </div>
                                                                             <div className="avatar-list-stacked block mt-4 text-end">
                                                                                 <span className="avatar avatar-xs avatar-rounded">
-                                                                                    <Image src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                                                    <Image src="/assets/images/faces/2.jpg" alt="img" />
                                                                                 </span>
                                                                                 <span className="avatar avatar-xs avatar-rounded">
-                                                                                    <Image src="../../../assets/images/faces/8.jpg" alt="img" />
+                                                                                    <Image src="/assets/images/faces/8.jpg" alt="img" />
                                                                                 </span>
                                                                                 <span className="avatar avatar-xs avatar-rounded">
-                                                                                    <Image src="../../../assets/images/faces/2.jpg" alt="img" />
+                                                                                    <Image src="/assets/images/faces/2.jpg" alt="img" />
                                                                                 </span>
                                                                                 <span className="avatar avatar-xs avatar-rounded">
-                                                                                    <Image src="../../../assets/images/faces/10.jpg" alt="img" />
+                                                                                    <Image src="/assets/images/faces/10.jpg" alt="img" />
                                                                                 </span>
                                                                             </div>
                                                                         </div>
@@ -452,7 +452,7 @@ const Profile = () => {
                                                                     <div className="p-4 flex items-start flex-wrap">
                                                                         <div className="me-2">
                                                                             <span className="avatar avatar-sm avatar-rounded">
-                                                                                <Image src="../../../assets/images/faces/9.jpg" alt="" />
+                                                                                <Image src="/assets/images/faces/9.jpg" alt="" />
                                                                             </span>
                                                                         </div>
                                                                         <div className="flex-grow">
@@ -503,7 +503,7 @@ const Profile = () => {
                                                                     <div className="p-4 flex items-start flex-wrap">
                                                                         <div className="me-2">
                                                                             <span className="avatar avatar-sm avatar-rounded">
-                                                                                <Image src="../../../assets/images/faces/9.jpg" alt="" />
+                                                                                <Image src="/assets/images/faces/9.jpg" alt="" />
                                                                             </span>
                                                                         </div>
                                                                         <div className="flex-grow">
@@ -514,12 +514,12 @@ const Profile = () => {
                                                                                 <div>
                                                                                     <Link aria-label="anchor" href="#!">
                                                                                         <span className="avatar avatar-md me-1">
-                                                                                            <Image src="../../../assets/images/media/media-40.jpg" alt="" className="rounded-md" />
+                                                                                            <Image src="/assets/images/media/media-40.jpg" alt="" className="rounded-md" />
                                                                                         </span>
                                                                                     </Link>
                                                                                     <Link aria-label="anchor" href="#!">
                                                                                         <span className="avatar avatar-md me-1">
-                                                                                            <Image src="../../../assets/images/media/media-45.jpg" alt="" className="rounded-md" />
+                                                                                            <Image src="/assets/images/media/media-45.jpg" alt="" className="rounded-md" />
                                                                                         </span>
                                                                                     </Link>
                                                                                 </div>
@@ -558,13 +558,13 @@ const Profile = () => {
                                                                             </div>
                                                                             <div className="avatar-list-stacked block mt-4 text-end">
                                                                                 <span className="avatar avatar-xs avatar-rounded">
-                                                                                    <Image src="../../../assets/images/faces/1.jpg" alt="img" />
+                                                                                    <Image src="/assets/images/faces/1.jpg" alt="img" />
                                                                                 </span>
                                                                                 <span className="avatar avatar-xs avatar-rounded">
-                                                                                    <Image src="../../../assets/images/faces/5.jpg" alt="img" />
+                                                                                    <Image src="/assets/images/faces/5.jpg" alt="img" />
                                                                                 </span>
                                                                                 <span className="avatar avatar-xs avatar-rounded">
-                                                                                    <Image src="../../../assets/images/faces/16.jpg" alt="img" />
+                                                                                    <Image src="/assets/images/faces/16.jpg" alt="img" />
                                                                                 </span>
                                                                             </div>
                                                                         </div>
@@ -576,7 +576,7 @@ const Profile = () => {
                                                                     <div className="p-4 flex items-start flex-wrap">
                                                                         <div className="me-2">
                                                                             <span className="avatar avatar-sm avatar-rounded">
-                                                                                <Image src="../../../assets/images/faces/9.jpg" alt="" />
+                                                                                <Image src="/assets/images/faces/9.jpg" alt="" />
                                                                             </span>
                                                                         </div>
                                                                         <div className="flex-grow">
@@ -627,7 +627,7 @@ const Profile = () => {
                                                                     <div className="p-4 flex items-start flex-wrap">
                                                                         <div className="me-2">
                                                                             <span className="avatar avatar-sm avatar-rounded">
-                                                                                <Image src="../../../assets/images/faces/9.jpg" alt="" />
+                                                                                <Image src="/assets/images/faces/9.jpg" alt="" />
                                                                             </span>
                                                                         </div>
                                                                         <div className="flex-grow">
