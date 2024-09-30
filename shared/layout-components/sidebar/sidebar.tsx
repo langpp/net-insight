@@ -663,31 +663,37 @@ const Sidebar = ({ local_varaiable, ThemeChanger }: any) => {
           <Link href="/dashboard" className="header-logo">
             <Image
               src={`${baseUrl}/icon-color.png`}
+              layout="intrinsic"
               alt="logo"
               className="main-logo desktop-logo"
             />
             <Image
               src={`${baseUrl}/favicon-white.png`}
+              layout="intrinsic"
               alt="logo"
               className="main-logo toggle-logo"
             />
             <Image
               src={`${baseUrl}/icon-color.png`}
+              layout="intrinsic"
               alt="logo"
               className="main-logo desktop-dark"
             />
             <Image
               src={`${baseUrl}/favicon-white.png`}
+              layout="intrinsic"
               alt="logo"
               className="main-logo toggle-dark"
             />
             <Image
               src={`${baseUrl}/icon-color.png`}
+              layout="intrinsic"
               alt="logo"
               className="main-logo desktop-white"
             />
             <Image
               src={`${baseUrl}/favicon.png`}
+              layout="intrinsic"
               alt="logo"
               className="main-logo toggle-white"
             />

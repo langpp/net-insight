@@ -471,31 +471,37 @@ const Header = ({ local_varaiable, ThemeChanger }: any) => {
                   >
                     <Image
                       src={`${baseUrl}/icon.png`}
+                      layout="intrinsic"
                       alt="logo"
                       className="desktop-logo"
                     />
                     <Image
                       src={`${baseUrl}/favicon-white.png`}
+                      layout="intrinsic"
                       alt="logo"
                       className="toggle-logo"
                     />
                     <Image
                       src={`${baseUrl}/icon.png`}
+                      layout="intrinsic"
                       alt="logo"
                       className="desktop-dark"
                     />
                     <Image
                       src={`${baseUrl}/favicon-white.png`}
+                      layout="intrinsic"
                       alt="logo"
                       className="toggle-dark"
                     />
                     <Image
                       src={`${baseUrl}/icon.png`}
+                      layout="intrinsic"
                       alt="logo"
                       className="desktop-white"
                     />
                     <Image
                       src={`${baseUrl}/favicon.png`}
+                      layout="intrinsic"
                       alt="logo"
                       className="toggle-white"
                     />
@@ -696,6 +702,7 @@ const Header = ({ local_varaiable, ThemeChanger }: any) => {
                     src={`${baseUrl}/assets/images/faces/9.jpg`}
                     width="32"
                     height="32"
+                    layout="intrinsic"
                     alt="Image Description"
                   />
                 </button>
