@@ -12,6 +12,7 @@ import Image from 'next/image';
 
 const Sidebar = ({ local_varaiable, ThemeChanger }: any) => {
   const [menuitems, setMenuitems] = useState(MenuItems);
+  const baseUrl = window.location.origin;
 
   function closeMenu() {
     const closeMenudata = (items: any) => {
@@ -659,34 +660,34 @@ const Sidebar = ({ local_varaiable, ThemeChanger }: any) => {
         onMouseLeave={() => Outhover()}
       >
         <div className="main-sidebar-header">
-          <Link href="/components/dashboards/crm/" className="header-logo">
+          <Link href="/dashboard" className="header-logo">
             <Image
-              src="/icon-color.png"
+              src={`${baseUrl}/icon-color.png`}
               alt="logo"
               className="main-logo desktop-logo"
             />
             <Image
-              src="/favicon-white.png"
+              src={`${baseUrl}/favicon-white.png`}
               alt="logo"
               className="main-logo toggle-logo"
             />
             <Image
-              src="/icon-color.png"
+              src={`${baseUrl}/icon-color.png`}
               alt="logo"
               className="main-logo desktop-dark"
             />
             <Image
-              src="/favicon-white.png"
+              src={`${baseUrl}/favicon-white.png`}
               alt="logo"
               className="main-logo toggle-dark"
             />
             <Image
-              src="/icon-color.png"
+              src={`${baseUrl}/icon-color.png`}
               alt="logo"
               className="main-logo desktop-white"
             />
             <Image
-              src="/favicon.png"
+              src={`${baseUrl}/favicon.png`}
               alt="logo"
               className="main-logo toggle-white"
             />
