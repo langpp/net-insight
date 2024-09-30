@@ -9,7 +9,6 @@ import Image from 'next/image';
 
 const Header = ({ local_varaiable, ThemeChanger }: any) => {
   const [passwordshow1, setpasswordshow1] = useState(false);
-  const baseUrl = "https://net-insight.vercel.app";
 
   const data = (
     <span className="font-[600] py-[0.25rem] px-[0.45rem] rounded-[0.25rem] bg-pink/10 text-pink text-[0.625rem]">
@@ -470,38 +469,32 @@ const Header = ({ local_varaiable, ThemeChanger }: any) => {
                     className="header-logo"
                   >
                     <Image
-                      src={`${baseUrl}/icon.png`}
-                      layout="intrinsic"
+                      src="/icon.png"
                       alt="logo"
                       className="desktop-logo"
                     />
                     <Image
-                      src={`${baseUrl}/favicon-white.png`}
-                      layout="intrinsic"
+                      src="/favicon-white.png"
                       alt="logo"
                       className="toggle-logo"
                     />
                     <Image
-                      src={`${baseUrl}/icon.png`}
-                      layout="intrinsic"
+                      src="/icon.png"
                       alt="logo"
                       className="desktop-dark"
                     />
                     <Image
-                      src={`${baseUrl}/favicon-white.png`}
-                      layout="intrinsic"
+                      src="/favicon-white.png"
                       alt="logo"
                       className="toggle-dark"
                     />
                     <Image
-                      src={`${baseUrl}/icon.png`}
-                      layout="intrinsic"
+                      src="/icon.png"
                       alt="logo"
                       className="desktop-white"
                     />
                     <Image
-                      src={`${baseUrl}/favicon.png`}
-                      layout="intrinsic"
+                      src="/favicon.png"
                       alt="logo"
                       className="toggle-white"
                     />
@@ -699,10 +692,9 @@ const Header = ({ local_varaiable, ThemeChanger }: any) => {
                 >
                   <Image
                     className="inline-block rounded-full "
-                    src={`${baseUrl}/assets/images/faces/9.jpg`}
+                    src="/assets/images/faces/9.jpg"
                     width="32"
                     height="32"
-                    layout="intrinsic"
                     alt="Image Description"
                   />
                 </button>

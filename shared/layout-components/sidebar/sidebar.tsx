@@ -12,7 +12,6 @@ import Image from 'next/image';
 
 const Sidebar = ({ local_varaiable, ThemeChanger }: any) => {
   const [menuitems, setMenuitems] = useState(MenuItems);
-  const baseUrl = "https://net-insight.vercel.app";
 
   function closeMenu() {
     const closeMenudata = (items: any) => {
@@ -662,38 +661,32 @@ const Sidebar = ({ local_varaiable, ThemeChanger }: any) => {
         <div className="main-sidebar-header">
           <Link href="/dashboard" className="header-logo">
             <Image
-              src={`${baseUrl}/icon-color.png`}
-              layout="intrinsic"
+              src="/icon-color.png"
               alt="logo"
               className="main-logo desktop-logo"
             />
             <Image
-              src={`${baseUrl}/favicon-white.png`}
-              layout="intrinsic"
+              src="/favicon-white.png"
               alt="logo"
               className="main-logo toggle-logo"
             />
             <Image
-              src={`${baseUrl}/icon-color.png`}
-              layout="intrinsic"
+              src="/icon-color.png"
               alt="logo"
               className="main-logo desktop-dark"
             />
             <Image
-              src={`${baseUrl}/favicon-white.png`}
-              layout="intrinsic"
+              src="/favicon-white.png"
               alt="logo"
               className="main-logo toggle-dark"
             />
             <Image
-              src={`${baseUrl}/icon-color.png`}
-              layout="intrinsic"
+              src="/icon-color.png"
               alt="logo"
               className="main-logo desktop-white"
             />
             <Image
-              src={`${baseUrl}/favicon.png`}
-              layout="intrinsic"
+              src="/favicon.png"
               alt="logo"
               className="main-logo toggle-white"
             />

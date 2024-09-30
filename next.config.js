@@ -9,8 +9,7 @@ const nextConfig = {
   basePath: "",
   assetPrefix :"",
   images: {
-    loader: "imgix",
-    path: "/",
+    unoptimized: true
   },
 };
 
