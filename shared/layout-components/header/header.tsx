@@ -469,32 +469,32 @@ const Header = ({ local_varaiable, ThemeChanger }: any) => {
                     className="header-logo"
                   >
                     <Image
-                      src={`/icon.png`}
+                      src="/icon.png"
                       alt="logo"
                       className="desktop-logo"
                     />
                     <Image
-                      src={`/favicon-white.png`}
+                      src="/favicon-white.png"
                       alt="logo"
                       className="toggle-logo"
                     />
                     <Image
-                      src={`/icon.png`}
+                      src="/icon.png"
                       alt="logo"
                       className="desktop-dark"
                     />
                     <Image
-                      src={`/favicon-white.png`}
+                      src="/favicon-white.png"
                       alt="logo"
                       className="toggle-dark"
                     />
                     <Image
-                      src={`/icon.png`}
+                      src="/icon.png"
                       alt="logo"
                       className="desktop-white"
                     />
                     <Image
-                      src={`/favicon.png`}
+                      src="/favicon.png"
                       alt="logo"
                       className="toggle-white"
                     />
@@ -692,9 +692,7 @@ const Header = ({ local_varaiable, ThemeChanger }: any) => {
                 >
                   <Image
                     className="inline-block rounded-full "
-                    src={`${
-                      process.env.NODE_ENV === "production" ? basePath : ""
-                    }/assets/images/faces/9.jpg`}
+                    src="/assets/images/faces/9.jpg"
                     width="32"
                     height="32"
                     alt="Image Description"

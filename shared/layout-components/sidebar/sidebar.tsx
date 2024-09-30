@@ -661,44 +661,32 @@ const Sidebar = ({ local_varaiable, ThemeChanger }: any) => {
         <div className="main-sidebar-header">
           <Link href="/components/dashboards/crm/" className="header-logo">
             <Image
-              src={`${
-                process.env.NODE_ENV === "production" ? basePath : ""
-              }/icon-color.png`}
+              src="/icon-color.png"
               alt="logo"
               className="main-logo desktop-logo"
             />
             <Image
-              src={`${
-                process.env.NODE_ENV === "production" ? basePath : ""
-              }/favicon-white.png`}
+              src="/favicon-white.png"
               alt="logo"
               className="main-logo toggle-logo"
             />
             <Image
-              src={`${
-                process.env.NODE_ENV === "production" ? basePath : ""
-              }/icon-color.png`}
+              src="/icon-color.png"
               alt="logo"
               className="main-logo desktop-dark"
             />
             <Image
-              src={`${
-                process.env.NODE_ENV === "production" ? basePath : ""
-              }/favicon-white.png`}
+              src="/favicon-white.png"
               alt="logo"
               className="main-logo toggle-dark"
             />
             <Image
-              src={`${
-                process.env.NODE_ENV === "production" ? basePath : ""
-              }/icon-color.png`}
+              src="/icon-color.png"
               alt="logo"
               className="main-logo desktop-white"
             />
             <Image
-              src={`${
-                process.env.NODE_ENV === "production" ? basePath : ""
-              }/favicon.png`}
+              src="/favicon.png"
               alt="logo"
               className="main-logo toggle-white"
             />
