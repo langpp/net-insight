@@ -3,7 +3,7 @@ import Seo from '@/shared/layout-components/seo/seo';
 import Link from 'next/link';
 import React, { Fragment } from 'react'
 import Pageheader from "@/shared/layout-components/page-header/pageheader";
-import { SiteIdDetailTotal } from '@/pages/components/charts/SiteIdDetailTotal';
+import SiteIdDetailTotal from '@/pages/components/charts/SiteIdDetailTotal';
 const Leafletmapss = dynamic(() => import('@/shared/data/maps/leafletmapdata'), { ssr: false });
 
 const DetailSiteID = () => {
