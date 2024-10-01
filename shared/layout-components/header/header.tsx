@@ -472,31 +472,43 @@ const Header = ({ local_varaiable, ThemeChanger }: any) => {
                       src="/icon.png"
                       alt="logo"
                       className="desktop-logo"
+                      width={120}
+                      height={32}
                     />
                     <Image
                       src="/favicon-white.png"
                       alt="logo"
                       className="toggle-logo"
+                      width={32}
+                      height={32}
                     />
                     <Image
                       src="/icon.png"
                       alt="logo"
                       className="desktop-dark"
+                      width={120}
+                      height={32}
                     />
                     <Image
                       src="/favicon-white.png"
                       alt="logo"
                       className="toggle-dark"
+                      width={32}
+                      height={32}
                     />
                     <Image
                       src="/icon.png"
                       alt="logo"
                       className="desktop-white"
+                      width={120}
+                      height={32}
                     />
                     <Image
                       src="/favicon.png"
                       alt="logo"
                       className="toggle-white"
+                      width={32}
+                      height={32}
                     />
                   </Link>
                 </div>

@@ -1,5 +1,4 @@
 import dynamic from 'next/dynamic';
-import { Customers, Deals, Dealsstatistics, Earned, Ratio, Revenue, Revenueanalytics, Sourcedata, Target } from '@/shared/data/dashboards/crmdata';
 import Seo from '@/shared/layout-components/seo/seo';
 import Link from 'next/link';
 import React, { Fragment } from 'react'
@@ -221,7 +220,6 @@ const Dashboard = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    {Dealsstatistics.map((idx) => (
                       <tr className="border border-inherit border-solid hover:bg-gray-100 dark:border-defaultborder/10 dark:hover:bg-light" key={Math.random()}>
                         <td><Link href="/dashboard/detail/site-a">SITE A <i className='ri-arrow-right-s-line fs-18'></i></Link></td>
                         <td>SITE NAME A</td>
@@ -235,10 +233,9 @@ const Dashboard = () => {
                         <td>NSA A</td>
                         <td>
                           <span
-                            className={`inline-flex text-${idx.color} !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-${idx.color}/10`}>On Air</span>
+                            className={`inline-flex text-success !py-[0.15rem] !px-[0.45rem] rounded-sm !font-semibold !text-[0.75em] bg-success/10`}>On Air</span>
                         </td>
                       </tr>
-                    ))}
                   </tbody>
                 </table>
               </div>

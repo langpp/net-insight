@@ -14170,6 +14170,48 @@ h6 {
   min-width: calc(calc(100% / 4) - 10px);
 }
 
+.table-padding-apps-information td{
+  padding: 0.56rem 0.75rem !important;
+}
+
+.fw-bold{
+  font-weight: 700;
+}
+
+.tab-site-detail a{
+  background:#DDE1E6;
+  color: #878D96;
+  border-bottom: 0px !important;
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 40px !important;
+  padding: 7px 35px 7px 30px !important;
+}
+
+.tab-site-detail .active{
+  background: linear-gradient(90deg, #FF67B1 0%, #FF6A00 100%);
+  color: #fff !important;
+}
+
+.ml-1rem{
+  margin-left: 1rem;
+}
+
+.border-1-grey{
+  border: 1px solid #DDE1E6;
+}
+
+.border-bottom-1-grey{
+  border-bottom: 1px solid #DDE1E6;
+}
+
+.p-x-30px{
+  padding: 0px 30px;
+}
+
+hr{
+  border-bottom: 1px solid #DDE1E6;
+}
+
 @media(max-width:992px){
   #sidebar-scroll{
     height: 100vh;
